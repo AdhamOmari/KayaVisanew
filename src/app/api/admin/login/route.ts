@@ -1,22 +1,24 @@
 import { NextResponse } from 'next/server';
+import adminUsers from '@/data/admin-users.json';
 
 // Simple auth API - In production, use proper authentication like NextAuth.js
 export async function POST(request: Request) {
   try {
-    const { username, password } = await request.json();
+    const { email, password } = await request.json();
 
-    // Default admin credentials (change these in production!)
-    const ADMIN_USERNAME = 'admin';
-    const ADMIN_PASSWORD = 'admin123';
+    // Find user in admin-users.json
+    const user = adminUsers.find(
+      (u) => u.email === email && u.password === password && u.active
+    );
 
-    if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
+    if (user) {
       // Create a simple token (in production, use JWT)
-      const token = Buffer.from(`${username}:${Date.now()}`).toString('base64');
+      const token = Buffer.from(`${email}:${Date.now()}`).toString('base64');
       
       const response = NextResponse.json({ 
         success: true, 
         message: 'Login successful',
-        user: { username, role: 'admin' }
+        user: { email: user.email, name: user.name, role: user.role }
       });
 
       // Set cookie

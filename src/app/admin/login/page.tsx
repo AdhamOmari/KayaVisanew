@@ -6,7 +6,7 @@ import { useI18n } from '@/lib/i18n';
 
 export default function AdminLoginPage() {
   const { locale, dir } = useI18n();
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -16,25 +16,25 @@ export default function AdminLoginPage() {
     ar: {
       title: 'تسجيل دخول المسؤول',
       subtitle: 'إدارة كايا للسفر',
-      username: 'اسم المستخدم',
+      email: 'البريد الإلكتروني',
       password: 'كلمة المرور',
-      usernamePlace: 'أدخل اسم المستخدم',
+      emailPlace: 'أدخل البريد الإلكتروني',
       passwordPlace: 'أدخل كلمة المرور',
       loggingIn: 'جاري تسجيل الدخول...',
       login: 'تسجيل الدخول',
-      defaultCreds: 'بيانات الدخول الافتراضية: admin / admin123',
+      defaultCreds: 'بيانات الدخول: admin@kaya.com / kaya-admin-2026',
       backToSite: 'العودة للموقع',
     },
     en: {
       title: 'Admin Login',
       subtitle: 'KAYA Travel Administration',
-      username: 'Username',
+      email: 'Email',
       password: 'Password',
-      usernamePlace: 'Enter your username',
+      emailPlace: 'Enter your email',
       passwordPlace: 'Enter your password',
       loggingIn: 'Logging in...',
       login: 'Login',
-      defaultCreds: 'Default credentials: admin / admin123',
+      defaultCreds: 'Credentials: admin@kaya.com / kaya-admin-2026',
       backToSite: 'Back to Website',
     },
   };
@@ -50,7 +50,7 @@ export default function AdminLoginPage() {
       const response = await fetch('/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ email, password }),
       });
 
       const data = await response.json();
@@ -86,14 +86,14 @@ export default function AdminLoginPage() {
 
           <div style={styles.inputGroup}>
             <label style={styles.label}>
-              <i className="fas fa-user" style={styles.inputIcon}></i>
-              {t.username}
+              <i className="fas fa-envelope" style={styles.inputIcon}></i>
+              {t.email}
             </label>
             <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              placeholder={t.usernamePlace}
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder={t.emailPlace}
               required
               style={styles.input}
             />
