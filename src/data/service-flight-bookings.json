@@ -1,0 +1,176 @@
+{
+  "en": {
+    "title": "Flight Bookings",
+    "slug": "flight-bookings",
+    "hero": {
+      "title": "Flight Bookings",
+      "subtitle": "Why Book Your Flights with Kaya?",
+      "description": "Your journey begins the moment you choose your ticket. At Kaya, we provide you with a flight booking service with the highest degree of professionalism, ensuring a smooth trip, competitive prices, and flexible options that suit your schedule and budget."
+    },
+    "advantages": {
+      "title": "The Advantages You Get with Kaya",
+      "list": [
+        {
+          "title": "Wide Network",
+          "description": "Of global airlines, giving you multiple options that meet your needs",
+          "icon": "fa-globe"
+        },
+        {
+          "title": "Competitive Prices",
+          "description": "With the possibility of securing the best available offers",
+          "icon": "fa-tags"
+        },
+        {
+          "title": "Flexibility",
+          "description": "In changing and canceling bookings, compliant with airline policies",
+          "icon": "fa-sync-alt"
+        },
+        {
+          "title": "Personalized Service",
+          "description": "To assist you in choosing the most suitable flight in terms of timing, destination, and budget",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "Integrated Support",
+          "description": "That includes coordinating flight bookings with visas, hotels, and travel plans",
+          "icon": "fa-hands-helping"
+        }
+      ]
+    },
+    "services": {
+      "title": "What We Offer You at Kaya",
+      "list": [
+        "Booking international and regional flight tickets for all destinations",
+        "Multiple travel class options: Economy, Business, and First Class",
+        "Coordination of round-trip or multi-destination flights",
+        "Diligent follow-up on flight schedules and airline updates",
+        "Ability to add special services such as special meals, seat selection, or extra services for travelers"
+      ]
+    },
+    "value": {
+      "title": "The Added Value for You",
+      "description": "With Kaya, you don't need to worry about the details of your trip. We provide you with a comprehensive travel experience that starts from booking the ticket until you reach your destination, guaranteeing comfort, safety, and punctuality."
+    },
+    "process": {
+      "title": "How We Work",
+      "steps": [
+        {
+          "title": "Receiving Your Request",
+          "description": "Electronically",
+          "icon": "fa-inbox"
+        },
+        {
+          "title": "Reviewing Options",
+          "description": "Available flight options and presenting the best offers",
+          "icon": "fa-search"
+        },
+        {
+          "title": "Booking Confirmation",
+          "description": "According to your needs and schedule",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "Ticket Delivery",
+          "description": "E-ticket directly to your email or hard copy",
+          "icon": "fa-ticket-alt"
+        },
+        {
+          "title": "Flight Monitoring",
+          "description": "And providing support when needed",
+          "icon": "fa-headset"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Do you wish to book your next trip easily and comfortably?",
+      "button": "Contact us now!"
+    }
+  },
+  "ar": {
+    "title": "حجوزات الطيران",
+    "slug": "flight-bookings",
+    "hero": {
+      "title": "حجوزات الطيران",
+      "subtitle": "لماذا حجوزات الطيران مع كايا؟",
+      "description": "رحلتك تبدأ من اللحظة التي تختار فيها تذكرتك. في كايا، نوفّر لك خدمة حجوزات الطيران بأعلى درجات الاحترافية، لنضمن لك رحلة سلسة، أسعار تنافسية، وخيارات مرنة تناسب جدولك وميزانيتك."
+    },
+    "advantages": {
+      "title": "المزايا التي تحصل عليها في كايا",
+      "list": [
+        {
+          "title": "شبكة واسعة",
+          "description": "من شركات الطيران العالمية تتيح لك خيارات متعددة تناسب احتياجاتك",
+          "icon": "fa-globe"
+        },
+        {
+          "title": "أسعار تنافسية",
+          "description": "مع إمكانية الحصول على أفضل العروض المتاحة",
+          "icon": "fa-tags"
+        },
+        {
+          "title": "مرونة",
+          "description": "في التغيير والإلغاء بما يتوافق مع سياسات شركات الطيران",
+          "icon": "fa-sync-alt"
+        },
+        {
+          "title": "خدمة شخصية",
+          "description": "لمساعدتك في اختيار الرحلة الأنسب من حيث التوقيت، الوجهة، والميزانية",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "دعم متكامل",
+          "description": "يشمل تنسيق حجوزات الطيران مع التأشيرات والفنادق وخطط السفر",
+          "icon": "fa-hands-helping"
+        }
+      ]
+    },
+    "services": {
+      "title": "ماذا نقدم لك في كايا؟",
+      "list": [
+        "حجز تذاكر الطيران الدولية والإقليمية لجميع الوجهات",
+        "خيارات متعددة لدرجة السفر: السياحية، رجال الأعمال، والدرجة الأولى",
+        "تنسيق رحلات الذهاب والإياب أو الرحلات متعددة الوجهات",
+        "متابعة دقيقة لمواعيد الرحلات وتحديثات شركات الطيران",
+        "إمكانية إضافة خدمات خاصة مثل وجبات مميزة، اختيار المقاعد، أو خدمات إضافية للمسافرين"
+      ]
+    },
+    "value": {
+      "title": "القيمة المضافة لك",
+      "description": "مع كايا، لا تحتاج للقلق بشأن تفاصيل رحلتك. نحن نوفّر لك تجربة سفر متكاملة تبدأ من حجز التذكرة وحتى وصولك إلى وجهتك، مع ضمان الراحة، الأمان، والالتزام بالمواعيد."
+    },
+    "process": {
+      "title": "كيف نعمل؟",
+      "steps": [
+        {
+          "title": "استلام طلبك",
+          "description": "إلكترونيًا",
+          "icon": "fa-inbox"
+        },
+        {
+          "title": "مراجعة الخيارات",
+          "description": "خيارات الطيران المتاحة وتقديم أفضل العروض",
+          "icon": "fa-search"
+        },
+        {
+          "title": "تأكيد الحجز",
+          "description": "وفقًا لاحتياجاتك وجدولك",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "إرسال التذكرة",
+          "description": "الإلكترونية مباشرة إلى بريدك أو تسليمها ورقيًا",
+          "icon": "fa-ticket-alt"
+        },
+        {
+          "title": "متابعة رحلتك",
+          "description": "وتقديم الدعم عند الحاجة",
+          "icon": "fa-headset"
+        }
+      ]
+    },
+    "cta": {
+      "title": "هل ترغب في حجز رحلتك القادمة بسهولة وراحة؟",
+      "button": "تواصل معنا الآن!"
+    }
+  }
+}

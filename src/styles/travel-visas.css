@@ -1,0 +1,216 @@
+/* Travel Visas Theme - Sky Blue & Adventure Colors */
+@import './antigua.css';
+
+:root {
+  --travel-primary: #0077BE;      /* Sky blue */
+  --travel-secondary: #00A8E8;    /* Bright cyan */
+  --travel-accent: #FFB84D;       /* Warm orange/gold */
+  --travel-dark: #003D5C;         /* Deep blue */
+  --travel-light: #E0F4FF;        /* Light sky blue */
+}
+
+/* Override base colors */
+.modern-hero {
+  background: linear-gradient(135deg, var(--travel-primary) 0%, var(--travel-dark) 100%);
+}
+
+.btn-modern-primary {
+  background: var(--travel-accent);
+  border-color: var(--travel-accent);
+  color: #1a1a1a;
+}
+
+.btn-modern-primary:hover {
+  background: #e5a644;
+  border-color: #e5a644;
+  transform: translateY(-2px);
+}
+
+.btn-modern-secondary {
+  background: transparent;
+  border: 2px solid var(--travel-secondary);
+  color: var(--travel-secondary);
+}
+
+.btn-modern-secondary:hover {
+  background: var(--travel-secondary);
+  color: white;
+}
+
+.glass-card {
+  background: linear-gradient(135deg, rgba(0, 119, 190, 0.9), rgba(0, 61, 92, 0.9));
+}
+
+.text-travel-primary {
+  color: var(--travel-primary) !important;
+}
+
+.text-travel-secondary {
+  color: var(--travel-secondary) !important;
+}
+
+.bg-travel-primary {
+  background-color: var(--travel-primary) !important;
+}
+
+.bg-travel-secondary {
+  background-color: var(--travel-secondary) !important;
+}
+
+.soft-bg {
+  background-color: var(--travel-light);
+}
+
+/* Travel-specific components */
+.visa-type-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  height: 100%;
+}
+
+.visa-type-card:hover {
+  border-color: var(--travel-primary);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 119, 190, 0.15);
+}
+
+.visa-type-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, var(--travel-primary), var(--travel-secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.country-visa-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--travel-primary);
+  height: 100%;
+}
+
+.country-visa-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 119, 190, 0.12);
+  transform: translateX(8px);
+  border-left-color: var(--travel-accent);
+}
+
+.country-flag-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.country-code-badge {
+  display: inline-block;
+  background: var(--travel-primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.visa-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.visa-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.visa-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--travel-accent);
+  font-weight: bold;
+}
+
+/* Why Kaya Cards */
+.why-kaya-card {
+  background: linear-gradient(135deg, rgba(0, 119, 190, 0.05), rgba(0, 168, 232, 0.05));
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-left: 4px solid var(--travel-accent);
+  transition: all 0.3s ease;
+}
+
+.why-kaya-card:hover {
+  background: linear-gradient(135deg, rgba(0, 119, 190, 0.08), rgba(0, 168, 232, 0.08));
+  transform: translateY(-4px);
+}
+
+/* Adventure Banner */
+.adventure-banner {
+  background: linear-gradient(135deg, var(--travel-primary), var(--travel-secondary));
+  border-radius: 20px;
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.adventure-banner::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.adventure-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+}
+
+.adventure-banner > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .visa-type-card,
+  .country-visa-card {
+    padding: 1.5rem;
+  }
+  
+  .visa-type-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  
+  .country-flag-icon {
+    font-size: 2.5rem;
+  }
+}

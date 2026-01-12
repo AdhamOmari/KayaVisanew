@@ -1,0 +1,300 @@
+{
+  "en": {
+    "title": "Work Visas",
+    "hero": {
+      "subtitle": "Your Gateway to a Global Professional Future",
+      "description": "Work visas are your gateway to a new professional future abroad. Through this page, we provide you with a comprehensive overview of the most important visas currently available, with detailed links for each one. The list is continuously expanding to include more countries and opportunities."
+    },
+    "visa_types": [
+      {
+        "name": "EU Blue Card",
+        "description": "European work permit for highly qualified professionals with university degrees and job offers in EU countries",
+        "icon": "fa-id-card",
+        "link": "/work-visas/eu-blue-card"
+      },
+      {
+        "name": "Job Seeker Visas",
+        "description": "Temporary permits allowing you to search for employment in Germany and other European countries",
+        "icon": "fa-search",
+        "link": "/work-visas/germany-job-seeker"
+      },
+      {
+        "name": "Points-Based Visa (Chancenkarte)",
+        "description": "Germany's opportunity card based on a points system evaluating qualifications, experience, and language skills",
+        "icon": "fa-star",
+        "link": "/work-visas/germany-points"
+      },
+      {
+        "name": "US Work Visas (H1B/H2B)",
+        "description": "American work permits for specialized and seasonal workers with employer sponsorship",
+        "icon": "fa-briefcase",
+        "link": "/work-visas/usa-h1b"
+      }
+    ],
+    "available_visas": [
+      {
+        "name": "EU Blue Card",
+        "country": "European Union",
+        "code": "eu-blue-card",
+        "link": "/work-visas/eu-blue-card",
+        "icon": "fa-id-card",
+        "highlights": ["Highly qualified professionals", "Valid across EU", "Path to permanent residence"]
+      },
+      {
+        "name": "Job Seeker Visa – Germany",
+        "country": "Germany",
+        "code": "germany-job-seeker",
+        "link": "/work-visas/germany-job-seeker",
+        "icon": "fa-search",
+        "highlights": ["Up to 6 months", "No job contract required", "Convertible to work permit"]
+      },
+      {
+        "name": "Points-Based Visa (Chancenkarte)",
+        "country": "Germany",
+        "code": "germany-points",
+        "link": "/work-visas/germany-points",
+        "icon": "fa-star",
+        "highlights": ["Points system", "Flexible entry", "12 months validity"]
+      },
+      {
+        "name": "H1B Work Visa",
+        "country": "United States",
+        "code": "usa-h1b",
+        "link": "/work-visas/usa-h1b",
+        "icon": "fa-building",
+        "highlights": ["Specialized occupations", "3 years renewable", "Employer sponsored"]
+      },
+      {
+        "name": "H2B Work Visa",
+        "country": "United States",
+        "code": "usa-h2b",
+        "link": "/work-visas/usa-h2b",
+        "icon": "fa-calendar",
+        "highlights": ["Seasonal workers", "Non-agricultural", "Temporary employment"]
+      },
+      {
+        "name": "Job Seeker – UAE",
+        "country": "United Arab Emirates",
+        "code": "uae-job-seeker",
+        "link": "/work-visas/uae-job-seeker",
+        "icon": "fa-building",
+        "highlights": ["Multiple entry", "60-120 days", "Free zones available"]
+      },
+      {
+        "name": "Job Seeker – Qatar",
+        "country": "Qatar",
+        "code": "qatar-job-seeker",
+        "link": "/work-visas/qatar-job-seeker",
+        "icon": "fa-briefcase",
+        "highlights": ["Work contract required", "Oil, gas, engineering sectors", "Residence permit included"]
+      }
+    ],
+    "why_kaya": {
+      "title": "Why Choose Kaya?",
+      "subtitle": "At Kaya, we are more than just a visa intermediary — we are your partner in every step of your professional journey.",
+      "reasons": [
+        {
+          "title": "Solid Expertise in File Preparation",
+          "description": "We possess extensive experience in professionally and accurately preparing visa files, ensuring compliance with embassy requirements and official bodies.",
+          "icon": "fa-file-contract"
+        },
+        {
+          "title": "Comprehensive Follow-up Until Visa Issuance",
+          "description": "We do not leave you after submission; we accompany you step-by-step from the initial consultation until you successfully receive your visa.",
+          "icon": "fa-tasks"
+        },
+        {
+          "title": "Consultations Tailored to Each Case",
+          "description": "We understand that every applicant has unique circumstances, so we provide personalized solutions and consultations designed to fit your goals and ambitions.",
+          "icon": "fa-user-check"
+        },
+        {
+          "title": "Post-Arrival Support",
+          "description": "Our services don't end with visa issuance. We provide continuous support after your arrival to help you settle and integrate successfully.",
+          "icon": "fa-handshake"
+        }
+      ]
+    },
+    "services": {
+      "title": "What We Offer You",
+      "list": [
+        "Initial Consultation",
+        "File Preparation",
+        "Application Submission",
+        "Follow-up Until Visa Issuance",
+        "Post-Arrival Support"
+      ]
+    },
+    "target_audience": {
+      "title": "Who Can Benefit?",
+      "categories": [
+        "Highly Skilled Professionals",
+        "Recent Graduates",
+        "Seasonal Workers",
+        "Those seeking opportunities in Europe or America"
+      ]
+    },
+    "important_alerts": {
+      "title": "Important Alerts",
+      "alerts": [
+        "Some visas take a long time (such as the Blue Card)",
+        "Some programs have an annual quota limit (such as H1B)",
+        "Each country has specific requirements (salary, qualification, language)"
+      ]
+    },
+    "cta": {
+      "title": "Start Your Professional Journey Today",
+      "description": "With Kaya, your journey towards the future begins with confidence and clarity.",
+      "button_text": "Contact Us Now"
+    }
+  },
+  "ar": {
+    "title": "تأشيرات العمل",
+    "hero": {
+      "subtitle": "بوابتك نحو مستقبل مهني عالمي",
+      "description": "تأشيرات العمل هي بوابتك نحو مستقبل مهني جديد في الخارج. من خلال هذه الصفحة، نوفر لك لمحة شاملة عن أهم التأشيرات المتاحة حالياً، مع روابط تفصيلية لكل تأشيرة. القائمة قابلة للتوسّع باستمرار لتشمل المزيد من الدول والفرص."
+    },
+    "visa_types": [
+      {
+        "name": "البطاقة الزرقاء الأوروبية",
+        "description": "تصريح عمل أوروبي للمهنيين ذوي الكفاءات العالية من حملة الشهادات الجامعية وعروض العمل في دول الاتحاد الأوروبي",
+        "icon": "fa-id-card",
+        "link": "/work-visas/eu-blue-card"
+      },
+      {
+        "name": "تأشيرات البحث عن عمل",
+        "description": "تصاريح مؤقتة تتيح لك البحث عن فرص عمل في ألمانيا ودول أوروبية أخرى",
+        "icon": "fa-search",
+        "link": "/work-visas/germany-job-seeker"
+      },
+      {
+        "name": "تأشيرة النقاط (Chancenkarte)",
+        "description": "بطاقة الفرصة الألمانية القائمة على نظام النقاط لتقييم المؤهلات والخبرة ومهارات اللغة",
+        "icon": "fa-star",
+        "link": "/work-visas/germany-points"
+      },
+      {
+        "name": "تأشيرات العمل الأمريكية (H1B/H2B)",
+        "description": "تصاريح عمل أمريكية للعمال المتخصصين والموسميين برعاية أصحاب العمل",
+        "icon": "fa-briefcase",
+        "link": "/work-visas/usa-h1b"
+      }
+    ],
+    "available_visas": [
+      {
+        "name": "البطاقة الزرقاء الأوروبية",
+        "country": "الاتحاد الأوروبي",
+        "code": "eu-blue-card",
+        "link": "/work-visas/eu-blue-card",
+        "icon": "fa-id-card",
+        "highlights": ["المهنيون ذوو الكفاءات العالية", "صالحة في جميع أنحاء الاتحاد الأوروبي", "طريق للإقامة الدائمة"]
+      },
+      {
+        "name": "تأشيرة البحث عن عمل – ألمانيا",
+        "country": "ألمانيا",
+        "code": "germany-job-seeker",
+        "link": "/work-visas/germany-job-seeker",
+        "icon": "fa-search",
+        "highlights": ["حتى 6 أشهر", "لا يلزم عقد عمل", "قابلة للتحويل إلى تصريح عمل"]
+      },
+      {
+        "name": "تأشيرة النقاط (Chancenkarte)",
+        "country": "ألمانيا",
+        "code": "germany-points",
+        "link": "/work-visas/germany-points",
+        "icon": "fa-star",
+        "highlights": ["نظام النقاط", "دخول مرن", "صلاحية 12 شهراً"]
+      },
+      {
+        "name": "تأشيرة العمل H1B",
+        "country": "الولايات المتحدة",
+        "code": "usa-h1b",
+        "link": "/work-visas/usa-h1b",
+        "icon": "fa-building",
+        "highlights": ["المهن المتخصصة", "3 سنوات قابلة للتجديد", "برعاية صاحب العمل"]
+      },
+      {
+        "name": "تأشيرة العمل H2B",
+        "country": "الولايات المتحدة",
+        "code": "usa-h2b",
+        "link": "/work-visas/usa-h2b",
+        "icon": "fa-calendar",
+        "highlights": ["العمال الموسميون", "غير زراعية", "عمل مؤقت"]
+      },
+      {
+        "name": "البحث عن عمل – الإمارات",
+        "country": "الإمارات العربية المتحدة",
+        "code": "uae-job-seeker",
+        "link": "/work-visas/uae-job-seeker",
+        "icon": "fa-building",
+        "highlights": ["دخول متعدد", "60-120 يوماً", "مناطق حرة متاحة"]
+      },
+      {
+        "name": "البحث عن عمل – قطر",
+        "country": "قطر",
+        "code": "qatar-job-seeker",
+        "link": "/work-visas/qatar-job-seeker",
+        "icon": "fa-briefcase",
+        "highlights": ["يتطلب عقد عمل", "قطاعات النفط والغاز والهندسة", "تصريح إقامة مشمول"]
+      }
+    ],
+    "why_kaya": {
+      "title": "لماذا تختار كايا؟",
+      "subtitle": "في كايا، نحن أكثر من مجرد وسيط تأشيرات — نحن شريكك في كل خطوة من رحلتك المهنية.",
+      "reasons": [
+        {
+          "title": "خبرة راسخة في تجهيز الملفات",
+          "description": "نمتلك خبرة واسعة في إعداد ملفات التأشيرات بشكل احترافي ودقيق، بما يضمن توافقها مع متطلبات السفارات والجهات الرسمية.",
+          "icon": "fa-file-contract"
+        },
+        {
+          "title": "متابعة شاملة حتى صدور الفيزا",
+          "description": "لا نتركك بعد تقديم الطلب، بل نرافقك خطوة بخطوة بدءاً من الاستشارة الأولى وحتى استلام التأشيرة بنجاح.",
+          "icon": "fa-tasks"
+        },
+        {
+          "title": "استشارات مخصّصة لكل حالة",
+          "description": "ندرك أن كل متقدّم له ظروفه الخاصة، لذلك نقدّم حلولاً واستشارات فردية مصممة لتناسب أهدافك وطموحاتك.",
+          "icon": "fa-user-check"
+        },
+        {
+          "title": "دعم ما بعد الوصول",
+          "description": "خدماتنا لا تنتهي بإصدار التأشيرة. نقدم دعماً مستمراً بعد وصولك لمساعدتك على الاستقرار والاندماج بنجاح.",
+          "icon": "fa-handshake"
+        }
+      ]
+    },
+    "services": {
+      "title": "ما نقدمه لك",
+      "list": [
+        "استشارة أولية",
+        "تجهيز الملف",
+        "تقديم الطلب",
+        "متابعة حتى صدور التأشيرة",
+        "دعم ما بعد الوصول"
+      ]
+    },
+    "target_audience": {
+      "title": "من يمكنه الاستفادة؟",
+      "categories": [
+        "المهنيون ذوو الكفاءات العالية",
+        "الخريجون الجدد",
+        "العمالة الموسمية",
+        "الباحثون عن فرص في أوروبا أو أميركا"
+      ]
+    },
+    "important_alerts": {
+      "title": "تنبيهات مهمة",
+      "alerts": [
+        "بعض التأشيرات تستغرق وقتاً طويلاً (مثل البطاقة الزرقاء)",
+        "بعض البرامج محدودة العدد سنوياً (مثل H1B)",
+        "كل دولة لديها شروط خاصة (راتب، مؤهل، لغة)"
+      ]
+    },
+    "cta": {
+      "title": "ابدأ رحلتك المهنية اليوم",
+      "description": "مع كايا، رحلتك نحو المستقبل تبدأ بثقة ووضوح.",
+      "button_text": "تواصل معنا الآن"
+    }
+  }
+}

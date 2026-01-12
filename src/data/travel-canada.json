@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Canada Travel Visas",
+    "hero": {
+      "subtitle": "Discover the beauty and diversity of Canada"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa (TRV)",
+        "description": "For tourism, family visits, and leisure activities",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For business meetings, conferences, and trade shows",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For connecting flights through Canadian airports",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed visa application form",
+      "Two recent photographs",
+      "Proof of financial support",
+      "Travel itinerary",
+      "Biometrics appointment confirmation"
+    ],
+    "processing_time": "2-4 weeks",
+    "validity": "Up to 10 years or until passport expires",
+    "tips": [
+      "Apply online for faster processing",
+      "Provide complete biometrics if required",
+      "Show strong ties to your home country",
+      "Include a detailed travel plan"
+    ],
+    "with_kaya": [
+      "Online application guidance",
+      "Biometrics scheduling assistance",
+      "Document preparation and review",
+      "Travel planning support"
+    ],
+    "cta": "Apply for your Canada visa with confidence"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى كندا",
+    "hero": {
+      "subtitle": "اكتشف جمال وتنوع كندا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية (TRV)",
+        "description": "للسياحة وزيارة العائلة والأنشطة الترفيهية",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات التجارية والمؤتمرات والمعارض",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "لرحلات الربط عبر المطارات الكندية",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب التأشيرة المكتمل",
+      "صورتان شخصيتان حديثتان",
+      "إثبات الدعم المالي",
+      "خط سير الرحلة",
+      "تأكيد موعد القياسات الحيوية"
+    ],
+    "processing_time": "2-4 أسابيع",
+    "validity": "حتى 10 سنوات أو حتى انتهاء صلاحية الجواز",
+    "tips": [
+      "قدم طلبك عبر الإنترنت لمعالجة أسرع",
+      "قدم القياسات الحيوية الكاملة إذا لزم الأمر",
+      "أظهر روابط قوية ببلدك الأم",
+      "قدم خطة سفر مفصلة"
+    ],
+    "with_kaya": [
+      "إرشادات التقديم عبر الإنترنت",
+      "المساعدة في جدولة القياسات الحيوية",
+      "إعداد ومراجعة المستندات",
+      "دعم تخطيط السفر"
+    ],
+    "cta": "قدم طلب تأشيرتك الكندية بثقة"
+  }
+}

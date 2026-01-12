@@ -1,0 +1,212 @@
+{
+  "en": {
+    "title": "Travel Visas",
+    "hero": {
+      "subtitle": "Your Journey Starts Here",
+      "description": "At Kaya, we believe travel is not just movement from one place to another; it is a life experience that begins the moment your visa is processed"
+    },
+    "visa_types": {
+      "heading": "Types of Visas We Offer",
+      "types": [
+        {
+          "name": "Tourist Visa",
+          "description": "For enjoying tourist destinations, cultural landmarks, and unique experiences",
+          "icon": "plane"
+        },
+        {
+          "name": "Visit Visa",
+          "description": "For visiting family and friends or attending special occasions",
+          "icon": "users"
+        },
+        {
+          "name": "Transit Visa",
+          "description": "For passing through a specific country during your journey to another destination",
+          "icon": "exchange-alt"
+        }
+      ]
+    },
+    "destinations": {
+      "heading": "Available Destinations",
+      "countries": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "link": "/travel-visas/usa",
+          "icon": "flag-usa",
+          "visas": ["Tourist Visa (B2)", "Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "United Kingdom",
+          "code": "UK",
+          "link": "/travel-visas/uk",
+          "icon": "landmark",
+          "visas": ["Short-term Tourist and Visit Visa", "Family Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "link": "/travel-visas/canada",
+          "icon": "maple-leaf",
+          "visas": ["Tourist Visa (Visitor Visa)", "Family or Business Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "Australia",
+          "code": "AUS",
+          "link": "/travel-visas/australia",
+          "icon": "globe-asia",
+          "visas": ["Tourist and Visit Visa", "Family Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "link": "/travel-visas/mexico",
+          "icon": "sun",
+          "visas": ["Tourist Visa", "Family or Business Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "China",
+          "code": "CHN",
+          "link": "/travel-visas/china",
+          "icon": "dragon",
+          "visas": ["Tourist Visa (L Visa)", "Family or Business Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "link": "/travel-visas/japan",
+          "icon": "torii-gate",
+          "visas": ["Tourist Visa", "Family or Business Visit Visa", "Transit Visa"]
+        },
+        {
+          "name": "United Arab Emirates",
+          "code": "UAE",
+          "link": "/travel-visas/uae",
+          "icon": "building",
+          "visas": ["Tourist Visa (short or long-term)", "Family Visit Visa", "Transit Visa (96 hours)"]
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "link": "/travel-visas/qatar",
+          "icon": "mosque",
+          "visas": ["Tourist Visa", "Family Visit Visa", "Transit Visa"]
+        }
+      ]
+    },
+    "why_kaya": {
+      "heading": "Why Choose Kaya?",
+      "reasons": [
+        "Extensive experience in processing tourist and visit visas",
+        "Personalized follow-up of your file step-by-step",
+        "Continuous updates on embassy requirements",
+        "Full support before, during, and after travel"
+      ]
+    },
+    "cta": "With Kaya, your visa is not just a document; it is the start of your journey toward a safe and enjoyable travel experience"
+  },
+  "ar": {
+    "title": "تأشيرات السفر",
+    "hero": {
+      "subtitle": "رحلتك تبدأ من هنا",
+      "description": "في كايا نؤمن أن السفر ليس مجرد انتقال من مكان إلى آخر، بل هو تجربة حياة تبدأ من لحظة تجهيز تأشيرتك"
+    },
+    "visa_types": {
+      "heading": "أنواع التأشيرات التي نوفرها",
+      "types": [
+        {
+          "name": "تأشيرة السياحة",
+          "description": "للاستمتاع بالوجهات السياحية، المعالم الثقافية، والتجارب الفريدة",
+          "icon": "plane"
+        },
+        {
+          "name": "تأشيرة الزيارة",
+          "description": "لزيارة الأهل والأصدقاء أو حضور مناسبات خاصة",
+          "icon": "users"
+        },
+        {
+          "name": "تأشيرة العبور",
+          "description": "للمرور عبر دولة معينة أثناء رحلتك إلى وجهة أخرى",
+          "icon": "exchange-alt"
+        }
+      ]
+    },
+    "destinations": {
+      "heading": "الوجهات المتاحة",
+      "countries": [
+        {
+          "name": "الولايات المتحدة",
+          "code": "USA",
+          "link": "/travel-visas/usa",
+          "icon": "flag-usa",
+          "visas": ["تأشيرة سياحة (B2)", "تأشيرة زيارة", "تأشيرة عبور"]
+        },
+        {
+          "name": "المملكة المتحدة",
+          "code": "UK",
+          "link": "/travel-visas/uk",
+          "icon": "landmark",
+          "visas": ["تأشيرة سياحة وزيارة قصيرة الأمد", "تأشيرة زيارة عائلية", "تأشيرة عبور"]
+        },
+        {
+          "name": "كندا",
+          "code": "CAN",
+          "link": "/travel-visas/canada",
+          "icon": "maple-leaf",
+          "visas": ["تأشيرة سياحة (Visitor Visa)", "تأشيرة زيارة عائلية أو تجارية", "تأشيرة عبور"]
+        },
+        {
+          "name": "أستراليا",
+          "code": "AUS",
+          "link": "/travel-visas/australia",
+          "icon": "globe-asia",
+          "visas": ["تأشيرة سياحة وزيارة", "تأشيرة زيارة عائلية", "تأشيرة عبور"]
+        },
+        {
+          "name": "المكسيك",
+          "code": "MEX",
+          "link": "/travel-visas/mexico",
+          "icon": "sun",
+          "visas": ["تأشيرة سياحة", "تأشيرة زيارة عائلية أو تجارية", "تأشيرة عبور"]
+        },
+        {
+          "name": "الصين",
+          "code": "CHN",
+          "link": "/travel-visas/china",
+          "icon": "dragon",
+          "visas": ["تأشيرة سياحة (L Visa)", "تأشيرة زيارة عائلية أو تجارية", "تأشيرة عبور"]
+        },
+        {
+          "name": "اليابان",
+          "code": "JPN",
+          "link": "/travel-visas/japan",
+          "icon": "torii-gate",
+          "visas": ["تأشيرة سياحة", "تأشيرة زيارة عائلية أو تجارية", "تأشيرة عبور"]
+        },
+        {
+          "name": "الإمارات العربية المتحدة",
+          "code": "UAE",
+          "link": "/travel-visas/uae",
+          "icon": "building",
+          "visas": ["تأشيرة سياحة (قصيرة أو طويلة الأمد)", "تأشيرة زيارة عائلية", "تأشيرة عبور (96 ساعة)"]
+        },
+        {
+          "name": "قطر",
+          "code": "QAT",
+          "link": "/travel-visas/qatar",
+          "icon": "mosque",
+          "visas": ["تأشيرة سياحة", "تأشيرة زيارة عائلية", "تأشيرة عبور"]
+        }
+      ]
+    },
+    "why_kaya": {
+      "heading": "لماذا تختار كايا؟",
+      "reasons": [
+        "خبرة واسعة في استخراج التأشيرات السياحية والزيارة",
+        "متابعة شخصية لملفك خطوة بخطوة",
+        "تحديثات مستمرة حول متطلبات السفارات",
+        "دعم كامل قبل وأثناء وبعد السفر"
+      ]
+    },
+    "cta": "مع كايا، تأشيرتك ليست مجرد ورقة، بل هي بداية رحلتك نحو تجربة سفر آمنة وممتعة"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Australia Travel Visas",
+    "hero": {
+      "subtitle": "Explore the wonders of Australia with ease"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa (subclass 600)",
+        "description": "For tourism, recreation, and visiting family",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For business meetings and short-term professional activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa (subclass 771)",
+        "description": "For transiting through Australia to another destination",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed online application (ImmiAccount)",
+      "Recent passport photograph",
+      "Proof of financial capacity",
+      "Travel itinerary",
+      "Health insurance (recommended)"
+    ],
+    "processing_time": "2-4 weeks",
+    "validity": "Up to 12 months (single or multiple entry)",
+    "tips": [
+      "Apply online through ImmiAccount for convenience",
+      "Provide genuine travel intentions documentation",
+      "Include sufficient funds evidence",
+      "Consider health insurance for the entire stay"
+    ],
+    "with_kaya": [
+      "ImmiAccount setup assistance",
+      "Application form guidance",
+      "Document preparation and verification",
+      "Travel insurance recommendations"
+    ],
+    "cta": "Start your Australian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى أستراليا",
+    "hero": {
+      "subtitle": "استكشف عجائب أستراليا بسهولة"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية (فئة فرعية 600)",
+        "description": "للسياحة والترفيه وزيارة العائلة",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات التجارية والأنشطة المهنية قصيرة الأجل",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور (فئة فرعية 771)",
+        "description": "للعبور عبر أستراليا إلى وجهة أخرى",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "طلب عبر الإنترنت مكتمل (ImmiAccount)",
+      "صورة جواز سفر حديثة",
+      "إثبات القدرة المالية",
+      "خط سير الرحلة",
+      "تأمين صحي (موصى به)"
+    ],
+    "processing_time": "2-4 أسابيع",
+    "validity": "حتى 12 شهراً (دخول فردي أو متعدد)",
+    "tips": [
+      "قدم طلبك عبر الإنترنت من خلال ImmiAccount للراحة",
+      "قدم وثائق نوايا السفر الحقيقية",
+      "قدم دليلاً على الأموال الكافية",
+      "فكر في التأمين الصحي طوال فترة الإقامة"
+    ],
+    "with_kaya": [
+      "المساعدة في إعداد حساب ImmiAccount",
+      "إرشادات نموذج الطلب",
+      "إعداد والتحقق من المستندات",
+      "توصيات التأمين على السفر"
+    ],
+    "cta": "ابدأ مغامرتك الأسترالية اليوم"
+  }
+}

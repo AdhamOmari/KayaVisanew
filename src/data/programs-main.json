@@ -1,0 +1,296 @@
+{
+  "en": {
+    "title": "Our Programs",
+    "hero": {
+      "subtitle": "Tailored Visa Programs for Your Success",
+      "description": "Visa programs designed to suit your needs and fulfill your ambitions. At Kaya, we accompany you step-by-step to ensure you reach your destination with confidence and peace of mind."
+    },
+    "programs": [
+      {
+        "id": "canada",
+        "name": "Canada Visa",
+        "tagline": "Unlimited Opportunities",
+        "icon": "fa-maple-leaf",
+        "flag": "🇨🇦",
+        "price": "JOD 1,490.00",
+        "rating": 5,
+        "features": [
+          "Diligent follow-up of your file from start to visa receipt",
+          "Full support in preparing documents and purpose of travel letter",
+          "Expert guidance through Canadian immigration process"
+        ],
+        "link": "/programs/canada"
+      },
+      {
+        "id": "usa",
+        "name": "USA Visa",
+        "tagline": "Your Journey to the American Dream",
+        "icon": "fa-flag-usa",
+        "flag": "🇺🇸",
+        "price": "JOD 1,490.00",
+        "rating": 5,
+        "features": [
+          "Specialized consultations for embassy interview",
+          "Professional completion of electronic forms (DS-160)",
+          "Comprehensive preparation for visa application"
+        ],
+        "link": "/programs/usa"
+      },
+      {
+        "id": "uk",
+        "name": "UK Visa",
+        "tagline": "The Pounding Heart of Europe",
+        "icon": "fa-crown",
+        "flag": "🇬🇧",
+        "price": "JOD 1,490.00",
+        "rating": 5,
+        "features": [
+          "Preparation of comprehensive file with supporting bookings",
+          "Quick follow-up for biometric and interview appointments",
+          "Expert assistance with UK visa requirements"
+        ],
+        "link": "/programs/uk"
+      },
+      {
+        "id": "germany",
+        "name": "Germany Visa (Schengen)",
+        "tagline": "Your Gateway to Europe",
+        "icon": "fa-passport",
+        "flag": "🇩🇪",
+        "price": "JOD 1,490.00",
+        "rating": 5,
+        "features": [
+          "Multiple-entry visa to visit several European countries",
+          "Full support in booking appointments and submitting application",
+          "Complete Schengen visa assistance"
+        ],
+        "link": "/programs/germany"
+      }
+    ],
+    "why_programs": {
+      "title": "Why Choose Our Programs?",
+      "subtitle": "Every program at Kaya is not just a service, but a journey that starts from the moment your file is prepared until you arrive at your destination.",
+      "benefits": [
+        {
+          "title": "Comprehensive Support",
+          "description": "From initial consultation to visa receipt, we're with you every step of the way",
+          "icon": "fa-hands-helping"
+        },
+        {
+          "title": "Expert Guidance",
+          "description": "Our experienced team knows the ins and outs of each visa process",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "Document Preparation",
+          "description": "Professional assistance in preparing all required documents and forms",
+          "icon": "fa-file-alt"
+        },
+        {
+          "title": "High Success Rate",
+          "description": "Proven track record with thousands of successful visa applications",
+          "icon": "fa-trophy"
+        }
+      ]
+    },
+    "process": {
+      "title": "How Our Programs Work",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Choose Your Program",
+          "description": "Select the visa program that matches your destination and goals"
+        },
+        {
+          "number": "02",
+          "title": "Initial Consultation",
+          "description": "Meet with our experts to discuss your specific needs and requirements"
+        },
+        {
+          "number": "03",
+          "title": "Document Preparation",
+          "description": "We help you gather and prepare all necessary documents"
+        },
+        {
+          "number": "04",
+          "title": "Application Submission",
+          "description": "Professional submission of your visa application with complete follow-up"
+        },
+        {
+          "number": "05",
+          "title": "Interview Preparation",
+          "description": "Expert coaching for embassy interviews and biometric appointments"
+        },
+        {
+          "number": "06",
+          "title": "Visa Receipt",
+          "description": "Celebrate your success as you receive your visa and prepare to travel"
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Transparent Pricing",
+      "note": "All programs priced at JOD 1,490.00",
+      "includes": [
+        "Complete file preparation",
+        "Document review and verification",
+        "Application submission assistance",
+        "Interview preparation (when applicable)",
+        "Follow-up until visa issuance",
+        "Post-visa support"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Choose your program today and let us guide you to your destination",
+      "button_text": "Contact Us Now"
+    }
+  },
+  "ar": {
+    "title": "برامجنا",
+    "hero": {
+      "subtitle": "برامج تأشيرات مصممة خصيصاً لنجاحك",
+      "description": "برامج تأشيرات مصممة لتناسب احتياجاتك وتحقق طموحاتك. في كايا، نرافقك خطوة بخطوة لتصل إلى وجهتك بثقة وراحة بال."
+    },
+    "programs": [
+      {
+        "id": "canada",
+        "name": "تأشيرة كندا",
+        "tagline": "فرص بلا حدود",
+        "icon": "fa-maple-leaf",
+        "flag": "🇨🇦",
+        "price": "1,490.00 دينار أردني",
+        "rating": 5,
+        "features": [
+          "متابعة دقيقة لملفك من البداية حتى استلام التأشيرة",
+          "دعم كامل في تجهيز المستندات وخطاب الغرض من السفر",
+          "إرشاد متخصص عبر عملية الهجرة الكندية"
+        ],
+        "link": "/programs/canada"
+      },
+      {
+        "id": "usa",
+        "name": "تأشيرة الولايات المتحدة الأميركية",
+        "tagline": "رحلتك إلى الحلم الأميركي",
+        "icon": "fa-flag-usa",
+        "flag": "🇺🇸",
+        "price": "1,490.00 دينار أردني",
+        "rating": 5,
+        "features": [
+          "استشارات متخصصة لمقابلة السفارة",
+          "تعبئة النماذج الإلكترونية (DS-160) باحترافية",
+          "تحضير شامل لطلب التأشيرة"
+        ],
+        "link": "/programs/usa"
+      },
+      {
+        "id": "uk",
+        "name": "تأشيرة بريطانيا",
+        "tagline": "قلب أوروبا النابض",
+        "icon": "fa-crown",
+        "flag": "🇬🇧",
+        "price": "1,490.00 دينار أردني",
+        "rating": 5,
+        "features": [
+          "تجهيز ملف متكامل مع حجوزات داعمة",
+          "متابعة سريعة لمواعيد البصمة والمقابلة",
+          "مساعدة متخصصة في متطلبات التأشيرة البريطانية"
+        ],
+        "link": "/programs/uk"
+      },
+      {
+        "id": "germany",
+        "name": "تأشيرة ألمانيا (شنغن)",
+        "tagline": "بوابتك إلى أوروبا",
+        "icon": "fa-passport",
+        "flag": "🇩🇪",
+        "price": "1,490.00 دينار أردني",
+        "rating": 5,
+        "features": [
+          "تأشيرة متعددة الدخول لزيارة عدة دول أوروبية",
+          "دعم كامل في حجز المواعيد وتقديم الطلب",
+          "مساعدة كاملة في تأشيرة شنغن"
+        ],
+        "link": "/programs/germany"
+      }
+    ],
+    "why_programs": {
+      "title": "لماذا تختار برامجنا؟",
+      "subtitle": "كل برنامج في كايا ليس مجرد خدمة، بل رحلة تبدأ من لحظة تجهيز ملفك وحتى وصولك إلى وجهتك.",
+      "benefits": [
+        {
+          "title": "دعم شامل",
+          "description": "من الاستشارة الأولية حتى استلام التأشيرة، نحن معك في كل خطوة",
+          "icon": "fa-hands-helping"
+        },
+        {
+          "title": "إرشاد متخصص",
+          "description": "فريقنا ذو الخبرة يعرف تفاصيل كل عملية تأشيرة",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "تحضير المستندات",
+          "description": "مساعدة احترافية في تحضير جميع الوثائق والنماذج المطلوبة",
+          "icon": "fa-file-alt"
+        },
+        {
+          "title": "معدل نجاح عالي",
+          "description": "سجل حافل بآلاف طلبات التأشيرات الناجحة",
+          "icon": "fa-trophy"
+        }
+      ]
+    },
+    "process": {
+      "title": "كيف تعمل برامجنا",
+      "steps": [
+        {
+          "number": "01",
+          "title": "اختر برنامجك",
+          "description": "اختر برنامج التأشيرة الذي يناسب وجهتك وأهدافك"
+        },
+        {
+          "number": "02",
+          "title": "استشارة أولية",
+          "description": "اجتمع مع خبرائنا لمناقشة احتياجاتك ومتطلباتك المحددة"
+        },
+        {
+          "number": "03",
+          "title": "تحضير المستندات",
+          "description": "نساعدك في جمع وتحضير جميع الوثائق الضرورية"
+        },
+        {
+          "number": "04",
+          "title": "تقديم الطلب",
+          "description": "تقديم احترافي لطلب التأشيرة مع متابعة كاملة"
+        },
+        {
+          "number": "05",
+          "title": "تحضير المقابلة",
+          "description": "تدريب متخصص لمقابلات السفارة ومواعيد البصمات"
+        },
+        {
+          "number": "06",
+          "title": "استلام التأشيرة",
+          "description": "احتفل بنجاحك عند استلام تأشيرتك واستعد للسفر"
+        }
+      ]
+    },
+    "pricing": {
+      "title": "أسعار شفافة",
+      "note": "جميع البرامج بسعر 1,490.00 دينار أردني",
+      "includes": [
+        "تحضير الملف الكامل",
+        "مراجعة وتحقق من الوثائق",
+        "مساعدة في تقديم الطلب",
+        "تحضير المقابلة (عند الحاجة)",
+        "متابعة حتى إصدار التأشيرة",
+        "دعم ما بعد التأشيرة"
+      ]
+    },
+    "cta": {
+      "title": "هل أنت مستعد لبدء رحلتك؟",
+      "description": "اختر برنامجك اليوم ودعنا نرشدك إلى وجهتك",
+      "button_text": "تواصل معنا الآن"
+    }
+  }
+}

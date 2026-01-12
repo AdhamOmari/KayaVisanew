@@ -1,0 +1,268 @@
+{
+  "en": {
+    "title": "Study Visas with Kaya",
+    "hero": {
+      "heading": "Your Academic Journey Starts Here",
+      "subtitle": "Transform your future with world-class education abroad"
+    },
+    "intro": "At Kaya, we believe that studying abroad is not just about academics; it is a holistic life experience that opens the doors to your future. We assist you in obtaining student visas for a range of top global destinations, providing meticulous follow-up on every detail, from the moment you select your program until you arrive at your desk.",
+    "services": {
+      "heading": "Our Study Visa Services",
+      "description": "We offer all educational options that suit your goals:",
+      "options": [
+        {
+          "name": "Language Institutes (ESL)",
+          "description": "To develop your language skills in a native-speaking environment",
+          "icon": "comments"
+        },
+        {
+          "name": "Diploma Programs",
+          "description": "Specialized vocational programs that open the doors to the job market",
+          "icon": "certificate"
+        },
+        {
+          "name": "Bachelor's Degree",
+          "description": "Comprehensive university study at the world's best universities",
+          "icon": "graduation-cap"
+        },
+        {
+          "name": "Master's Degree",
+          "description": "Advanced academic programs that qualify you for leadership and scientific research",
+          "icon": "user-graduate"
+        }
+      ]
+    },
+    "conditional_admission": {
+      "heading": "The 'Conditional Admission' Advantage",
+      "description": "The Conditional Admission feature is available in several global study destinations",
+      "countries": ["USA", "Canada", "UK", "Australia", "Germany", "Spain"],
+      "benefits": [
+        "Greater flexibility to start your academic journey even if you haven't met the language requirement yet",
+        "Increased chances of admission to prestigious universities",
+        "A seamless transition from language study to your academic major without the need to reapply"
+      ],
+      "summary": "Conditional Admission is a smart bridge between you and your university dream, especially if you need to strengthen your language before starting your specialization."
+    },
+    "destinations": {
+      "heading": "Study Destinations Available Through Kaya",
+      "countries": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "link": "/study-visas/usa",
+          "highlights": [
+            "Language study, Bachelor's, Master's",
+            "CPT (practical training during study) and OPT (work opportunity after graduation)",
+            "Wide range of majors: Engineering, Business Administration, IT, Medicine",
+            "Rich and diverse campus life"
+          ],
+          "icon": "flag-usa"
+        },
+        {
+          "name": "Canada",
+          "code": "CA",
+          "link": "/study-visas/canada",
+          "highlights": [
+            "World-class education system with lower tuition compared to the U.S.",
+            "Ability to work part-time while studying",
+            "Conditional admission programs available",
+            "Strong fields in AI, Nursing, Business Administration",
+            "Post-graduation: PGWP leading to permanent residency"
+          ],
+          "icon": "maple-leaf"
+        },
+        {
+          "name": "United Kingdom",
+          "code": "UK",
+          "link": "/study-visas/uk",
+          "highlights": [
+            "Focused, shorter academic programs (Bachelor's in 3 years)",
+            "Conditional study options via university-affiliated language institutes",
+            "Distinguished majors: Law, Media, Humanities, Medicine",
+            "Post-graduation: 2-year work visa (Graduate Route)"
+          ],
+          "icon": "crown"
+        },
+        {
+          "name": "Australia",
+          "code": "AU",
+          "link": "/study-visas/australia",
+          "highlights": [
+            "Multicultural environment, popular among Gulf students",
+            "Ability to work 20 hours per week during study",
+            "Strong majors: Engineering, Agriculture, Marine Sciences, Business Administration",
+            "Post-graduation: Temporary Graduate Visa"
+          ],
+          "icon": "sun"
+        },
+        {
+          "name": "Germany",
+          "code": "DE",
+          "link": "/study-visas/germany",
+          "highlights": [
+            "Low or nearly free tuition at public universities",
+            "Strength in Engineering, Mechanics, Medicine",
+            "Study options in English or German",
+            "Wide job opportunities after graduation in a strong industrial market"
+          ],
+          "icon": "industry"
+        },
+        {
+          "name": "Spain",
+          "code": "ES",
+          "link": "/study-visas/spain",
+          "highlights": [
+            "Ideal destination for learning Spanish",
+            "Distinguished majors: Tourism, Arts, Business Administration",
+            "Lower living costs compared to Western Europe",
+            "Rich cultural experience and vibrant student life"
+          ],
+          "icon": "palette"
+        }
+      ]
+    },
+    "why_kaya": {
+      "heading": "Why Choose Kaya?",
+      "reasons": [
+        "Extensive Experience in issuing study visas",
+        "Personalized Follow-up on your file, step-by-step",
+        "Partnerships with globally accredited universities and institutes",
+        "Full Support before, during, and after travel"
+      ]
+    },
+    "cta": "With Kaya, your study abroad is not a distant dream, but a clear plan that starts here"
+  },
+  "ar": {
+    "title": "تأشيرات الدراسة مع كايا",
+    "hero": {
+      "heading": "رحلتك الأكاديمية تبدأ من هنا",
+      "subtitle": "حوّل مستقبلك مع تعليم عالمي رفيع المستوى في الخارج"
+    },
+    "intro": "في كايا نؤمن أن التعليم في الخارج ليس مجرد دراسة، بل هو تجربة حياة متكاملة تفتح لك أبواب المستقبل. نحن نساعدك في الحصول على تأشيرات الدراسة لمجموعة من أبرز الوجهات العالمية، مع متابعة دقيقة لكل التفاصيل من لحظة اختيار البرنامج وحتى وصولك إلى مقعدك الدراسي.",
+    "services": {
+      "heading": "خدماتنا في تأشيرات الدراسة",
+      "description": "نوفّر لك جميع الخيارات التعليمية التي تناسب أهدافك:",
+      "options": [
+        {
+          "name": "معاهد اللغات",
+          "description": "لتطوير مهاراتك اللغوية في بيئة ناطقة",
+          "icon": "comments"
+        },
+        {
+          "name": "الدبلوم",
+          "description": "برامج مهنية متخصصة تفتح لك أبواب سوق العمل",
+          "icon": "certificate"
+        },
+        {
+          "name": "البكالوريوس",
+          "description": "دراسة جامعية متكاملة في أفضل الجامعات العالمية",
+          "icon": "graduation-cap"
+        },
+        {
+          "name": "الماجستير",
+          "description": "برامج أكاديمية متقدمة تؤهلك للقيادة والبحث العلمي",
+          "icon": "user-graduate"
+        }
+      ]
+    },
+    "conditional_admission": {
+      "heading": "ميزة 'الدراسة المشروطة'",
+      "description": "ميزة الدراسة المشروطة (Conditional Admission) متاحة في عدد من الوجهات الدراسية العالمية",
+      "countries": ["أمريكا", "كندا", "بريطانيا", "أستراليا", "ألمانيا", "إسبانيا"],
+      "benefits": [
+        "مرونة أكبر في بدء رحلتك الأكاديمية حتى لو لم تكن مستوفيًا شرط اللغة بعد",
+        "زيادة فرص القبول في الجامعات المرموقة",
+        "انتقال سلس من دراسة اللغة إلى التخصص الأكاديمي دون الحاجة لإعادة التقديم"
+      ],
+      "summary": "الدراسة المشروطة هي جسر ذكي بينك وبين حلمك الجامعي، خصوصًا إذا كنت بحاجة إلى تقوية لغتك قبل الانطلاق في التخصص."
+    },
+    "destinations": {
+      "heading": "الوجهات الدراسية المتاحة عبر كايا",
+      "countries": [
+        {
+          "name": "الولايات المتحدة",
+          "code": "USA",
+          "link": "/study-visas/usa",
+          "highlights": [
+            "دراسة اللغة، البكالوريوس، الماجستير",
+            "ميزة CPT (تدريب عملي خلال الدراسة) و OPT (فرصة عمل بعد التخرج)",
+            "تنوع التخصصات: الهندسة، إدارة الأعمال، تكنولوجيا المعلومات، الطب",
+            "حياة جامعية غنية ومتنوعة"
+          ],
+          "icon": "flag-usa"
+        },
+        {
+          "name": "كندا",
+          "code": "CA",
+          "link": "/study-visas/canada",
+          "highlights": [
+            "نظام تعليمي عالمي مع رسوم أقل مقارنة بأمريكا",
+            "إمكانية العمل بدوام جزئي أثناء الدراسة",
+            "برامج الدراسة المشروطة متاحة",
+            "تخصصات قوية في الذكاء الاصطناعي، التمريض، إدارة الأعمال",
+            "بعد التخرج: تصريح عمل ما بعد الدراسة (PGWP) الذي يؤهلك للإقامة الدائمة"
+          ],
+          "icon": "maple-leaf"
+        },
+        {
+          "name": "بريطانيا",
+          "code": "UK",
+          "link": "/study-visas/uk",
+          "highlights": [
+            "برامج أكاديمية مركزة وقصيرة المدة (البكالوريوس 3 سنوات)",
+            "توفر خيار الدراسة المشروطة عبر معاهد اللغة التابعة للجامعات",
+            "تخصصات مميزة: القانون، الإعلام، العلوم الإنسانية، الطب",
+            "بعد التخرج: تأشيرة عمل لمدة سنتين (Graduate Route)"
+          ],
+          "icon": "crown"
+        },
+        {
+          "name": "أستراليا",
+          "code": "AU",
+          "link": "/study-visas/australia",
+          "highlights": [
+            "بيئة متعددة الثقافات ووجهة مفضلة للطلاب الخليجيين",
+            "إمكانية العمل 20 ساعة أسبوعياً أثناء الدراسة",
+            "تخصصات قوية: الهندسة، الزراعة، علوم البحار، إدارة الأعمال",
+            "بعد التخرج: تأشيرة عمل مؤقتة (Temporary Graduate Visa)"
+          ],
+          "icon": "sun"
+        },
+        {
+          "name": "ألمانيا",
+          "code": "DE",
+          "link": "/study-visas/germany",
+          "highlights": [
+            "رسوم دراسية منخفضة أو شبه مجانية في الجامعات الحكومية",
+            "قوة في التخصصات الهندسية، الميكانيكا، والطب",
+            "إمكانية الدراسة باللغة الإنجليزية أو الألمانية",
+            "فرص عمل واسعة بعد التخرج في سوق صناعي قوي"
+          ],
+          "icon": "industry"
+        },
+        {
+          "name": "إسبانيا",
+          "code": "ES",
+          "link": "/study-visas/spain",
+          "highlights": [
+            "وجهة مثالية لدراسة اللغة الإسبانية",
+            "تخصصات مميزة: السياحة، الفنون، إدارة الأعمال",
+            "تكاليف معيشة أقل مقارنة بدول أوروبا الغربية",
+            "تجربة ثقافية غنية وحياة طلابية نابضة بالحياة"
+          ],
+          "icon": "palette"
+        }
+      ]
+    },
+    "why_kaya": {
+      "heading": "لماذا تختار كايا؟",
+      "reasons": [
+        "خبرة واسعة في استخراج تأشيرات الدراسة",
+        "متابعة شخصية لملفك خطوة بخطوة",
+        "شراكات مع جامعات ومعاهد معتمدة عالمياً",
+        "دعم كامل قبل وأثناء وبعد السفر"
+      ]
+    },
+    "cta": "مع كايا دراستك في الخارج ليست حلماً بعيداً، بل خطة واضحة تبدأ من هنا"
+  }
+}

@@ -1,0 +1,368 @@
+/* Work Visas Theme - Professional Business Colors */
+@import './antigua.css';
+
+:root {
+  /* Professional Color Palette */
+  --work-primary: #2C3E50;        /* Dark navy blue - professional */
+  --work-secondary: #3498DB;      /* Bright blue - trust & opportunity */
+  --work-accent: #F39C12;         /* Orange gold - success & achievement */
+  --work-dark: #1A252F;           /* Deep dark blue */
+  --work-light: #ECF0F1;          /* Light gray */
+  --work-success: #27AE60;        /* Green - approval */
+  --work-gradient-start: #2C3E50;
+  --work-gradient-end: #3498DB;
+}
+
+/* Override base theme colors */
+.modern-hero {
+  background: linear-gradient(135deg, var(--work-gradient-start) 0%, var(--work-gradient-end) 100%);
+}
+
+.glass-card {
+  border-top: 4px solid var(--work-secondary);
+}
+
+.glass-card:hover {
+  border-top-color: var(--work-accent);
+  box-shadow: 0 12px 30px rgba(52, 152, 219, 0.2);
+}
+
+.btn-modern {
+  background: linear-gradient(135deg, var(--work-secondary) 0%, var(--work-accent) 100%);
+}
+
+.btn-modern:hover {
+  background: linear-gradient(135deg, var(--work-accent) 0%, var(--work-secondary) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3);
+}
+
+/* Visa Type Cards */
+.visa-type-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 5px solid var(--work-secondary);
+  height: 100%;
+}
+
+.visa-type-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(52, 152, 219, 0.2);
+  border-left-color: var(--work-accent);
+}
+
+.visa-type-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--work-secondary), var(--work-accent));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.25);
+}
+
+.visa-type-card h3 {
+  color: var(--work-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.visa-type-card p {
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Available Visas Cards */
+.work-visa-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-top: 4px solid var(--work-secondary);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.work-visa-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--work-secondary), var(--work-accent));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.work-visa-card:hover::before {
+  transform: scaleX(1);
+}
+
+.work-visa-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(52, 152, 219, 0.2);
+}
+
+.visa-country-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--work-secondary), var(--work-accent));
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.work-visa-card h3 {
+  color: var(--work-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.visa-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.visa-highlights li {
+  padding: 0.6rem 0;
+  color: #555;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.visa-highlights li::before {
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: var(--work-success);
+  margin-right: 0.8rem;
+  font-size: 1rem;
+}
+
+/* Why Kaya Section */
+.why-kaya-work-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+  text-align: center;
+}
+
+.why-kaya-work-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);
+}
+
+.why-kaya-work-card .icon-circle {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--work-secondary), var(--work-accent));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.why-kaya-work-card h4 {
+  color: var(--work-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.why-kaya-work-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Professional Journey Banner */
+.professional-journey-banner {
+  background: linear-gradient(135deg, var(--work-primary) 0%, var(--work-secondary) 100%);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 4rem;
+}
+
+.professional-journey-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+}
+
+.professional-journey-banner::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 50%;
+}
+
+.professional-journey-banner h2 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.professional-journey-banner p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.professional-journey-banner .btn-light {
+  background: white;
+  color: var(--work-primary);
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.professional-journey-banner .btn-light:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  background: var(--work-accent);
+  color: white;
+}
+
+/* Services List */
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.services-list li {
+  padding: 1rem 1.5rem;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.services-list li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.15);
+}
+
+.services-list li::before {
+  content: '\f0a4';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: var(--work-secondary);
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Target Audience Cards */
+.audience-card {
+  background: linear-gradient(135deg, var(--work-secondary), var(--work-accent));
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  transition: all 0.3s ease;
+}
+
+.audience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.4);
+}
+
+/* Alerts Section */
+.alert-item {
+  background: #FFF3CD;
+  border-left: 5px solid var(--work-accent);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.alert-item::before {
+  content: '\f071';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: var(--work-accent);
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.alert-item p {
+  margin: 0;
+  color: #856404;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .professional-journey-banner h2 {
+    font-size: 1.8rem;
+  }
+
+  .professional-journey-banner p {
+    font-size: 1rem;
+  }
+
+  .visa-type-card,
+  .work-visa-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .services-list li:hover {
+    transform: translateX(5px);
+  }
+}

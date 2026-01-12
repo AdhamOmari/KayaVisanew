@@ -1,0 +1,184 @@
+{
+  "en": {
+    "title": "US Student Visa (F-1/F-2)",
+    "intro": "The F-1 visa is designed for international students who wish to pursue academic studies at accredited US institutions. The F-2 visa is for dependents of F-1 visa holders.",
+    "overview": {
+      "heading": "Overview",
+      "description": "The F-1 visa allows international students to study full-time at US colleges, universities, high schools, language training programs, and other academic institutions. F-2 visas are issued to spouses and unmarried children under 21 years of age."
+    },
+    "why_choose": {
+      "heading": "Why Study in the USA?",
+      "reasons": [
+        "Access to world-renowned universities and colleges",
+        "Wide range of academic programs and specializations",
+        "Opportunity for practical training (OPT/CPT)",
+        "Cutting-edge research facilities and resources",
+        "Multicultural environment and networking opportunities",
+        "Potential pathway to H1B work visa after graduation"
+      ]
+    },
+    "visa_types": {
+      "heading": "F Visa Categories",
+      "types": [
+        {
+          "name": "F-1 - Academic Student",
+          "description": "For students enrolled in academic programs at universities, colleges, high schools, private elementary schools, seminaries, conservatories, or language training programs."
+        },
+        {
+          "name": "F-2 - Dependent Visa",
+          "description": "For spouse and unmarried children under 21 of F-1 visa holders. F-2 visa holders cannot work but may attend school part-time."
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "Application Process",
+      "steps": [
+        "Apply and get accepted to a SEVP-approved school",
+        "Receive Form I-20 from your school",
+        "Pay SEVIS I-901 fee ($350)",
+        "Complete DS-160 online application",
+        "Pay visa application fee ($185)",
+        "Schedule and attend visa interview",
+        "Provide all required documentation",
+        "Wait for visa processing"
+      ]
+    },
+    "processing_time": "Typically 2-4 weeks after interview, apply at least 3 months before program start",
+    "validity": "Valid for duration of your academic program plus grace periods",
+    "work_authorization": "Eligible for on-campus work and CPT/OPT programs",
+    "application_requirements": {
+      "heading": "Required Documents",
+      "requirements": [
+        "Valid passport",
+        "Form I-20 from SEVP-approved school",
+        "DS-160 confirmation page",
+        "SEVIS I-901 fee payment receipt",
+        "Visa application fee receipt",
+        "Passport-sized photo",
+        "Academic transcripts and diplomas",
+        "Standardized test scores (TOEFL, SAT, GRE, etc.)",
+        "Proof of financial support",
+        "Evidence of ties to home country",
+        "Study plan and career goals statement"
+      ]
+    },
+    "financial_requirements": {
+      "heading": "Financial Documentation",
+      "items": [
+        "Bank statements (personal or sponsor)",
+        "Scholarship or financial aid letters",
+        "Sponsor's affidavit of support",
+        "Property ownership documents",
+        "Income tax returns",
+        "Proof of funding for entire course duration"
+      ]
+    },
+    "work_options": {
+      "heading": "Work Opportunities",
+      "options": [
+        "On-campus employment (up to 20 hours/week during term)",
+        "Curricular Practical Training (CPT) - internships related to major",
+        "Optional Practical Training (OPT) - 12 months after graduation",
+        "STEM OPT Extension - additional 24 months for STEM graduates"
+      ]
+    },
+    "important_notes": [
+      "Must maintain full-time enrollment status",
+      "Cannot work off-campus without authorization",
+      "Must report any changes to DSO (Designated School Official)",
+      "Grace period: 60 days after program completion to prepare departure or change status"
+    ],
+    "cta": "Start Your US Study Journey Today!"
+  },
+  "ar": {
+    "title": "تأشيرة الطالب الأمريكية (F-1/F-2)",
+    "intro": "تأشيرة F-1 مصممة للطلاب الدوليين الذين يرغبون في متابعة الدراسة الأكاديمية في المؤسسات الأمريكية المعتمدة. تأشيرة F-2 للمعالين من حاملي تأشيرة F-1.",
+    "overview": {
+      "heading": "نظرة عامة",
+      "description": "تأشيرة F-1 تسمح للطلاب الدوليين بالدراسة بدوام كامل في الكليات والجامعات والمدارس الثانوية وبرامج تدريب اللغة والمؤسسات الأكاديمية الأخرى في الولايات المتحدة. تصدر تأشيرة F-2 للأزواج والأطفال غير المتزوجين تحت 21 عاماً."
+    },
+    "why_choose": {
+      "heading": "لماذا الدراسة في الولايات المتحدة؟",
+      "reasons": [
+        "الوصول إلى جامعات وكليات مرموقة عالمياً",
+        "مجموعة واسعة من البرامج الأكاديمية والتخصصات",
+        "فرصة التدريب العملي (OPT/CPT)",
+        "مرافق بحثية ومصادر متطورة",
+        "بيئة متعددة الثقافات وفرص التواصل",
+        "مسار محتمل لتأشيرة العمل H1B بعد التخرج"
+      ]
+    },
+    "visa_types": {
+      "heading": "فئات تأشيرة F",
+      "types": [
+        {
+          "name": "F-1 - طالب أكاديمي",
+          "description": "للطلاب المسجلين في برامج أكاديمية في الجامعات والكليات والمدارس الثانوية والابتدائية الخاصة والمعاهد الدينية والمعاهد الموسيقية أو برامج تدريب اللغة."
+        },
+        {
+          "name": "F-2 - تأشيرة المعالين",
+          "description": "للزوج/الزوجة والأطفال غير المتزوجين تحت 21 عاماً من حاملي تأشيرة F-1. لا يمكن لحاملي تأشيرة F-2 العمل لكن يمكنهم الدراسة بدوام جزئي."
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "التقديم والقبول في مدرسة معتمدة من SEVP",
+        "استلام نموذج I-20 من مدرستك",
+        "دفع رسوم SEVIS I-901 ($350)",
+        "إكمال طلب DS-160 الإلكتروني",
+        "دفع رسوم طلب التأشيرة ($185)",
+        "جدولة وحضور مقابلة التأشيرة",
+        "تقديم جميع المستندات المطلوبة",
+        "انتظار معالجة التأشيرة"
+      ]
+    },
+    "processing_time": "عادة من 2-4 أسابيع بعد المقابلة، قدم قبل 3 أشهر على الأقل من بداية البرنامج",
+    "validity": "صالحة لمدة برنامجك الأكاديمي بالإضافة إلى فترات السماح",
+    "work_authorization": "مؤهل للعمل في الحرم الجامعي وبرامج CPT/OPT",
+    "application_requirements": {
+      "heading": "المستندات المطلوبة",
+      "requirements": [
+        "جواز سفر ساري المفعول",
+        "نموذج I-20 من مدرسة معتمدة من SEVP",
+        "صفحة تأكيد DS-160",
+        "إيصال دفع رسوم SEVIS I-901",
+        "إيصال دفع رسوم طلب التأشيرة",
+        "صورة بحجم جواز السفر",
+        "السجلات الأكاديمية والشهادات",
+        "درجات الاختبارات الموحدة (TOEFL، SAT، GRE، إلخ)",
+        "إثبات الدعم المالي",
+        "دليل على الارتباط ببلدك الأصلي",
+        "خطة الدراسة وبيان الأهداف المهنية"
+      ]
+    },
+    "financial_requirements": {
+      "heading": "الوثائق المالية",
+      "items": [
+        "كشوف حسابات بنكية (شخصية أو الكفيل)",
+        "خطابات منح أو مساعدات مالية",
+        "إفادة دعم الكفيل",
+        "مستندات ملكية العقارات",
+        "إقرارات ضريبة الدخل",
+        "إثبات التمويل لكامل مدة الدورة"
+      ]
+    },
+    "work_options": {
+      "heading": "فرص العمل",
+      "options": [
+        "العمل في الحرم الجامعي (حتى 20 ساعة/أسبوع خلال الفصل الدراسي)",
+        "التدريب العملي المنهجي (CPT) - تدريب يتعلق بالتخصص",
+        "التدريب العملي الاختياري (OPT) - 12 شهراً بعد التخرج",
+        "تمديد STEM OPT - 24 شهراً إضافية لخريجي STEM"
+      ]
+    },
+    "important_notes": [
+      "يجب الحفاظ على حالة التسجيل بدوام كامل",
+      "لا يمكن العمل خارج الحرم الجامعي بدون تصريح",
+      "يجب الإبلاغ عن أي تغييرات إلى DSO (مسؤول المدرسة المعين)",
+      "فترة سماح: 60 يوماً بعد إكمال البرنامج للتحضير للمغادرة أو تغيير الحالة"
+    ],
+    "cta": "ابدأ رحلة دراستك في الولايات المتحدة اليوم!"
+  }
+}

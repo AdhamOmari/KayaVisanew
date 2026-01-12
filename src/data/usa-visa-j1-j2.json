@@ -1,0 +1,272 @@
+{
+  "en": {
+    "title": "US Exchange Visitor Visa (J-1/J-2)",
+    "intro": "The J-1 visa program promotes cultural exchange by bringing international visitors to the United States for education, training, research, and other exchange programs. The J-2 visa is for dependents.",
+    "overview": {
+      "heading": "Overview",
+      "description": "The J-1 Exchange Visitor Program enables foreign nationals to come to the US to teach, study, conduct research, demonstrate special skills, or receive training. This visa strengthens cultural ties and promotes mutual understanding between the US and other nations."
+    },
+    "why_choose": {
+      "heading": "Benefits of J-1 Program",
+      "reasons": [
+        "Diverse program categories for various professions",
+        "Cultural exchange and networking opportunities",
+        "Professional development and skill enhancement",
+        "J-2 dependents can apply for work authorization",
+        "Access to world-class institutions and organizations",
+        "Potential pathway to future US opportunities"
+      ]
+    },
+    "program_categories": {
+      "heading": "J-1 Program Categories",
+      "categories": [
+        {
+          "name": "Au Pair",
+          "description": "Live with American families, provide childcare, and experience American culture"
+        },
+        {
+          "name": "Camp Counselor",
+          "description": "Work at US summer camps with American youth"
+        },
+        {
+          "name": "College/University Student",
+          "description": "Study at accredited post-secondary institutions"
+        },
+        {
+          "name": "Government Visitor",
+          "description": "Government officials on cultural exchange programs"
+        },
+        {
+          "name": "Intern",
+          "description": "Gain practical experience in your career field"
+        },
+        {
+          "name": "International Visitor",
+          "description": "Selected by the US government for professional visits"
+        },
+        {
+          "name": "Physician",
+          "description": "Medical graduates for graduate medical education or training"
+        },
+        {
+          "name": "Professor/Research Scholar",
+          "description": "Teach, conduct research, or consult at educational institutions"
+        },
+        {
+          "name": "Secondary School Student",
+          "description": "Study at accredited US high schools"
+        },
+        {
+          "name": "Short-term Scholar",
+          "description": "Professors, research scholars for lectures or consultations"
+        },
+        {
+          "name": "Specialist",
+          "description": "Experts in specialized fields for observation and consultation"
+        },
+        {
+          "name": "Summer Work Travel",
+          "description": "University students for summer employment and travel"
+        },
+        {
+          "name": "Teacher",
+          "description": "Teach full-time in primary or secondary schools"
+        },
+        {
+          "name": "Trainee",
+          "description": "Receive training in your professional field"
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "Application Process",
+      "steps": [
+        "Find a designated sponsor organization",
+        "Receive Form DS-2019 from sponsor",
+        "Pay SEVIS I-901 fee ($220)",
+        "Complete DS-160 online application",
+        "Pay visa application fee ($185)",
+        "Schedule visa interview",
+        "Attend interview with all documents",
+        "Receive visa and prepare for travel"
+      ]
+    },
+    "processing_time": "Typically 2-4 weeks, apply well in advance of program start date",
+    "validity": "Duration varies by program category, from weeks to several years",
+    "two_year_rule": "Some J-1 holders subject to 2-year home residency requirement",
+    "application_requirements": {
+      "heading": "Required Documents",
+      "requirements": [
+        "Valid passport",
+        "Form DS-2019 from sponsor organization",
+        "DS-160 confirmation page",
+        "SEVIS I-901 fee payment receipt",
+        "Visa application fee receipt",
+        "Passport-sized photo",
+        "Proof of financial support",
+        "Program-specific documentation",
+        "English proficiency proof (if required)",
+        "Educational credentials",
+        "Resume/CV for professional programs"
+      ]
+    },
+    "j2_dependent_visa": {
+      "heading": "J-2 Dependent Visa",
+      "description": "J-2 visas are available for spouses and unmarried children under 21 of J-1 visa holders.",
+      "benefits": [
+        "Can accompany J-1 visa holder to the US",
+        "Eligible to apply for work authorization (EAD)",
+        "Can study without additional visa",
+        "Same duration as J-1 principal's program"
+      ]
+    },
+    "work_authorization": {
+      "heading": "Work Authorization",
+      "j1": "Work authorization depends on program category and sponsor approval",
+      "j2": "J-2 dependents can apply for Employment Authorization Document (EAD)"
+    },
+    "important_notes": [
+      "Must maintain valid program status throughout stay",
+      "Cannot overstay visa expiration or program end date",
+      "Some categories subject to 2-year home residency requirement",
+      "Must comply with sponsor organization rules and regulations",
+      "Grace period: 30 days after program completion"
+    ],
+    "cta": "Start Your J-1 Exchange Program Application!"
+  },
+  "ar": {
+    "title": "تأشيرة التبادل الثقافي الأمريكية (J-1/J-2)",
+    "intro": "برنامج تأشيرة J-1 يعزز التبادل الثقافي من خلال جلب الزوار الدوليين إلى الولايات المتحدة للتعليم والتدريب والبحث وبرامج التبادل الأخرى. تأشيرة J-2 للمعالين.",
+    "overview": {
+      "heading": "نظرة عامة",
+      "description": "برنامج زوار التبادل J-1 يمكّن المواطنين الأجانب من القدوم إلى الولايات المتحدة للتدريس أو الدراسة أو إجراء الأبحاث أو إظهار مهارات خاصة أو تلقي التدريب. هذه التأشيرة تعزز الروابط الثقافية وتعزز التفاهم المتبادل بين الولايات المتحدة والدول الأخرى."
+    },
+    "why_choose": {
+      "heading": "فوائد برنامج J-1",
+      "reasons": [
+        "فئات برامج متنوعة لمختلف المهن",
+        "فرص التبادل الثقافي والتواصل",
+        "التطوير المهني وتعزيز المهارات",
+        "يمكن للمعالين J-2 التقدم للحصول على تصريح عمل",
+        "الوصول إلى مؤسسات ومنظمات عالمية المستوى",
+        "مسار محتمل لفرص أمريكية مستقبلية"
+      ]
+    },
+    "program_categories": {
+      "heading": "فئات برنامج J-1",
+      "categories": [
+        {
+          "name": "مربية أطفال",
+          "description": "العيش مع عائلات أمريكية، تقديم رعاية الأطفال، وتجربة الثقافة الأمريكية"
+        },
+        {
+          "name": "مستشار مخيم",
+          "description": "العمل في المخيمات الصيفية الأمريكية مع الشباب الأمريكي"
+        },
+        {
+          "name": "طالب كلية/جامعة",
+          "description": "الدراسة في مؤسسات ما بعد الثانوية المعتمدة"
+        },
+        {
+          "name": "زائر حكومي",
+          "description": "مسؤولون حكوميون في برامج تبادل ثقافي"
+        },
+        {
+          "name": "متدرب",
+          "description": "الحصول على خبرة عملية في مجال مهنتك"
+        },
+        {
+          "name": "زائر دولي",
+          "description": "مختارون من قبل الحكومة الأمريكية لزيارات مهنية"
+        },
+        {
+          "name": "طبيب",
+          "description": "خريجو الطب للتعليم الطبي العالي أو التدريب"
+        },
+        {
+          "name": "أستاذ/باحث أكاديمي",
+          "description": "التدريس أو إجراء الأبحاث أو الاستشارات في المؤسسات التعليمية"
+        },
+        {
+          "name": "طالب المرحلة الثانوية",
+          "description": "الدراسة في المدارس الثانوية الأمريكية المعتمدة"
+        },
+        {
+          "name": "باحث قصير الأجل",
+          "description": "أساتذة، باحثون أكاديميون للمحاضرات أو الاستشارات"
+        },
+        {
+          "name": "متخصص",
+          "description": "خبراء في مجالات متخصصة للمراقبة والاستشارة"
+        },
+        {
+          "name": "عمل صيفي وسفر",
+          "description": "طلاب جامعيون للتوظيف والسفر الصيفي"
+        },
+        {
+          "name": "معلم",
+          "description": "التدريس بدوام كامل في المدارس الابتدائية أو الثانوية"
+        },
+        {
+          "name": "متدرب مهني",
+          "description": "تلقي التدريب في مجالك المهني"
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "إيجاد منظمة راعية معينة",
+        "استلام نموذج DS-2019 من الراعي",
+        "دفع رسوم SEVIS I-901 ($220)",
+        "إكمال طلب DS-160 الإلكتروني",
+        "دفع رسوم طلب التأشيرة ($185)",
+        "جدولة مقابلة التأشيرة",
+        "حضور المقابلة مع جميع المستندات",
+        "استلام التأشيرة والتحضير للسفر"
+      ]
+    },
+    "processing_time": "عادة من 2-4 أسابيع، قدم مسبقاً قبل تاريخ بدء البرنامج",
+    "validity": "المدة تختلف حسب فئة البرنامج، من أسابيع إلى عدة سنوات",
+    "two_year_rule": "بعض حاملي J-1 يخضعون لمتطلب الإقامة في الوطن لمدة عامين",
+    "application_requirements": {
+      "heading": "المستندات المطلوبة",
+      "requirements": [
+        "جواز سفر ساري المفعول",
+        "نموذج DS-2019 من المنظمة الراعية",
+        "صفحة تأكيد DS-160",
+        "إيصال دفع رسوم SEVIS I-901",
+        "إيصال دفع رسوم طلب التأشيرة",
+        "صورة بحجم جواز السفر",
+        "إثبات الدعم المالي",
+        "وثائق خاصة بالبرنامج",
+        "إثبات إتقان اللغة الإنجليزية (إذا لزم الأمر)",
+        "الأوراق الأكاديمية",
+        "السيرة الذاتية للبرامج المهنية"
+      ]
+    },
+    "j2_dependent_visa": {
+      "heading": "تأشيرة J-2 للمعالين",
+      "description": "تأشيرات J-2 متاحة للأزواج والأطفال غير المتزوجين تحت 21 عاماً من حاملي تأشيرة J-1.",
+      "benefits": [
+        "يمكنهم مرافقة حامل تأشيرة J-1 إلى الولايات المتحدة",
+        "مؤهلون للتقدم للحصول على تصريح عمل (EAD)",
+        "يمكنهم الدراسة بدون تأشيرة إضافية",
+        "نفس مدة برنامج حامل تأشيرة J-1 الرئيسي"
+      ]
+    },
+    "work_authorization": {
+      "heading": "تصريح العمل",
+      "j1": "يعتمد تصريح العمل على فئة البرنامج وموافقة الراعي",
+      "j2": "يمكن للمعالين J-2 التقدم للحصول على وثيقة تصريح العمل (EAD)"
+    },
+    "important_notes": [
+      "يجب الحفاظ على حالة البرنامج الصالحة طوال الإقامة",
+      "لا يمكن تجاوز تاريخ انتهاء التأشيرة أو نهاية البرنامج",
+      "بعض الفئات تخضع لمتطلب الإقامة في الوطن لمدة عامين",
+      "يجب الامتثال لقواعد وأنظمة المنظمة الراعية",
+      "فترة سماح: 30 يوماً بعد إكمال البرنامج"
+    ],
+    "cta": "ابدأ طلب برنامج التبادل J-1 الخاص بك!"
+  }
+}

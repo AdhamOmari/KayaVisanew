@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Qatar Travel Visas",
+    "hero": {
+      "subtitle": "Explore the modern marvels and rich heritage of Qatar"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, leisure, and visiting family",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visit Visa",
+        "description": "For business meetings and professional activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For connecting flights through Hamad International Airport",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (6 months validity)",
+      "Completed online application",
+      "Recent passport photograph",
+      "Hotel booking confirmation",
+      "Return flight ticket",
+      "Bank statement or financial proof"
+    ],
+    "processing_time": "4-5 business days",
+    "validity": "30 days (single entry) or 90 days (multiple entry)",
+    "tips": [
+      "Apply through Qatar Visa Service portal",
+      "Many nationalities eligible for visa-free entry",
+      "Check Qatar's visa waiver program eligibility",
+      "Consider transit visa for extended layovers"
+    ],
+    "with_kaya": [
+      "Online application guidance",
+      "Eligibility assessment",
+      "Document preparation",
+      "Travel planning support"
+    ],
+    "cta": "Discover Qatar with ease today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى قطر",
+    "hero": {
+      "subtitle": "استكشف العجائب الحديثة والتراث الغني لقطر"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة والترفيه وزيارة العائلة",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات التجارية والأنشطة المهنية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "لرحلات الربط عبر مطار حمد الدولي",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 6 أشهر)",
+      "طلب عبر الإنترنت مكتمل",
+      "صورة جواز سفر حديثة",
+      "تأكيد حجز الفندق",
+      "تذكرة طيران العودة",
+      "كشف حساب بنكي أو إثبات مالي"
+    ],
+    "processing_time": "4-5 أيام عمل",
+    "validity": "30 يوماً (دخول فردي) أو 90 يوماً (دخول متعدد)",
+    "tips": [
+      "قدم طلبك من خلال بوابة خدمة التأشيرات القطرية",
+      "العديد من الجنسيات مؤهلة للدخول بدون تأشيرة",
+      "تحقق من أهلية برنامج الإعفاء من التأشيرة القطري",
+      "فكر في تأشيرة العبور للتوقفات الطويلة"
+    ],
+    "with_kaya": [
+      "إرشادات التقديم عبر الإنترنت",
+      "تقييم الأهلية",
+      "إعداد المستندات",
+      "دعم تخطيط السفر"
+    ],
+    "cta": "اكتشف قطر بسهولة اليوم"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "en": {
+    "title": "UK Student Visa",
+    "hero": {
+      "subtitle": "Study at World's Most Prestigious Universities"
+    },
+    "why_uk": {
+      "heading": "Why Choose the UK?",
+      "reasons": [
+        "World-Class Universities: Over 100 universities in international rankings including Oxford and Cambridge",
+        "Shorter Study Duration: Bachelor's degrees take 3 years, Master's typically one year",
+        "Post-Graduation Work: Graduate Route visa grants 2 years to stay and work (3 for PhD)",
+        "Multicultural Environment: Over 500,000 international students annually"
+      ]
+    },
+    "programs": {
+      "heading": "Available Programs",
+      "list": [
+        "English language courses",
+        "Foundation and pre-university programs",
+        "Bachelor's, Master's, and Doctoral degrees",
+        "Short-term study programs"
+      ]
+    },
+    "costs": {
+      "heading": "Estimated Costs (GBP)",
+      "tuition": {
+        "title": "Tuition Fees",
+        "details": [
+          "£11,000–25,000 per year for international students",
+          "Medical and engineering programs significantly higher",
+          "Varies by institution and program level"
+        ]
+      },
+      "living": {
+        "title": "Living Expenses (Visa Requirements)",
+        "details": [
+          "Outside London: £1,023 per month",
+          "Inside London: £1,334 per month",
+          "These are minimum amounts required for visa proof"
+        ]
+      },
+      "fees": {
+        "title": "Visa and Immigration Fees",
+        "details": [
+          "Visa application: approx. £490",
+          "Immigration Health Surcharge (IHS): £776 per year for students",
+          "IHS paid upfront for entire visa duration"
+        ]
+      }
+    },
+    "student_life": {
+      "heading": "Student Life in the UK",
+      "cities": "Vibrant Student Cities: London (culture and business hub), Manchester (music and sports city), Oxford and Cambridge (historic academic atmosphere), Edinburgh and Glasgow (Scottish charm)",
+      "activities": "University Activities: Student societies covering all interests, sports clubs from football to rowing, cultural events and theater throughout the year",
+      "diversity": "Over half a million international students annually creating a multinational environment",
+      "support": "International student offices provide support with accommodation, visas, and employment"
+    },
+    "work_opportunities": {
+      "heading": "Work Opportunities",
+      "during": {
+        "title": "During Study",
+        "options": [
+          {
+            "name": "Part-Time Work",
+            "description": "Undergraduate and postgraduate students can work 20 hours per week during term time, full-time during holidays"
+          },
+          {
+            "name": "Language Students",
+            "description": "Students on English-only programs typically allowed 10 hours per week"
+          }
+        ]
+      },
+      "after": {
+        "title": "After Graduation",
+        "options": [
+          {
+            "name": "Graduate Route Visa",
+            "description": "Stay and work in the UK for 2 years (3 for PhD). No job offer required at application"
+          },
+          {
+            "name": "Career Development",
+            "description": "Gain professional experience and connect studies to the British job market"
+          }
+        ]
+      }
+    },
+    "application_steps": {
+      "heading": "Application Steps",
+      "steps": [
+        "Obtain university admission and CAS (Confirmation of Acceptance for Studies)",
+        "Prepare and translate documents to English",
+        "Apply via UK Immigration website",
+        "Pay visa fee (£490) and IHS (£776/year)",
+        "Book biometrics appointment",
+        "Await decision (usually 3–8 weeks)"
+      ]
+    },
+    "detailed_steps": {
+      "heading": "Detailed Requirements",
+      "steps": [
+        {
+          "number": "1",
+          "title": "CAS Number",
+          "description": "Reference number from UK university containing program details, fees, and study dates"
+        },
+        {
+          "number": "2",
+          "title": "Financial Proof",
+          "description": "Bank statement covering first year tuition + maintenance (£1,023 or £1,334 monthly). Funds held for 28 consecutive days"
+        },
+        {
+          "number": "3",
+          "title": "English Language",
+          "description": "IELTS Academic, TOEFL, or equivalent. Some universities waive if previously studied in English"
+        },
+        {
+          "number": "4",
+          "title": "Academic Certificates",
+          "description": "High school/Bachelor's/Master's certificates translated and authenticated"
+        },
+        {
+          "number": "5",
+          "title": "IHS Payment",
+          "description": "Pay Immigration Health Surcharge for NHS healthcare access"
+        },
+        {
+          "number": "6",
+          "title": "TB Test",
+          "description": "Tuberculosis test may be required depending on country of residence"
+        },
+        {
+          "number": "7",
+          "title": "Police Certificate",
+          "description": "May be required especially if study duration exceeds 6 months"
+        }
+      ]
+    },
+    "tips": {
+      "heading": "Success Tips",
+      "list": [
+        "Ensure CAS number is valid and matches your application exactly",
+        "Maintain funds in account for full 28-day period before applying",
+        "Apply early - processing can take up to 8 weeks during busy periods",
+        "Keep copies of all documents including payment receipts"
+      ]
+    },
+    "documents": {
+      "heading": "Required Documents",
+      "list": [
+        "Valid passport covering study period",
+        "Recent passport-sized photos meeting UK visa standards",
+        "CAS number from UK university",
+        "Bank statements (28-day maintenance requirement)",
+        "English language test results",
+        "Academic certificates (translated and authenticated)",
+        "IHS payment confirmation",
+        "TB test certificate (if applicable)",
+        "Police clearance (if required)"
+      ]
+    },
+    "upon_arrival": {
+      "heading": "Upon Arrival",
+      "steps": [
+        "Register at university",
+        "Collect Biometric Residence Permit (BRP)",
+        "Open local bank account",
+        "Register with GP (doctor) if needed",
+        "Can work 20 hours per week during studies"
+      ]
+    },
+    "with_kaya": {
+      "heading": "With Kaya: Your Path to the UK is Easier",
+      "services": [
+        "Help you choose the right program and university",
+        "Complete visa file preparation with no errors",
+        "Support with financial proof and IHS payment",
+        "Post-arrival follow-up: BRP collection, housing, and job opportunities"
+      ]
+    },
+    "cta": "Start Your British Education Journey Today"
+  },
+  "ar": {
+    "title": "تأشيرة الدراسة في بريطانيا",
+    "hero": {
+      "subtitle": "الدراسة في أعرق الجامعات العالمية"
+    },
+    "why_uk": {
+      "heading": "لماذا بريطانيا؟",
+      "reasons": [
+        "جامعات عالمية: أكثر من 100 جامعة ضمن التصنيفات الدولية بما فيها أكسفورد وكامبريدج",
+        "مدة دراسة أقصر: البكالوريوس 3 سنوات، الماجستير غالبًا سنة واحدة",
+        "فرص عمل بعد التخرج: تأشيرة Graduate Route تمنحك سنتين للبقاء والعمل (3 للدكتوراه)",
+        "بيئة متعددة الثقافات: أكثر من 500,000 طالب دولي سنويًا"
+      ]
+    },
+    "programs": {
+      "heading": "البرامج المتاحة",
+      "list": [
+        "دورات اللغة الإنجليزية",
+        "برامج التأسيس وما قبل الجامعة",
+        "البكالوريوس، الماجستير، والدكتوراه",
+        "برامج الدراسة قصيرة المدى"
+      ]
+    },
+    "costs": {
+      "heading": "التكاليف التقديرية (جنيه إسترليني)",
+      "tuition": {
+        "title": "الرسوم الدراسية",
+        "details": [
+          "11,000 – 25,000 جنيه سنويًا للطلاب الدوليين",
+          "البرامج الطبية والهندسية أعلى بكثير",
+          "تختلف حسب المؤسسة ومستوى البرنامج"
+        ]
+      },
+      "living": {
+        "title": "تكاليف المعيشة (متطلبات التأشيرة)",
+        "details": [
+          "خارج لندن: 1,023 جنيه شهريًا",
+          "داخل لندن: 1,334 جنيه شهريًا",
+          "هذه الحد الأدنى المطلوب لإثبات التأشيرة"
+        ]
+      },
+      "fees": {
+        "title": "رسوم التأشيرة والهجرة",
+        "details": [
+          "طلب التأشيرة: حوالي 490 جنيه",
+          "رسوم التأمين الصحي (IHS): 776 جنيه سنويًا للطلاب",
+          "IHS يُدفع مقدمًا لكامل مدة التأشيرة"
+        ]
+      }
+    },
+    "student_life": {
+      "heading": "الحياة الطلابية في بريطانيا",
+      "cities": "مدن طلابية نابضة: لندن (مركز الثقافة والأعمال)، مانشستر (مدينة الموسيقى والرياضة)، أكسفورد وكامبريدج (أجواء أكاديمية عريقة)، إدنبرة وغلاسكو (سحر اسكتلندي)",
+      "activities": "أنشطة جامعية: جمعيات طلابية تغطي كل الاهتمامات، أندية رياضية من كرة القدم للتجديف، فعاليات ثقافية ومسرحية على مدار السنة",
+      "diversity": "أكثر من نصف مليون طالب دولي سنويًا يخلقون بيئة متعددة الجنسيات",
+      "support": "مكاتب الطلاب الدوليين تقدم دعم بالسكن، التأشيرات، والعمل"
+    },
+    "work_opportunities": {
+      "heading": "فرص العمل",
+      "during": {
+        "title": "أثناء الدراسة",
+        "options": [
+          {
+            "name": "العمل الجزئي",
+            "description": "طلاب البكالوريوس والدراسات العليا يمكنهم العمل 20 ساعة أسبوعيًا خلال الفصل، بدوام كامل في العطل"
+          },
+          {
+            "name": "طلاب اللغة",
+            "description": "طلاب برامج اللغة الإنجليزية فقط عادة 10 ساعات أسبوعيًا"
+          }
+        ]
+      },
+      "after": {
+        "title": "بعد التخرج",
+        "options": [
+          {
+            "name": "تأشيرة Graduate Route",
+            "description": "البقاء والعمل في بريطانيا لمدة سنتين (3 للدكتوراه). لا يُشترط عرض عمل عند التقديم"
+          },
+          {
+            "name": "تطوير المسار المهني",
+            "description": "اكتساب خبرة مهنية وربط الدراسة بسوق العمل البريطاني"
+          }
+        ]
+      }
+    },
+    "application_steps": {
+      "heading": "خطوات التقديم",
+      "steps": [
+        "الحصول على قبول جامعي ورقم CAS",
+        "تجهيز المستندات وترجمتها للإنجليزية",
+        "التقديم عبر موقع الهجرة البريطاني",
+        "دفع رسوم التأشيرة (490 جنيه) و IHS (776 جنيه سنويًا)",
+        "حجز موعد للبصمات",
+        "انتظار القرار (عادة 3–8 أسابيع)"
+      ]
+    },
+    "detailed_steps": {
+      "heading": "المتطلبات التفصيلية",
+      "steps": [
+        {
+          "number": "1",
+          "title": "رقم CAS",
+          "description": "رقم مرجعي من الجامعة البريطانية يتضمن تفاصيل البرنامج والرسوم وتواريخ الدراسة"
+        },
+        {
+          "number": "2",
+          "title": "الإثبات المالي",
+          "description": "كشف حساب يغطي رسوم السنة الأولى + المعيشة (1,023 أو 1,334 جنيه شهريًا). الأموال محفوظة لمدة 28 يوم متواصل"
+        },
+        {
+          "number": "3",
+          "title": "اللغة الإنجليزية",
+          "description": "IELTS Academic أو TOEFL أو معادل. بعض الجامعات تعفيك إذا درست سابقًا بالإنجليزية"
+        },
+        {
+          "number": "4",
+          "title": "الشهادات الأكاديمية",
+          "description": "شهادات الثانوية/البكالوريوس/الماجستير مترجمة ومصدقة"
+        },
+        {
+          "number": "5",
+          "title": "دفع IHS",
+          "description": "دفع رسوم التأمين الصحي للحصول على رعاية NHS"
+        },
+        {
+          "number": "6",
+          "title": "فحص السل",
+          "description": "قد يُطلب فحص السل حسب بلد الإقامة"
+        },
+        {
+          "number": "7",
+          "title": "شهادة الشرطة",
+          "description": "قد تُطلب خاصة إذا تجاوزت مدة الدراسة 6 أشهر"
+        }
+      ]
+    },
+    "tips": {
+      "heading": "نصائح للنجاح",
+      "list": [
+        "تأكد أن رقم CAS صحيح ويطابق طلبك تمامًا",
+        "احتفظ بالأموال في الحساب لكامل فترة 28 يوم قبل التقديم",
+        "قدّم مبكرًا - المعالجة قد تستغرق 8 أسابيع في الأوقات المزدحمة",
+        "احتفظ بنسخ من جميع المستندات بما فيها إيصالات الدفع"
+      ]
+    },
+    "documents": {
+      "heading": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري يغطي فترة الدراسة",
+        "صور حديثة بحجم جواز السفر تطابق معايير التأشيرة البريطانية",
+        "رقم CAS من الجامعة البريطانية",
+        "كشوف حسابات (متطلب 28 يوم)",
+        "نتائج اختبار اللغة الإنجليزية",
+        "الشهادات الأكاديمية (مترجمة ومصدقة)",
+        "تأكيد دفع IHS",
+        "شهادة فحص السل (إن وُجدت)",
+        "شهادة حسن سير وسلوك (إن طُلبت)"
+      ]
+    },
+    "upon_arrival": {
+      "heading": "بعد الوصول",
+      "steps": [
+        "التسجيل في الجامعة",
+        "استلام بطاقة الإقامة البيومترية (BRP)",
+        "فتح حساب بنكي محلي",
+        "التسجيل لدى طبيب (GP) إن لزم",
+        "يمكن العمل 20 ساعة أسبوعيًا أثناء الدراسة"
+      ]
+    },
+    "with_kaya": {
+      "heading": "مع كايا: طريقك إلى بريطانيا أسهل",
+      "services": [
+        "نساعدك في اختيار البرنامج والجامعة المناسبة",
+        "تجهيز ملف تأشيرة كامل بدون أخطاء",
+        "الدعم في إثبات القدرة المالية ودفع IHS",
+        "متابعة بعد الوصول: استلام BRP، السكن، وفرص العمل"
+      ]
+    },
+    "cta": "ابدأ رحلتك التعليمية البريطانية اليوم"
+  }
+}

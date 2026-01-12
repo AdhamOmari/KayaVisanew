@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Japan Travel Visas",
+    "hero": {
+      "subtitle": "Discover the perfect blend of tradition and innovation in Japan"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting relatives",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visit Visa",
+        "description": "For business meetings and short-term professional activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For passing through Japan to another country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed visa application form",
+      "Recent passport photograph",
+      "Travel itinerary",
+      "Proof of financial means",
+      "Flight and hotel reservations"
+    ],
+    "processing_time": "5-7 business days",
+    "validity": "15 to 90 days (single or multiple entry)",
+    "tips": [
+      "Apply at your local Japanese embassy or consulate",
+      "Prepare detailed travel plans",
+      "Show sufficient funds for your stay",
+      "Many nationalities enjoy visa-free short stays"
+    ],
+    "with_kaya": [
+      "Application form guidance",
+      "Itinerary planning support",
+      "Document preparation",
+      "Embassy appointment assistance"
+    ],
+    "cta": "Begin your Japanese adventure today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى اليابان",
+    "hero": {
+      "subtitle": "اكتشف المزيج المثالي بين التقاليد والابتكار في اليابان"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة الأقارب",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات التجارية والأنشطة المهنية قصيرة الأجل",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للمرور عبر اليابان إلى بلد آخر",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب التأشيرة المكتمل",
+      "صورة جواز سفر حديثة",
+      "خط سير الرحلة",
+      "إثبات الوسائل المالية",
+      "حجوزات الطيران والفندق"
+    ],
+    "processing_time": "5-7 أيام عمل",
+    "validity": "من 15 إلى 90 يوماً (دخول فردي أو متعدد)",
+    "tips": [
+      "قدم طلبك في السفارة أو القنصلية اليابانية المحلية",
+      "جهز خطط سفر مفصلة",
+      "أظهر أموالاً كافية لإقامتك",
+      "العديد من الجنسيات تتمتع بإقامات قصيرة بدون تأشيرة"
+    ],
+    "with_kaya": [
+      "إرشادات نموذج الطلب",
+      "دعم تخطيط خط الرحلة",
+      "إعداد المستندات",
+      "المساعدة في موعد السفارة"
+    ],
+    "cta": "ابدأ مغامرتك اليابانية اليوم"
+  }
+}

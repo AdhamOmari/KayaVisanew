@@ -1,0 +1,340 @@
+{
+  "en": {
+    "title": "Our Services",
+    "hero": {
+      "subtitle": "Comprehensive Solutions for Your Journey",
+      "description": "At Kaya, we believe that travel and studying abroad is a comprehensive journey that starts from the very first document and continues until you reach your destination. That's why we have designed a set of services that cover all your needs, making your experience easier and more comfortable."
+    },
+    "categories": [
+      {
+        "name": "Visa Services",
+        "icon": "fa-passport",
+        "services": [
+          {
+            "id": "second-citizenship",
+            "name": "Second Citizenship",
+            "icon": "fa-globe",
+            "feature": "Certified programs for obtaining second citizenship or permanent residency",
+            "benefit": "Wider freedom of movement, investment opportunities, and a more secure future",
+            "value": "Your second passport is an investment in your life and the lives of your family",
+            "link": "/second-citizenship"
+          },
+          {
+            "id": "usa-visas",
+            "name": "U.S. Visas",
+            "icon": "fa-flag-usa",
+            "feature": "Expertise in securing all types of American visas (tourism, study, work)",
+            "benefit": "Entry to the world's largest market with unlimited opportunities",
+            "value": "We simplify complex procedures and ensure the highest acceptance rates",
+            "link": "/usa-visas"
+          },
+          {
+            "id": "schengen-visas",
+            "name": "Schengen Visas",
+            "icon": "fa-plane-departure",
+            "feature": "Expertise in preparing strong files for European visas",
+            "benefit": "Enter 29 European countries with a single visa",
+            "value": "We give you the opportunity to explore Europe easily and comfortably",
+            "link": "/schengen-visas"
+          },
+          {
+            "id": "study-visas",
+            "name": "Study Visas",
+            "icon": "fa-graduation-cap",
+            "feature": "Coordination with global universities and institutes for academic acceptance",
+            "benefit": "Accredited education and personal/professional development opportunities",
+            "value": "We accompany you from choosing your major until you reach the classroom",
+            "link": "/study-visas"
+          },
+          {
+            "id": "work-visas",
+            "name": "Work Visas",
+            "icon": "fa-briefcase",
+            "feature": "Full support in obtaining employment contracts and official visas",
+            "benefit": "New professional start in Gulf States, Europe, or America",
+            "value": "We open the doors to your career future with clear and secure steps",
+            "link": "/work-visas"
+          },
+          {
+            "id": "travel-visas",
+            "name": "Travel Visas",
+            "icon": "fa-suitcase-rolling",
+            "feature": "Securing tourist visas for various destinations worldwide",
+            "benefit": "Seamless trips without complications",
+            "value": "Enjoy a comfortable and guaranteed travel experience",
+            "link": "/travel-visas"
+          }
+        ]
+      },
+      {
+        "name": "Support Services",
+        "icon": "fa-hands-helping",
+        "services": [
+          {
+            "id": "translation",
+            "name": "Translation Services",
+            "icon": "fa-language",
+            "feature": "Certified translation of official documents in multiple languages",
+            "benefit": "Files ready for submission without errors",
+            "value": "We guarantee acceptance of your documents at embassies and universities",
+            "link": "/services/translation"
+          },
+          {
+            "id": "flight-bookings",
+            "name": "Flight Bookings",
+            "icon": "fa-plane",
+            "feature": "Coordinating your trips with the best prices and options",
+            "benefit": "Save time and effort in searching",
+            "value": "Comfortable trips that match your plans",
+            "link": "/services/flight-bookings"
+          },
+          {
+            "id": "hotel-bookings",
+            "name": "Hotel Bookings",
+            "icon": "fa-hotel",
+            "feature": "Wide network of international hotels",
+            "benefit": "Distinguished accommodation that suits your budget",
+            "value": "Comfort and an ideal stay wherever you are",
+            "link": "/services/hotel-bookings"
+          },
+          {
+            "id": "travel-insurance",
+            "name": "Travel Insurance",
+            "icon": "fa-shield-alt",
+            "feature": "Certified insurance plans that cover emergencies",
+            "benefit": "Safe travel without health worries",
+            "value": "Protection for you and your family throughout the journey",
+            "link": "/services/travel-insurance"
+          },
+          {
+            "id": "cover-letter",
+            "name": "Cover Letter",
+            "icon": "fa-file-signature",
+            "feature": "Professional drafting of letters for embassies",
+            "benefit": "Enhance the strength of your file",
+            "value": "We write you a letter that persuades and opens doors",
+            "link": "/services/cover-letter"
+          },
+          {
+            "id": "motivation-letter",
+            "name": "Motivation Letter",
+            "icon": "fa-pen-fancy",
+            "feature": "Writing impactful personal letters for universities or embassies",
+            "benefit": "Clearly highlight your personality and goals",
+            "value": "We help you leave a strong and influential impression",
+            "link": "/services/motivation-letter"
+          },
+          {
+            "id": "travel-plan",
+            "name": "Travel Plan",
+            "icon": "fa-map-marked-alt",
+            "feature": "Preparing detailed and convincing travel itineraries",
+            "benefit": "Support your file before embassies",
+            "value": "A clear plan that makes your trip more organized and professional",
+            "link": "/services/travel-plan"
+          }
+        ]
+      }
+    ],
+    "why_services": {
+      "title": "Why Choose Our Services?",
+      "subtitle": "With Kaya, our services are not just procedures; they are a comprehensive experience where we accompany you step-by-step until you reach your goal with confidence and peace of mind.",
+      "benefits": [
+        {
+          "title": "End-to-End Solutions",
+          "description": "From documentation to arrival, we cover every aspect of your journey",
+          "icon": "fa-route"
+        },
+        {
+          "title": "Expert Team",
+          "description": "Years of experience in visa processing and international travel",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Certified translations, professional letters, and verified bookings",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "Personalized Support",
+          "description": "Tailored services that match your specific needs and goals",
+          "icon": "fa-user-check"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Explore our comprehensive range of services and let us guide you through every step",
+      "button_text": "Contact Us Today"
+    }
+  },
+  "ar": {
+    "title": "خدماتنا",
+    "hero": {
+      "subtitle": "حلول شاملة لرحلتك",
+      "description": "في كايا نؤمن أن السفر والدراسة في الخارج رحلة متكاملة تبدأ من أول ورقة وتستمر حتى وصولك إلى وجهتك. لذلك صممنا مجموعة من الخدمات التي تغطي كل احتياجاتك، لتجعل تجربتك أكثر سهولة وراحة."
+    },
+    "categories": [
+      {
+        "name": "خدمات التأشيرات",
+        "icon": "fa-passport",
+        "services": [
+          {
+            "id": "second-citizenship",
+            "name": "الجنسية الثانية",
+            "icon": "fa-globe",
+            "feature": "برامج معتمدة للحصول على جنسية ثانية أو إقامة دائمة",
+            "benefit": "حرية تنقل أوسع، فرص استثمارية، ومستقبل أكثر أمانًا",
+            "value": "جوازك الثاني هو استثمار في حياتك وحياة عائلتك",
+            "link": "/second-citizenship"
+          },
+          {
+            "id": "usa-visas",
+            "name": "تأشيرات أمريكا",
+            "icon": "fa-flag-usa",
+            "feature": "خبرة في استخراج جميع أنواع التأشيرات الأمريكية (سياحة، دراسة، عمل)",
+            "benefit": "دخول أكبر سوق عالمي بفرص لا محدودة",
+            "value": "نسهّل عليك الإجراءات المعقدة ونضمن أعلى نسب قبول",
+            "link": "/usa-visas"
+          },
+          {
+            "id": "schengen-visas",
+            "name": "تأشيرات الشنغن",
+            "icon": "fa-plane-departure",
+            "feature": "خبرة في تجهيز ملفات قوية لتأشيرات أوروبا",
+            "benefit": "دخول 29 دولة أوروبية بتأشيرة واحدة",
+            "value": "نمنحك فرصة استكشاف أوروبا بسهولة وراحة",
+            "link": "/schengen-visas"
+          },
+          {
+            "id": "study-visas",
+            "name": "تأشيرات الدراسة",
+            "icon": "fa-graduation-cap",
+            "feature": "تنسيق مع الجامعات والمعاهد العالمية للحصول على قبول أكاديمي",
+            "benefit": "تعليم معتمد وفرص تطوير شخصية ومهنية",
+            "value": "نرافقك من اختيار التخصص حتى الوصول إلى قاعة الدراسة",
+            "link": "/study-visas"
+          },
+          {
+            "id": "work-visas",
+            "name": "تأشيرات العمل",
+            "icon": "fa-briefcase",
+            "feature": "دعم كامل في الحصول على عقود عمل وتأشيرات رسمية",
+            "benefit": "بداية مهنية جديدة في دول الخليج، أوروبا، أو أمريكا",
+            "value": "نفتح لك أبواب المستقبل الوظيفي بخطوات واضحة وآمنة",
+            "link": "/work-visas"
+          },
+          {
+            "id": "travel-visas",
+            "name": "تأشيرات السفر",
+            "icon": "fa-suitcase-rolling",
+            "feature": "استخراج تأشيرات سياحية لمختلف الوجهات حول العالم",
+            "benefit": "رحلات سلسة بلا تعقيدات",
+            "value": "استمتع بتجربة سفر مريحة ومضمونة",
+            "link": "/travel-visas"
+          }
+        ]
+      },
+      {
+        "name": "خدمات الدعم",
+        "icon": "fa-hands-helping",
+        "services": [
+          {
+            "id": "translation",
+            "name": "خدمات الترجمة",
+            "icon": "fa-language",
+            "feature": "ترجمة معتمدة للوثائق الرسمية بعدة لغات",
+            "benefit": "ملفاتك جاهزة للتقديم بلا أخطاء",
+            "value": "نضمن قبول أوراقك في السفارات والجامعات",
+            "link": "/services/translation"
+          },
+          {
+            "id": "flight-bookings",
+            "name": "حجوزات الطيران",
+            "icon": "fa-plane",
+            "feature": "تنسيق رحلاتك بأفضل الأسعار والخيارات",
+            "benefit": "توفير وقت وجهد في البحث",
+            "value": "رحلات مريحة ومطابقة لخططك",
+            "link": "/services/flight-bookings"
+          },
+          {
+            "id": "hotel-bookings",
+            "name": "حجوزات الفنادق",
+            "icon": "fa-hotel",
+            "feature": "شبكة واسعة من الفنادق العالمية",
+            "benefit": "إقامة مميزة تناسب ميزانيتك",
+            "value": "راحة وإقامة مثالية أينما كنت",
+            "link": "/services/hotel-bookings"
+          },
+          {
+            "id": "travel-insurance",
+            "name": "تأمين السفر الصحي",
+            "icon": "fa-shield-alt",
+            "feature": "خطط تأمين معتمدة تغطي الطوارئ",
+            "benefit": "سفر آمن بلا قلق صحي",
+            "value": "حماية لك ولعائلتك طوال الرحلة",
+            "link": "/services/travel-insurance"
+          },
+          {
+            "id": "cover-letter",
+            "name": "رسالة التغطية",
+            "icon": "fa-file-signature",
+            "feature": "صياغة احترافية لرسائل السفارات",
+            "benefit": "تعزيز قوة ملفك",
+            "value": "نكتب لك رسالة تقنع وتفتح الأبواب",
+            "link": "/services/cover-letter"
+          },
+          {
+            "id": "motivation-letter",
+            "name": "رسالة الدافع",
+            "icon": "fa-pen-fancy",
+            "feature": "كتابة رسائل شخصية مؤثرة للجامعات أو السفارات",
+            "benefit": "إبراز شخصيتك وأهدافك بوضوح",
+            "value": "نساعدك على ترك انطباع قوي ومؤثر",
+            "link": "/services/motivation-letter"
+          },
+          {
+            "id": "travel-plan",
+            "name": "خطة السفر",
+            "icon": "fa-map-marked-alt",
+            "feature": "إعداد خطط سفر مفصلة ومقنعة",
+            "benefit": "دعم ملفك أمام السفارات",
+            "value": "خطة واضحة تجعل رحلتك أكثر تنظيمًا واحترافية",
+            "link": "/services/travel-plan"
+          }
+        ]
+      }
+    ],
+    "why_services": {
+      "title": "لماذا تختار خدماتنا؟",
+      "subtitle": "مع كايا، خدماتنا ليست مجرد إجراءات، بل هي تجربة متكاملة نرافقك فيها خطوة بخطوة حتى تصل إلى هدفك بثقة وراحة بال.",
+      "benefits": [
+        {
+          "title": "حلول شاملة من البداية للنهاية",
+          "description": "من التوثيق إلى الوصول، نغطي كل جانب من جوانب رحلتك",
+          "icon": "fa-route"
+        },
+        {
+          "title": "فريق خبراء",
+          "description": "سنوات من الخبرة في معالجة التأشيرات والسفر الدولي",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "ضمان الجودة",
+          "description": "ترجمات معتمدة، رسائل احترافية، وحجوزات موثقة",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "دعم شخصي",
+          "description": "خدمات مخصصة تتناسب مع احتياجاتك وأهدافك المحددة",
+          "icon": "fa-user-check"
+        }
+      ]
+    },
+    "cta": {
+      "title": "هل أنت مستعد للبدء؟",
+      "description": "استكشف مجموعتنا الشاملة من الخدمات ودعنا نرشدك خلال كل خطوة",
+      "button_text": "تواصل معنا اليوم"
+    }
+  }
+}

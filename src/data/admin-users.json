@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "email": "admin@kaya.com",
+    "password": "kaya-admin-2026",
+    "name": {
+      "en": "Super Admin",
+      "ar": "المسؤول الرئيسي"
+    },
+    "role": "super-admin",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "active": true
+  },
+  {
+    "id": "2",
+    "email": "editor@kaya.com",
+    "password": "kaya-editor-2026",
+    "name": {
+      "en": "Blog Editor",
+      "ar": "محرر المدونة"
+    },
+    "role": "sub-admin",
+    "createdAt": "2026-01-10T00:00:00.000Z",
+    "active": true
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "en": {
+    "title": "United States of America Visas",
+    "hero": {
+      "heading": "Your Gateway to the Land of Opportunities",
+      "subtitle": "Explore diverse visa options for tourism, education, work, and immigration to the United States"
+    },
+    "overview": {
+      "heading": "Overview",
+      "description": "The United States of America (USA) is one of the world's largest and most significant nations, comprising 50 states extending from the Atlantic Ocean in the East to the Pacific Ocean in the West. Founded in 1776 after the Declaration of Independence, the US is today a leading global power in economy, education, technology, and culture.",
+      "additional": "America is known as the land of dreams, where investment and educational opportunities are diverse, attracting millions of visitors and students annually. It is home to the most prestigious universities worldwide, such as Harvard, MIT, and Stanford University, in addition to prominent tourist attractions like the Statue of Liberty, the White House, the Grand Canyon, and Disneyland, among others."
+    },
+    "why_travel": {
+      "heading": "Why Should You Travel to the United States?",
+      "reasons": [
+        "Prestigious education at the world's most elite universities",
+        "Economic opportunities for ambitious entrepreneurs and professionals",
+        "Cultural diversity that enriches the mind and experience",
+        "Unparalleled tourist landmarks like New York, Los Angeles, and Grand Canyon",
+        "Ideal environment for professional skill development",
+        "Diverse community that welcomes visitors from all over the world"
+      ],
+      "conclusion": "Whether you seek an unforgettable tourist trip, an educational opportunity that opens future horizons, or a work experience that adds to your professional value, America grants you all this and more."
+    },
+    "visa_categories": {
+      "heading": "Types of US Visas",
+      "immigrant": {
+        "title": "Immigrant Visas",
+        "description": "Intended for those seeking permanent residence in the United States and obtaining a Green Card.",
+        "types": [
+          {
+            "name": "Family Reunification",
+            "description": "The most common path, where US citizens and permanent residents can sponsor their spouses, children, or parents"
+          },
+          {
+            "name": "Employment-Based Visas",
+            "description": "Granted to highly skilled individuals or investors who contribute to the US economy"
+          },
+          {
+            "name": "Diversity Visa Lottery",
+            "description": "Annually grants thousands of individuals from different countries the opportunity to obtain permanent residency"
+          }
+        ],
+        "note": "After obtaining a Green Card, one can later apply for US citizenship."
+      },
+      "nonimmigrant": {
+        "title": "Non-Immigrant Visas",
+        "description": "Intended for those seeking temporary travel for specific purposes such as tourism, study, work, or medical treatment."
+      }
+    },
+    "key_visas": {
+      "heading": "Key Non-Immigrant Visas",
+      "visas": [
+        {
+          "code": "B1-B2",
+          "name": "Tourism, Visit & Business Visa",
+          "description": "Granted to individuals wishing to visit the United States for tourism, short business trips, or medical treatment",
+          "link": "/usa-visas/b1-b2",
+          "icon": "plane"
+        },
+        {
+          "code": "F1-F2",
+          "name": "Academic Study Visa",
+          "description": "Designed for students seeking to enroll in U.S. universities, also granted to accompanying family members",
+          "link": "/usa-visas/f1-f2",
+          "icon": "graduation-cap"
+        },
+        {
+          "code": "M1-M2",
+          "name": "Vocational Study Visa",
+          "description": "Issued to students pursuing vocational or technical studies at specialized institutes in the United States",
+          "link": "#",
+          "icon": "tools"
+        },
+        {
+          "code": "J1-J2",
+          "name": "Cultural Exchange Visa",
+          "description": "Intended for educational, training, and cultural exchange programs, also covering accompanying family members",
+          "link": "/usa-visas/j1-j2",
+          "icon": "globe"
+        },
+        {
+          "code": "H1B",
+          "name": "Specialized Work Visa",
+          "description": "Granted to professionals in specific fields to work for U.S. companies for a limited period of time",
+          "link": "#",
+          "icon": "briefcase"
+        },
+        {
+          "code": "H2B",
+          "name": "Temporary Work Visa",
+          "description": "For seasonal or temporary employment in sectors such as tourism, agriculture, and services",
+          "link": "#",
+          "icon": "user-tie"
+        }
+      ]
+    },
+    "states": {
+      "heading": "Discover the 50 U.S. States",
+      "list": [
+        "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
+        "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+        "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi",
+        "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico",
+        "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+        "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
+        "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+      ]
+    },
+    "cta": "Start your journey towards the United States today with Kaya — find the most suitable visa for you and fulfill your dream in the land of opportunities"
+  },
+  "ar": {
+    "title": "تأشيرات الولايات المتحدة الأميركية",
+    "hero": {
+      "heading": "بوابتك إلى بلاد الفرص",
+      "subtitle": "استكشف خيارات التأشيرات المتنوعة للسياحة والتعليم والعمل والهجرة إلى الولايات المتحدة"
+    },
+    "overview": {
+      "heading": "لمحة عن الولايات المتحدة",
+      "description": "الولايات المتحدة الأميركية هي واحدة من أكبر وأهم الدول في العالم، تضم 50 ولاية تمتد من المحيط الأطلسي شرقاً إلى المحيط الهادئ غرباً. تأسست عام 1776 بعد إعلان الاستقلال، لتصبح اليوم قوة عالمية رائدة في الاقتصاد، التعليم، التكنولوجيا والثقافة.",
+      "additional": "تُعرف أميركا بأنها بلاد الأحلام، حيث تتنوع الفرص الاستثمارية والتعليمية وتستقطب ملايين الزوار والطلاب سنوياً. فهي موطن لأشهر الجامعات العالمية مثل هارفارد، معهد MIT، جامعة ستانفورد، إضافة إلى معالم سياحية بارزة مثل تمثال الحرية، البيت الأبيض، جراند كانيون، ديزني لاند وغيرها."
+    },
+    "why_travel": {
+      "heading": "لماذا عليك السفر إلى الولايات المتحدة الأميركية؟",
+      "reasons": [
+        "التعليم المرموق في أرقى الجامعات العالمية",
+        "الفرص الاقتصادية التي تفتح الأبواب أمام رواد الأعمال والمهنيين الطموحين",
+        "التنوع الثقافي الذي يثري الفكر والتجربة",
+        "المعالم السياحية التي لا مثيل لها مثل نيويورك، لوس أنجلوس وجراند كانيون",
+        "بيئة مثالية للراغبين في تطوير مهاراتهم المهنية",
+        "مجتمع متنوع يرحب بالزوار من مختلف أنحاء العالم"
+      ],
+      "conclusion": "سواء كنت تبحث عن رحلة سياحية لا تُنسى، فرصة تعليمية تفتح لك آفاق المستقبل، أو تجربة عمل تضيف لقيمتك المهنية، فإن أميركا تمنحك كل ذلك وأكثر."
+    },
+    "visa_categories": {
+      "heading": "أنواع التأشيرات الأميركية",
+      "immigrant": {
+        "title": "تأشيرات الهجرة",
+        "description": "مخصصة للراغبين في الإقامة الدائمة بالولايات المتحدة والحصول على البطاقة الخضراء (Green Card).",
+        "types": [
+          {
+            "name": "لم الشمل العائلي",
+            "description": "أكثر الطرق شيوعاً، حيث يمكن للمواطنين الأميركيين والمقيمين الدائمين رعاية أزواجهم، أطفالهم، أو والديهم"
+          },
+          {
+            "name": "التأشيرات القائمة على العمل",
+            "description": "تُمنح لأصحاب المهارات العالية أو المستثمرين الذين يساهمون في الاقتصاد الأميركي"
+          },
+          {
+            "name": "برنامج الهجرة العشوائية",
+            "description": "يمنح سنوياً آلاف الأشخاص من دول مختلفة فرصة الحصول على الإقامة الدائمة"
+          }
+        ],
+        "note": "بعد الحصول على البطاقة الخضراء، يمكن التقديم لاحقاً للحصول على الجنسية الأميركية."
+      },
+      "nonimmigrant": {
+        "title": "تأشيرات غير الهجرة",
+        "description": "مخصصة للراغبين في السفر المؤقت لأغراض محددة مثل السياحة، الدراسة، العمل أو العلاج."
+      }
+    },
+    "key_visas": {
+      "heading": "أهم تأشيرات غير المهاجرين",
+      "visas": [
+        {
+          "code": "B1-B2",
+          "name": "تأشيرات السياحة والزيارة والعلاج",
+          "description": "تُمنح هذه التأشيرة للراغبين في زيارة الولايات المتحدة بغرض السياحة، الأعمال القصيرة، أو تلقي العلاج الطبي",
+          "link": "/usa-visas/b1-b2",
+          "icon": "plane"
+        },
+        {
+          "code": "F1-F2",
+          "name": "تأشيرات الدراسة الأكاديمية",
+          "description": "مخصصة للطلاب الراغبين في الالتحاق بالجامعات الأميركية وتُمنح أيضاً للمرافقين من أفراد العائلة",
+          "link": "/usa-visas/f1-f2",
+          "icon": "graduation-cap"
+        },
+        {
+          "code": "M1-M2",
+          "name": "تأشيرات الدراسة المهنية",
+          "description": "تُمنح للطلاب الراغبين في دراسة مهنية أو تقنية في معاهد متخصصة داخل الولايات المتحدة",
+          "link": "#",
+          "icon": "tools"
+        },
+        {
+          "code": "J1-J2",
+          "name": "تأشيرات التبادل الثقافي",
+          "description": "مخصصة للبرامج التعليمية والتدريبية والتبادل الثقافي، وتشمل المرافقين أيضاً",
+          "link": "/usa-visas/j1-j2",
+          "icon": "globe"
+        },
+        {
+          "code": "H1B",
+          "name": "تأشيرة العمل المتخصص",
+          "description": "تُمنح للمتخصصين في مجالات محددة للعمل لدى شركات أميركية لفترة زمنية محددة",
+          "link": "#",
+          "icon": "briefcase"
+        },
+        {
+          "code": "H2B",
+          "name": "تأشيرة العمالة المؤقتة",
+          "description": "للعمل الموسمي أو المؤقت في قطاعات مثل السياحة، الزراعة والخدمات",
+          "link": "#",
+          "icon": "user-tie"
+        }
+      ]
+    },
+    "states": {
+      "heading": "تعرّف على ولايات أميركا الـ 50",
+      "list": [
+        "ألاباما", "ألاسكا", "أريزونا", "أركنساس", "كاليفورنيا", "كولورادو", "كونيتيكت", "ديلاوير",
+        "فلوريدا", "جورجيا", "هاواي", "آيداهو", "إلينوي", "إنديانا", "آيوا", "كانساس", "كنتاكي",
+        "لويزيانا", "ماين", "ماريلاند", "ماساتشوستس", "ميشيغان", "مينيسوتا", "ميسيسيبي",
+        "ميزوري", "مونتانا", "نبراسكا", "نيفادا", "نيوهامبشير", "نيوجيرسي", "نيو مكسيكو",
+        "نيويورك", "نورث كارولاينا", "نورث داكوتا", "أوهايو", "أوكلاهوما", "أوريغون", "بنسلفانيا",
+        "رود آيلاند", "ساوث كارولاينا", "ساوث داكوتا", "تينيسي", "تكساس", "يوتا", "فيرمونت",
+        "فيرجينيا", "واشنطن", "ويست فيرجينيا", "ويسكونسن", "وايومنغ"
+      ]
+    },
+    "cta": "ابدأ رحلتك نحو الولايات المتحدة اليوم مع كايا — اضغط هنا لتجد التأشيرة الأنسب لك وحقق حلمك في بلاد الفرص"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "en": {
+    "title": "Points-Based Visa – Germany (Chancenkarte - Opportunity Card)",
+    "hero": {
+      "subtitle": "New residence permit to attract skilled professionals through transparent points system"
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "The Points-Based Visa (Chancenkarte), or 'Opportunity Card,' is a new residence permit aimed at attracting skilled professionals from outside the European Union. It relies on a transparent points system that allows qualified professionals to legally enter Germany to search for a job or an internship. This card serves as a bridge to a professional future, granting you residency for up to 12 months, extendable, with the possibility of part-time work to cover living expenses while searching for a job."
+    },
+    "benefits": {
+      "title": "Key Benefits",
+      "list": [
+        "Residence for up to 12 months to search for a job",
+        "High flexibility - no prior job contract needed to apply",
+        "Possibility of part-time work (up to 20 hours per week) to cover expenses",
+        "Opportunity for internship during the search period",
+        "Integration opportunity in Europe's largest economy",
+        "Family reunification possible after securing a job contract",
+        "Conversion to Work Residence Permit or EU Blue Card upon signing a contract"
+      ]
+    },
+    "points_system": {
+      "title": "Points System – How It Works",
+      "description": "To obtain the card, you must achieve at least 6 points based on the following criteria:",
+      "criteria": [
+        {
+          "category": "Educational Qualification",
+          "points": "Recognized university or professional degree = 2 points"
+        },
+        {
+          "category": "Work Experience",
+          "points": "2 years = 2 points, 5 years = 3 points"
+        },
+        {
+          "category": "Age",
+          "points": "Under 35 years = 2 points, 35-40 years = 1 point"
+        },
+        {
+          "category": "Language Proficiency (German)",
+          "points": "Level B1 = 3 points, Level A2 = 1 point"
+        },
+        {
+          "category": "Previous Stay in Germany",
+          "points": "Study or work experience = 1 additional point"
+        },
+        {
+          "category": "In-Demand Fields",
+          "points": "Specialization in shortage occupations (IT, healthcare, engineering) = extra points"
+        }
+      ]
+    },
+    "requirements": {
+      "title": "Basic Requirements",
+      "list": [
+        "Recognized university or professional qualification in Germany",
+        "Proven professional experience",
+        "Proof of financial capacity to cover living costs (Blocked Account or sponsor declaration)",
+        "Health insurance covering the residence period",
+        "Achieving minimum required points (6 points)"
+      ]
+    },
+    "process": {
+      "title": "Application Steps",
+      "steps": [
+        {
+          "title": "Prepare Documents",
+          "description": "Prepare and translate documents to German or English"
+        },
+        {
+          "title": "Book Appointment",
+          "description": "Book an appointment at the German Embassy or Consulate"
+        },
+        {
+          "title": "Submit Application",
+          "description": "Submit the application and pay the fees (€75)"
+        },
+        {
+          "title": "Wait for Decision",
+          "description": "Usually 6-12 weeks processing time"
+        },
+        {
+          "title": "Travel to Germany",
+          "description": "Travel to Germany and commence your job search"
+        }
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "list": [
+        "Valid Passport",
+        "Recent Biometric Photos (3.5 × 4.5 cm, light/white background, no patterns or shadows)",
+        "Professional CV",
+        "Motivation Letter outlining your job search plan",
+        "Translated and legalized academic qualifications",
+        "Proof of professional experience",
+        "Proof of financial capacity (Blocked Account or formal sponsor declaration)",
+        "Travel health insurance"
+      ]
+    },
+    "processing_time": "Usually 6-12 weeks",
+    "validity": "Up to 12 months, extendable",
+    "fees": {
+      "title": "Fees and Costs",
+      "official": [
+        "National Visa (D-Visa) application: €75",
+        "Residence permit (for later conversion to work permit or Blue Card): €100-€140",
+        "Renewal or extension: €80-€100"
+      ],
+      "financial_proof": [
+        "Must prove ability to cover living costs for entire stay (up to 12 months)",
+        "Blocked Account: approximately €1,027 per month (€12,324 for full year)",
+        "Alternative: Formal Obligation (Verpflichtungserklärung) from resident in Germany"
+      ],
+      "health_insurance": [
+        "Mandatory for entire residence period",
+        "Cost varies by type (private or public): €40-€120 per month"
+      ],
+      "additional": [
+        "Translation and legalization of certificates: €200-€600",
+        "Biometric photos: €10-€20",
+        "Appointment or courier service fees: €20-€50"
+      ],
+      "notes": [
+        "Fees are non-refundable even if application is rejected",
+        "Costs may vary by country of submission or bank used for Blocked Account",
+        "Additional fees may apply after securing job and converting to work permit"
+      ]
+    },
+    "tips": {
+      "title": "Important Tips",
+      "list": [
+        "You can work part-time (up to 20 hours per week) while searching for a job",
+        "The card can be converted to a work permit or EU Blue Card after securing employment",
+        "German language proficiency (at least A2) increases your points significantly",
+        "Previous experience in Germany adds valuable points to your application",
+        "Specializations in shortage occupations (IT, healthcare, engineering) receive extra points"
+      ]
+    },
+    "with_kaya": {
+      "title": "How Kaya Helps You",
+      "services": [
+        "Comprehensive assessment of your opportunities according to the points system",
+        "Preparation of your professional file and CV according to German standards",
+        "Legal and certified preparation and translation of documents",
+        "Step-by-step follow-up of the application until the card is issued",
+        "Additional consultations on job opportunities and integration in Germany"
+      ]
+    },
+    "cta": {
+      "title": "Start Your German Career",
+      "description": "With Kaya, the Opportunity Card (Chancenkarte) is not just a visa; it is a new beginning towards a promising professional future in the heart of Europe.",
+      "button_text": "Contact Us"
+    }
+  },
+  "ar": {
+    "title": "تأشيرة النقاط – ألمانيا (Chancenkarte)",
+    "hero": {
+      "subtitle": "تصريح إقامة جديد لجذب الكفاءات عبر نظام نقاط شفاف"
+    },
+    "overview": {
+      "title": "لمحة عامة",
+      "description": "تأشيرة النقاط (Chancenkarte) أو ما يُعرف بـ 'بطاقة الفرص' هي تصريح إقامة جديد يهدف إلى جذب الكفاءات من خارج الاتحاد الأوروبي. تعتمد على نظام نقاط شفاف يتيح للمهنيين المؤهلين دخول ألمانيا بشكل قانوني للبحث عن عمل أو تدريب عملي. هذه البطاقة تمثل جسراً نحو المستقبل المهني، حيث تمنحك إقامة تصل إلى 12 شهراً قابلة للتمديد، مع إمكانية العمل الجزئي لتغطية نفقات المعيشة أثناء البحث عن وظيفة."
+    },
+    "benefits": {
+      "title": "المزايا الرئيسية",
+      "list": [
+        "إقامة تصل إلى 12 شهراً للبحث عن عمل",
+        "مرونة عالية - لا تحتاج إلى عقد عمل مسبق للتقديم",
+        "إمكانية العمل الجزئي (حتى 20 ساعة أسبوعياً) لتغطية النفقات",
+        "فرصة التدريب العملي (Internship) أثناء فترة البحث",
+        "فرصة اندماج في أكبر اقتصاد أوروبي",
+        "إمكانية لمّ الشمل العائلي بعد الحصول على عقد عمل",
+        "التحويل إلى إقامة عمل أو EU Blue Card عند توقيع عقد"
+      ]
+    },
+    "points_system": {
+      "title": "نظام النقاط – كيف يعمل؟",
+      "description": "للحصول على البطاقة يجب تحقيق 6 نقاط على الأقل من خلال المعايير التالية:",
+      "criteria": [
+        {
+          "category": "المؤهل العلمي",
+          "points": "شهادة جامعية أو مهنية معترف بها = نقطتان"
+        },
+        {
+          "category": "الخبرة العملية",
+          "points": "سنتان خبرة = نقطتان، خمس سنوات = ثلاث نقاط"
+        },
+        {
+          "category": "العمر",
+          "points": "أقل من 35 عاماً = نقطتان، بين 35-40 = نقطة واحدة"
+        },
+        {
+          "category": "اللغة الألمانية",
+          "points": "مستوى B1 = ثلاث نقاط، مستوى A2 = نقطة واحدة"
+        },
+        {
+          "category": "الإقامة السابقة في ألمانيا",
+          "points": "دراسة أو عمل سابق = نقطة إضافية"
+        },
+        {
+          "category": "المجالات المطلوبة",
+          "points": "تخصص ضمن المهن التي تعاني من نقص (تكنولوجيا المعلومات، الرعاية الصحية، الهندسة) = نقاط إضافية"
+        }
+      ]
+    },
+    "requirements": {
+      "title": "الشروط الأساسية",
+      "list": [
+        "مؤهل جامعي أو مهني معترف به في ألمانيا",
+        "خبرة عملية مثبتة",
+        "إثبات القدرة المالية لتغطية تكاليف المعيشة (حساب بنكي مغلق أو كفالة)",
+        "تأمين صحي يغطي فترة الإقامة",
+        "تحقيق الحد الأدنى من النقاط (6 نقاط)"
+      ]
+    },
+    "process": {
+      "title": "خطوات التقديم",
+      "steps": [
+        {
+          "title": "تجهيز المستندات",
+          "description": "تجهيز المستندات وترجمتها للغة الألمانية أو الإنجليزية"
+        },
+        {
+          "title": "حجز موعد",
+          "description": "حجز موعد في السفارة أو القنصلية الألمانية"
+        },
+        {
+          "title": "تقديم الطلب",
+          "description": "تقديم الطلب ودفع الرسوم (75 يورو)"
+        },
+        {
+          "title": "انتظار القرار",
+          "description": "عادة من 6-12 أسبوعاً"
+        },
+        {
+          "title": "السفر إلى ألمانيا",
+          "description": "السفر إلى ألمانيا والبدء في البحث عن عمل"
+        }
+      ]
+    },
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري المفعول",
+        "صور شخصية حديثة وفق المواصفات البيومترية (3.5 × 4.5 سم، خلفية فاتحة، بدون نقوش أو ظلال)",
+        "سيرة ذاتية احترافية",
+        "رسالة دافع توضّح خطة البحث عن عمل",
+        "شهادات المؤهل العلمي مترجمة ومصدّقة",
+        "إثبات الخبرة العملية",
+        "إثبات القدرة المالية (حساب بنكي مغلق أو كفالة)",
+        "تأمين صحي للسفر"
+      ]
+    },
+    "processing_time": "عادة من 6-12 أسبوعاً",
+    "validity": "حتى 12 شهراً، قابلة للتمديد",
+    "fees": {
+      "title": "الرسوم والتكاليف",
+      "official": [
+        "رسوم طلب التأشيرة الوطنية (D-Visa): 75 يورو",
+        "رسوم تصريح الإقامة (عند التحويل لاحقاً): 100-140 يورو",
+        "رسوم التجديد أو التمديد: 80-100 يورو"
+      ],
+      "financial_proof": [
+        "يجب إثبات القدرة على تغطية تكاليف المعيشة طوال فترة الإقامة (حتى 12 شهراً)",
+        "حساب بنكي مغلق (Blocked Account): حوالي 1,027 يورو شهرياً (12,324 يورو لسنة كاملة)",
+        "بديل: كفالة رسمية (Verpflichtungserklärung) من شخص مقيم في ألمانيا"
+      ],
+      "health_insurance": [
+        "إلزامي طوال فترة الإقامة",
+        "التكلفة تختلف حسب نوع التأمين (خاص أو عام): 40-120 يورو شهرياً"
+      ],
+      "additional": [
+        "ترجمة وتصديق الشهادات: 200-600 يورو",
+        "صور شخصية بيومترية: 10-20 يورو",
+        "رسوم خدمات المواعيد أو البريد: 20-50 يورو"
+      ],
+      "notes": [
+        "الرسوم غير قابلة للاسترداد حتى في حال رفض الطلب",
+        "التكاليف قد تختلف قليلاً حسب بلد التقديم أو البنك الذي يفتح الحساب المغلق",
+        "بعد الحصول على عقد عمل وتحويل البطاقة، قد تُفرض رسوم إضافية"
+      ]
+    },
+    "tips": {
+      "title": "نصائح مهمة",
+      "list": [
+        "يمكنك العمل الجزئي (حتى 20 ساعة أسبوعياً) أثناء البحث عن عمل",
+        "يمكن تحويل البطاقة إلى إقامة عمل أو EU Blue Card بعد الحصول على وظيفة",
+        "إتقان اللغة الألمانية (على الأقل A2) يزيد نقاطك بشكل كبير",
+        "الخبرة السابقة في ألمانيا تضيف نقاطاً قيمة لطلبك",
+        "التخصصات في المهن المطلوبة (تكنولوجيا المعلومات، الرعاية الصحية، الهندسة) تحصل على نقاط إضافية"
+      ]
+    },
+    "with_kaya": {
+      "title": "ما نقدمه لك في كايا",
+      "services": [
+        "تقييم شامل لفرصك وفق نظام النقاط",
+        "إعداد ملفك المهني والسيرة الذاتية وفق المعايير الألمانية",
+        "تجهيز وترجمة المستندات بشكل قانوني معتمد",
+        "متابعة الطلب خطوة بخطوة حتى صدور البطاقة",
+        "استشارات إضافية حول فرص العمل والاندماج في ألمانيا"
+      ]
+    },
+    "cta": {
+      "title": "ابدأ مسيرتك الألمانية",
+      "description": "مع كايا، بطاقة الفرص (Chancenkarte) ليست مجرد تأشيرة، بل هي بداية جديدة نحو مستقبل مهني واعد في قلب أوروبا.",
+      "button_text": "تواصل معنا"
+    }
+  }
+}

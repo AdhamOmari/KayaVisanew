@@ -1,0 +1,110 @@
+{
+  "en": {
+    "title": "Spain Student Visa",
+    "hero": {"subtitle": "Study Where Language Meets Culture and Opportunity"},
+    "why_spain": {
+      "heading": "Why Choose Spain?",
+      "reasons": ["Global Language: Study Spanish in its native environment, opening doors across Europe, Latin America, Middle East", "Balanced Living Costs: Lower than Western Europe with high quality of life", "Rich Student Life: Festivals, museums, football, continuous cultural scenes", "Historic Universities & Modern Programs: From Business and Tourism to Arts and Technology", "Legal Part-Time Work: Work during studies within specific limits"]
+    },
+    "programs": {
+      "heading": "Available Programs",
+      "list": ["Language Institutes: Intensive courses, DELE preparation, cultural integration", "Universities: Bachelor's and Master's in Spanish and English", "Exchange and practical training programs"]
+    },
+    "costs": {
+      "heading": "Estimated Costs (EUR)",
+      "tuition": {"title": "Annual Tuition Fees", "details": ["EUR 5,000-12,000 depending on program and university", "Private universities higher than public"]},
+      "living": {"title": "Monthly Living Expenses", "details": ["EUR 600-900 per month", "Includes housing, transportation, food, basic insurance", "Barcelona and Madrid slightly higher, Valencia and Granada more balanced"]},
+      "visa": {"title": "Visa and Application Fees", "details": ["Consular fee: EUR 60-80", "Non-refundable regardless of decision", "Payment methods vary by consulate"]}
+    },
+    "student_life": {
+      "heading": "Student Life in Spanish Cities",
+      "cities": "Major Cities: Madrid (business and culture hub), Barcelona (creativity and innovation), Valencia (quality of life, lower costs), Granada and Salamanca (historic, student-friendly budgets)",
+      "activities": "University activities, student societies, cultural events, music festivals, sports",
+      "diversity": "Welcoming environment for international students"
+    },
+    "work_opportunities": {
+      "heading": "Work Opportunities",
+      "during": {"title": "During Study", "options": [{"name": "Part-Time Work", "description": "Allowed within specified weekly hour limits. Requires employment contract and permit linked to program"}, {"name": "Internships", "description": "Wide opportunities in tourism, marketing, arts, technology"}]},
+      "after": {"title": "After Graduation", "options": [{"name": "Job Search Residence", "description": "Can apply to convert status for job search or entrepreneurship per regulations"}, {"name": "Legal Time", "description": "Provides legal period to explore career opportunities in Spain"}]}
+    },
+    "application_steps": {
+      "heading": "Application Steps",
+      "steps": ["Choose program and obtain official admission letter", "Prepare visa file: application form, passport, admission, financial proof, insurance", "Book consulate appointment", "Pay consular fee (EUR 60-80)", "Attend interview if requested", "Await decision (4-8 weeks)"]
+    },
+    "detailed_steps": {
+      "heading": "Detailed Requirements",
+      "steps": [
+        {"number": "1", "title": "Admission Letter", "description": "Official letter from accredited Spanish university or language institute specifying program, duration, weekly hours (min 20 for language)"},
+        {"number": "2", "title": "Financial Proof", "description": "Recent bank statement (3-6 months) in student or guardian name, or financial sponsorship letter. Usually EUR 600-700 monthly + tuition"},
+        {"number": "3", "title": "Health Insurance", "description": "Comprehensive coverage for entire stay including emergencies, treatment, repatriation"},
+        {"number": "4", "title": "Police Clearance", "description": "From country of residence or any country lived in 6+ months past 5 years. Must be certified and translated"},
+        {"number": "5", "title": "Medical Certificate", "description": "Proving freedom from contagious diseases. Issued within last 3 months"},
+        {"number": "6", "title": "Accommodation Proof", "description": "Rental contract or letter from institution confirming housing. Preliminary booking accepted"}
+      ]
+    },
+    "documents": {
+      "heading": "Required Documents",
+      "list": ["Valid passport (covers study + 6 months)", "Recent personal photos (white background)", "Official admission letter", "Financial proof (bank statement or sponsorship)", "Comprehensive health insurance", "Police clearance certificate", "Medical certificate (within 3 months)", "Proof of accommodation", "Completed visa application form", "Travel plan (preliminary flight booking)", "Consular fee receipt (EUR 60-80)"]
+    },
+    "upon_arrival": {
+      "heading": "Upon Arrival in Spain",
+      "steps": ["Obtain TIE (student residence card) within 30 days", "Complete Empadronamiento (municipal registration)", "Open local bank account", "Can begin part-time work with proper permits"]
+    },
+    "with_kaya": {"heading": "With Kaya: Your Path to Spain is Easier", "services": ["Personalized program matching", "Flawless visa file preparation: review, translation, authentication", "Accommodation coordination from booking to bank account", "Post-arrival: TIE procedures, municipal registration, part-time job search"]},
+    "cta": "Start Your Spanish Education Journey Today"
+  },
+  "ar": {
+    "title": "تأشيرة الدراسة في إسبانيا",
+    "hero": {"subtitle": "الدراسة حيث تلتقي اللغة بالثقافة والفرص"},
+    "why_spain": {
+      "heading": "لماذا إسبانيا؟",
+      "reasons": ["لغة عالمية: دراسة الإسبانية في بيئتها الأصلية تفتح أبواب العمل في أوروبا وأميركا اللاتينية والشرق الأوسط", "تكاليف معيشة متوازنة: أقل من غرب أوروبا مع جودة حياة عالية", "حياة طلابية غنية: مهرجانات، متاحف، كرة قدم، مشاهد ثقافية متواصلة", "جامعات عريقة وبرامج حديثة: من الأعمال والسياحة إلى الفنون والتكنولوجيا", "فرص عمل جزئي قانونية: العمل أثناء الدراسة ضمن حدود محددة"]
+    },
+    "programs": {
+      "heading": "البرامج المتاحة",
+      "list": ["معاهد اللغة: دورات مكثفة، تحضير DELE، اندماج ثقافي", "الجامعات: بكالوريوس وماجستير بالإسبانية والإنجليزية", "برامج التبادل والتدريب العملي"]
+    },
+    "costs": {
+      "heading": "التكاليف التقديرية (يورو)",
+      "tuition": {"title": "الرسوم الدراسية السنوية", "details": ["5,000 - 12,000 يورو حسب التخصص والجامعة", "الجامعات الخاصة أعلى من الحكومية"]},
+      "living": {"title": "تكاليف المعيشة الشهرية", "details": ["600 - 900 يورو شهريًا", "تشمل السكن، المواصلات، الطعام، التأمين الأساسي", "برشلونة ومدريد أعلى قليلاً، فالنسيا وغرناطة أكثر توازناً"]},
+      "visa": {"title": "رسوم التأشيرة والتقديم", "details": ["الرسوم القنصلية: 60-80 يورو", "غير قابلة للاسترداد بغض النظر عن القرار", "طرق الدفع تختلف حسب القنصلية"]}
+    },
+    "student_life": {
+      "heading": "الحياة الطلابية في المدن الإسبانية",
+      "cities": "المدن الرئيسية: مدريد (قلب الأعمال والثقافة)، برشلونة (إبداع وابتكار)، فالنسيا (جودة حياة، تكاليف أقل)، غرناطة وسالامانكا (تاريخية، صديقة للطلاب)",
+      "activities": "أنشطة جامعية، جمعيات طلابية، فعاليات ثقافية، مهرجانات موسيقية، رياضة",
+      "diversity": "بيئة مرحبة للطلاب الدوليين"
+    },
+    "work_opportunities": {
+      "heading": "فرص العمل",
+      "during": {"title": "أثناء الدراسة", "options": [{"name": "العمل الجزئي", "description": "مسموح ضمن حدود ساعات محددة أسبوعيًا. يتطلب عقد عمل وتصريح مرتبط بالبرنامج"}, {"name": "التدريب العملي", "description": "فرص واسعة في السياحة، التسويق، الفنون، التقنية"}]},
+      "after": {"title": "بعد التخرج", "options": [{"name": "إقامة البحث عن عمل", "description": "يمكن التقديم لتحويل الوضع للبحث عن عمل أو ريادة الأعمال وفق الأنظمة"}, {"name": "وقت قانوني", "description": "يمنح فترة قانونية لاستكشاف الفرص المهنية في إسبانيا"}]}
+    },
+    "application_steps": {
+      "heading": "خطوات التقديم",
+      "steps": ["اختيار البرنامج والحصول على خطاب قبول رسمي", "تجهيز ملف التأشيرة: الاستمارة، الجواز، القبول، الإثبات المالي، التأمين", "حجز موعد في القنصلية", "دفع الرسوم القنصلية (60-80 يورو)", "حضور المقابلة إن طُلبت", "انتظار القرار (4-8 أسابيع)"]
+    },
+    "detailed_steps": {
+      "heading": "المتطلبات التفصيلية",
+      "steps": [
+        {"number": "1", "title": "خطاب القبول", "description": "خطاب رسمي من جامعة أو معهد لغة معتمد يوضح البرنامج، المدة، الساعات الأسبوعية (20 ساعة كحد أدنى للغة)"},
+        {"number": "2", "title": "الإثبات المالي", "description": "كشف حساب حديث (3-6 أشهر) باسم الطالب أو الولي، أو خطاب كفالة مالية. عادة 600-700 يورو شهريًا + الرسوم"},
+        {"number": "3", "title": "التأمين الصحي", "description": "تغطية شاملة لكامل الإقامة تشمل الطوارئ، العلاج، الإعادة للوطن"},
+        {"number": "4", "title": "شهادة حسن سير وسلوك", "description": "من بلد الإقامة أو أي بلد أقام فيه 6+ أشهر خلال 5 سنوات. يجب أن تكون مصدقة ومترجمة"},
+        {"number": "5", "title": "الشهادة الطبية", "description": "تثبت خلوك من الأمراض المعدية. صادرة خلال 3 أشهر الأخيرة"},
+        {"number": "6", "title": "إثبات السكن", "description": "عقد إيجار أو خطاب من المؤسسة يوضح توفير السكن. يقبل حجز مبدئي"}
+      ]
+    },
+    "documents": {
+      "heading": "المستندات المطلوبة",
+      "list": ["جواز سفر ساري (يغطي الدراسة + 6 أشهر)", "صور شخصية حديثة (خلفية بيضاء)", "خطاب القبول الرسمي", "إثبات مالي (كشف حساب أو كفالة)", "تأمين صحي شامل", "شهادة حسن سير وسلوك", "شهادة طبية (خلال 3 أشهر)", "إثبات السكن", "استمارة التأشيرة معبأة", "خطة سفر (حجز طيران مبدئي)", "إيصال الرسوم القنصلية (60-80 يورو)"]
+    },
+    "upon_arrival": {
+      "heading": "بعد الوصول إلى إسبانيا",
+      "steps": ["الحصول على TIE (بطاقة إقامة الطالب) خلال 30 يوم", "إكمال Empadronamiento (التسجيل في البلدية)", "فتح حساب بنكي محلي", "يمكن بدء العمل الجزئي بالتصاريح المناسبة"]
+    },
+    "with_kaya": {"heading": "مع كايا: طريقك إلى إسبانيا أسهل", "services": ["مطابقة شخصية للبرنامج", "تجهيز ملف تأشيرة بلا ثغرات: مراجعة، ترجمة، تصديق", "تنسيق السكن من الحجز إلى الحساب البنكي", "بعد الوصول: إجراءات TIE، التسجيل البلدي، البحث عن عمل جزئي"]},
+    "cta": "ابدأ رحلتك التعليمية الإسبانية اليوم"
+  }
+}

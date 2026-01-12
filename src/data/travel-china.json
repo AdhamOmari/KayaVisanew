@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "China Travel Visas",
+    "hero": {
+      "subtitle": "Experience the ancient and modern wonders of China"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa (L)",
+        "description": "For tourism and sightseeing purposes",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visit Visa (M)",
+        "description": "For business and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa (G)",
+        "description": "For transiting through China to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (6 months validity)",
+      "Completed application form",
+      "Recent passport photograph",
+      "Invitation letter or hotel bookings",
+      "Flight itinerary",
+      "Proof of financial capability"
+    ],
+    "processing_time": "4-5 business days",
+    "validity": "30 to 90 days (single or double entry)",
+    "tips": [
+      "Apply through Chinese Visa Application Service Center",
+      "Book appointments well in advance",
+      "Ensure all documents are properly authenticated",
+      "Consider visa-free transit options for short stays"
+    ],
+    "with_kaya": [
+      "Application form assistance",
+      "Document authentication support",
+      "Appointment scheduling",
+      "Invitation letter arrangements"
+    ],
+    "cta": "Embark on your China journey today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى الصين",
+    "hero": {
+      "subtitle": "اختبر عجائب الصين القديمة والحديثة"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية (L)",
+        "description": "لأغراض السياحة ومشاهدة المعالم",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل (M)",
+        "description": "للأنشطة التجارية والتجارة",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور (G)",
+        "description": "للعبور عبر الصين إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 6 أشهر)",
+      "نموذج طلب مكتمل",
+      "صورة جواز سفر حديثة",
+      "خطاب دعوة أو حجوزات فندقية",
+      "خط سير الرحلة الجوية",
+      "إثبات القدرة المالية"
+    ],
+    "processing_time": "4-5 أيام عمل",
+    "validity": "من 30 إلى 90 يوماً (دخول فردي أو مزدوج)",
+    "tips": [
+      "قدم طلبك من خلال مركز خدمة طلبات التأشيرة الصينية",
+      "احجز المواعيد مسبقاً",
+      "تأكد من توثيق جميع المستندات بشكل صحيح",
+      "فكر في خيارات العبور بدون تأشيرة للإقامات القصيرة"
+    ],
+    "with_kaya": [
+      "المساعدة في نموذج الطلب",
+      "دعم توثيق المستندات",
+      "جدولة المواعيد",
+      "ترتيبات خطاب الدعوة"
+    ],
+    "cta": "انطلق في رحلتك إلى الصين اليوم"
+  }
+}

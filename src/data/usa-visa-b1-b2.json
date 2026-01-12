@@ -1,0 +1,168 @@
+{
+  "en": {
+    "title": "US Tourist & Business Visa (B1/B2)",
+    "intro": "The B1/B2 visa is one of the most popular US visas, allowing you to visit the United States for tourism, business meetings, medical treatment, or visiting family and friends.",
+    "overview": {
+      "heading": "Overview",
+      "description": "The B1/B2 visa is a non-immigrant visa that allows temporary visits to the United States. The B1 visa is for business purposes, while the B2 visa is for tourism and personal visits. Often, they are combined into a single B1/B2 visa."
+    },
+    "why_choose": {
+      "heading": "Why Apply for a B1/B2 Visa?",
+      "reasons": [
+        "Visit the United States for tourism and explore iconic landmarks",
+        "Attend business meetings, conferences, and negotiations",
+        "Receive medical treatment at world-class healthcare facilities",
+        "Visit family and friends residing in the United States",
+        "Multiple entry visa valid for up to 10 years",
+        "Flexible stay duration up to 6 months per visit"
+      ]
+    },
+    "visa_types": {
+      "heading": "Types of B Visas",
+      "types": [
+        {
+          "name": "B1 - Business Visa",
+          "description": "For business-related activities such as attending meetings, conferences, contract negotiations, and consulting with business associates."
+        },
+        {
+          "name": "B2 - Tourist Visa",
+          "description": "For tourism, vacation, visiting family/friends, medical treatment, social events, and amateur competitions."
+        },
+        {
+          "name": "B1/B2 - Combined Visa",
+          "description": "The most common type that allows both business and tourist activities during your stay in the United States."
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "How to Apply",
+      "steps": [
+        "Complete the DS-160 online application form",
+        "Pay the visa application fee ($185)",
+        "Schedule your visa interview appointment",
+        "Prepare required documents",
+        "Attend visa interview at US Embassy/Consulate",
+        "Wait for visa processing and passport return"
+      ]
+    },
+    "processing_time": "Processing typically takes 3-5 weeks after the interview",
+    "validity": "Usually valid for 10 years with multiple entries",
+    "stay_duration": "Up to 6 months per visit",
+    "application_requirements": {
+      "heading": "Required Documents",
+      "requirements": [
+        "Valid passport (must be valid for at least 6 months beyond your stay)",
+        "DS-160 confirmation page",
+        "Visa application fee receipt",
+        "Passport-sized photo (2x2 inches)",
+        "Proof of financial capability",
+        "Employment letter or business documents (for B1)",
+        "Hotel reservations and travel itinerary",
+        "Evidence of ties to home country",
+        "Previous US visas (if applicable)"
+      ]
+    },
+    "interview_tips": {
+      "heading": "Interview Tips",
+      "tips": [
+        "Be honest and straightforward in your answers",
+        "Dress professionally and arrive early",
+        "Bring all required documents organized in a folder",
+        "Demonstrate strong ties to your home country",
+        "Explain your travel purpose clearly",
+        "Show proof of sufficient funds for your trip",
+        "Be prepared to answer questions about your employment and family"
+      ]
+    },
+    "important_notes": [
+      "The B1/B2 visa does not allow you to work in the United States",
+      "You cannot study full-time with this visa",
+      "Visa approval is at the discretion of the consular officer",
+      "Having a visa does not guarantee entry; final decision is made at the port of entry"
+    ],
+    "cta": "Start Your B1/B2 Visa Application Today!"
+  },
+  "ar": {
+    "title": "تأشيرة السياحة والأعمال الأمريكية (B1/B2)",
+    "intro": "تأشيرة B1/B2 هي واحدة من أكثر التأشيرات الأمريكية شهرة، تتيح لك زيارة الولايات المتحدة للسياحة أو اجتماعات العمل أو العلاج الطبي أو زيارة العائلة والأصدقاء.",
+    "overview": {
+      "heading": "نظرة عامة",
+      "description": "تأشيرة B1/B2 هي تأشيرة غير مهاجر تسمح بزيارات مؤقتة إلى الولايات المتحدة. تأشيرة B1 مخصصة للأغراض التجارية، بينما تأشيرة B2 مخصصة للسياحة والزيارات الشخصية. غالباً ما يتم دمجهما في تأشيرة واحدة B1/B2."
+    },
+    "why_choose": {
+      "heading": "لماذا التقدم لتأشيرة B1/B2؟",
+      "reasons": [
+        "زيارة الولايات المتحدة للسياحة واستكشاف المعالم الشهيرة",
+        "حضور اجتماعات العمل والمؤتمرات والمفاوضات",
+        "الحصول على علاج طبي في مرافق صحية عالمية المستوى",
+        "زيارة العائلة والأصدقاء المقيمين في الولايات المتحدة",
+        "تأشيرة دخول متعدد صالحة لمدة تصل إلى 10 سنوات",
+        "مدة إقامة مرنة تصل إلى 6 أشهر لكل زيارة"
+      ]
+    },
+    "visa_types": {
+      "heading": "أنواع تأشيرات B",
+      "types": [
+        {
+          "name": "B1 - تأشيرة الأعمال",
+          "description": "للأنشطة المتعلقة بالأعمال مثل حضور الاجتماعات والمؤتمرات ومفاوضات العقود والتشاور مع شركاء الأعمال."
+        },
+        {
+          "name": "B2 - تأشيرة السياحة",
+          "description": "للسياحة والإجازات وزيارة العائلة/الأصدقاء والعلاج الطبي والفعاليات الاجتماعية والمسابقات الهاوية."
+        },
+        {
+          "name": "B1/B2 - تأشيرة مشتركة",
+          "description": "النوع الأكثر شيوعاً الذي يسمح بأنشطة الأعمال والسياحة معاً خلال إقامتك في الولايات المتحدة."
+        }
+      ]
+    },
+    "how_to_apply": {
+      "heading": "كيفية التقديم",
+      "steps": [
+        "إكمال نموذج الطلب الإلكتروني DS-160",
+        "دفع رسوم طلب التأشيرة ($185)",
+        "حجز موعد مقابلة التأشيرة",
+        "إعداد المستندات المطلوبة",
+        "حضور مقابلة التأشيرة في السفارة/القنصلية الأمريكية",
+        "انتظار معالجة التأشيرة وإعادة جواز السفر"
+      ]
+    },
+    "processing_time": "تستغرق المعالجة عادة من 3-5 أسابيع بعد المقابلة",
+    "validity": "صالحة عادة لمدة 10 سنوات مع دخول متعدد",
+    "stay_duration": "حتى 6 أشهر لكل زيارة",
+    "application_requirements": {
+      "heading": "المستندات المطلوبة",
+      "requirements": [
+        "جواز سفر ساري (يجب أن يكون صالحاً لمدة 6 أشهر على الأقل بعد انتهاء إقامتك)",
+        "صفحة تأكيد DS-160",
+        "إيصال دفع رسوم طلب التأشيرة",
+        "صورة بحجم جواز السفر (2x2 بوصة)",
+        "إثبات القدرة المالية",
+        "خطاب عمل أو مستندات تجارية (لـ B1)",
+        "حجوزات الفندق وبرنامج الرحلة",
+        "دليل على الارتباط ببلدك الأصلي",
+        "التأشيرات الأمريكية السابقة (إن وجدت)"
+      ]
+    },
+    "interview_tips": {
+      "heading": "نصائح للمقابلة",
+      "tips": [
+        "كن صادقاً ومباشراً في إجاباتك",
+        "ارتدِ ملابس رسمية واحضر مبكراً",
+        "أحضر جميع المستندات المطلوبة منظمة في ملف",
+        "أظهر روابط قوية مع بلدك الأصلي",
+        "اشرح غرض سفرك بوضوح",
+        "أظهر إثبات الأموال الكافية لرحلتك",
+        "كن مستعداً للإجابة على أسئلة حول عملك وعائلتك"
+      ]
+    },
+    "important_notes": [
+      "تأشيرة B1/B2 لا تسمح لك بالعمل في الولايات المتحدة",
+      "لا يمكنك الدراسة بدوام كامل بهذه التأشيرة",
+      "الموافقة على التأشيرة تعود لتقدير الموظف القنصلي",
+      "الحصول على تأشيرة لا يضمن الدخول؛ القرار النهائي يتخذ عند نقطة الدخول"
+    ],
+    "cta": "ابدأ طلب تأشيرة B1/B2 اليوم!"
+  }
+}

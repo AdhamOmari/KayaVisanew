@@ -1,0 +1,268 @@
+/* Study Visas - Education Theme Colors */
+:root {
+  --study-primary: #2C5F2D;
+  --study-secondary: #97BC62;
+  --study-accent: #FDB913;
+  --study-dark: #1a3d1b;
+  --study-light: #f0f7f0;
+}
+
+/* Import base styles from antigua (citizenship template) */
+@import url('./antigua.css');
+
+/* Override specific colors for study visa theme */
+.modern-hero {
+  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-dark) 100%);
+}
+
+.btn-modern-primary {
+  background: var(--study-primary);
+  border-color: var(--study-primary);
+}
+
+.btn-modern-primary:hover {
+  background: var(--study-dark);
+  border-color: var(--study-dark);
+  transform: translateY(-2px);
+}
+
+.btn-modern-secondary {
+  background: var(--study-accent);
+  border-color: var(--study-accent);
+  color: var(--study-dark);
+}
+
+.btn-modern-secondary:hover {
+  background: #e6a711;
+  border-color: #e6a711;
+  color: var(--study-dark);
+  transform: translateY(-2px);
+}
+
+.card-icon {
+  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
+}
+
+.glass-card {
+  background: linear-gradient(135deg, 
+    rgba(44, 95, 45, 0.95), 
+    rgba(151, 188, 98, 0.85)
+  );
+}
+
+.modern-cta {
+  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-dark) 100%);
+}
+
+.text-study-primary {
+  color: var(--study-primary);
+}
+
+.text-study-accent {
+  color: var(--study-accent);
+}
+
+.bg-study-primary {
+  background-color: var(--study-primary);
+}
+
+.bg-study-accent {
+  background-color: var(--study-accent);
+}
+
+.bg-study-light {
+  background-color: var(--study-light);
+}
+
+.badge.bg-study-primary {
+  background-color: var(--study-primary) !important;
+}
+
+/* Timeline adjustments for study visas */
+.timeline-step {
+  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
+}
+
+/* Study destination cards */
+.destination-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  border-radius: 16px;
+  background: white;
+  border: 2px solid transparent;
+}
+
+.destination-card:hover {
+  border-color: var(--study-primary);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(44, 95, 45, 0.2);
+}
+
+.destination-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--study-primary), var(--study-secondary), var(--study-accent));
+}
+
+.destination-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.destination-card:hover .destination-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Service option cards */
+.service-option {
+  padding: 2rem;
+  border-radius: 16px;
+  background: white;
+  border: 2px solid var(--study-light);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-option:hover {
+  border-color: var(--study-secondary);
+  box-shadow: 0 10px 30px rgba(44, 95, 45, 0.15);
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-secondary) 100%);
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Conditional admission section */
+.conditional-admission-box {
+  background: linear-gradient(135deg, var(--study-light) 0%, white 100%);
+  border-left: 5px solid var(--study-accent);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.country-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--study-primary);
+  color: white;
+  border-radius: 20px;
+  margin: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* Educational path visualization */
+.education-path {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.education-path::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--study-primary), var(--study-secondary), var(--study-accent));
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .education-path::before {
+    left: 30px;
+  }
+}
+
+/* Highlight list in destination cards */
+.highlight-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlight-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.highlight-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--study-secondary);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Academic success banner */
+.academic-banner {
+  background: linear-gradient(135deg, 
+    rgba(44, 95, 45, 0.05) 0%, 
+    rgba(151, 188, 98, 0.05) 100%
+  );
+  border-radius: 16px;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.academic-banner::before {
+  content: '🎓';
+  position: absolute;
+  font-size: 15rem;
+  opacity: 0.05;
+  right: -50px;
+  top: -50px;
+  transform: rotate(-15deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .destination-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+  
+  .conditional-admission-box {
+    padding: 1.5rem;
+  }
+  
+  .country-tag {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

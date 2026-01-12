@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Mexico Travel Visas",
+    "hero": {
+      "subtitle": "Discover Mexico's vibrant culture and stunning landscapes"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa (FMM)",
+        "description": "For tourism, leisure, and visiting friends and family",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For passing through Mexico to another destination",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (6 months validity)",
+      "Completed visa application form",
+      "Passport photograph",
+      "Proof of financial means",
+      "Travel itinerary",
+      "Hotel reservation or invitation letter"
+    ],
+    "processing_time": "1-2 weeks",
+    "validity": "Up to 180 days",
+    "tips": [
+      "Many nationalities receive visa-free entry",
+      "Check if you're eligible for FMM tourist permit",
+      "Keep your FMM form safe during your stay",
+      "Have return ticket proof ready"
+    ],
+    "with_kaya": [
+      "Visa eligibility assessment",
+      "Application form completion",
+      "Document verification",
+      "Travel planning assistance"
+    ],
+    "cta": "Plan your Mexican getaway today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى المكسيك",
+    "hero": {
+      "subtitle": "اكتشف ثقافة المكسيك النابضة بالحياة ومناظرها الطبيعية الخلابة"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية (FMM)",
+        "description": "للسياحة والترفيه وزيارة الأصدقاء والعائلة",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للمرور عبر المكسيك إلى وجهة أخرى",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 6 أشهر)",
+      "نموذج طلب التأشيرة المكتمل",
+      "صورة جواز سفر",
+      "إثبات الوسائل المالية",
+      "خط سير الرحلة",
+      "حجز فندق أو خطاب دعوة"
+    ],
+    "processing_time": "1-2 أسبوع",
+    "validity": "حتى 180 يوماً",
+    "tips": [
+      "العديد من الجنسيات تحصل على دخول بدون تأشيرة",
+      "تحقق مما إذا كنت مؤهلاً للحصول على تصريح FMM السياحي",
+      "احتفظ بنموذج FMM آمناً أثناء إقامتك",
+      "احتفظ بإثبات تذكرة العودة جاهزاً"
+    ],
+    "with_kaya": [
+      "تقييم أهلية التأشيرة",
+      "استكمال نموذج الطلب",
+      "التحقق من المستندات",
+      "مساعدة في تخطيط السفر"
+    ],
+    "cta": "خطط لرحلتك المكسيكية اليوم"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "en": {
+    "category": "Airlines",
+    "title": "Airline Partners",
+    "subtitle": "Exclusive Flight Deals & Premium Services",
+    "description": "We collaborate with leading airlines worldwide to provide our clients with exclusive discounts, flexible booking options, and premium travel experiences. Our airline partnerships ensure you get the best rates and service quality for your international journeys.",
+    "partners": [
+      {
+        "name": "Emirates Airlines",
+        "logo": "/images/partners/emirates.png",
+        "description": "Premium partner offering exclusive rates to Dubai and connecting destinations worldwide",
+        "benefits": ["Up to 15% discount on economy class", "Priority booking", "Flexible date changes", "Extra baggage allowance"]
+      },
+      {
+        "name": "Turkish Airlines",
+        "logo": "/images/partners/turkish.png",
+        "description": "Extensive network covering Europe, Asia, and the Americas through Istanbul hub",
+        "benefits": ["Special corporate rates", "Miles accumulation", "Lounge access for business class", "24/7 booking support"]
+      },
+      {
+        "name": "Qatar Airways",
+        "logo": "/images/partners/qatar.png",
+        "description": "Award-winning service with connections to over 160 destinations globally",
+        "benefits": ["Discounted fares", "Priority check-in", "Complimentary seat selection", "Travel insurance options"]
+      }
+    ],
+    "benefits": {
+      "title": "Benefits of Our Airline Partnerships",
+      "items": [
+        {
+          "icon": "fa-tag",
+          "title": "Exclusive Discounts",
+          "description": "Access special rates not available to the general public"
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Flexible Booking",
+          "description": "Easy changes and cancellations with reduced fees"
+        },
+        {
+          "icon": "fa-shield-alt",
+          "title": "Travel Protection",
+          "description": "Enhanced insurance and protection options"
+        },
+        {
+          "icon": "fa-headset",
+          "title": "Priority Support",
+          "description": "Dedicated customer service for all bookings"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "How to Book",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Contact Us",
+          "description": "Reach out with your travel dates and destination"
+        },
+        {
+          "number": "2",
+          "title": "Get Quote",
+          "description": "Receive exclusive rates from our partner airlines"
+        },
+        {
+          "number": "3",
+          "title": "Confirm Booking",
+          "description": "Approve and confirm your flight reservation"
+        },
+        {
+          "number": "4",
+          "title": "Travel Ready",
+          "description": "Receive tickets and enjoy your journey"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Book Your Flight?",
+      "description": "Let us find you the best deals with our airline partners",
+      "button": "Request Quote"
+    }
+  },
+  "ar": {
+    "category": "شركات الطيران",
+    "title": "شركاء الطيران",
+    "subtitle": "صفقات حصرية وخدمات متميزة",
+    "description": "نتعاون مع شركات الطيران الرائدة في جميع أنحاء العالم لتقديم خصومات حصرية لعملائنا، وخيارات حجز مرنة، وتجارب سفر متميزة. شراكاتنا مع شركات الطيران تضمن لك أفضل الأسعار وجودة الخدمة لرحلاتك الدولية.",
+    "partners": [
+      {
+        "name": "طيران الإمارات",
+        "logo": "/images/partners/emirates.png",
+        "description": "شريك متميز يقدم أسعاراً حصرية إلى دبي والوجهات المتصلة في جميع أنحاء العالم",
+        "benefits": ["خصم يصل إلى 15% على الدرجة الاقتصادية", "أولوية الحجز", "تغييرات مرنة في التاريخ", "بدل أمتعة إضافي"]
+      },
+      {
+        "name": "الخطوط الجوية التركية",
+        "logo": "/images/partners/turkish.png",
+        "description": "شبكة واسعة تغطي أوروبا وآسيا والأمريكتين عبر مركز إسطنبول",
+        "benefits": ["أسعار خاصة للشركات", "تجميع الأميال", "الوصول إلى الصالات لدرجة الأعمال", "دعم الحجز على مدار الساعة"]
+      },
+      {
+        "name": "الخطوط الجوية القطرية",
+        "logo": "/images/partners/qatar.png",
+        "description": "خدمة حائزة على جوائز مع اتصالات لأكثر من 160 وجهة عالمياً",
+        "benefits": ["أسعار مخفضة", "تسجيل وصول ذو أولوية", "اختيار المقعد المجاني", "خيارات تأمين السفر"]
+      }
+    ],
+    "benefits": {
+      "title": "فوائد شراكاتنا مع شركات الطيران",
+      "items": [
+        {
+          "icon": "fa-tag",
+          "title": "خصومات حصرية",
+          "description": "الوصول إلى أسعار خاصة غير متاحة للجمهور العام"
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "حجز مرن",
+          "description": "تغييرات وإلغاءات سهلة برسوم مخفضة"
+        },
+        {
+          "icon": "fa-shield-alt",
+          "title": "حماية السفر",
+          "description": "خيارات تأمين وحماية معززة"
+        },
+        {
+          "icon": "fa-headset",
+          "title": "دعم ذو أولوية",
+          "description": "خدمة عملاء مخصصة لجميع الحجوزات"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "كيفية الحجز",
+      "steps": [
+        {
+          "number": "1",
+          "title": "اتصل بنا",
+          "description": "تواصل معنا مع تواريخ سفرك ووجهتك"
+        },
+        {
+          "number": "2",
+          "title": "احصل على عرض سعر",
+          "description": "استلم أسعاراً حصرية من شركاء الطيران لدينا"
+        },
+        {
+          "number": "3",
+          "title": "أكّد الحجز",
+          "description": "وافق وأكد حجز رحلتك"
+        },
+        {
+          "number": "4",
+          "title": "جاهز للسفر",
+          "description": "استلم التذاكر واستمتع برحلتك"
+        }
+      ]
+    },
+    "cta": {
+      "title": "هل أنت مستعد لحجز رحلتك؟",
+      "description": "دعنا نجد لك أفضل الصفقات مع شركاء الطيران لدينا",
+      "button": "طلب عرض سعر"
+    }
+  }
+}

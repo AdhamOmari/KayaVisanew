@@ -1,0 +1,279 @@
+{
+  "en": {
+    "title": "H-2B Work Visa – United States",
+    "hero": {
+      "subtitle": "Your Path to Temporary Work Opportunities in America"
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "The H-2B visa is a temporary, non-immigrant work visa that allows US employers to bring temporary foreign workers for non-agricultural sectors that face a shortage of local labor. Unlike the H-1B visa, which is for highly qualified professionals, the H-2B is targeted at seasonal or temporary jobs in non-agricultural fields."
+    },
+    "key_info": {
+      "initial_duration": "Typically up to one year",
+      "extension": "Can be extended in increments, but the maximum limit is 3 years",
+      "requirement": "After the maximum duration, the worker must leave the US for a minimum of 3 months before applying again",
+      "family": "Spouses and unmarried children under 21 can accompany the visa holder via the H-4 visa. Note: H-4 holders are generally not allowed to work unless they obtain a separate work authorization."
+    },
+    "benefits": {
+      "title": "Key Advantages",
+      "list": [
+        "Legal work opportunity in the United States for a temporary period",
+        "Possibility of working in diverse sectors such as tourism, hospitality, construction, and resorts",
+        "Ability to bring family via the H-4 visa (for spouses and unmarried children under 21)"
+      ]
+    },
+    "beneficiaries": {
+      "title": "Who Can Benefit?",
+      "description": "Temporary or seasonal workers in sectors such as:",
+      "sectors": [
+        "Hospitality and Tourism",
+        "Hotels and Resorts",
+        "Construction and Maintenance",
+        "Theme Parks and Golf Courses",
+        "Cleaning and Landscaping Services"
+      ]
+    },
+    "process": {
+      "title": "Application Steps",
+      "steps": [
+        {
+          "title": "Temporary Labor Certification (TLC)",
+          "description": "US Employer files Temporary Labor Certification with the Department of Labor (DOL) to prove that qualified US workers are unavailable"
+        },
+        {
+          "title": "File Form I-129",
+          "description": "After TLC approval, employer files the official petition with USCIS"
+        },
+        {
+          "title": "USCIS Approval",
+          "description": "If approved, the worker receives a case number for the visa application"
+        },
+        {
+          "title": "Embassy Interview",
+          "description": "The worker attends an interview at the US Embassy or Consulate in their home country"
+        },
+        {
+          "title": "Travel and Start Work",
+          "description": "Upon receiving the visa, the worker can enter the United States and begin the specified job"
+        }
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "list": [
+        "Valid passport",
+        "Official job contract or job offer from the US employer",
+        "Copy of the DOL's approval (Temporary Labor Certification)",
+        "Copy of USCIS approval of Form I-129",
+        "Recent Biometric Photos (clear, 2x2 inches / 51x51 mm, with a white background, face filling 50–69% of the photo height)",
+        "Visa fee payment receipt"
+      ]
+    },
+    "fees": {
+      "title": "Fees and Costs",
+      "breakdown": [
+        {
+          "item": "Form I‑129 Filing Fee",
+          "amount": "$460",
+          "paid_by": "employer"
+        },
+        {
+          "item": "Fraud Prevention and Detection Fee",
+          "amount": "~$150",
+          "paid_by": "employer"
+        },
+        {
+          "item": "Visa Issuance Fee at the Embassy",
+          "amount": "~$190",
+          "paid_by": "employee"
+        },
+        {
+          "item": "Additional Costs",
+          "amount": "Varies",
+          "description": "Document preparation, translation, and travel expenses (vary depending on the country)"
+        }
+      ],
+      "note": "Most essential fees are paid by the employer, but the worker may bear the costs of the interview and preparation."
+    },
+    "quota": {
+      "title": "Annual Quota and Restrictions",
+      "annual_cap": "66,000 visas allocated annually",
+      "allocation": [
+        {
+          "period": "First half of US fiscal year (October – March)",
+          "amount": "33,000 visas"
+        },
+        {
+          "period": "Second half (April – September)",
+          "amount": "33,000 visas"
+        }
+      ],
+      "notes": [
+        "In some years, the US government may issue temporary supplementary quotas to cover labor shortages, especially in the tourism and hospitality sectors",
+        "Applications are subject to specific deadlines, and the cap is often reached quickly due to high demand"
+      ]
+    },
+    "additional_notes": {
+      "title": "Additional Notes",
+      "points": [
+        "Applications are subject to specific deadlines, and the cap is often reached quickly due to high demand",
+        "This visa does not grant a direct path to Permanent Residency (Green Card), but it provides valuable work experience in the US market"
+      ]
+    },
+    "processing_time": "Varies by season and demand",
+    "validity": "Up to 1 year initially, extendable up to maximum of 3 years",
+    "with_kaya": {
+      "title": "What We Offer You at Kaya",
+      "services": [
+        "Connecting you with approved US employers in seasonal sectors",
+        "Preparing your professional file and documents in compliance with DOL and USCIS requirements",
+        "Step-by-step follow-up of the application until the visa is issued",
+        "Additional consultations on temporary job opportunities and integration in the United States"
+      ]
+    },
+    "cta": {
+      "title": "Start Your American Work Experience Today",
+      "description": "The H-2B visa is an ideal opportunity for temporary foreign workers to enter the US labor market in non-agricultural sectors. However, it is quota-limited (66,000 annually) and requires a US sponsor and precise procedures with the DOL and USCIS. Start your professional journey today with Kaya — we open the doors of the world for you with one step!",
+      "button_text": "Contact Us"
+    }
+  },
+  "ar": {
+    "title": "تأشيرة العمل H‑2B – الولايات المتحدة",
+    "hero": {
+      "subtitle": "طريقك إلى فرص العمل المؤقتة في أمريكا"
+    },
+    "overview": {
+      "title": "لمحة عامة",
+      "description": "تأشيرة H‑2B هي تأشيرة عمل مؤقتة لغير المهاجرين، تتيح لأصحاب العمل الأميركيين استقدام عمالة أجنبية مؤقتة في القطاعات التي تعاني من نقص في اليد العاملة المحلية. على عكس تأشيرة H‑1B المخصصة للمهنيين ذوي المؤهلات العالية، فإن H‑2B تستهدف الوظائف الموسمية أو المؤقتة في مجالات غير زراعية."
+    },
+    "key_info": {
+      "initial_duration": "تمنح عادة لمدة حتى سنة واحدة",
+      "extension": "يمكن تمديدها على مراحل، لكن الحد الأقصى هو 3 سنوات",
+      "requirement": "بعد انتهاء المدة القصوى، يجب على العامل مغادرة الولايات المتحدة لفترة لا تقل عن 3 أشهر قبل التقديم مجدداً",
+      "family": "يمكن للزوج/الزوجة والأبناء غير المتزوجين تحت 21 سنة مرافقة حامل التأشيرة عبر تأشيرة H‑4. لكن لا يُسمح لهم بالعمل إلا إذا حصلوا على تصريح عمل منفصل."
+    },
+    "benefits": {
+      "title": "المزايا الرئيسية",
+      "list": [
+        "فرصة عمل قانونية في الولايات المتحدة لفترة مؤقتة",
+        "إمكانية العمل في قطاعات متنوعة مثل السياحة، الفنادق، البناء، والمنتجعات",
+        "إمكانية اصطحاب العائلة عبر تأشيرة H‑4 (للزوج/الزوجة والأبناء غير المتزوجين تحت 21 سنة)"
+      ]
+    },
+    "beneficiaries": {
+      "title": "من يمكنه الاستفادة منها؟",
+      "description": "العمالة المؤقتة أو الموسمية في قطاعات مثل:",
+      "sectors": [
+        "الضيافة والسياحة",
+        "الفنادق والمنتجعات",
+        "البناء والصيانة",
+        "المتنزهات وملاعب الغولف",
+        "خدمات التنظيف والمناظر الطبيعية"
+      ]
+    },
+    "process": {
+      "title": "خطوات التقديم",
+      "steps": [
+        {
+          "title": "شهادة عمل مؤقتة (TLC)",
+          "description": "صاحب العمل الأميركي يقدم طلب شهادة عمل مؤقتة إلى وزارة العمل (DOL) لإثبات عدم توفر عمال أميركيين مؤهلين"
+        },
+        {
+          "title": "تقديم النموذج I‑129",
+          "description": "بعد الموافقة على شهادة العمل، يقدم صاحب العمل الطلب الرسمي إلى USCIS"
+        },
+        {
+          "title": "الموافقة من USCIS",
+          "description": "إذا تمت الموافقة، يحصل العامل على رقم حالة يمكن استخدامه للتقديم على التأشيرة"
+        },
+        {
+          "title": "المقابلة في السفارة",
+          "description": "العامل يتوجه إلى السفارة أو القنصلية الأميركية في بلده لإجراء المقابلة"
+        },
+        {
+          "title": "السفر والبدء بالعمل",
+          "description": "بعد الحصول على التأشيرة، يمكن للعامل دخول الولايات المتحدة والبدء في الوظيفة المحددة"
+        }
+      ]
+    },
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري المفعول",
+        "عقد عمل أو عرض عمل رسمي من صاحب عمل أميركي",
+        "نسخة من موافقة وزارة العمل (شهادة العمل المؤقتة)",
+        "نسخة من موافقة USCIS على النموذج I‑129",
+        "صور شخصية حديثة وفق المواصفات البيومترية (حديثة، واضحة، بمقاس 2×2 بوصة (51×51 ملم)، بخلفية بيضاء، والوجه ظاهر بالكامل بنسبة 50–69% من ارتفاع الصورة)",
+        "إيصال دفع رسوم التأشيرة"
+      ]
+    },
+    "fees": {
+      "title": "التكاليف والرسوم",
+      "breakdown": [
+        {
+          "item": "رسوم تقديم النموذج I‑129",
+          "amount": "460 دولار",
+          "paid_by": "صاحب العمل"
+        },
+        {
+          "item": "رسوم مكافحة الاحتيال والكشف",
+          "amount": "150 دولار تقريباً",
+          "paid_by": "صاحب العمل"
+        },
+        {
+          "item": "رسوم إصدار التأشيرة في السفارة",
+          "amount": "حوالي 190 دولار",
+          "paid_by": "العامل"
+        },
+        {
+          "item": "تكاليف إضافية",
+          "amount": "تختلف",
+          "description": "تجهيز المستندات، الترجمة، والتنقل (تختلف حسب البلد)"
+        }
+      ],
+      "note": "معظم الرسوم الأساسية يدفعها صاحب العمل، لكن العامل قد يتحمل رسوم المقابلة والتجهيز."
+    },
+    "quota": {
+      "title": "العدد السنوي والقيود",
+      "annual_cap": "العدد الأساسي المخصص سنوياً هو 66,000 تأشيرة فقط",
+      "allocation": [
+        {
+          "period": "النصف الأول من السنة المالية الأميركية (أكتوبر – مارس)",
+          "amount": "33,000 تأشيرة"
+        },
+        {
+          "period": "النصف الثاني (أبريل – سبتمبر)",
+          "amount": "33,000 تأشيرة"
+        }
+      ],
+      "notes": [
+        "في بعض السنوات، قد تصدر الحكومة الأميركية حصص إضافية مؤقتة لتغطية النقص في العمالة، خاصة في قطاعات السياحة والضيافة",
+        "الطلبات تخضع لمواعيد محددة، وغالباً ما يتم الوصول للحد الأقصى بسرعة بسبب الإقبال الكبير"
+      ]
+    },
+    "additional_notes": {
+      "title": "ملاحظات إضافية",
+      "points": [
+        "الطلبات تخضع لمواعيد محددة، وغالباً ما يتم الوصول للحد الأقصى بسرعة بسبب الإقبال الكبير",
+        "بعض القطاعات (مثل السياحة الصيفية أو الشتوية) تعتمد بشكل كبير على هذه التأشيرة لتغطية مواسم الذروة",
+        "لا تمنح هذه التأشيرة مساراً مباشراً للحصول على الإقامة الدائمة (Green Card)، لكنها تمنح خبرة عملية في السوق الأميركي"
+      ]
+    },
+    "processing_time": "يختلف حسب الموسم والطلب",
+    "validity": "حتى سنة واحدة في البداية، قابلة للتمديد حتى 3 سنوات كحد أقصى",
+    "with_kaya": {
+      "title": "ما نقدمه لك في كايا",
+      "services": [
+        "ربطك بأصحاب عمل أميركيين معتمدين في القطاعات الموسمية",
+        "تجهيز ملفك المهني والمستندات بما يتوافق مع متطلبات وزارة العمل وUSCIS",
+        "متابعة الطلب خطوة بخطوة حتى صدور التأشيرة",
+        "استشارات إضافية حول فرص العمل المؤقتة والاندماج في الولايات المتحدة"
+      ]
+    },
+    "cta": {
+      "title": "ابدأ تجربتك العملية الأميركية اليوم",
+      "description": "تأشيرة H‑2B هي فرصة مثالية للعمالة الأجنبية المؤقتة لدخول سوق العمل الأميركي في القطاعات غير الزراعية. لكنها محدودة العدد (66,000 سنوياً) وتتطلب راعياً أميركياً وإجراءات دقيقة مع وزارة العمل وUSCIS. ابدأ رحلتك المهنية اليوم مع كايا — نفتح لك أبواب العالم بخطوة واحدة!",
+      "button_text": "تواصل معنا"
+    }
+  }
+}

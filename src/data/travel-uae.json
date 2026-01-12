@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "UAE Travel Visas",
+    "hero": {
+      "subtitle": "Experience the luxury and innovation of the United Arab Emirates"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, shopping, and leisure activities",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visit Visa",
+        "description": "For business meetings and trade exhibitions",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For connecting flights through UAE airports",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (6 months validity)",
+      "Completed visa application",
+      "Recent passport photograph",
+      "Flight booking confirmation",
+      "Hotel reservation",
+      "Proof of financial means"
+    ],
+    "processing_time": "3-5 business days",
+    "validity": "30 or 90 days (single or multiple entry)",
+    "tips": [
+      "Apply online through official UAE portals",
+      "Ensure passport has blank pages for stamps",
+      "Many nationalities receive visa on arrival",
+      "Keep digital copies of all documents"
+    ],
+    "with_kaya": [
+      "Online application support",
+      "Document verification",
+      "Hotel booking assistance",
+      "Travel insurance recommendations"
+    ],
+    "cta": "Start your UAE adventure today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى الإمارات العربية المتحدة",
+    "hero": {
+      "subtitle": "اختبر الفخامة والابتكار في الإمارات العربية المتحدة"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة والتسوق والأنشطة الترفيهية",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات التجارية والمعارض التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "لرحلات الربط عبر مطارات الإمارات",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 6 أشهر)",
+      "طلب تأشيرة مكتمل",
+      "صورة جواز سفر حديثة",
+      "تأكيد حجز الرحلة",
+      "حجز فندقي",
+      "إثبات الوسائل المالية"
+    ],
+    "processing_time": "3-5 أيام عمل",
+    "validity": "30 أو 90 يوماً (دخول فردي أو متعدد)",
+    "tips": [
+      "قدم طلبك عبر الإنترنت من خلال بوابات الإمارات الرسمية",
+      "تأكد من وجود صفحات فارغة في جواز السفر للأختام",
+      "العديد من الجنسيات تحصل على تأشيرة عند الوصول",
+      "احتفظ بنسخ رقمية من جميع المستندات"
+    ],
+    "with_kaya": [
+      "دعم التقديم عبر الإنترنت",
+      "التحقق من المستندات",
+      "المساعدة في حجز الفنادق",
+      "توصيات التأمين على السفر"
+    ],
+    "cta": "ابدأ مغامرتك في الإمارات اليوم"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "en": {
+    "title": "Australia Student Visa (Subclass 500)",
+    "hero": {"subtitle": "Study in the Land of Opportunity and Innovation"},
+    "why_australia": {
+      "heading": "Why Choose Australia?",
+      "reasons": ["Top Global Universities: Melbourne, Sydney, ANU ranked in top 100", "Diverse Programs: Bachelor's, Master's, PhD, and VET courses", "Student Work: Up to 48 hours per fortnight during study", "Vibrant Cities: Sydney, Melbourne, Brisbane, Adelaide"]
+    },
+    "costs": {
+      "heading": "Estimated Costs (AUD)",
+      "tuition": {"title": "Tuition Fees", "details": ["AUD 15,000–35,000 per year depending on program", "Medical and engineering programs may cost more"]},
+      "living": {"title": "Living Expenses", "details": ["AUD 1,500–2,200 per month", "AUD 24,505 annually (minimum for visa)", "Includes housing, food, transport"]},
+      "additional": {"title": "Additional Costs", "details": ["Visa fee: approx. AUD 710", "OSHC (health insurance): Mandatory", "Biometrics if required"]}
+    },
+    "work_opportunities": {
+      "heading": "Work Opportunities",
+      "during": {"title": "During Study", "options": [{"name": "Part-Time Work", "description": "48 hours per fortnight (~24 hours/week). Full-time during breaks"}, {"name": "Job Types", "description": "Hospitality, retail, tutoring, on-campus roles"}]},
+      "after": {"title": "After Graduation", "options": [{"name": "Subclass 485 (Temporary Graduate Visa)", "description": "Work in Australia for 2-4 years depending on qualification"}, {"name": "Pathway to PR", "description": "Australian work experience helps skilled migration applications"}]}
+    },
+    "application_steps": {
+      "heading": "Application Steps",
+      "steps": ["Obtain CoE (Confirmation of Enrolment) from Australian institution", "Prepare documents and translate to English", "Apply via ImmiAccount (Department of Home Affairs)", "Pay visa fee and book biometrics/medical exam", "Await decision (4–8 weeks)"]
+    },
+    "documents": {
+      "heading": "Required Documents",
+      "list": ["Valid passport", "CoE from accredited Australian institution", "Financial proof (tuition + AUD 24,505 living expenses)", "OSHC health insurance", "Academic certificates (translated)", "English proficiency (IELTS 6.0-6.5, TOEFL, PTE)", "Visa application form", "Police clearance", "Medical certificate (if required)"]
+    },
+    "upon_arrival": {
+      "heading": "Upon Arrival",
+      "steps": ["Register at university", "Activate OSHC insurance", "Open local bank account", "Get TFN (Tax File Number) for legal work"]
+    },
+    "with_kaya": {"heading": "With Kaya: Your Path to Australia is Easier", "services": ["Program selection guidance", "Complete visa file preparation", "OSHC and accommodation support", "Post-arrival: Registration, TFN, job opportunities"]},
+    "cta": "Start Your Australian Education Journey Today"
+  },
+  "ar": {
+    "title": "تأشيرة الدراسة في أستراليا (Subclass 500)",
+    "hero": {"subtitle": "الدراسة في أرض الفرص والابتكار"},
+    "why_australia": {
+      "heading": "لماذا أستراليا؟",
+      "reasons": ["جامعات ضمن أفضل 100 عالمياً: ملبورن، سيدني، ANU", "برامج متنوعة: بكالوريوس، ماجستير، دكتوراه، ودورات مهنية", "عمل الطلاب: حتى 48 ساعة كل أسبوعين أثناء الدراسة", "مدن نابضة: سيدني، ملبورن، بريزبن، أديلايد"]
+    },
+    "costs": {
+      "heading": "التكاليف التقديرية (دولار أسترالي)",
+      "tuition": {"title": "الرسوم الدراسية", "details": ["15,000 – 35,000 دولار سنويًا حسب التخصص", "البرامج الطبية والهندسية قد تكون أعلى"]},
+      "living": {"title": "المعيشة", "details": ["1,500 – 2,200 دولار شهريًا", "24,505 دولار سنويًا (الحد الأدنى للتأشيرة)", "تشمل السكن، الطعام، المواصلات"]},
+      "additional": {"title": "تكاليف إضافية", "details": ["رسوم التأشيرة: حوالي 710 دولار", "OSHC (التأمين الصحي): إلزامي", "البصمات إن طُلبت"]}
+    },
+    "work_opportunities": {
+      "heading": "فرص العمل",
+      "during": {"title": "أثناء الدراسة", "options": [{"name": "العمل الجزئي", "description": "48 ساعة كل أسبوعين (~24 ساعة أسبوعيًا). بدوام كامل في العطل"}, {"name": "أنواع الوظائف", "description": "الضيافة، البيع بالتجزئة، التعليم الخصوصي، العمل في الجامعات"}]},
+      "after": {"title": "بعد التخرج", "options": [{"name": "Subclass 485 (تأشيرة الخريجين المؤقتة)", "description": "العمل في أستراليا من 2 إلى 4 سنوات حسب المؤهل"}, {"name": "المسار نحو الإقامة الدائمة", "description": "الخبرة الأسترالية تساعد في طلبات الهجرة الماهرة"}]}
+    },
+    "application_steps": {
+      "heading": "خطوات التقديم",
+      "steps": ["الحصول على CoE من المؤسسة الأسترالية", "تجهيز المستندات وترجمتها للإنجليزية", "التقديم عبر ImmiAccount", "دفع رسوم التأشيرة وحجز البصمات/الفحص الطبي", "انتظار القرار (4–8 أسابيع)"]
+    },
+    "documents": {
+      "heading": "المستندات المطلوبة",
+      "list": ["جواز سفر ساري", "CoE من مؤسسة معتمدة", "إثبات مالي (الرسوم + 24,505 دولار للمعيشة)", "تأمين OSHC", "الشهادات الأكاديمية (مترجمة)", "إثبات اللغة الإنجليزية (IELTS 6.0-6.5)", "استمارة التأشيرة", "شهادة حسن سير وسلوك", "شهادة طبية (إن طُلبت)"]
+    },
+    "upon_arrival": {
+      "heading": "بعد الوصول",
+      "steps": ["التسجيل في الجامعة", "تفعيل تأمين OSHC", "فتح حساب بنكي محلي", "الحصول على TFN للعمل القانوني"]
+    },
+    "with_kaya": {"heading": "مع كايا: طريقك إلى أستراليا أسهل", "services": ["توجيه اختيار البرنامج", "تجهيز ملف تأشيرة كامل", "دعم OSHC والسكن", "بعد الوصول: التسجيل، TFN، فرص العمل"]},
+    "cta": "ابدأ رحلتك التعليمية الأسترالية اليوم"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "en": {
+    "title": "Canada Study Permit",
+    "hero": {
+      "subtitle": "Your Gateway to World-Class Canadian Education and Immigration"
+    },
+    "why_canada": {
+      "heading": "Why Choose Canada?",
+      "reasons": [
+        "World-Class Universities: Home to prestigious universities such as Toronto, McGill, and UBC",
+        "High Quality, Lower Cost: More affordable than the UK and US while maintaining excellent educational quality",
+        "Bilingual Advantage: English and French environment gives you an added competitive edge",
+        "Post-Graduation Pathways: Clear routes to work and immigration through PGWP and Express Entry",
+        "Safe and Diverse: Welcomes over 600,000 international students annually in a multicultural society"
+      ]
+    },
+    "programs": {
+      "heading": "Available Programs",
+      "list": [
+        "English as a Second Language Institutes (ESL)",
+        "Diploma, Bachelor's, Master's, and Doctoral degrees",
+        "Conditional Admission: University acceptance conditional upon completing language program",
+        "College programs and vocational training"
+      ]
+    },
+    "costs": {
+      "heading": "Estimated Costs (CAD)",
+      "tuition": {
+        "title": "Tuition Fees",
+        "details": [
+          "CAD 13,000–25,000 per year depending on program and institution",
+          "Quebec and smaller provinces may have lower fees",
+          "Professional programs (Medicine, Engineering) may cost more"
+        ]
+      },
+      "living": {
+        "title": "Living Expenses",
+        "details": [
+          "CAD 10,000–15,000 per year depending on city and lifestyle",
+          "Toronto and Vancouver are higher, smaller cities are more affordable",
+          "Includes housing, food, transportation, and basic necessities"
+        ]
+      },
+      "additional": {
+        "title": "Additional Costs",
+        "details": [
+          "Study Permit Fee: CAD 150",
+          "Health Insurance: Varies by province (some include students, others require private coverage)",
+          "Biometrics Fee: CAD 85"
+        ]
+      }
+    },
+    "financial_requirements": {
+      "heading": "Financial Requirements",
+      "description": "To prove financial capability for your study permit:",
+      "requirements": [
+        "Tuition fees for the first year",
+        "Living expenses: CAD 10,000 per year for student, plus CAD 4,000 for first dependent",
+        "Travel costs",
+        "Funds must be held in bank account for 28 consecutive days before application"
+      ],
+      "deposit_info": {
+        "title": "University Deposit Requirements",
+        "description": "Many universities require an advance deposit of CAD 500–2,000 to secure your seat. Some may require full first semester payment before issuing final Letter of Acceptance.",
+        "note": "Paying a deposit strengthens your study permit application as it demonstrates commitment"
+      }
+    },
+    "student_life": {
+      "heading": "Student Life in Canada",
+      "cities": "Major Student Cities: Toronto (global and diverse), Vancouver (stunning nature), Montreal (French and English culture), Ottawa (quiet and organized)",
+      "activities": "University Activities: Student clubs, winter sports (skiing, hockey), music and cultural festivals",
+      "diversity": "Cultural Diversity: Canada is one of the top immigrant-receiving countries, creating an inclusive multinational environment",
+      "support": "Support Services: Universities provide international student offices, academic advising, and housing assistance"
+    },
+    "work_opportunities": {
+      "heading": "Work Opportunities During and After Study",
+      "during": {
+        "title": "During Study",
+        "options": [
+          {
+            "name": "On-Campus and Off-Campus Work",
+            "description": "Work 20 hours per week during semester, full-time during scheduled breaks"
+          },
+          {
+            "name": "Co-op and Internship Programs",
+            "description": "Many programs include mandatory work placements that count toward graduation"
+          }
+        ]
+      },
+      "after": {
+        "title": "After Graduation",
+        "options": [
+          {
+            "name": "PGWP (Post-Graduation Work Permit)",
+            "description": "Work in Canada for up to 3 years after graduation. Program length determines permit duration"
+          },
+          {
+            "name": "Pathway to Permanent Residence",
+            "description": "Canadian work experience helps you qualify for Express Entry and Provincial Nominee Programs"
+          }
+        ]
+      }
+    },
+    "application_steps": {
+      "heading": "Essential Steps for Study Permit Application",
+      "steps": [
+        "Obtain Letter of Acceptance (LOA) from a Designated Learning Institution (DLI)",
+        "Prepare and translate all documents to English or French",
+        "Apply via IRCC website or local Visa Application Centre",
+        "Pay study permit fee (CAD 150) and biometrics fee (CAD 85)",
+        "Book appointment for biometrics collection",
+        "Await decision (typically 6–12 weeks)"
+      ]
+    },
+    "detailed_steps": {
+      "heading": "Detailed Application Process",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Get Acceptance from DLI",
+          "description": "Apply to Designated Learning Institution. Upon acceptance, receive Letter of Acceptance proving enrollment"
+        },
+        {
+          "number": "2",
+          "title": "Gather Financial Proof",
+          "description": "Bank statements showing tuition for first year plus CAD 10,000 living expenses. Consider university deposit requirements"
+        },
+        {
+          "number": "3",
+          "title": "Complete Online Application",
+          "description": "Submit application through IRCC website with all required documents translated to English or French"
+        },
+        {
+          "number": "4",
+          "title": "Pay Fees and Biometrics",
+          "description": "Pay CAD 150 study permit fee and CAD 85 biometrics fee. Book biometrics appointment at VAC"
+        },
+        {
+          "number": "5",
+          "title": "Medical Exam (if required)",
+          "description": "Some applicants may need medical examination from panel physician"
+        },
+        {
+          "number": "6",
+          "title": "Await Decision",
+          "description": "Processing takes 6-12 weeks. Check application status online through IRCC account"
+        },
+        {
+          "number": "7",
+          "title": "Prepare for Arrival",
+          "description": "Upon approval, prepare for travel. Study permit will be issued at port of entry in Canada"
+        }
+      ]
+    },
+    "tips": {
+      "heading": "Success Tips",
+      "list": [
+        "Apply early - processing can take up to 12 weeks during peak season",
+        "Ensure your institution is on the DLI list before applying",
+        "Show strong ties to home country while demonstrating genuine study intent",
+        "If studying in Quebec, obtain CAQ (Quebec Acceptance Certificate) first",
+        "Keep all financial documents recent - within 28 days of application"
+      ]
+    },
+    "documents": {
+      "heading": "Required Documents",
+      "list": [
+        "Valid passport covering study period",
+        "Letter of Acceptance from DLI",
+        "Proof of financial support (bank statements, GIC, scholarship letters)",
+        "Recent passport-sized photos",
+        "Language test results (IELTS/TOEFL for English or TEF for French)",
+        "Academic transcripts and certificates (translated and authenticated)",
+        "Statement of Purpose explaining study plans",
+        "Medical exam results (if required)",
+        "Police clearance certificate (if requested)",
+        "CAQ certificate (for Quebec only)"
+      ]
+    },
+    "with_kaya": {
+      "heading": "With Kaya: Your Path to Canada is Easier",
+      "services": [
+        "Help you select the right university and program based on your goals",
+        "Complete visa file preparation with no gaps",
+        "Assistance with financial proof and health insurance requirements",
+        "Post-arrival support: Registration, housing, and first job opportunities"
+      ]
+    },
+    "cta": "Start Your Canadian Education Journey Today"
+  },
+  "ar": {
+    "title": "تصريح الدراسة في كندا",
+    "hero": {
+      "subtitle": "بوابتك إلى التعليم الكندي العالمي والهجرة"
+    },
+    "why_canada": {
+      "heading": "لماذا كندا؟",
+      "reasons": [
+        "جامعات مرموقة عالمياً مثل تورونتو، ماكغيل، و UBC",
+        "تكاليف أقل من بريطانيا وأمريكا مع جودة تعليم عالية",
+        "بلد ثنائي اللغة (إنجليزية وفرنسية) يمنحك ميزة إضافية",
+        "فرص عمل بعد التخرج عبر برامج الهجرة مثل PGWP و Express Entry",
+        "مجتمع متنوع وآمن يستقبل أكثر من 600,000 طالب دولي سنويًا"
+      ]
+    },
+    "programs": {
+      "heading": "البرامج المتاحة",
+      "list": [
+        "معاهد اللغة الإنجليزية (ESL)",
+        "الدبلوم، البكالوريوس، الماجستير، والدكتوراه",
+        "القبول المشروط: قبول جامعي بشرط إنهاء برنامج اللغة",
+        "برامج الكليات والتدريب المهني"
+      ]
+    },
+    "costs": {
+      "heading": "التكاليف التقديرية (دولار كندي)",
+      "tuition": {
+        "title": "الرسوم الدراسية",
+        "details": [
+          "13,000 – 25,000 دولار كندي سنويًا حسب التخصص والجامعة",
+          "كيبيك والمقاطعات الأصغر قد تكون أقل تكلفة",
+          "البرامج المهنية (الطب، الهندسة) قد تكون أعلى"
+        ]
+      },
+      "living": {
+        "title": "المعيشة",
+        "details": [
+          "10,000 – 15,000 دولار كندي سنويًا حسب المدينة ونمط الحياة",
+          "تورونتو وفانكوفر أعلى، المدن الأصغر أكثر معقولية",
+          "تشمل السكن، الطعام، المواصلات، والاحتياجات الأساسية"
+        ]
+      },
+      "additional": {
+        "title": "تكاليف إضافية",
+        "details": [
+          "رسوم تصريح الدراسة: 150 دولارًا كنديًا",
+          "التأمين الصحي: يختلف حسب المقاطعة (بعضها يشمل الطلاب)",
+          "رسوم البصمات: 85 دولارًا كنديًا"
+        ]
+      }
+    },
+    "financial_requirements": {
+      "heading": "المتطلبات المالية",
+      "description": "لإثبات القدرة المالية لتصريح الدراسة:",
+      "requirements": [
+        "الرسوم الدراسية للسنة الأولى",
+        "تكاليف المعيشة: 10,000 دولار سنويًا للطالب، + 4,000 للمرافق الأول",
+        "تكاليف السفر",
+        "يجب أن تكون الأموال في الحساب لمدة 28 يومًا متواصلة قبل التقديم"
+      ],
+      "deposit_info": {
+        "title": "متطلبات الدفعة المسبقة للجامعة",
+        "description": "تطلب العديد من الجامعات دفعة مسبقة بين 500-2,000 دولار لحجز المقعد. قد يطلب البعض دفع الفصل الدراسي الأول كاملاً قبل إصدار القبول النهائي.",
+        "note": "دفع الدفعة المسبقة يقوي طلب تصريح الدراسة لأنه يُظهر الالتزام"
+      }
+    },
+    "student_life": {
+      "heading": "الحياة الطلابية في كندا",
+      "cities": "مدن طلابية رئيسية: تورونتو (عالمية ومتنوعة)، فانكوفر (طبيعة خلابة)، مونتريال (ثقافة فرنسية وإنجليزية)، أوتاوا (مدينة هادئة ومنظمة)",
+      "activities": "أنشطة جامعية: أندية طلابية، رياضات شتوية (تزلج وهوكي)، مهرجانات موسيقية وثقافية",
+      "diversity": "تنوع ثقافي: كندا من أكثر الدول استقبالًا للمهاجرين، ما يمنح الطلاب بيئة شاملة ومتعددة الجنسيات",
+      "support": "الدعم والخدمات: الجامعات توفر مكاتب دعم للطلاب الدوليين، إرشاد أكاديمي، وخدمات سكن"
+    },
+    "work_opportunities": {
+      "heading": "فرص العمل أثناء الدراسة وبعدها",
+      "during": {
+        "title": "أثناء الدراسة",
+        "options": [
+          {
+            "name": "العمل داخل وخارج الحرم الجامعي",
+            "description": "20 ساعة أسبوعيًا خلال الفصل الدراسي، بدوام كامل في العطل"
+          },
+          {
+            "name": "برامج التدريب التعاوني",
+            "description": "العديد من البرامج تتضمن تدريبًا عمليًا إلزاميًا يُحتسب ضمن التخرج"
+          }
+        ]
+      },
+      "after": {
+        "title": "بعد التخرج",
+        "options": [
+          {
+            "name": "PGWP (تصريح العمل بعد التخرج)",
+            "description": "العمل في كندا حتى 3 سنوات بعد التخرج. مدة البرنامج تحدد مدة التصريح"
+          },
+          {
+            "name": "المسار نحو الإقامة الدائمة",
+            "description": "الخبرة الكندية تساعدك في التأهل لبرامج Express Entry والترشيح الإقليمي"
+          }
+        ]
+      }
+    },
+    "application_steps": {
+      "heading": "الخطوات الأساسية للتقديم",
+      "steps": [
+        "الحصول على قبول جامعي من مؤسسة تعليمية معتمدة (DLI)",
+        "تجهيز المستندات وترجمتها للإنجليزية أو الفرنسية",
+        "التقديم عبر موقع IRCC أو مركز التأشيرات المحلي",
+        "دفع رسوم التصريح (150 دولار) ورسوم البصمات (85 دولار)",
+        "حجز موعد للبصمات (Biometrics)",
+        "انتظار القرار (عادة 6–12 أسبوعًا)"
+      ]
+    },
+    "detailed_steps": {
+      "heading": "عملية التقديم التفصيلية",
+      "steps": [
+        {
+          "number": "1",
+          "title": "الحصول على قبول من DLI",
+          "description": "التقديم على مؤسسة تعليمية معتمدة. بعد القبول، الحصول على خطاب القبول الذي يثبت التسجيل"
+        },
+        {
+          "number": "2",
+          "title": "جمع الإثبات المالي",
+          "description": "كشوف حسابات تُظهر الرسوم للسنة الأولى + 10,000 دولار للمعيشة. ضع في الاعتبار متطلبات الدفعة المسبقة"
+        },
+        {
+          "number": "3",
+          "title": "إكمال الطلب الإلكتروني",
+          "description": "تقديم الطلب عبر موقع IRCC مع جميع المستندات المطلوبة مترجمة للإنجليزية أو الفرنسية"
+        },
+        {
+          "number": "4",
+          "title": "دفع الرسوم والبصمات",
+          "description": "دفع 150 دولار رسوم التصريح و85 دولار للبصمات. حجز موعد البصمات في المركز"
+        },
+        {
+          "number": "5",
+          "title": "الفحص الطبي (إن لزم)",
+          "description": "قد يحتاج بعض المتقدمين لفحص طبي من طبيب معتمد"
+        },
+        {
+          "number": "6",
+          "title": "انتظار القرار",
+          "description": "المعالجة تستغرق 6-12 أسبوع. تابع حالة الطلب عبر حساب IRCC"
+        },
+        {
+          "number": "7",
+          "title": "الاستعداد للوصول",
+          "description": "بعد الموافقة، استعد للسفر. سيصدر تصريح الدراسة عند دخول كندا"
+        }
+      ]
+    },
+    "tips": {
+      "heading": "نصائح للنجاح",
+      "list": [
+        "قدّم مبكرًا - المعالجة قد تستغرق 12 أسبوع في موسم الذروة",
+        "تأكد أن مؤسستك ضمن قائمة DLI قبل التقديم",
+        "أظهر روابط قوية ببلدك مع إثبات النية الحقيقية للدراسة",
+        "إذا كنت ستدرس في كيبيك، احصل على CAQ أولاً",
+        "احتفظ بالمستندات المالية حديثة - خلال 28 يوم من التقديم"
+      ]
+    },
+    "documents": {
+      "heading": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري يغطي فترة الدراسة",
+        "خطاب قبول من DLI",
+        "إثبات الدعم المالي (كشوف حسابات، GIC، خطابات منح)",
+        "صور حديثة بحجم جواز السفر",
+        "نتائج اختبار اللغة (IELTS/TOEFL للإنجليزية أو TEF للفرنسية)",
+        "كشوف الدرجات والشهادات الأكاديمية (مترجمة ومصدقة)",
+        "بيان الغرض يشرح خطط الدراسة",
+        "نتائج الفحص الطبي (إن لزم)",
+        "شهادة حسن سير وسلوك (إن طُلبت)",
+        "شهادة CAQ (لكيبيك فقط)"
+      ]
+    },
+    "with_kaya": {
+      "heading": "مع كايا: طريقك إلى كندا أسهل",
+      "services": [
+        "نساعدك في اختيار الجامعة والبرنامج المناسب حسب أهدافك",
+        "تجهيز ملف تأشيرة كامل بلا ثغرات",
+        "المساعدة في إثبات القدرة المالية والتأمين الصحي",
+        "متابعة بعد الوصول: التسجيل، السكن، وأول فرصة عمل"
+      ]
+    },
+    "cta": "ابدأ رحلتك التعليمية الكندية اليوم"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "en": {
+    "title": "Contact Us",
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We Are With You Every Step of the Way",
+      "description": "Your journey starts here. At Kaya, we believe that communication is not just a service; it is a bridge of trust between us and you. Whether you are looking for visa consultation, need to follow up on your application, or have any inquiry, our team is ready to assist you quickly and professionally."
+    },
+    "contact_info": {
+      "title": "Direct Contact Information",
+      "phone": {
+        "label": "Phone",
+        "value": "+962 77 999 7096",
+        "link": "+962779997096"
+      },
+      "email": {
+        "label": "Email",
+        "value": "info@kayavisa.org",
+        "link": "info@kayavisa.org"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Amman, Jordan"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+962 77 999 7096",
+        "link": "+962779997096"
+      }
+    },
+    "form": {
+      "title": "Contact Form",
+      "subtitle": "Fill out the form below, and we will get back to you as soon as possible",
+      "fields": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter your name as it appears on your passport",
+          "required": true
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "For communication and sending updates",
+          "required": true
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Including country code (e.g., +962 77 123 4567)",
+          "required": true
+        },
+        "visa_type": {
+          "label": "Required Visa Type",
+          "placeholder": "Select visa type",
+          "options": [
+            "Canada Visa",
+            "USA Visa",
+            "UK Visa",
+            "Germany/Schengen Visa",
+            "Australia Visa",
+            "Study Visa",
+            "Work Visa",
+            "Second Citizenship",
+            "Other Services",
+            "General Inquiry"
+          ]
+        },
+        "message": {
+          "label": "Your Message / Inquiry",
+          "placeholder": "Write the details of your request or your questions here",
+          "required": true
+        }
+      },
+      "button": "Submit Request",
+      "privacy_note": "All your inquiries are confidential and will be answered within 24 hours.",
+      "success_message": "Thank you! Your message has been sent successfully. We will contact you within 24 hours.",
+      "error_message": "An error occurred. Please try again or contact us directly via phone or email."
+    },
+    "why_choose": {
+      "title": "Why Choose Kaya?",
+      "reasons": [
+        {
+          "icon": "fa-certificate",
+          "title": "Accurate Consultations",
+          "description": "Based on official sources and updated information"
+        },
+        {
+          "icon": "fa-user-check",
+          "title": "Personalized Follow-up",
+          "description": "For your applications, step-by-step guidance"
+        },
+        {
+          "icon": "fa-headset",
+          "title": "Dedicated Customer Support",
+          "description": "Professional team available to answer all your questions"
+        },
+        {
+          "icon": "fa-clock",
+          "title": "Prompt Response",
+          "description": "Clear answers within 24 hours"
+        }
+      ]
+    },
+    "working_hours": {
+      "title": "Working Hours",
+      "schedule": [
+        {
+          "days": "Saturday – Thursday",
+          "hours": "9:00 AM – 6:00 PM"
+        },
+        {
+          "days": "Friday",
+          "hours": "Official Holiday"
+        }
+      ]
+    },
+    "social_media": {
+      "title": "Follow Us on Social Media",
+      "platforms": [
+        {
+          "name": "Facebook",
+          "icon": "fab fa-facebook-f",
+          "link": "https://facebook.com/kayavisa"
+        },
+        {
+          "name": "Instagram",
+          "icon": "fab fa-instagram",
+          "link": "https://instagram.com/kayavisa"
+        },
+        {
+          "name": "LinkedIn",
+          "icon": "fab fa-linkedin-in",
+          "link": "https://linkedin.com/company/kayavisa"
+        },
+        {
+          "name": "Twitter",
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com/kayavisa"
+        }
+      ]
+    },
+    "final_message": {
+      "title": "Our Message to You",
+      "description": "We are here to grant you peace of mind before you travel. Contact us today, and let us simplify your path to your next destination.",
+      "cta": "Start your journey with confidence – Contact us now"
+    }
+  },
+  "ar": {
+    "title": "تواصل معنا",
+    "hero": {
+      "title": "تواصل معنا",
+      "subtitle": "نحن معك في كل خطوة",
+      "description": "رحلتك تبدأ من هنا. في كايا، نؤمن بأن التواصل ليس مجرد خدمة، بل هو جسر الثقة بيننا وبينك. سواء كنت تبحث عن استشارة لتأشيرة، تحتاج إلى متابعة طلبك، أو لديك أي استفسار، فريقنا جاهز لمساعدتك بسرعة واحترافية."
+    },
+    "contact_info": {
+      "title": "معلومات التواصل المباشر",
+      "phone": {
+        "label": "الهاتف",
+        "value": "+962 77 999 7096",
+        "link": "+962779997096"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "value": "info@kayavisa.org",
+        "link": "info@kayavisa.org"
+      },
+      "address": {
+        "label": "العنوان",
+        "value": "عمّان، الأردن"
+      },
+      "whatsapp": {
+        "label": "واتساب",
+        "value": "+962 77 999 7096",
+        "link": "+962779997096"
+      }
+    },
+    "form": {
+      "title": "نموذج التواصل",
+      "subtitle": "املأ النموذج أدناه، وسنتواصل معك في أقرب وقت ممكن",
+      "fields": {
+        "name": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل اسمك كما يظهر في جواز السفر",
+          "required": true
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "للتواصل وإرسال التحديثات",
+          "required": true
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeholder": "مع رمز الدولة (مثال: 962 77 123 4567+)",
+          "required": true
+        },
+        "visa_type": {
+          "label": "نوع التأشيرة المطلوبة",
+          "placeholder": "اختر نوع التأشيرة",
+          "options": [
+            "تأشيرة كندا",
+            "تأشيرة أمريكا",
+            "تأشيرة بريطانيا",
+            "تأشيرة ألمانيا/شنغن",
+            "تأشيرة أستراليا",
+            "تأشيرة دراسة",
+            "تأشيرة عمل",
+            "الجنسية الثانية",
+            "خدمات أخرى",
+            "استفسار عام"
+          ]
+        },
+        "message": {
+          "label": "رسالتك / استفسارك",
+          "placeholder": "اكتب تفاصيل طلبك أو أسئلتك هنا",
+          "required": true
+        }
+      },
+      "button": "إرسال الطلب",
+      "privacy_note": "جميع استفساراتك سرية وسيتم الرد عليها خلال 24 ساعة.",
+      "success_message": "شكراً لك! تم إرسال رسالتك بنجاح. سنتواصل معك خلال 24 ساعة.",
+      "error_message": "حدث خطأ. يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة عبر الهاتف أو البريد الإلكتروني."
+    },
+    "why_choose": {
+      "title": "لماذا تختار كايا؟",
+      "reasons": [
+        {
+          "icon": "fa-certificate",
+          "title": "استشارات دقيقة",
+          "description": "مبنية على مصادر رسمية ومعلومات محدثة"
+        },
+        {
+          "icon": "fa-user-check",
+          "title": "متابعة شخصية",
+          "description": "لطلباتك، مع إرشادات خطوة بخطوة"
+        },
+        {
+          "icon": "fa-headset",
+          "title": "دعم عملاء متخصص",
+          "description": "فريق محترف متاح للإجابة على جميع أسئلتك"
+        },
+        {
+          "icon": "fa-clock",
+          "title": "رد سريع",
+          "description": "إجابات واضحة خلال 24 ساعة"
+        }
+      ]
+    },
+    "working_hours": {
+      "title": "ساعات العمل",
+      "schedule": [
+        {
+          "days": "السبت – الخميس",
+          "hours": "9:00 صباحاً – 6:00 مساءً"
+        },
+        {
+          "days": "الجمعة",
+          "hours": "عطلة رسمية"
+        }
+      ]
+    },
+    "social_media": {
+      "title": "تابعنا على وسائل التواصل الاجتماعي",
+      "platforms": [
+        {
+          "name": "فيسبوك",
+          "icon": "fab fa-facebook-f",
+          "link": "https://facebook.com/kayavisa"
+        },
+        {
+          "name": "إنستغرام",
+          "icon": "fab fa-instagram",
+          "link": "https://instagram.com/kayavisa"
+        },
+        {
+          "name": "لينكد إن",
+          "icon": "fab fa-linkedin-in",
+          "link": "https://linkedin.com/company/kayavisa"
+        },
+        {
+          "name": "تويتر",
+          "icon": "fab fa-twitter",
+          "link": "https://twitter.com/kayavisa"
+        }
+      ]
+    },
+    "final_message": {
+      "title": "رسالتنا لك",
+      "description": "نحن هنا لنمنحك راحة البال قبل سفرك. تواصل معنا اليوم، ودعنا نبسّط طريقك إلى وجهتك التالية.",
+      "cta": "ابدأ رحلتك بثقة – تواصل معنا الآن"
+    }
+  }
+}

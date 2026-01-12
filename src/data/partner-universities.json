@@ -1,0 +1,164 @@
+{
+  "en": {
+    "category": "Universities & Education",
+    "title": "University Partners",
+    "subtitle": "Gateway to Global Education",
+    "description": "We partner with prestigious universities and educational institutions worldwide to help students achieve their academic dreams. Our partnerships provide direct admission pathways, scholarship opportunities, and comprehensive support throughout the application process.",
+    "partners": [
+      {
+        "name": "University of Toronto",
+        "logo": "/images/partners/toronto.png",
+        "description": "Canada's leading university with world-class programs across all disciplines",
+        "benefits": ["Direct admission pathway", "Application fee waivers", "Scholarship opportunities", "Visa application support"]
+      },
+      {
+        "name": "Technical University of Munich",
+        "logo": "/images/partners/tum.png",
+        "description": "Top-ranked German university specializing in engineering and technology",
+        "benefits": ["English-taught programs", "No tuition fees", "Priority processing", "Accommodation assistance"]
+      },
+      {
+        "name": "University of Melbourne",
+        "logo": "/images/partners/melbourne.png",
+        "description": "Australia's premier institution with excellent research facilities",
+        "benefits": ["Fast-track applications", "Merit scholarships", "Work-study options", "Post-study work visa support"]
+      }
+    ],
+    "benefits": {
+      "title": "Educational Partnership Benefits",
+      "items": [
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Direct Admission",
+          "description": "Streamlined application process with partner universities"
+        },
+        {
+          "icon": "fa-hand-holding-usd",
+          "title": "Scholarship Access",
+          "description": "Exclusive scholarship and financial aid opportunities"
+        },
+        {
+          "icon": "fa-file-alt",
+          "title": "Application Support",
+          "description": "Expert guidance throughout the admission process"
+        },
+        {
+          "icon": "fa-passport",
+          "title": "Visa Assistance",
+          "description": "Complete support for student visa applications"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "Application Journey",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Counseling",
+          "description": "Discuss your academic goals and choose programs"
+        },
+        {
+          "number": "2",
+          "title": "Application",
+          "description": "Submit applications to partner universities"
+        },
+        {
+          "number": "3",
+          "title": "Acceptance",
+          "description": "Receive admission offers and acceptance letters"
+        },
+        {
+          "number": "4",
+          "title": "Enrollment",
+          "description": "Complete visa process and begin your studies"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start Your Educational Journey",
+      "description": "Explore opportunities at world-renowned universities",
+      "button": "View Programs"
+    }
+  },
+  "ar": {
+    "category": "الجامعات والتعليم",
+    "title": "شركاء الجامعات",
+    "subtitle": "بوابتك إلى التعليم العالمي",
+    "description": "نتشارك مع جامعات ومؤسسات تعليمية مرموقة في جميع أنحاء العالم لمساعدة الطلاب على تحقيق أحلامهم الأكاديمية. توفر شراكاتنا مسارات قبول مباشرة، وفرص منح دراسية، ودعم شامل طوال عملية التقديم.",
+    "partners": [
+      {
+        "name": "جامعة تورونتو",
+        "logo": "/images/partners/toronto.png",
+        "description": "الجامعة الرائدة في كندا مع برامج عالمية المستوى في جميع التخصصات",
+        "benefits": ["مسار قبول مباشر", "إعفاءات من رسوم التقديم", "فرص منح دراسية", "دعم طلب التأشيرة"]
+      },
+      {
+        "name": "الجامعة التقنية في ميونيخ",
+        "logo": "/images/partners/tum.png",
+        "description": "جامعة ألمانية رائدة متخصصة في الهندسة والتكنولوجيا",
+        "benefits": ["برامج تُدرّس بالإنجليزية", "بدون رسوم دراسية", "معالجة ذات أولوية", "مساعدة في السكن"]
+      },
+      {
+        "name": "جامعة ملبورن",
+        "logo": "/images/partners/melbourne.png",
+        "description": "المؤسسة الرائدة في أستراليا مع مرافق بحثية ممتازة",
+        "benefits": ["تطبيقات سريعة", "منح دراسية على الجدارة", "خيارات الدراسة والعمل", "دعم تأشيرة العمل بعد الدراسة"]
+      }
+    ],
+    "benefits": {
+      "title": "فوائد الشراكة التعليمية",
+      "items": [
+        {
+          "icon": "fa-graduation-cap",
+          "title": "قبول مباشر",
+          "description": "عملية تقديم مبسطة مع الجامعات الشريكة"
+        },
+        {
+          "icon": "fa-hand-holding-usd",
+          "title": "الوصول إلى المنح",
+          "description": "فرص منح دراسية ومساعدات مالية حصرية"
+        },
+        {
+          "icon": "fa-file-alt",
+          "title": "دعم التقديم",
+          "description": "إرشاد خبير طوال عملية القبول"
+        },
+        {
+          "icon": "fa-passport",
+          "title": "مساعدة في التأشيرة",
+          "description": "دعم كامل لطلبات تأشيرة الطالب"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "رحلة التقديم",
+      "steps": [
+        {
+          "number": "1",
+          "title": "الاستشارة",
+          "description": "ناقش أهدافك الأكاديمية واختر البرامج"
+        },
+        {
+          "number": "2",
+          "title": "التقديم",
+          "description": "قدّم الطلبات إلى الجامعات الشريكة"
+        },
+        {
+          "number": "3",
+          "title": "القبول",
+          "description": "استلم عروض القبول ورسائل القبول"
+        },
+        {
+          "number": "4",
+          "title": "التسجيل",
+          "description": "أكمل عملية التأشيرة وابدأ دراستك"
+        }
+      ]
+    },
+    "cta": {
+      "title": "ابدأ رحلتك التعليمية",
+      "description": "استكشف الفرص في الجامعات المشهورة عالمياً",
+      "button": "عرض البرامج"
+    }
+  }
+}

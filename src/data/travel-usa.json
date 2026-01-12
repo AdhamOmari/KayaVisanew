@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "USA Travel Visas",
+    "hero": {
+      "subtitle": "Your gateway to exploring the United States"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa (B-2)",
+        "description": "For tourism, vacation, and visiting friends and family",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visit Visa (B-1)",
+        "description": "For business meetings, conferences, and consultations",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa (C-1)",
+        "description": "For immediate and continuous transit through the US",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (6 months validity)",
+      "DS-160 form confirmation",
+      "Visa application fee payment receipt",
+      "Passport-sized photograph",
+      "Proof of financial means",
+      "Travel itinerary and accommodation bookings"
+    ],
+    "processing_time": "3-5 weeks",
+    "validity": "Up to 10 years (multiple entry)",
+    "tips": [
+      "Schedule your embassy interview early",
+      "Prepare strong ties documentation to your home country",
+      "Be honest and consistent during the interview",
+      "Bring all supporting documents in organized folders"
+    ],
+    "with_kaya": [
+      "DS-160 form assistance",
+      "Interview preparation and coaching",
+      "Document review and organization",
+      "Appointment scheduling support"
+    ],
+    "cta": "Start your USA visa application today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى الولايات المتحدة",
+    "hero": {
+      "subtitle": "بوابتك لاستكشاف الولايات المتحدة الأمريكية"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية (B-2)",
+        "description": "للسياحة والعطلات وزيارة الأصدقاء والعائلة",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل (B-1)",
+        "description": "للاجتماعات والمؤتمرات والاستشارات التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور (C-1)",
+        "description": "للعبور الفوري والمستمر عبر الولايات المتحدة",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 6 أشهر)",
+      "تأكيد نموذج DS-160",
+      "إيصال دفع رسوم التأشيرة",
+      "صورة شخصية بحجم جواز السفر",
+      "إثبات القدرة المالية",
+      "خط سير الرحلة وحجوزات الإقامة"
+    ],
+    "processing_time": "3-5 أسابيع",
+    "validity": "حتى 10 سنوات (دخول متعدد)",
+    "tips": [
+      "حدد موعد مقابلة السفارة مبكراً",
+      "جهز مستندات قوية تثبت ارتباطك ببلدك",
+      "كن صادقاً ومتسقاً أثناء المقابلة",
+      "أحضر جميع المستندات الداعمة في ملفات منظمة"
+    ],
+    "with_kaya": [
+      "المساعدة في تعبئة نموذج DS-160",
+      "التحضير والتدريب للمقابلة",
+      "مراجعة وتنظيم المستندات",
+      "دعم في جدولة المواعيد"
+    ],
+    "cta": "ابدأ طلب تأشيرتك الأمريكية اليوم"
+  }
+}

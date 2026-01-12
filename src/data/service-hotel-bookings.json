@@ -1,0 +1,176 @@
+{
+  "en": {
+    "title": "Hotel Bookings",
+    "slug": "hotel-bookings",
+    "hero": {
+      "title": "Hotel Bookings",
+      "subtitle": "Why Choose Kaya for Hotel Booking Services?",
+      "description": "A comfortable stay is the foundation of any successful trip. At Kaya, we provide you with a hotel booking service with the highest degree of professionalism, guaranteeing you comfort, security, and competitive prices wherever your destination may be, whether for business, tourism, or study."
+    },
+    "advantages": {
+      "title": "The Advantages We Offer You at Kaya",
+      "list": [
+        {
+          "title": "Wide Network",
+          "description": "Of international hotels, including diverse options from budget-friendly to luxury accommodations",
+          "icon": "fa-hotel"
+        },
+        {
+          "title": "Competitive Prices",
+          "description": "With the ability to secure the best available offers and discounts",
+          "icon": "fa-tag"
+        },
+        {
+          "title": "Flexibility",
+          "description": "In changing and canceling bookings, compliant with hotel policies",
+          "icon": "fa-sync-alt"
+        },
+        {
+          "title": "Personalized Service",
+          "description": "To assist you in choosing the most suitable hotel for your location and budget",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "Integrated Coordination",
+          "description": "With flight bookings and travel plans for a seamless, complication-free experience",
+          "icon": "fa-link"
+        }
+      ]
+    },
+    "services": {
+      "title": "What We Offer You at Kaya",
+      "list": [
+        "Booking hotels in all tourist and international destinations",
+        "Multiple accommodation options: single rooms, family rooms, or luxury suites",
+        "Full coordination with travel plans and visas to ensure consistency in your trip itinerary",
+        "Diligent follow-up to confirm the booking and provide support when needed",
+        "Ability to add special services such as breakfast, airport transfers, or business services"
+      ]
+    },
+    "value": {
+      "title": "The Added Value for You",
+      "description": "With Kaya, you don't need to worry about your accommodation. We provide you with an ideal stay experience that guarantees comfort, security, and fits your budget, allowing you to enjoy your trip without being preoccupied with details."
+    },
+    "process": {
+      "title": "How We Work",
+      "steps": [
+        {
+          "title": "Receiving Your Request",
+          "description": "Electronically",
+          "icon": "fa-inbox"
+        },
+        {
+          "title": "Reviewing Options",
+          "description": "Available hotel options and presenting the best offers",
+          "icon": "fa-search"
+        },
+        {
+          "title": "Booking Confirmation",
+          "description": "According to your needs and schedule",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "Confirmation Delivery",
+          "description": "Electronically or in hard copy, as per your preference",
+          "icon": "fa-file-contract"
+        },
+        {
+          "title": "Stay Monitoring",
+          "description": "And providing support when needed",
+          "icon": "fa-headset"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Do you wish to book your next stay easily and comfortably?",
+      "button": "Contact us now!"
+    }
+  },
+  "ar": {
+    "title": "حجوزات الفنادق",
+    "slug": "hotel-bookings",
+    "hero": {
+      "title": "حجوزات الفنادق",
+      "subtitle": "لماذا خدمة حجوزات الفنادق مميزة مع كايا؟",
+      "description": "الإقامة المريحة هي أساس أي رحلة ناجحة. في كايا، نوفّر لك خدمة حجوزات الفنادق بأعلى درجات الاحترافية، لنضمن لك راحة، أمان، وأسعار تنافسية أينما كانت وجهتك، سواء كانت رحلة عمل أو سياحة أو دراسة."
+    },
+    "advantages": {
+      "title": "المزايا التي نقدمها لك في كايا",
+      "list": [
+        {
+          "title": "شبكة واسعة",
+          "description": "من الفنادق العالمية تشمل خيارات متنوعة من الفنادق الاقتصادية حتى الفاخرة",
+          "icon": "fa-hotel"
+        },
+        {
+          "title": "أسعار تنافسية",
+          "description": "مع إمكانية الحصول على أفضل العروض والخصومات",
+          "icon": "fa-tag"
+        },
+        {
+          "title": "مرونة",
+          "description": "في التغيير والإلغاء بما يتوافق مع سياسات الفنادق",
+          "icon": "fa-sync-alt"
+        },
+        {
+          "title": "خدمة شخصية",
+          "description": "لمساعدتك في اختيار الفندق الأنسب لموقعك وميزانيتك",
+          "icon": "fa-user-tie"
+        },
+        {
+          "title": "تنسيق متكامل",
+          "description": "مع حجوزات الطيران وخطط السفر لتجربة سلسة بلا تعقيدات",
+          "icon": "fa-link"
+        }
+      ]
+    },
+    "services": {
+      "title": "ماذا نقدم لك في كايا؟",
+      "list": [
+        "حجز فنادق في جميع الوجهات السياحية والدولية",
+        "خيارات متعددة للإقامة: غرف فردية، عائلية، أو أجنحة فاخرة",
+        "تنسيق كامل مع خطط السفر والتأشيرات لضمان انسجام برنامج رحلتك",
+        "متابعة دقيقة لتأكيد الحجز وتقديم الدعم عند الحاجة",
+        "إمكانية إضافة خدمات خاصة مثل الإفطار، النقل من وإلى المطار، أو خدمات رجال الأعمال"
+      ]
+    },
+    "value": {
+      "title": "القيمة المضافة لك",
+      "description": "مع كايا، لا تحتاج للقلق بشأن مكان إقامتك. نحن نوفّر لك تجربة إقامة مثالية تضمن الراحة، الأمان، وتلائم ميزانيتك، لتستمتع برحلتك بلا أي انشغال بالتفاصيل."
+    },
+    "process": {
+      "title": "كيف نعمل؟",
+      "steps": [
+        {
+          "title": "استلام طلبك",
+          "description": "إلكترونيًا",
+          "icon": "fa-inbox"
+        },
+        {
+          "title": "مراجعة الخيارات",
+          "description": "خيارات الفنادق المتاحة وتقديم أفضل العروض",
+          "icon": "fa-search"
+        },
+        {
+          "title": "تأكيد الحجز",
+          "description": "وفقًا لاحتياجاتك وجدولك",
+          "icon": "fa-check-circle"
+        },
+        {
+          "title": "إرسال التأكيد",
+          "description": "إلكترونيًا أو ورقيًا حسب رغبتك",
+          "icon": "fa-file-contract"
+        },
+        {
+          "title": "متابعة إقامتك",
+          "description": "وتقديم الدعم عند الحاجة",
+          "icon": "fa-headset"
+        }
+      ]
+    },
+    "cta": {
+      "title": "هل ترغب في حجز إقامتك القادمة بسهولة وراحة؟",
+      "button": "تواصل معنا الآن!"
+    }
+  }
+}

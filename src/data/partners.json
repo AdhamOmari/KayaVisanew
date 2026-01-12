@@ -1,0 +1,300 @@
+{
+  "en": {
+    "hero": {
+      "title": "Our Partners",
+      "subtitle": "Building Strategic Relationships",
+      "description": "At Kaya, we believe that the journey is only complete with a network of partners who share our vision. We work to build strategic relationships with airlines, hotels, universities, and educational institutions to offer our clients a comprehensive travel experience that goes beyond merely securing a visa."
+    },
+    "offerings": {
+      "title": "What We Offer Through Our Partners",
+      "items": [
+        {
+          "icon": "fa-plane",
+          "title": "Exclusive Discounts",
+          "description": "Special rates on flights and hotel accommodation"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Educational Offers",
+          "description": "Collaboration with global universities and institutions"
+        },
+        {
+          "icon": "fa-concierge-bell",
+          "title": "Added Services",
+          "description": "Making your trip more comfortable and reassuring"
+        }
+      ]
+    },
+    "partners_section": {
+      "title": "Get to Know Our Partners",
+      "description": "Our goal is to provide you with real value at every step of your journey, from the moment your visa is prepared until you return home filled with experiences and memories.",
+      "categories": [
+        {
+          "name": "Airlines",
+          "icon": "fa-plane-departure",
+          "partners": []
+        },
+        {
+          "name": "Hotels",
+          "icon": "fa-hotel",
+          "partners": []
+        },
+        {
+          "name": "Universities",
+          "icon": "fa-university",
+          "partners": []
+        },
+        {
+          "name": "Educational Institutions",
+          "icon": "fa-book-reader",
+          "partners": []
+        }
+      ]
+    },
+    "become_partner": {
+      "title": "Become a Kaya Partner",
+      "description": "If you represent an airline, hotel, university, or educational institution and are looking for a strategic partnership, we invite you to join our network of partners.",
+      "cta": "Join Our Network",
+      "contact_label": "To Connect:",
+      "contact_email": "partners@kayavisa.org",
+      "benefits": [
+        {
+          "icon": "fa-handshake",
+          "title": "Strategic Collaboration",
+          "description": "Build long-term partnerships based on mutual growth"
+        },
+        {
+          "icon": "fa-users",
+          "title": "Expanded Reach",
+          "description": "Access our growing network of clients worldwide"
+        },
+        {
+          "icon": "fa-chart-line",
+          "title": "Business Growth",
+          "description": "Increase your visibility and customer base"
+        },
+        {
+          "icon": "fa-award",
+          "title": "Trusted Network",
+          "description": "Join a reputable platform with proven track record"
+        }
+      ]
+    },
+    "partner_types": {
+      "title": "Partner Categories",
+      "description": "We are seeking partnerships across various sectors to enhance our service offerings",
+      "types": [
+        {
+          "icon": "fa-plane",
+          "name": "Airlines",
+          "description": "Major carriers and regional airlines"
+        },
+        {
+          "icon": "fa-bed",
+          "name": "Hotels & Resorts",
+          "description": "Accommodation providers worldwide"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "name": "Universities",
+          "description": "Higher education institutions globally"
+        },
+        {
+          "icon": "fa-chalkboard-teacher",
+          "name": "Educational Centers",
+          "description": "Language schools and training institutes"
+        },
+        {
+          "icon": "fa-shield-alt",
+          "name": "Insurance Companies",
+          "description": "Travel and health insurance providers"
+        },
+        {
+          "icon": "fa-car",
+          "name": "Transportation Services",
+          "description": "Car rentals and ground transportation"
+        }
+      ]
+    },
+    "why_partner": {
+      "title": "Why Partner with Kaya?",
+      "reasons": [
+        {
+          "icon": "fa-globe",
+          "title": "Global Network",
+          "description": "Connect with clients from diverse international markets"
+        },
+        {
+          "icon": "fa-certificate",
+          "title": "Quality Assurance",
+          "description": "We maintain the highest standards in service delivery"
+        },
+        {
+          "icon": "fa-rocket",
+          "title": "Growth Opportunities",
+          "description": "Tap into expanding visa and travel services sector"
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Client Satisfaction",
+          "description": "Our clients trust us to deliver exceptional experiences"
+        }
+      ]
+    },
+    "contact_info": {
+      "title": "Partnership Inquiries",
+      "email": "partners@kayavisa.org",
+      "phone": "+962 77 999 7096",
+      "description": "Our partnerships team is ready to discuss collaboration opportunities that benefit both parties."
+    }
+  },
+  "ar": {
+    "hero": {
+      "title": "شركاؤنا",
+      "subtitle": "بناء علاقات استراتيجية",
+      "description": "في كايا، نؤمن أن الرحلة لا تكتمل إلا بشبكة من الشركاء الذين يشاركوننا نفس الرؤية. نعمل على بناء علاقات استراتيجية مع شركات الطيران، الفنادق، الجامعات، والمؤسسات التعليمية لنمنح عملاءنا تجربة سفر متكاملة تتجاوز مجرد استخراج التأشيرة."
+    },
+    "offerings": {
+      "title": "ما الذي نقدمه من خلال شركائنا؟",
+      "items": [
+        {
+          "icon": "fa-plane",
+          "title": "خصومات حصرية",
+          "description": "أسعار خاصة على الرحلات الجوية والإقامة الفندقية"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "عروض تعليمية",
+          "description": "بالتعاون مع جامعات ومؤسسات عالمية"
+        },
+        {
+          "icon": "fa-concierge-bell",
+          "title": "خدمات مضافة",
+          "description": "تجعل رحلتك أكثر راحة واطمئنانًا"
+        }
+      ]
+    },
+    "partners_section": {
+      "title": "تعرف على شركائنا",
+      "description": "هدفنا أن نوفر لك قيمة حقيقية في كل خطوة من رحلتك، من لحظة تجهيز التأشيرة وحتى العودة إلى وطنك محمّلًا بالتجارب والذكريات.",
+      "categories": [
+        {
+          "name": "شركات الطيران",
+          "icon": "fa-plane-departure",
+          "partners": []
+        },
+        {
+          "name": "الفنادق",
+          "icon": "fa-hotel",
+          "partners": []
+        },
+        {
+          "name": "الجامعات",
+          "icon": "fa-university",
+          "partners": []
+        },
+        {
+          "name": "المؤسسات التعليمية",
+          "icon": "fa-book-reader",
+          "partners": []
+        }
+      ]
+    },
+    "become_partner": {
+      "title": "كن شريكاً لكايا",
+      "description": "إذا كنت تمثل شركة طيران، فندق، جامعة، أو مؤسسة تعليمية وتبحث عن شراكة استراتيجية، ندعوك للانضمام إلى شبكة شركائنا.",
+      "cta": "انضم إلى شبكتنا",
+      "contact_label": "للتواصل:",
+      "contact_email": "partners@kayavisa.org",
+      "benefits": [
+        {
+          "icon": "fa-handshake",
+          "title": "تعاون استراتيجي",
+          "description": "بناء شراكات طويلة الأمد قائمة على النمو المتبادل"
+        },
+        {
+          "icon": "fa-users",
+          "title": "توسيع نطاق الوصول",
+          "description": "الوصول إلى شبكتنا المتنامية من العملاء حول العالم"
+        },
+        {
+          "icon": "fa-chart-line",
+          "title": "نمو الأعمال",
+          "description": "زيادة ظهورك وقاعدة عملائك"
+        },
+        {
+          "icon": "fa-award",
+          "title": "شبكة موثوقة",
+          "description": "انضم إلى منصة موثوقة ذات سجل حافل"
+        }
+      ]
+    },
+    "partner_types": {
+      "title": "فئات الشركاء",
+      "description": "نسعى للشراكات عبر قطاعات متنوعة لتعزيز عروض خدماتنا",
+      "types": [
+        {
+          "icon": "fa-plane",
+          "name": "شركات الطيران",
+          "description": "شركات الطيران الكبرى والإقليمية"
+        },
+        {
+          "icon": "fa-bed",
+          "name": "الفنادق والمنتجعات",
+          "description": "مزودي خدمات الإقامة في جميع أنحاء العالم"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "name": "الجامعات",
+          "description": "مؤسسات التعليم العالي عالمياً"
+        },
+        {
+          "icon": "fa-chalkboard-teacher",
+          "name": "المراكز التعليمية",
+          "description": "مدارس اللغات ومعاهد التدريب"
+        },
+        {
+          "icon": "fa-shield-alt",
+          "name": "شركات التأمين",
+          "description": "مزودي التأمين على السفر والصحة"
+        },
+        {
+          "icon": "fa-car",
+          "name": "خدمات النقل",
+          "description": "تأجير السيارات والنقل البري"
+        }
+      ]
+    },
+    "why_partner": {
+      "title": "لماذا تختار الشراكة مع كايا؟",
+      "reasons": [
+        {
+          "icon": "fa-globe",
+          "title": "شبكة عالمية",
+          "description": "التواصل مع العملاء من أسواق دولية متنوعة"
+        },
+        {
+          "icon": "fa-certificate",
+          "title": "ضمان الجودة",
+          "description": "نحافظ على أعلى المعايير في تقديم الخدمات"
+        },
+        {
+          "icon": "fa-rocket",
+          "title": "فرص النمو",
+          "description": "الاستفادة من قطاع خدمات التأشيرات والسفر المتوسع"
+        },
+        {
+          "icon": "fa-heart",
+          "title": "رضا العملاء",
+          "description": "عملاؤنا يثقون بنا لتقديم تجارب استثنائية"
+        }
+      ]
+    },
+    "contact_info": {
+      "title": "استفسارات الشراكة",
+      "email": "partners@kayavisa.org",
+      "phone": "+962 77 999 7096",
+      "description": "فريق الشراكات لدينا جاهز لمناقشة فرص التعاون التي تفيد الطرفين."
+    }
+  }
+}

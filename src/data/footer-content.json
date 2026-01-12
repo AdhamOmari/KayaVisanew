@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "terms": {
+      "en": {
+        "title": "Terms and Conditions",
+        "subtitle": "Transparency First",
+        "intro": "At Kaya, we are committed to providing accurate and reliable services, but remember that the accuracy of the information you provide us is your full responsibility.",
+        "whatWeOffer": {
+          "title": "What We Offer You",
+          "items": [
+            "Consultancy and procedural services to assist you on your journey.",
+            "Information that is as up-to-date as possible.",
+            "Protection of your data and non-use except for the purpose of providing the service."
+          ]
+        },
+        "whatWeExpect": {
+          "title": "What We Expect From You",
+          "items": [
+            "Providing us with accurate and complete information.",
+            "Adherence to local and international laws.",
+            "Understanding that the final decision always rests with the embassies and official authorities."
+          ]
+        },
+        "liability": {
+          "title": "Limitation of Liability",
+          "items": [
+            "We are not responsible for any rejection or delay by official authorities.",
+            "We do not bear the consequences of inaccurate data submission by the client."
+          ]
+        },
+        "amendments": {
+          "title": "Amendments",
+          "text": "We may update these terms at any time, and your continued use of the website is considered implicit agreement to the amendments."
+        },
+        "summary": "In short: We are here to serve you with the highest degree of professionalism, and you are our partner in the success of your journey."
+      },
+      "ar": {
+        "title": "الشروط والأحكام",
+        "subtitle": "الشفافية أولًا",
+        "intro": "في كايا نلتزم بتقديم خدمات دقيقة وموثوقة، لكن تذكّر أن دقة المعلومات التي تزودنا بها هي مسؤوليتك الكاملة.",
+        "whatWeOffer": {
+          "title": "ما نقدمه لك",
+          "items": [
+            "خدمات استشارية وإجرائية تساعدك في رحلتك.",
+            "معلومات محدثة قدر الإمكان.",
+            "حماية بياناتك وعدم استخدامها إلا لتقديم الخدمة."
+          ]
+        },
+        "whatWeExpect": {
+          "title": "ما ننتظره منك؟",
+          "items": [
+            "تزويدنا بمعلومات صحيحة وكاملة.",
+            "الالتزام بالقوانين المحلية والدولية.",
+            "إدراك أن القرار النهائي دائماً بيد السفارات والجهات الرسمية."
+          ]
+        },
+        "liability": {
+          "title": "حدود المسؤولية",
+          "items": [
+            "لسنا مسؤولين عن أي رفض أو تأخير من الجهات الرسمية.",
+            "لا نتحمل نتائج تقديم بيانات غير دقيقة من طرف العميل."
+          ]
+        },
+        "amendments": {
+          "title": "التعديلات",
+          "text": "قد نقوم بتحديث هذه الشروط في أي وقت، ويُعتبر استمرارك في استخدام الموقع موافقة ضمنية على التعديلات."
+        },
+        "summary": "باختصار: نحن هنا لنخدمك بأعلى درجات الاحترافية، وأنت شريكنا في نجاح رحلتك."
+      }
+    },
+    "privacy": {
+      "en": {
+        "title": "Privacy Policy",
+        "intro": "At Kaya, we consider your privacy a top priority. We don't see your data as just information; we see it as a trust that we uphold with utmost seriousness. This policy explains how we handle your data and why you can feel secure with us.",
+        "commitment": {
+          "title": "Our Commitment to You",
+          "items": [
+            "We maintain the confidentiality of all information you provide us through the website or communication channels.",
+            "We use your data only to provide the services you requested.",
+            "We do not share your information with any third party except with your consent or if required by law."
+          ]
+        },
+        "usage": {
+          "title": "How We Use Your Data",
+          "items": [
+            "To facilitate the procedures for visa applications and related services.",
+            "To communicate with you regarding your inquiries or application updates.",
+            "To improve our services and your experience on the website."
+          ]
+        },
+        "protection": {
+          "title": "Data Protection",
+          "items": [
+            "We use secure systems and technologies to protect your information from unauthorized access.",
+            "We regularly review our procedures to ensure the highest levels of security."
+          ]
+        },
+        "rights": {
+          "title": "Your Rights",
+          "items": [
+            "You have the right to request knowledge of the data we hold about you.",
+            "You can request the modification or deletion of your data at any time.",
+            "You are free to withdraw your consent to the use of your data."
+          ]
+        },
+        "amendments": {
+          "title": "Policy Amendments",
+          "text": "We may update the Privacy Policy from time to time. Any modification will be published here and will become effective immediately upon its publication."
+        },
+        "closing": "Your trust is our real capital. We commit to keeping your data safe, and to using it always within the framework of clarity, transparency, and mutual respect.",
+        "tagline": "Kaya – Because your journey begins with trust, and your privacy is part of that trust."
+      },
+      "ar": {
+        "title": "سياسة الخصوصية",
+        "intro": "في كايا نعتبر خصوصيتك أولوية قصوى. نحن لا نرى بياناتك مجرد معلومات، بل نراها أمانة نحافظ عليها بكل جدية. هذه السياسة توضّح كيف نتعامل مع بياناتك، ولماذا يمكنك أن تطمئن وأنت معنا.",
+        "commitment": {
+          "title": "التزامنا تجاهك",
+          "items": [
+            "نحافظ على سرية جميع المعلومات التي تزودنا بها عبر الموقع أو وسائل التواصل.",
+            "نستخدم بياناتك فقط لتقديم الخدمات التي طلبتها.",
+            "لا نشارك معلوماتك مع أي طرف ثالث إلا بموافقتك أو إذا كان ذلك مطلوباً بموجب القانون."
+          ]
+        },
+        "usage": {
+          "title": "كيف نستخدم بياناتك؟",
+          "items": [
+            "لتسهيل إجراءات طلبات التأشيرة والخدمات المرتبطة بها.",
+            "للتواصل معك بشأن استفساراتك أو تحديثات طلبك.",
+            "لتحسين خدماتنا وتجربتك على الموقع."
+          ]
+        },
+        "protection": {
+          "title": "حماية بياناتك",
+          "items": [
+            "نستخدم أنظمة وتقنيات آمنة لحماية معلوماتك من الوصول غير المصرح به.",
+            "نراجع إجراءاتنا بشكل دوري لضمان أعلى مستويات الأمان."
+          ]
+        },
+        "rights": {
+          "title": "حقوقك",
+          "items": [
+            "لك الحق في طلب معرفة البيانات التي نحتفظ بها عنك.",
+            "يمكنك طلب تعديل أو حذف بياناتك في أي وقت.",
+            "لك الحرية في سحب موافقتك على استخدام بياناتك."
+          ]
+        },
+        "amendments": {
+          "title": "التعديلات على السياسة",
+          "text": "قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. أي تعديل سيتم نشره هنا، ويصبح سارياً فور نشره."
+        },
+        "closing": "ثقتك هي رأس مالنا الحقيقي. نحن نلتزم بأن تكون بياناتك في أمان، وأن يكون استخدامنا لها دائماً في إطار الوضوح، الشفافية والاحترام المتبادل.",
+        "tagline": "كايا– لأن رحلتك تبدأ بالثقة وخصوصيتك جزء من هذه الثقة."
+      }
+    },
+    "faq": [
+      {
+        "id": "1",
+        "category": { "en": "Kaya Services", "ar": "خدمات كايا" },
+        "question": {
+          "en": "What sets Kaya apart from other visa companies?",
+          "ar": "ما الذي يميز كايا عن شركات التأشيرات الأخرى؟"
+        },
+        "answer": {
+          "en": "We are not just agents for filling out forms; we are your trusted partners in professional migration. Our distinction lies in our specialized experts who focus on complex pathways like the European Blue Card and Job Seeker Visas. We provide accurate eligibility assessments, personalized advice, and ensure your file complies with the latest legal updates to avoid rejection.",
+          "ar": "نحن لسنا مجرد وكلاء لملء النماذج؛ نحن شركاؤك الموثوقون في الهجرة المهنية. يكمن تميزنا في خبرائنا المتخصصين الذين يركزون على المسارات المعقدة مثل البطاقة الزرقاء الأوروبية وتأشيرات البحث عن عمل. نقدم تقييماً دقيقاً للأهلية ونصائح مخصصة ونضمن أن يكون ملفك متوافقاً مع آخر التحديثات القانونية لتجنب الرفض."
+        }
+      },
+      {
+        "id": "2",
+        "category": { "en": "Fees & Pricing", "ar": "الرسوم والأسعار" },
+        "question": {
+          "en": "What are Kaya's service fees, and how are they calculated?",
+          "ar": "ما هي رسوم خدمة كايا وكيف يتم حسابها؟"
+        },
+        "answer": {
+          "en": "Our fees depend on the nature of the visa and the level of service required. We begin with a paid initial assessment consultation to determine the best path for you. After that, we provide a detailed quote covering all stages of the service, from file preparation to consular coordination. We believe in complete transparency, and there are no hidden fees.",
+          "ar": "تعتمد رسومنا على طبيعة التأشيرة ومستوى الخدمة المطلوبة. نبدأ بـ استشارة تقييم أولي مدفوعة لتحديد أفضل مسار لك. بعد ذلك، نقدم عرض سعر مفصلاً يغطي جميع مراحل الخدمة، من إعداد الملف حتى التنسيق القنصلي. نحن نؤمن بالشفافية الكاملة ولا يوجد أي رسوم خفية."
+        }
+      },
+      {
+        "id": "3",
+        "category": { "en": "Processing Time", "ar": "مدة المعالجة" },
+        "question": {
+          "en": "How long does the visa application process take through Kaya?",
+          "ar": "كم تستغرق عملية الحصول على التأشيرة عبر كايا؟"
+        },
+        "answer": {
+          "en": "The duration varies based on the visa type and destination country, in addition to the processing times at consulates and embassies (which we do not control). However, our goal is to expedite the file preparation phase on our end. We will provide you with a clear estimated timeline after the initial consultation.",
+          "ar": "تختلف المدة بناءً على نوع التأشيرة وبلد المقصد، بالإضافة إلى أوقات المعالجة لدى القنصليات والسفارات (والتي لا نتحكم بها). ومع ذلك، فإن هدفنا هو تسريع مرحلة إعداد الملف من جانبنا. سنقدم لك جدولاً زمنياً تقديرياً واضحاً بعد الاستشارة الأولية."
+        }
+      },
+      {
+        "id": "4",
+        "category": { "en": "Guarantee", "ar": "الضمان" },
+        "question": {
+          "en": "Do you guarantee visa approval?",
+          "ar": "هل تضمنون الحصول على التأشيرة؟"
+        },
+        "answer": {
+          "en": "No legal or consultative entity can guarantee visa approval, as the decision rests solely with the consular authorities. However, our service guarantees that your file is submitted with the highest levels of accuracy and compliance with all conditions and requirements, which significantly increases your success rate.",
+          "ar": "لا يمكن لأي جهة قانونية أو استشارية أن تضمن الحصول على التأشيرة، لأن قرار القبول يعود للسلطات القنصلية وحدها. ومع ذلك، فإن خدمتنا تضمن أن يتم تقديم ملفك بأعلى مستويات الدقة والامتثال لكافة الشروط والمتطلبات، مما يزيد من نسبة نجاحك بشكل كبير."
+        }
+      },
+      {
+        "id": "5",
+        "category": { "en": "European Visas", "ar": "التأشيرات الأوروبية" },
+        "question": {
+          "en": "What is the EU Blue Card, and who can apply for it?",
+          "ar": "ما هي البطاقة الزرقاء الأوروبية (EU Blue Card) ومن يمكنه التقديم عليها؟"
+        },
+        "answer": {
+          "en": "The Blue Card is a residence and work permit designated for highly qualified non-EU professionals. To apply, you must hold a university degree or equivalent, and have a job offer in an EU country (with specific salary requirements that exceed the average).",
+          "ar": "البطاقة الزرقاء هي تصريح إقامة وعمل مخصص للمهنيين من خارج الاتحاد الأوروبي ذوي المؤهلات العالية. للتقديم، يجب أن تكون حاصلاً على شهادة جامعية أو ما يعادلها، وأن يكون لديك عرض عمل في إحدى دول الاتحاد الأوروبي (بشروط راتب محددة تتجاوز المتوسط)."
+        }
+      }
+    ]
+  }
+}

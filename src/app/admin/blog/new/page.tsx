@@ -1,0 +1,335 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import '@/styles/blog.css';
+
+export default function NewPostPage() {
+  const router = useRouter();
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    slug: '',
+    title_en: '',
+    title_ar: '',
+    excerpt_en: '',
+    excerpt_ar: '',
+    content_en: '',
+    content_ar: '',
+    category_en: 'Visas & Procedures',
+    category_ar: 'التأشيرات والإجراءات',
+    image: '/images/blog/default.jpg',
+    author: 'Kaya Team',
+    featured: false,
+  });
+
+  useEffect(() => {
+    // Check authentication
+    const isAuthenticated = sessionStorage.getItem('admin-auth') === 'true';
+    if (!isAuthenticated) {
+      router.push('/admin/login');
+    }
+  }, [router]);
+
+  const categories = [
+    { en: 'Visas & Procedures', ar: 'التأشيرات والإجراءات' },
+    { en: 'Business & Study Travel', ar: 'السفر للأعمال والدراسة' },
+    { en: 'Tips & Experiences', ar: 'النصائح والتجارب' },
+    { en: 'Updates & News', ar: 'التحديثات والأخبار' },
+  ];
+
+  const handleCategoryChange = (value: string) => {
+    const category = categories.find(c => c.en === value);
+    if (category) {
+      setFormData({
+        ...formData,
+        category_en: category.en,
+        category_ar: category.ar,
+      });
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const postData = {
+        slug: formData.slug || `post-${Date.now()}`,
+        title: {
+          en: formData.title_en,
+          ar: formData.title_ar,
+        },
+        excerpt: {
+          en: formData.excerpt_en,
+          ar: formData.excerpt_ar,
+        },
+        content: {
+          en: formData.content_en,
+          ar: formData.content_ar,
+        },
+        category: {
+          en: formData.category_en,
+          ar: formData.category_ar,
+        },
+        image: formData.image,
+        author: formData.author,
+        featured: formData.featured,
+        publishedAt: new Date().toISOString(),
+      };
+
+      const response = await fetch('/api/blog', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(postData),
+      });
+
+      if (response.ok) {
+        alert('Post created successfully!');
+        router.push('/admin/blog');
+      } else {
+        alert('Failed to create post');
+      }
+    } catch (error) {
+      alert('Failed to create post');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="admin-container">
+      <div className="admin-header">
+        <div className="container">
+          <h1>
+            <i className="fas fa-plus" style={{ marginRight: '15px' }}></i>
+            Create New Post
+          </h1>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="admin-actions">
+          <Link href="/admin/blog" className="btn btn-secondary">
+            <i className="fas fa-arrow-left"></i> Back to Dashboard
+          </Link>
+        </div>
+
+        <form onSubmit={handleSubmit} className="admin-form">
+          <h3 style={{ marginBottom: '25px', color: '#7C3AED' }}>
+            <i className="fas fa-globe"></i> Basic Information
+          </h3>
+
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="slug">
+                Slug (URL) <span style={{ color: '#EF4444' }}>*</span>
+              </label>
+              <input
+                type="text"
+                id="slug"
+                value={formData.slug}
+                onChange={(e) => setFormData({ ...formData, slug: e.target.value })}
+                placeholder="e.g., schengen-visa-guide-2025"
+                required
+              />
+              <small style={{ color: '#6B7280' }}>
+                Unique URL identifier (leave empty for auto-generate)
+              </small>
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="author">
+                Author <span style={{ color: '#EF4444' }}>*</span>
+              </label>
+              <input
+                type="text"
+                id="author"
+                value={formData.author}
+                onChange={(e) => setFormData({ ...formData, author: e.target.value })}
+                placeholder="Author name"
+                required
+              />
+            </div>
+          </div>
+
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="category">
+                Category <span style={{ color: '#EF4444' }}>*</span>
+              </label>
+              <select
+                id="category"
+                value={formData.category_en}
+                onChange={(e) => handleCategoryChange(e.target.value)}
+                required
+              >
+                {categories.map(cat => (
+                  <option key={cat.en} value={cat.en}>{cat.en} / {cat.ar}</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="image">
+                Image URL <span style={{ color: '#EF4444' }}>*</span>
+              </label>
+              <input
+                type="text"
+                id="image"
+                value={formData.image}
+                onChange={(e) => setFormData({ ...formData, image: e.target.value })}
+                placeholder="/images/blog/post-image.jpg"
+                required
+              />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <div className="form-check">
+              <input
+                type="checkbox"
+                id="featured"
+                checked={formData.featured}
+                onChange={(e) => setFormData({ ...formData, featured: e.target.checked })}
+              />
+              <label htmlFor="featured">
+                <i className="fas fa-star" style={{ color: '#F59E0B', marginRight: '8px' }}></i>
+                Mark as Featured Post
+              </label>
+            </div>
+          </div>
+
+          <hr style={{ margin: '40px 0', border: 'none', borderTop: '2px solid #E5E7EB' }} />
+
+          <h3 style={{ marginBottom: '25px', color: '#7C3AED' }}>
+            <i className="fas fa-language"></i> English Content
+          </h3>
+
+          <div className="form-group">
+            <label htmlFor="title_en">
+              Title (English) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <input
+              type="text"
+              id="title_en"
+              value={formData.title_en}
+              onChange={(e) => setFormData({ ...formData, title_en: e.target.value })}
+              placeholder="Post title in English"
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="excerpt_en">
+              Excerpt (English) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <textarea
+              id="excerpt_en"
+              value={formData.excerpt_en}
+              onChange={(e) => setFormData({ ...formData, excerpt_en: e.target.value })}
+              placeholder="Brief summary in English (2-3 sentences)"
+              rows={3}
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="content_en">
+              Content (English - HTML) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <textarea
+              id="content_en"
+              value={formData.content_en}
+              onChange={(e) => setFormData({ ...formData, content_en: e.target.value })}
+              placeholder="Full content in English with HTML tags: <h2>, <p>, <ul>, <li>, <strong>"
+              rows={10}
+              required
+            />
+            <small style={{ color: '#6B7280' }}>
+              Use HTML tags for formatting: &lt;h2&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;strong&gt;
+            </small>
+          </div>
+
+          <hr style={{ margin: '40px 0', border: 'none', borderTop: '2px solid #E5E7EB' }} />
+
+          <h3 style={{ marginBottom: '25px', color: '#7C3AED' }}>
+            <i className="fas fa-language"></i> Arabic Content (المحتوى العربي)
+          </h3>
+
+          <div className="form-group">
+            <label htmlFor="title_ar">
+              Title (Arabic) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <input
+              type="text"
+              id="title_ar"
+              value={formData.title_ar}
+              onChange={(e) => setFormData({ ...formData, title_ar: e.target.value })}
+              placeholder="عنوان المقال بالعربية"
+              dir="rtl"
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="excerpt_ar">
+              Excerpt (Arabic) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <textarea
+              id="excerpt_ar"
+              value={formData.excerpt_ar}
+              onChange={(e) => setFormData({ ...formData, excerpt_ar: e.target.value })}
+              placeholder="ملخص مختصر بالعربية (2-3 جمل)"
+              rows={3}
+              dir="rtl"
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="content_ar">
+              Content (Arabic - HTML) <span style={{ color: '#EF4444' }}>*</span>
+            </label>
+            <textarea
+              id="content_ar"
+              value={formData.content_ar}
+              onChange={(e) => setFormData({ ...formData, content_ar: e.target.value })}
+              placeholder="المحتوى الكامل بالعربية مع HTML: <h2>, <p>, <ul>, <li>, <strong>"
+              rows={10}
+              dir="rtl"
+              required
+            />
+            <small style={{ color: '#6B7280' }}>
+              استخدم HTML للتنسيق: &lt;h2&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;strong&gt;
+            </small>
+          </div>
+
+          <hr style={{ margin: '40px 0', border: 'none', borderTop: '2px solid #E5E7EB' }} />
+
+          <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
+            <button 
+              type="submit" 
+              className="btn btn-success" 
+              disabled={loading}
+              style={{ minWidth: '200px' }}
+            >
+              {loading ? (
+                <>
+                  <i className="fas fa-spinner fa-spin"></i> Creating...
+                </>
+              ) : (
+                <>
+                  <i className="fas fa-check"></i> Create Post
+                </>
+              )}
+            </button>
+            <Link href="/admin/blog" className="btn btn-secondary" style={{ minWidth: '150px' }}>
+              <i className="fas fa-times"></i> Cancel
+            </Link>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,164 @@
+{
+  "en": {
+    "category": "Hotels & Accommodation",
+    "title": "Hotel Partners",
+    "subtitle": "Premium Accommodation at Exclusive Rates",
+    "description": "Our partnerships with leading hotels and accommodation providers worldwide ensure you get the best rates, quality service, and comfortable stays. From luxury resorts to budget-friendly options, we have the perfect place for every traveler.",
+    "partners": [
+      {
+        "name": "Marriott International",
+        "logo": "/images/partners/marriott.png",
+        "description": "Global hospitality leader with properties in 130+ countries",
+        "benefits": ["Up to 20% discount on room rates", "Complimentary breakfast", "Late checkout options", "Room upgrades subject to availability"]
+      },
+      {
+        "name": "Hilton Hotels & Resorts",
+        "logo": "/images/partners/hilton.png",
+        "description": "Premium accommodation network spanning 6 continents",
+        "benefits": ["Special corporate rates", "Honors points accumulation", "Free Wi-Fi", "Flexible cancellation policies"]
+      },
+      {
+        "name": "Booking.com",
+        "logo": "/images/partners/booking.png",
+        "description": "Access to millions of properties worldwide at competitive rates",
+        "benefits": ["Price match guarantee", "No booking fees", "24/7 customer support", "Instant confirmation"]
+      }
+    ],
+    "benefits": {
+      "title": "Advantages of Our Hotel Partnerships",
+      "items": [
+        {
+          "icon": "fa-percent",
+          "title": "Best Price Guarantee",
+          "description": "Guaranteed lowest rates for quality accommodations"
+        },
+        {
+          "icon": "fa-star",
+          "title": "Quality Assurance",
+          "description": "Only vetted and trusted hotel partners"
+        },
+        {
+          "icon": "fa-map-marked-alt",
+          "title": "Global Coverage",
+          "description": "Hotels in all major destinations worldwide"
+        },
+        {
+          "icon": "fa-concierge-bell",
+          "title": "Special Amenities",
+          "description": "Extra perks and services for our clients"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "Booking Process",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Tell Us Your Needs",
+          "description": "Share your destination, dates, and preferences"
+        },
+        {
+          "number": "2",
+          "title": "Review Options",
+          "description": "Browse curated hotel selections with exclusive rates"
+        },
+        {
+          "number": "3",
+          "title": "Book Instantly",
+          "description": "Confirm your reservation with instant confirmation"
+        },
+        {
+          "number": "4",
+          "title": "Enjoy Your Stay",
+          "description": "Check-in and experience premium hospitality"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Find Your Perfect Accommodation",
+      "description": "Discover exclusive hotel deals for your next trip",
+      "button": "Browse Hotels"
+    }
+  },
+  "ar": {
+    "category": "الفنادق والإقامة",
+    "title": "شركاء الفنادق",
+    "subtitle": "إقامة متميزة بأسعار حصرية",
+    "description": "شراكاتنا مع الفنادق الرائدة ومقدمي خدمات الإقامة في جميع أنحاء العالم تضمن لك أفضل الأسعار وخدمة عالية الجودة وإقامة مريحة. من المنتجعات الفاخرة إلى الخيارات الاقتصادية، لدينا المكان المثالي لكل مسافر.",
+    "partners": [
+      {
+        "name": "ماريوت الدولية",
+        "logo": "/images/partners/marriott.png",
+        "description": "رائد الضيافة العالمي مع عقارات في أكثر من 130 دولة",
+        "benefits": ["خصم يصل إلى 20% على أسعار الغرف", "إفطار مجاني", "خيارات تسجيل مغادرة متأخر", "ترقية الغرف حسب التوفر"]
+      },
+      {
+        "name": "فنادق ومنتجعات هيلتون",
+        "logo": "/images/partners/hilton.png",
+        "description": "شبكة إقامة متميزة تمتد عبر 6 قارات",
+        "benefits": ["أسعار خاصة للشركات", "تجميع نقاط الشرف", "واي فاي مجاني", "سياسات إلغاء مرنة"]
+      },
+      {
+        "name": "بوكينج دوت كوم",
+        "logo": "/images/partners/booking.png",
+        "description": "الوصول إلى ملايين العقارات في جميع أنحاء العالم بأسعار تنافسية",
+        "benefits": ["ضمان مطابقة السعر", "بدون رسوم حجز", "دعم العملاء على مدار الساعة", "تأكيد فوري"]
+      }
+    ],
+    "benefits": {
+      "title": "مزايا شراكاتنا الفندقية",
+      "items": [
+        {
+          "icon": "fa-percent",
+          "title": "ضمان أفضل سعر",
+          "description": "أقل الأسعار المضمونة للإقامة عالية الجودة"
+        },
+        {
+          "icon": "fa-star",
+          "title": "ضمان الجودة",
+          "description": "شركاء فندقيون موثوقون ومعتمدون فقط"
+        },
+        {
+          "icon": "fa-map-marked-alt",
+          "title": "تغطية عالمية",
+          "description": "فنادق في جميع الوجهات الرئيسية حول العالم"
+        },
+        {
+          "icon": "fa-concierge-bell",
+          "title": "مرافق خاصة",
+          "description": "امتيازات وخدمات إضافية لعملائنا"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "عملية الحجز",
+      "steps": [
+        {
+          "number": "1",
+          "title": "أخبرنا باحتياجاتك",
+          "description": "شارك وجهتك وتواريخك وتفضيلاتك"
+        },
+        {
+          "number": "2",
+          "title": "راجع الخيارات",
+          "description": "تصفح مجموعة منتقاة من الفنادق بأسعار حصرية"
+        },
+        {
+          "number": "3",
+          "title": "احجز فوراً",
+          "description": "أكد حجزك بتأكيد فوري"
+        },
+        {
+          "number": "4",
+          "title": "استمتع بإقامتك",
+          "description": "سجّل دخولك واختبر الضيافة المتميزة"
+        }
+      ]
+    },
+    "cta": {
+      "title": "اعثر على الإقامة المثالية",
+      "description": "اكتشف صفقات فندقية حصرية لرحلتك القادمة",
+      "button": "تصفح الفنادق"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": {
+        "en": "Ahmad Al-Sayed",
+        "ar": "أحمد السيد"
+      },
+      "position": {
+        "en": "CEO & Founder",
+        "ar": "المدير التنفيذي والمؤسس"
+      },
+      "image": "/images/team/ceo.png",
+      "bio": {
+        "en": "With over 15 years of experience in visa consulting and international travel, Ahmad leads Kaya with a vision of excellence and customer satisfaction.",
+        "ar": "مع أكثر من 15 عاماً من الخبرة في استشارات التأشيرات والسفر الدولي، يقود أحمد كايا برؤية التميز ورضا العملاء."
+      },
+      "email": "ahmad@kayavisa.org",
+      "phone": "+962779997096",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": {
+        "en": "Sarah Johnson",
+        "ar": "سارة جونسون"
+      },
+      "position": {
+        "en": "Head of Visa Services",
+        "ar": "رئيسة خدمات التأشيرات"
+      },
+      "image": "/images/team/visa-head.png",
+      "bio": {
+        "en": "Sarah specializes in complex visa applications and has helped thousands of clients achieve their travel goals.",
+        "ar": "تتخصص سارة في طلبات التأشيرات المعقدة وساعدت آلاف العملاء على تحقيق أهدافهم في السفر."
+      },
+      "email": "sarah@kayavisa.org",
+      "phone": "",
+      "role": "member"
+    },
+    {
+      "id": "3",
+      "name": {
+        "en": "Mohammed Hassan",
+        "ar": "محمد حسن"
+      },
+      "position": {
+        "en": "Translation Manager",
+        "ar": "مدير الترجمة"
+      },
+      "image": "/images/team/translation.png",
+      "bio": {
+        "en": "Mohammed heads our professional translation team, ensuring accuracy and precision in all document translations.",
+        "ar": "يرأس محمد فريق الترجمة المحترف لدينا، مما يضمن الدقة في جميع ترجمات المستندات."
+      },
+      "email": "translation@kayavisa.org",
+      "phone": "",
+      "role": "member"
+    },
+    {
+      "id": "4",
+      "name": {
+        "en": "Emily Rodriguez",
+        "ar": "إيميلي رودريغيز"
+      },
+      "position": {
+        "en": "Educational Consultant",
+        "ar": "مستشارة تعليمية"
+      },
+      "image": "/images/team/education.png",
+      "bio": {
+        "en": "Emily guides students through university applications and study visa processes worldwide.",
+        "ar": "توجه إيميلي الطلاب خلال طلبات الجامعات وعمليات تأشيرات الدراسة في جميع أنحاء العالم."
+      },
+      "email": "education@kayavisa.org",
+      "phone": "",
+      "role": "member"
+    }
+  ]
+}

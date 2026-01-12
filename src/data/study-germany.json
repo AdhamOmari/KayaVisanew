@@ -1,0 +1,98 @@
+{
+  "en": {
+    "title": "Germany Student Visa",
+    "hero": {"subtitle": "World-Class Education at Near-Zero Cost"},
+    "why_germany": {
+      "heading": "Why Choose Germany?",
+      "reasons": ["Near-Free Education: Most public universities charge only EUR 200-400 per semester", "High Academic Quality: Globally ranked universities, especially in Engineering, Medicine, Sciences", "Extensive Work Rights: 120 full days or 240 half days annually alongside studies", "Strategic Location: Heart of Europe, easy travel to EU countries", "Rich Student Life: Berlin, Munich, Heidelberg, Cologne combine history and modernity"]
+    },
+    "programs": {
+      "heading": "Available Programs",
+      "list": ["Bachelor's, Master's, and PhD in various disciplines", "Studienkolleg: Preparatory programs for certificate equivalence", "English-taught programs especially at Master's level", "German-taught programs across all fields"]
+    },
+    "costs": {
+      "heading": "Estimated Costs (EUR)",
+      "tuition": {"title": "Tuition Fees", "details": ["Free or symbolic: EUR 200-400 per semester", "Covers semester ticket, admin fees", "Private universities charge higher fees"]},
+      "living": {"title": "Monthly Living Expenses", "details": ["EUR 850-1,100 per month", "Includes housing, food, insurance, transport", "Berlin and Munich higher, smaller cities more affordable"]},
+      "blocked_account": {"title": "Blocked Account (Sperrkonto)", "details": ["EUR 11,208 must be deposited (2025 amount)", "Covers one full year", "Required for visa proof"]}
+    },
+    "work_opportunities": {
+      "heading": "Work Opportunities",
+      "during": {"title": "During Study", "options": [{"name": "Part-Time Work", "description": "120 full days or 240 half days per year allowed"}, {"name": "Student Jobs", "description": "Research assistant, tutoring, hospitality, retail"}]},
+      "after": {"title": "After Graduation", "options": [{"name": "18-Month Job Search Visa", "description": "Stay in Germany to find work related to your field"}, {"name": "EU Blue Card", "description": "For skilled workers with job offers meeting salary threshold"}]}
+    },
+    "application_steps": {
+      "heading": "Application Steps",
+      "steps": ["Obtain university admission (direct or conditional via Studienkolleg)", "Prepare visa file: forms, passport, admission letter, blocked account", "Book appointment at German Embassy/Consulate", "Pay visa fee (approx. EUR 75)", "Attend personal interview to explain study plan", "Await decision (6-12 weeks)"]
+    },
+    "detailed_steps": {
+      "heading": "Detailed Requirements",
+      "steps": [
+        {"number": "1", "title": "University Admission", "description": "Admission letter from German university specifying program, duration, language, start date"},
+        {"number": "2", "title": "Blocked Account", "description": "Deposit EUR 11,208 in Sperrkonto or provide official financial guarantee (Verpflichtungserklärung)"},
+        {"number": "3", "title": "Health Insurance", "description": "Comprehensive student health insurance for entire stay. Can start private, switch to public after enrollment"},
+        {"number": "4", "title": "Language Certificate", "description": "German: TestDaF, DSH, Goethe-Zertifikat OR English: IELTS, TOEFL for English programs"},
+        {"number": "5", "title": "Academic Certificates", "description": "High school/Bachelor's/Master's translated to German or English and authenticated"},
+        {"number": "6", "title": "CV and Motivation Letter", "description": "Updated CV and letter explaining reasons for choosing Germany, program, future plans"}
+      ]
+    },
+    "documents": {
+      "heading": "Required Documents",
+      "list": ["Valid passport (covers study + 6 months)", "2 recent biometric photos", "University admission letter", "Blocked account proof or financial guarantee", "Student health insurance", "Academic certificates (translated and authenticated)", "CV and motivation letter", "Language certificate (TestDaF/DSH or IELTS/TOEFL)", "Visa application form signed", "Visa fee receipt (EUR 75)", "Police clearance (if required)", "Medical certificate (some cases)"]
+    },
+    "upon_arrival": {
+      "heading": "Upon Arrival in Germany",
+      "steps": ["Register at university", "Obtain Aufenthaltstitel (residence permit) from Foreigners' Office within 90 days", "Open local bank account", "Complete Anmeldung (municipal registration)"]
+    },
+    "with_kaya": {"heading": "With Kaya: Your Path to Germany is Easier", "services": ["Program selection assistance", "Complete visa file preparation", "Blocked account and health insurance support", "Post-arrival: Aufenthaltstitel, registration, part-time job search"]},
+    "cta": "Start Your German Education Journey Today"
+  },
+  "ar": {
+    "title": "تأشيرة الدراسة في ألمانيا",
+    "hero": {"subtitle": "تعليم عالمي المستوى بتكلفة شبه مجانية"},
+    "why_germany": {
+      "heading": "لماذا ألمانيا؟",
+      "reasons": ["تعليم شبه مجاني: معظم الجامعات الحكومية تفرض 200-400 يورو فقط للفصل", "جودة أكاديمية عالية: جامعات مصنّفة عالميًا خاصة في الهندسة والطب", "فرص عمل واسعة: 120 يومًا كاملًا أو 240 نصف يوم سنويًا", "موقع استراتيجي: قلب أوروبا، سهولة السفر", "حياة طلابية غنية: برلين، ميونخ، هايدلبرغ، كولونيا"]
+    },
+    "programs": {
+      "heading": "البرامج المتاحة",
+      "list": ["بكالوريوس، ماجستير، دكتوراه في مختلف التخصصات", "Studienkolleg: برامج تحضيرية لمعادلة الشهادات", "برامج باللغة الإنجليزية خاصة في الماجستير", "برامج باللغة الألمانية في جميع المجالات"]
+    },
+    "costs": {
+      "heading": "التكاليف التقديرية (يورو)",
+      "tuition": {"title": "الرسوم الدراسية", "details": ["مجانية أو رمزية: 200-400 يورو للفصل", "تشمل تذكرة الفصل، الرسوم الإدارية", "الجامعات الخاصة أعلى"]},
+      "living": {"title": "المعيشة الشهرية", "details": ["850 - 1,100 يورو شهريًا", "تشمل السكن، الطعام، التأمين، المواصلات", "برلين وميونخ أعلى، المدن الأصغر أرخص"]},
+      "blocked_account": {"title": "الحساب البنكي المغلق", "details": ["يجب إيداع 11,208 يورو (مبلغ 2025)", "يغطي سنة كاملة", "مطلوب لإثبات التأشيرة"]}
+    },
+    "work_opportunities": {
+      "heading": "فرص العمل",
+      "during": {"title": "أثناء الدراسة", "options": [{"name": "العمل الجزئي", "description": "120 يومًا كاملًا أو 240 نصف يوم سنويًا"}, {"name": "وظائف الطلاب", "description": "مساعد بحث، تعليم خصوصي، ضيافة، بيع بالتجزئة"}]},
+      "after": {"title": "بعد التخرج", "options": [{"name": "تأشيرة البحث عن عمل 18 شهر", "description": "البقاء في ألمانيا للبحث عن عمل في مجالك"}, {"name": "البطاقة الزرقاء الأوروبية", "description": "للعمال المهرة بعروض عمل تلبي حد الراتب"}]}
+    },
+    "application_steps": {
+      "heading": "خطوات التقديم",
+      "steps": ["الحصول على قبول جامعي (مباشر أو مشروط عبر Studienkolleg)", "تجهيز ملف التأشيرة: الاستمارات، الجواز، القبول، الحساب المغلق", "حجز موعد في السفارة الألمانية", "دفع رسوم التأشيرة (حوالي 75 يورو)", "حضور مقابلة شخصية لشرح الخطة الدراسية", "انتظار القرار (6-12 أسبوع)"]
+    },
+    "detailed_steps": {
+      "heading": "المتطلبات التفصيلية",
+      "steps": [
+        {"number": "1", "title": "القبول الجامعي", "description": "خطاب قبول من جامعة ألمانية يوضح البرنامج، المدة، اللغة، تاريخ البدء"},
+        {"number": "2", "title": "الحساب المغلق", "description": "إيداع 11,208 يورو في Sperrkonto أو تقديم كفالة رسمية (Verpflichtungserklärung)"},
+        {"number": "3", "title": "التأمين الصحي", "description": "تأمين صحي شامل للطلاب لكامل الإقامة. يمكن البدء بخاص ثم التحويل لعام"},
+        {"number": "4", "title": "شهادة اللغة", "description": "ألمانية: TestDaF، DSH، Goethe-Zertifikat أو إنجليزية: IELTS، TOEFL للبرامج الإنجليزية"},
+        {"number": "5", "title": "الشهادات الأكاديمية", "description": "الثانوية/البكالوريوس/الماجستير مترجمة للألمانية أو الإنجليزية ومصدقة"},
+        {"number": "6", "title": "السيرة الذاتية ورسالة الدافع", "description": "CV حديثة ورسالة تشرح أسباب اختيار ألمانيا والبرنامج والخطط المستقبلية"}
+      ]
+    },
+    "documents": {
+      "heading": "المستندات المطلوبة",
+      "list": ["جواز سفر ساري (يغطي الدراسة + 6 أشهر)", "صورتان بيومتريتان حديثتان", "خطاب القبول الجامعي", "إثبات الحساب المغلق أو الكفالة المالية", "التأمين الصحي للطلاب", "الشهادات الأكاديمية (مترجمة ومصدقة)", "السيرة الذاتية ورسالة الدافع", "شهادة اللغة (TestDaF/DSH أو IELTS/TOEFL)", "استمارة التأشيرة موقعة", "إيصال رسوم التأشيرة (75 يورو)", "شهادة حسن سير وسلوك (إن طُلبت)", "شهادة طبية (بعض الحالات)"]
+    },
+    "upon_arrival": {
+      "heading": "بعد الوصول إلى ألمانيا",
+      "steps": ["التسجيل في الجامعة", "استخراج Aufenthaltstitel (إقامة الطالب) من مكتب الأجانب خلال 90 يوم", "فتح حساب بنكي محلي", "إكمال Anmeldung (التسجيل في البلدية)"]
+    },
+    "with_kaya": {"heading": "مع كايا: طريقك إلى ألمانيا أسهل", "services": ["مساعدة اختيار البرنامج", "تجهيز ملف تأشيرة كامل", "دعم الحساب المغلق والتأمين الصحي", "بعد الوصول: Aufenthaltstitel، التسجيل، البحث عن عمل جزئي"]},
+    "cta": "ابدأ رحلتك التعليمية الألمانية اليوم"
+  }
+}

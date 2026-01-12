@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "UK Travel Visas",
+    "hero": {
+      "subtitle": "Experience the rich history and culture of the United Kingdom"
+    },
+    "visa_types": [
+      {
+        "name": "Standard Visitor Visa",
+        "description": "For tourism, visiting family, and short business trips",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visitor Visa",
+        "description": "For business meetings, conferences, and negotiations",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For passing through UK airports to another country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Online application form confirmation",
+      "Recent passport photograph",
+      "Financial documents",
+      "Travel itinerary and accommodation proof",
+      "Biometric information"
+    ],
+    "processing_time": "3 weeks",
+    "validity": "6 months to 10 years (depending on application)",
+    "tips": [
+      "Book your biometric appointment early",
+      "Provide detailed financial evidence",
+      "Show clear travel plans and return intentions",
+      "Keep all documents organized and accessible"
+    ],
+    "with_kaya": [
+      "Application form assistance",
+      "Financial documentation guidance",
+      "Biometric appointment scheduling",
+      "Interview preparation support"
+    ],
+    "cta": "Begin your UK visa journey today"
+  },
+  "ar": {
+    "title": "تأشيرات السفر إلى المملكة المتحدة",
+    "hero": {
+      "subtitle": "اختبر التاريخ والثقافة الغنية للمملكة المتحدة"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة زائر قياسية",
+        "description": "للسياحة وزيارة العائلة ورحلات العمل القصيرة",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة زيارة عمل",
+        "description": "للاجتماعات والمؤتمرات والمفاوضات التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للمرور عبر مطارات المملكة المتحدة إلى بلد آخر",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "تأكيد نموذج الطلب عبر الإنترنت",
+      "صورة جواز سفر حديثة",
+      "مستندات مالية",
+      "خط سير الرحلة وإثبات الإقامة",
+      "المعلومات البيومترية"
+    ],
+    "processing_time": "3 أسابيع",
+    "validity": "من 6 أشهر إلى 10 سنوات (حسب الطلب)",
+    "tips": [
+      "احجز موعد القياسات الحيوية مبكراً",
+      "قدم أدلة مالية مفصلة",
+      "أظهر خطط سفر واضحة ونية العودة",
+      "احتفظ بجميع المستندات منظمة ومتاحة"
+    ],
+    "with_kaya": [
+      "المساعدة في نموذج الطلب",
+      "إرشادات التوثيق المالي",
+      "جدولة موعد القياسات الحيوية",
+      "دعم التحضير للمقابلة"
+    ],
+    "cta": "ابدأ رحلة تأشيرتك البريطانية اليوم"
+  }
+}

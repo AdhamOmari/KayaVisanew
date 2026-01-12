@@ -1,0 +1,372 @@
+{
+  "en": {
+    "title": "H-1B Work Visa – United States",
+    "hero": {
+      "subtitle": "Your Gateway to America's Premier Professional Opportunities"
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "The H-1B visa is a non-immigrant visa that allows US companies to employ specialized foreign workers in occupations that require a university degree or advanced expertise. This visa is highly competitive, with applicants selected through an electronic lottery system due to the high volume of applicants compared to the limited annual quota.",
+      "quote": "The H-1B US work visa is a rare opportunity, limited to 65,000 visas annually, with an additional 20,000 slots reserved for Master's degree holders from US universities."
+    },
+    "key_info": {
+      "duration": "Typically granted for 3 years, extendable up to 6 years",
+      "green_card": "Can be converted to Permanent Residency (Green Card) later",
+      "family": "Spouses and unmarried children under 21 can accompany the visa holder through the H-4 visa. Some H-4 holders may obtain an Employment Authorization Document (EAD) if the principal applicant is at an advanced stage of the permanent residency application."
+    },
+    "green_card": {
+      "title": "What is the Green Card? (Permanent Residency)",
+      "description": "The Green Card is an official identity document issued by the US Citizenship and Immigration Services (USCIS). It is also known as Lawful Permanent Residence (LPR).",
+      "rights": [
+        "The right to live and work in any US state permanently",
+        "The right to travel to and from the United States with relative freedom (with some time restrictions)",
+        "The right to apply for US citizenship after a qualifying residency period (usually 5 years, or 3 years if married to a US citizen)"
+      ],
+      "validity": "The Green Card is usually valid for 10 years and is renewed upon expiration. In some cases (such as recent marriage to a US citizen), a conditional residency is granted for two years, then converted to permanent status upon meeting the conditions.",
+      "methods": [
+        {
+          "method": "Through Family",
+          "description": "Marriage to a US citizen, or having a US citizen parent, child, or sibling"
+        },
+        {
+          "method": "Through Employment",
+          "description": "Via employment contracts with US companies or through special programs for investors (EB-5)"
+        },
+        {
+          "method": "Diversity Visa Lottery (DV Lottery)",
+          "description": "Grants 55,000 cards annually to applicants from countries with low immigration rates"
+        },
+        {
+          "method": "Asylum or Humanitarian Protection",
+          "description": "For refugees or asylum seekers"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Key Advantages",
+      "list": [
+        "Working for major US companies",
+        "Possibility of bringing family via the H-4 visa",
+        "Opportunity for conversion to Permanent Residency",
+        "Enhancing professional experience in a global environment"
+      ]
+    },
+    "quota": {
+      "title": "Annual Quota and Restrictions",
+      "base_quota": "65,000 visas annually",
+      "additional_quota": "20,000 extra visas reserved for Master's or Doctoral degree holders from US universities",
+      "selection_process": "Applications usually far exceed the available quota, so they are selected via an electronic lottery system run by USCIS"
+    },
+    "beneficiaries": {
+      "title": "Who Can Benefit?",
+      "categories": [
+        {
+          "category": "Highly Qualified Professionals",
+          "description": "University graduates in fields such as: IT and programming, Engineering, Medicine and Health Sciences, Mathematics, Physics, and Applied Sciences. The job must require at least a specialized university qualification (Specialty Occupation)."
+        },
+        {
+          "category": "US Advanced Degree Holders",
+          "description": "An additional quota (20,000 visas) is reserved for Master's or Doctoral degree holders from accredited US universities, giving them a higher chance in the lottery system."
+        },
+        {
+          "category": "US Companies Seeking Foreign Talent",
+          "description": "US companies benefit from this visa to hire expertise unavailable locally, especially in the technology, healthcare, and scientific research sectors."
+        },
+        {
+          "category": "Families (H-4 Visa)",
+          "description": "Spouses and children of H-1B holders can obtain an H-4 visa, granting them the right to reside in the US, with some potentially obtaining a work permit."
+        }
+      ],
+      "notes": [
+        "You cannot apply individually; a US employer (Sponsor) must file the petition on your behalf",
+        "The visa is quota-limited: 65,000 annually + 20,000 for advanced degrees",
+        "Jobs must be within Specialty Occupations, requiring advanced academic knowledge"
+      ]
+    },
+    "process": {
+      "title": "Application Steps",
+      "steps": [
+        {
+          "title": "Obtain a Job Offer",
+          "description": "Get a job offer from a sponsoring US company. An employer must agree to sponsor you, as individual applications are not permitted."
+        },
+        {
+          "title": "Employer Files LCA",
+          "description": "Employer files the Labor Condition Application (LCA) with the Department of Labor (DOL). The company commits to paying a salary not less than the prevailing wage for the occupation."
+        },
+        {
+          "title": "H-1B Petition to USCIS",
+          "description": "After LCA approval, the employer files Form I-129. Applications enter the electronic lottery for selection."
+        },
+        {
+          "title": "USCIS Approval",
+          "description": "If selected in the lottery, the petition is reviewed and approved."
+        },
+        {
+          "title": "Visa Application at Embassy",
+          "description": "After USCIS approval, the applicant attends an interview to complete the visa process."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "list": [
+        "Valid passport",
+        "Official employment contract from the US company",
+        "Copy of the university degree or equivalent qualification",
+        "Proof of professional experience (experience letters or previous contracts)",
+        "Copy of the DOL's LCA approval",
+        "Copy of USCIS approval of Form I-129",
+        "Recent Biometric Photos (clear, 2x2 inches / 51x51 mm, with a white background, face filling 50–69% of the photo height)",
+        "Visa fee payment receipt"
+      ]
+    },
+    "employer_conditions": {
+      "title": "Essential Conditions for the Employer",
+      "list": [
+        "The employer must prove that the job requires a university degree or advanced expertise",
+        "The employer must file an LCA with the DOL to prove the offered wage is not less than the prevailing minimum wage for the occupation",
+        "After LCA approval, the petition is filed with USCIS via Form I-129"
+      ]
+    },
+    "fees": {
+      "title": "Fees and Costs",
+      "breakdown": [
+        {
+          "item": "Electronic Lottery Registration Fee",
+          "amount": "$10"
+        },
+        {
+          "item": "Form I‑129 Filing Fee",
+          "amount": "$460"
+        },
+        {
+          "item": "Fraud Prevention and Detection Fee",
+          "amount": "$500",
+          "note": "paid by the sponsoring company"
+        },
+        {
+          "item": "ACWIA Training Fee (small companies <25 employees)",
+          "amount": "$750"
+        },
+        {
+          "item": "ACWIA Training Fee (large companies ≥25 employees)",
+          "amount": "$1,500"
+        },
+        {
+          "item": "Additional Fee for Companies Highly Dependent on Foreign Labor",
+          "amount": "$4,000"
+        },
+        {
+          "item": "Visa Issuance Fee at the Embassy",
+          "amount": "~$190"
+        }
+      ],
+      "note": "Most fees are paid by the sponsoring company, but some costs (like interview fees or document preparation) may be borne by the applicant."
+    },
+    "processing_time": "Varies by country and lottery selection",
+    "validity": "3 years, extendable up to 6 years",
+    "with_kaya": {
+      "title": "What We Offer You at Kaya",
+      "description": "The H-1B visa is a rare, quota-limited opportunity requiring a US sponsor and precise procedures with the DOL and USCIS. With Kaya, we ensure a comprehensive file that increases your chances of acceptance and shortens your path to the US job market.",
+      "services": [
+        "Comprehensive eligibility assessment for H-1B visa",
+        "Connecting you with US sponsoring employers",
+        "Complete document preparation and verification",
+        "Step-by-step application tracking with DOL and USCIS",
+        "Interview preparation and guidance",
+        "Post-arrival support and integration assistance"
+      ]
+    },
+    "cta": {
+      "title": "Start Your American Dream Today",
+      "description": "Start your professional journey today with Kaya — we open the doors of the world for you with one step!",
+      "button_text": "Contact Us"
+    }
+  },
+  "ar": {
+    "title": "تأشيرة العمل H‑1B – الولايات المتحدة",
+    "hero": {
+      "subtitle": "بوابتك إلى أفضل الفرص المهنية في أمريكا"
+    },
+    "overview": {
+      "title": "لمحة عامة",
+      "description": "تأشيرة H‑1B هي تأشيرة غير هجرة تسمح للشركات الأميركية بتوظيف عمالة أجنبية متخصصة في وظائف تتطلب مؤهلاً جامعياً أو خبرة متقدمة. تعتبر هذه التأشيرة من أكثر التأشيرات تنافسية، حيث يتم اختيار الطلبات عبر نظام يانصيب إلكتروني بسبب كثرة المتقدمين مقارنة بالعدد المحدود المتاح سنوياً.",
+      "quote": "تأشيرة العمل الأميركية H‑1B فرصة نادرة، فهي محدودة بـ 65,000 تأشيرة سنوياً فقط، مع 20,000 مقعد إضافي مخصص لحاملي الماجستير من الجامعات الأميركية."
+    },
+    "key_info": {
+      "duration": "تمنح عادة لمدة 3 سنوات قابلة للتمديد حتى 6 سنوات",
+      "green_card": "يمكن تحويلها لاحقاً إلى إقامة دائمة (Green Card)",
+      "family": "يمكن للزوج/الزوجة والأبناء غير المتزوجين تحت 21 سنة مرافقة حامل التأشيرة عبر تأشيرة H‑4. بعض حاملي H‑4 يمكنهم الحصول على تصريح عمل (EAD) إذا كان مقدم الطلب الأساسي في مرحلة متقدمة من طلب الإقامة الدائمة."
+    },
+    "green_card": {
+      "title": "ما هي البطاقة الخضراء (Green Card)؟",
+      "description": "وثيقة هوية رسمية تصدرها دائرة خدمات الهجرة والجنسية الأميركية (USCIS). تُعرف أيضاً باسم الإقامة الدائمة القانونية (LPR – Lawful Permanent Residence).",
+      "rights": [
+        "العيش والعمل في أي ولاية أميركية بشكل دائم",
+        "السفر من وإلى الولايات المتحدة بحرية نسبية (مع بعض القيود الزمنية)",
+        "التقديم للحصول على الجنسية الأميركية بعد فترة إقامة مؤهلة (عادة 5 سنوات، أو 3 سنوات إذا كان الزواج من مواطن أميركي)"
+      ],
+      "validity": "البطاقة الخضراء عادةً صالحة لمدة 10 سنوات، ويتم تجديدها عند انتهائها. في بعض الحالات (مثل الزواج حديثاً من مواطن أميركي)، تُمنح إقامة مشروطة لمدة سنتين، ثم تتحول إلى دائمة بعد استيفاء الشروط.",
+      "methods": [
+        {
+          "method": "عن طريق العائلة",
+          "description": "الزواج من مواطن أميركي، أو أن يكون لديك والد، ابن، أو أخ مواطن أميركي"
+        },
+        {
+          "method": "عن طريق العمل",
+          "description": "عبر عقود عمل مع شركات أميركية أو عبر برامج خاصة للمستثمرين (EB‑5)"
+        },
+        {
+          "method": "برنامج الهجرة العشوائية (Lottery)",
+          "description": "يُعرف بـ DV Lottery، ويمنح 55,000 بطاقة سنوياً لمتقدمين من دول ذات معدلات هجرة منخفضة"
+        },
+        {
+          "method": "اللجوء أو الحماية الإنسانية",
+          "description": "للاجئين أو طالبي اللجوء بعد مرور عام على إقامتهم"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "المزايا الرئيسية",
+      "list": [
+        "العمل في كبرى الشركات الأميركية",
+        "إمكانية اصطحاب العائلة عبر تأشيرة H‑4",
+        "فرصة التحويل إلى إقامة دائمة",
+        "تعزيز الخبرة المهنية في بيئة عالمية"
+      ]
+    },
+    "quota": {
+      "title": "العدد السنوي والقيود",
+      "base_quota": "العدد الأساسي هو 65,000 تأشيرة سنوياً",
+      "additional_quota": "هناك 20,000 تأشيرة إضافية مخصصة لحاملي الماجستير أو الدكتوراه من الجامعات الأميركية",
+      "selection_process": "الطلبات عادةً تفوق العدد المتاح بكثير، لذلك يتم اختيارها عبر نظام يانصيب إلكتروني تديره دائرة خدمات الهجرة والجنسية (USCIS)"
+    },
+    "beneficiaries": {
+      "title": "من يمكنه الاستفادة؟",
+      "categories": [
+        {
+          "category": "المهنيون ذوو المؤهلات العالية",
+          "description": "خريجو الجامعات في تخصصات مثل: تكنولوجيا المعلومات والبرمجة، الهندسة (مدنية، ميكانيكية، كهربائية، صناعية)، الطب والعلوم الصحية، الرياضيات والفيزياء والعلوم التطبيقية. يشترط أن تكون الوظيفة تتطلب مؤهلاً جامعياً متخصصاً على الأقل."
+        },
+        {
+          "category": "حاملو شهادات الدراسات العليا من الجامعات الأميركية",
+          "description": "هناك حصة إضافية (20,000 تأشيرة) مخصصة لحاملي الماجستير أو الدكتوراه من جامعات أميركية معتمدة. هذا يمنحهم فرصة أكبر في نظام اليانصيب."
+        },
+        {
+          "category": "الشركات الأميركية الباحثة عن كفاءات أجنبية",
+          "description": "تستفيد الشركات الأميركية من هذه التأشيرة لتوظيف خبرات غير متوفرة محلياً، خاصة في قطاعات التقنية، الرعاية الصحية، والبحث العلمي."
+        },
+        {
+          "category": "العائلات (H‑4 Visa)",
+          "description": "أزواج/زوجات وأبناء حاملي H‑1B يمكنهم الحصول على تأشيرة H‑4. تمنحهم حق الإقامة في الولايات المتحدة، وبعضهم يمكنه الحصول على تصريح عمل."
+        }
+      ],
+      "notes": [
+        "لا يمكن التقديم بشكل فردي، بل يجب أن يكون هناك صاحب عمل أميركي راعٍ (Sponsor) يقدم الطلب نيابة عنك",
+        "التأشيرة محدودة العدد: 65,000 سنوياً + 20,000 للدراسات العليا",
+        "الوظائف يجب أن تكون ضمن ما يُعرف بـ Specialty Occupations أي وظائف متخصصة تتطلب معرفة أكاديمية متقدمة"
+      ]
+    },
+    "process": {
+      "title": "خطوات التقديم",
+      "steps": [
+        {
+          "title": "الحصول على عرض عمل",
+          "description": "الحصول على عرض عمل من شركة أميركية راعية (Sponsor). لا يمكن التقديم بشكل فردي، بل يجب أن تكون هناك شركة أميركية توافق على رعايتك."
+        },
+        {
+          "title": "تقديم شهادة العمل (LCA)",
+          "description": "الشركة تتعهد بدفع راتب لا يقل عن الحد الأدنى للأجور في التخصص، وتقدم شهادة العمل إلى وزارة العمل الأميركية (DOL)."
+        },
+        {
+          "title": "تقديم طلب H‑1B إلى USCIS",
+          "description": "بعد الموافقة على الـ LCA، يقدم صاحب العمل النموذج I‑129. الطلبات تدخل في اليانصيب الإلكتروني لاختيار المقبولين."
+        },
+        {
+          "title": "الموافقة الأولية من USCIS",
+          "description": "إذا تم اختيار الطلب، تتم مراجعته والموافقة عليه."
+        },
+        {
+          "title": "التقديم في السفارة",
+          "description": "بعد موافقة USCIS، يتوجه المتقدم إلى السفارة أو القنصلية الأميركية لإجراء المقابلة واستكمال الإجراءات."
+        }
+      ]
+    },
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري المفعول",
+        "عقد عمل رسمي من الشركة الأميركية",
+        "نسخة من شهادة المؤهل الجامعي أو ما يعادلها",
+        "إثبات الخبرة العملية (خطابات خبرة أو عقود سابقة)",
+        "نسخة من موافقة وزارة العمل (LCA)",
+        "نسخة من موافقة USCIS على النموذج I‑129",
+        "صور شخصية حديثة وفق المواصفات البيومترية (حديثة، واضحة، بمقاس 2×2 بوصة (51×51 ملم)، بخلفية بيضاء، والوجه ظاهر بالكامل بنسبة 50–69% من ارتفاع الصورة)",
+        "إيصال دفع رسوم التأشيرة"
+      ]
+    },
+    "employer_conditions": {
+      "title": "شروط أساسية لصاحب العمل",
+      "list": [
+        "يجب أن يثبت صاحب العمل أن الوظيفة تتطلب مؤهلاً جامعياً أو خبرة متقدمة",
+        "يجب تقديم شهادة عمل (LCA) إلى وزارة العمل الأميركية (DOL) لإثبات أن الأجر المعروض لا يقل عن الحد الأدنى للأجور في التخصص",
+        "بعد الموافقة على LCA، يتم رفع الطلب إلى USCIS عبر النموذج I‑129"
+      ]
+    },
+    "fees": {
+      "title": "التكاليف والرسوم",
+      "breakdown": [
+        {
+          "item": "رسوم تسجيل اليانصيب الإلكتروني",
+          "amount": "10 دولار"
+        },
+        {
+          "item": "رسوم تقديم النموذج I‑129",
+          "amount": "460 دولار"
+        },
+        {
+          "item": "رسوم مكافحة الاحتيال والكشف",
+          "amount": "500 دولار",
+          "note": "تدفعها الشركة"
+        },
+        {
+          "item": "رسوم التدريب الأميركي (ACWIA) للشركات الصغيرة (<25 موظفاً)",
+          "amount": "750 دولار"
+        },
+        {
+          "item": "رسوم التدريب الأميركي (ACWIA) للشركات الكبيرة (≥25 موظفاً)",
+          "amount": "1,500 دولار"
+        },
+        {
+          "item": "رسوم إضافية للشركات التي تعتمد بشكل كبير على العمالة الأجنبية",
+          "amount": "4,000 دولار"
+        },
+        {
+          "item": "رسوم إصدار التأشيرة في السفارة",
+          "amount": "حوالي 190 دولار"
+        }
+      ],
+      "note": "معظم الرسوم تدفعها الشركة الراعية، لكن بعض التكاليف (مثل رسوم المقابلة أو تجهيز المستندات) قد يتحملها المتقدم."
+    },
+    "processing_time": "يختلف حسب الدولة واختيار اليانصيب",
+    "validity": "3 سنوات، قابلة للتمديد حتى 6 سنوات",
+    "with_kaya": {
+      "title": "ما نقدمه لك في كايا",
+      "description": "تأشيرة H‑1B هي فرصة نادرة ومحدودة العدد، تتطلب راعياً أميركياً وإجراءات دقيقة مع وزارة العمل وUSCIS. مع كايا، نضمن لك ملفاً متكاملاً يزيد فرص قبولك ويختصر عليك الطريق نحو سوق العمل الأميركي.",
+      "services": [
+        "تقييم شامل لأهليتك للحصول على تأشيرة H-1B",
+        "ربطك مع أصحاب عمل أميركيين راعين",
+        "تجهيز كامل للمستندات والتحقق منها",
+        "متابعة الطلب خطوة بخطوة مع وزارة العمل وUSCIS",
+        "إعداد للمقابلة وتوجيه شامل",
+        "دعم ما بعد الوصول ومساعدة في الاندماج"
+      ]
+    },
+    "cta": {
+      "title": "ابدأ حلمك الأميركي اليوم",
+      "description": "ابدأ رحلتك المهنية اليوم مع كايا — نفتح لك أبواب العالم بخطوة واحدة!",
+      "button_text": "تواصل معنا"
+    }
+  }
+}
