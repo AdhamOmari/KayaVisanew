@@ -224,18 +224,19 @@ export default function Navbar() {
 
   return (
     <nav dir={dir} style={{
-      backgroundColor: '#1a202c',
+      backgroundColor: '#1c3269',
       color: 'white',
       position: 'sticky',
       top: 0,
       zIndex: 1000,
       boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+      borderTop: '3px solid #e2bc42',
     }}>
       <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 20px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '70px' }}>
           {/* Logo */}
-          <a href="/" style={{ fontSize: '1.8rem', fontWeight: 'bold', color: 'white', textDecoration: 'none' }}>
-            <span style={{ color: '#667eea' }}>KAYA</span> Travel
+          <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+            <img src="/kaya.png" alt="Kaya Travel" style={{ height: '50px', width: 'auto' }} />
           </a>
 
           {/* Desktop Menu */}

@@ -87,8 +87,7 @@ export default function Footer() {
             {/* Company Info */}
             <div style={styles.column}>
               <div style={styles.logo}>
-                <i className="fas fa-plane-departure" style={styles.logoIcon}></i>
-                <span style={styles.logoText}>{t.company}</span>
+                <img src="/kaya.png" alt="Kaya Travel" style={{ height: '60px', width: 'auto', marginBottom: '15px' }} />
               </div>
               <p style={styles.description}>{t.companyDesc}</p>
               

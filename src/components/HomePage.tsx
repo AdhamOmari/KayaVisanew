@@ -2,6 +2,7 @@
 
 import { useI18n } from '@/lib/i18n';
 import { useState } from 'react';
+import '@/styles/home.css';
 
 export default function HomePage() {
   const { locale, dir } = useI18n();
@@ -41,14 +42,14 @@ export default function HomePage() {
       services: {
         title: 'الخدمات التي نضعها بين يديك',
         items: [
-          { icon: 'fas fa-passport', title: 'الاستشارات وتجهيز متطلبات التأشيرة', desc: 'مع كايا، تبدأ رحلتك بخطوة واثقة. نوفّر لك استشارات دقيقة ونؤمّن جميع متطلبات التأشيرات لمختلف الوجهات العالمية.' },
-          { icon: 'fas fa-language', title: 'خدمات الترجمة المعتمدة', desc: 'كل ورقة لها وزنها. لذلك نقدّم لك ترجمة معتمدة لدى السفارات والجهات الرسمية داخل الأردن وخارجه.' },
-          { icon: 'fas fa-university', title: 'القبولات الجامعية', desc: 'طموحك الأكاديمي يستحق أفضل الفرص. نساعدك في الحصول على قبولات جامعية معتمدة في أرقى الجامعات العالمية.' },
-          { icon: 'fas fa-exchange-alt', title: 'تأشيرات التبادل الثقافي في أميركا', desc: 'افتح نافذة على العالم. مع كايا، تحصل على تأشيرات التبادل الثقافي الأمريكية لتعيش تجارب جديدة.' },
-          { icon: 'fas fa-hotel', title: 'خدمات حجوزات الفنادق', desc: 'من رحلة عمل سريعة إلى إجازة عائلية أو شهر عسل فاخر، نوفّر لك حجوزات فندقية حول العالم بأسعار تنافسية.' },
-          { icon: 'fas fa-map-marked-alt', title: 'خطة سفر متكاملة', desc: 'رحلتك ليست مجرد تذكرة، بل تجربة كاملة. نصمّم لك خطة سفر شخصية تجمع بين رغباتك واحتياجاتك.' },
-          { icon: 'fas fa-shield-alt', title: 'تأمين سفر صحي', desc: 'سلامتك أولويتنا. نقدّم باقات تأمين صحي شاملة تغطي رحلاتك السياحية أو الدراسية أو العملية.' },
-          { icon: 'fas fa-plane-departure', title: 'حجوزات الطيران', desc: 'من أول إقلاع حتى آخر هبوط، نوفّر لك تذاكر طيران إلى مختلف دول العالم.' },
+          { icon: 'card-text', title: 'الاستشارات وتجهيز متطلبات التأشيرة', desc: 'مع كايا، تبدأ رحلتك بخطوة واثقة. نوفّر لك استشارات دقيقة ونؤمّن جميع متطلبات التأشيرات لمختلف الوجهات العالمية.' },
+          { icon: 'mortarboard', title: 'القبولات الجامعية', desc: 'نساعدك في الحصول على قبولات جامعية معتمدة في أرقى الجامعات العالمية، بخطوات سهلة ودعم مستمر.' },
+          { icon: 'book', title: 'تأشيرات التبادل الثقافي', desc: 'احصل على تأشيرات التبادل الثقافي الأمريكية لتجربة الدراسة أو العمل أو التطوع بثقة.' },
+          { icon: 'globe', title: 'خدمات الترجمة المعتمدة', desc: 'نقدّم لك ترجمة معتمدة لدى السفارات والجهات الرسمية داخل الأردن وخارجه، بدقة تفتح أمامك الأبواب دون تأخير.' },
+          { icon: 'airplane', title: 'حجوزات الطيران', desc: 'نوفر لك تذاكر الطيران إلى مختلف دول العالم مع متابعة دقيقة لأفضل العروض والمواعيد.' },
+          { icon: 'building', title: 'خدمات حجوزات الفنادق', desc: 'نوفر لك حجوزات فندقية حول العالم بأسعار تنافسية وخيارات تناسب جميع الأذواق.' },
+          { icon: 'briefcase', title: 'خطة سفر متكاملة', desc: 'نصمّم لك خطة سفر شخصية تجمع بين رغباتك واحتياجاتك، بمرونة واحترافية.' },
+          { icon: 'heart-pulse', title: 'تأمين سفر صحي', desc: 'نوفر باقات تأمين صحي شاملة لتغطية رحلاتك السياحية أو الدراسية أو العملية.' },
         ],
       },
       destinations: {
@@ -212,60 +213,79 @@ export default function HomePage() {
   return (
     <div dir={dir} style={{ backgroundColor: '#fff' }}>
       {/* Hero Section */}
-      <section style={{ 
-        background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)',
-        color: 'white',
-        padding: '120px 20px 80px',
-        textAlign: 'center',
-        position: 'relative',
-        overflow: 'hidden'
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
-          <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold', marginBottom: '20px', textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>{t.hero.title}</h1>
-          <p style={{ fontSize: '1.3rem', marginBottom: '40px', opacity: 0.95, maxWidth: '800px', margin: '0 auto 40px' }}>{t.hero.subtitle}</p>
-          <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/contact" style={{ padding: '16px 40px', backgroundColor: 'white', color: '#667eea', borderRadius: '50px', fontSize: '1.1rem', fontWeight: 'bold', textDecoration: 'none', transition: 'all 0.3s', display: 'inline-block' }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 10px 25px rgba(0,0,0,0.2)'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none'; }}>
-              {t.hero.cta1}
-            </a>
-            <a href="/contact" style={{ padding: '16px 40px', backgroundColor: 'transparent', color: 'white', border: '2px solid white', borderRadius: '50px', fontSize: '1.1rem', fontWeight: 'bold', textDecoration: 'none', transition: 'all 0.3s', display: 'inline-block' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#667eea'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}>
-              {t.hero.cta2}
-            </a>
+      <section className="hero-section">
+        {/* Background Image */}
+        <div className="hero-background">
+          <img src="/bg-hero.jpg" alt="Hero Background" />
+          <div className="hero-overlay"></div>
+        </div>
+
+        {/* Content */}
+        <div className="hero-content">
+          <h1 className="hero-title">{t.hero.title}</h1>
+          <p className="hero-subtitle">{t.hero.subtitle}</p>
+          <div className="hero-buttons">
+            <a href="/contact" className="btn-primary-gold">{t.hero.cta1}</a>
+            <a href="/contact" className="btn-outline-white">{t.hero.cta2}</a>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section style={{ padding: '80px 20px', backgroundColor: '#f8f9fa' }}>
+      <section className="about-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-            <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '15px' }}>{t.about.title}</h2>
-            <p style={{ fontSize: '1.3rem', color: '#667eea', marginBottom: '30px' }}>{t.about.subtitle}</p>
-            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#48bb78', maxWidth: '900px', margin: '0 auto 20px' }}>{t.about.description}</p>
-            <p style={{ fontSize: '1.2rem', fontWeight: '600', color: '#667eea', fontStyle: 'italic' }}>{t.about.tagline}</p>
+          <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+            <p className="section-label">{locale === 'ar' ? 'من نحن؟' : 'Who We Are?'}</p>
+            <div className="section-underline"></div>
           </div>
-          <div style={{ backgroundColor: '#667eea', color: 'white', padding: '40px', borderRadius: '16px', textAlign: 'center' }}>
-            <h3 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '15px' }}>{locale === 'ar' ? 'رؤيتنا' : 'Our Vision'}</h3>
-            <p style={{ fontSize: '1.15rem', lineHeight: '1.7', margin: 0 }}>{t.about.vision}</p>
+          
+          <div className="about-container" style={{ gridTemplateColumns: locale === 'ar' ? '1fr 1fr' : '1fr 1fr' }}>
+            <div className="about-content" style={{ order: locale === 'ar' ? 2 : 1 }}>
+              <h2 className="about-title">
+                {locale === 'ar' ? (
+                  <>فريق من <span className="text-accent-gold">المتخصصين</span> يقود مسارك نحو التأشيرة.</>
+                ) : (
+                  <>A team of <span className="text-accent-gold">specialists</span> guiding your visa journey.</>
+                )}
+              </h2>
+              <p className="about-text">{t.about.description}</p>
+              <p className="about-text" style={{ fontWeight: '600', color: '#1c3269' }}>{t.about.tagline}</p>
+              <div className="vision-box">
+                <h3>{locale === 'ar' ? 'رؤيتنا' : 'Our Vision'}</h3>
+                <p>{t.about.vision}</p>
+              </div>
+            </div>
+            <div className="about-image" style={{ order: locale === 'ar' ? 1 : 2 }}>
+              <div className="about-image-wrapper">
+                <img 
+                  src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop" 
+                  alt={locale === 'ar' ? 'عن كايا' : 'About Kaya'}
+                  loading="lazy"
+                />
+                <div className="about-image-overlay"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Why Choose Us */}
-      <section style={{ padding: '80px 20px', backgroundColor: 'white' }}>
+      <section className="why-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', textAlign: 'center', color: '#1a202c', marginBottom: '60px' }}>{t.why.title}</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px' }}>
+          <div style={{ textAlign: 'center', marginBottom: '30px' }}>
+            <h6 className="why-section-title">{locale === 'ar' ? 'لماذا نحن؟' : 'Why Choose Us?'}</h6>
+            <div className="why-section-underline"></div>
+            <h2 className="why-section-heading">{t.why.title}</h2>
+          </div>
+
+          <div className="why-cards-grid">
             {t.why.items.map((item, idx) => (
-              <div key={idx} style={{ padding: '40px 30px', backgroundColor: '#f7fafc', borderRadius: '12px', textAlign: 'center', transition: 'all 0.3s', border: '2px solid transparent' }}
-                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-5px)'; e.currentTarget.style.borderColor = '#667eea'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.borderColor = 'transparent'; }}>
-                <i className={item.icon} style={{ fontSize: '3rem', color: '#667eea', marginBottom: '20px' }}></i>
-                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '15px' }}>{item.title}</h3>
-                <p style={{ fontSize: '1rem', color: '#48bb78', lineHeight: '1.6', margin: 0 }}>{item.desc}</p>
+              <div key={idx} className="why-card">
+                <div className="why-icon-wrapper">
+                  <i className={item.icon}></i>
+                </div>
+                <h3>{item.title}</h3>
+                <p>{item.desc}</p>
               </div>
             ))}
           </div>
@@ -290,17 +310,22 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section style={{ padding: '80px 20px', backgroundColor: '#f8f9fa' }}>
+      <section className="services-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', textAlign: 'center', color: '#1a202c', marginBottom: '60px' }}>{t.services.title}</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <h6 className="section-label">{locale === 'ar' ? 'خدماتنا' : 'Our Services'}</h6>
+            <div className="section-underline"></div>
+            <h2 className="why-section-heading">{t.services.title}</h2>
+          </div>
+
+          <div className="services-grid">
             {t.services.items.map((service, idx) => (
-              <div key={idx} style={{ padding: '30px', backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', transition: 'all 0.3s' }}
-                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-5px)'; e.currentTarget.style.boxShadow = '0 10px 20px rgba(0,0,0,0.15)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)'; }}>
-                <i className={service.icon} style={{ fontSize: '2.5rem', color: '#667eea', marginBottom: '20px', display: 'block' }}></i>
-                <h3 style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '12px' }}>{service.title}</h3>
-                <p style={{ fontSize: '1rem', color: '#48bb78', lineHeight: '1.6', margin: 0 }}>{service.desc}</p>
+              <div key={idx} className="service-card-item">
+                <div className={`service-icon-circle ${idx === 2 ? 'gold' : 'dark-blue'}`}>
+                  <i className={`bi bi-${service.icon}`}></i>
+                </div>
+                <h5>{service.title}</h5>
+                <p>{service.desc}</p>
               </div>
             ))}
           </div>
@@ -308,18 +333,66 @@ export default function HomePage() {
       </section>
 
       {/* Popular Destinations */}
-      <section style={{ padding: '80px 20px', backgroundColor: 'white' }}>
+      <section className="destinations-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', textAlign: 'center', color: '#1a202c', marginBottom: '60px' }}>{t.destinations.title}</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px' }}>
-            {t.destinations.items.map((dest, idx) => (
-              <div key={idx} style={{ padding: '40px 30px', background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', borderRadius: '16px', color: 'white', position: 'relative', overflow: 'hidden' }}>
-                <div style={{ fontSize: '4rem', marginBottom: '15px' }}>{dest.flag}</div>
-                <h3 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '10px' }}>{dest.name}</h3>
-                <div style={{ backgroundColor: 'rgba(255,255,255,0.2)', display: 'inline-block', padding: '8px 20px', borderRadius: '20px', fontSize: '0.9rem', fontWeight: '600', marginBottom: '15px' }}>{dest.discount}</div>
-                <p style={{ fontSize: '1rem', lineHeight: '1.6', opacity: 0.95 }}>{dest.desc}</p>
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <h2 className="why-section-heading">
+              {locale === 'ar' ? 'وجهاتنا الشائعة' : 'Popular Destinations'}
+            </h2>
+            <div className="section-underline"></div>
+          </div>
+
+          <div style={{ display: 'grid', gap: '20px' }}>
+            {/* First destination - Full width */}
+            <div className="destination-card">
+              <img src="/destination-4.jpg" alt={locale === 'ar' ? 'الولايات المتحدة' : 'United States'} loading="lazy" />
+              <div className="destination-badge">
+                {locale === 'ar' ? 'الولايات المتحدة – خصم 25%' : 'United States – 25% OFF'}
               </div>
-            ))}
+              <div className="destination-overlay">
+                <p>
+                  {locale === 'ar' 
+                    ? 'اكتشف تنوّع الحياة بين ناطحات السحاب في نيويورك وسحر المدن الأمريكية الأخرى. رحلة مليئة بالفرص، الثقافة والتجارب التي لا تُنسى.'
+                    : 'Discover the diversity of life between New York skyscrapers and the charm of other American cities. A journey full of opportunities, culture, and unforgettable experiences.'}
+                </p>
+              </div>
+            </div>
+
+            {/* Three destinations in a row */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px' }}>
+              {/* UK */}
+              <div className="destination-card">
+                <img src="/destination-2.jpg" alt={locale === 'ar' ? 'المملكة المتحدة' : 'United Kingdom'} loading="lazy" />
+                <div className="destination-badge">
+                  {locale === 'ar' ? 'المملكة المتحدة – خصم 30%' : 'United Kingdom – 30% OFF'}
+                </div>
+                <div className="destination-overlay">
+                  <p>{locale === 'ar' ? 'حيث يلتقي التاريخ العريق بروح الحداثة.' : 'Where rich history meets modern spirit.'}</p>
+                </div>
+              </div>
+
+              {/* Canada */}
+              <div className="destination-card">
+                <img src="/destination-3.jpg" alt={locale === 'ar' ? 'كندا' : 'Canada'} loading="lazy" />
+                <div className="destination-badge">
+                  {locale === 'ar' ? 'كندا – خصم 20%' : 'Canada – 20% OFF'}
+                </div>
+                <div className="destination-overlay">
+                  <p>{locale === 'ar' ? 'استمتع بسحر الطبيعة والمدن الحديثة.' : 'Stunning nature and multicultural cities.'}</p>
+                </div>
+              </div>
+
+              {/* Europe */}
+              <div className="destination-card">
+                <img src="/destination-1.jpg" alt={locale === 'ar' ? 'أوروبا' : 'Europe'} loading="lazy" />
+                <div className="destination-badge">
+                  {locale === 'ar' ? 'أوروبا – خصم 25%' : 'Europe – 25% OFF'}
+                </div>
+                <div className="destination-overlay">
+                  <p>{locale === 'ar' ? 'اكتشف أكثر من 25 دولة أوروبية بتأشيرة شنغن واحدة.' : 'Explore more than 25 European countries with one visa.'}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
