@@ -1,7 +1,7 @@
 'use client';
 
 import { useI18n } from '@/lib/i18n';
-import { useState } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
@@ -218,9 +218,9 @@ export default function Navbar() {
 
   const t = content[locale as keyof typeof content];
 
-  const toggleMenu = (menu: string) => {
-    setOpenMenu(openMenu === menu ? null : menu);
-  };
+  const toggleMenu = useCallback((menu: string) => {
+    setOpenMenu(prev => prev === menu ? null : menu);
+  }, []);
 
   return (
     <nav dir={dir} style={{

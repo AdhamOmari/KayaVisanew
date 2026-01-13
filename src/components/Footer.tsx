@@ -1,31 +1,11 @@
 'use client';
 
 import { useI18n } from '@/lib/i18n';
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import Link from 'next/link';
 
 export default function Footer() {
   const { locale, dir } = useI18n();
-  const [footerData, setFooterData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchFooterData();
-  }, []);
-
-  const fetchFooterData = async () => {
-    try {
-      const response = await fetch('/api/footer');
-      const data = await response.json();
-      setFooterData(data.sections);
-    } catch (error) {
-      console.error('Error fetching footer data:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  if (loading) return null;
 
   const content = {
     ar: {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useI18n } from '@/lib/i18n';
-import { useState } from 'react';
+import { useMemo } from 'react';
 import '@/styles/home.css';
 
 export default function HomePage() {
@@ -270,7 +270,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="why-section">
+      {/* <section className="why-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
             <h6 className="why-section-title">{locale === 'ar' ? 'لماذا نحن؟' : 'Why Choose Us?'}</h6>
@@ -290,21 +290,30 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Simple Steps */}
-      <section style={{ padding: '80px 20px', background: 'linear-gradient(135deg, #1a202c 0%, #667eea 100%)', color: 'white' }}>
+      <section className="steps-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '60px' }}>{t.steps.title}</h2>
-          <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '40px' }}>
-            {t.steps.items.map((step, idx) => (
-              <div key={idx} style={{ textAlign: 'center', maxWidth: '300px' }}>
-                <div style={{ width: '100px', height: '100px', backgroundColor: 'rgba(255,255,255,0.2)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px', border: '3px solid white' }}>
-                  <i className={step.icon} style={{ fontSize: '2.5rem' }}></i>
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <h6 className="section-label">{locale === 'ar' ? 'العملية' : 'Process'}</h6>
+            <div className="section-underline"></div>
+            <h2 className="why-section-heading">{t.steps.title}</h2>
+          </div>
+          <div className="steps-progress-container">
+            <div className="progress-line"></div>
+            <div className="progress-line-active"></div>
+            <div className="steps-grid">
+              {t.steps.items.map((step, idx) => (
+                <div key={idx} className="step-card">
+                  <div className="step-number">{idx + 1}</div>
+                  <div className="step-icon-wrapper">
+                    <i className={step.icon}></i>
+                  </div>
+                  <p className="step-text">{step.text}</p>
                 </div>
-                <p style={{ fontSize: '1.2rem', fontWeight: '600' }}>{step.text}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
