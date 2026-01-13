@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useI18n } from '@/lib/i18n';
+import '@/styles/contact.css';
 
 const contactData = require('@/data/contact.json');
 
@@ -57,181 +58,114 @@ export default function ContactPage() {
   };
 
   return (
-    <div dir={dir}>
+    <div dir={dir} className="contact-page">
 
       {/* Hero Section */}
-      <section style={{ 
-        background: 'linear-gradient(135deg, #0D9488 0%, #14B8A6 100%)',
-        color: 'white',
-        padding: '80px 0 60px',
-        marginTop: '70px'
-      }}>
-        <div className="container">
-          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '20px' }}>
-            {data.hero.title}
-          </h1>
-          <p style={{ fontSize: '1.3rem', marginBottom: '15px', opacity: 0.95 }}>
-            {data.hero.subtitle}
-          </p>
-          <p style={{ fontSize: '1.05rem', opacity: 0.9, maxWidth: '800px' }}>
-            {data.hero.description}
-          </p>
+      <section className="contact-hero">
+        <div className="hero-decorations">
+          <i className="fas fa-plane hero-icon hero-icon-1"></i>
+          <i className="fas fa-globe hero-icon hero-icon-2"></i>
+          <i className="fas fa-passport hero-icon hero-icon-3"></i>
+          <i className="fas fa-map-marked-alt hero-icon hero-icon-4"></i>
+        </div>
+        <div className="contact-hero-content">
+          <h1>{data.hero.title}</h1>
+          <p className="contact-hero-subtitle">{data.hero.subtitle}</p>
+          <p className="contact-hero-description">{data.hero.description}</p>
         </div>
       </section>
 
-      <div className="container" style={{ marginTop: '60px', marginBottom: '60px' }}>
-        <div className="row">
+      <div className="contact-container">
+        <div className="contact-grid">
           {/* Contact Information - Left Side */}
-          <div className="col-lg-4 mb-5">
+          <div className="contact-sidebar">
             {/* Contact Info Cards */}
-            <div style={{ marginBottom: '30px' }}>
-              <h2 style={{ fontSize: '1.8rem', marginBottom: '30px', color: '#1F2937' }}>
-                {data.contact_info.title}
-              </h2>
+            <div>
+              <h2 className="contact-info-title">{data.contact_info.title}</h2>
 
               {/* Phone */}
-              <div style={{ 
-                background: '#F3F4F6', 
-                padding: '25px', 
-                borderRadius: '12px',
-                marginBottom: '20px',
-                borderLeft: '4px solid #14B8A6'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <i className="fas fa-phone" style={{ color: '#14B8A6', fontSize: '1.5rem', marginInlineEnd: '15px' }}></i>
-                  <strong style={{ color: '#1F2937' }}>{data.contact_info.phone.label}</strong>
+              <div className="contact-info-card">
+                <div className="contact-info-header">
+                  <div className="contact-info-icon">
+                    <i className="fas fa-phone"></i>
+                  </div>
+                  <strong className="contact-info-label">{data.contact_info.phone.label}</strong>
                 </div>
-                <a href={`tel:${data.contact_info.phone.link}`} style={{ 
-                  color: '#0D9488', 
-                  fontSize: '1.1rem',
-                  textDecoration: 'none',
-                  display: 'block',
-                  marginInlineStart: '40px'
-                }}>
+                <a href={`tel:${data.contact_info.phone.link}`} className="contact-info-value">
                   {data.contact_info.phone.value}
                 </a>
               </div>
 
               {/* Email */}
-              <div style={{ 
-                background: '#F3F4F6', 
-                padding: '25px', 
-                borderRadius: '12px',
-                marginBottom: '20px',
-                borderLeft: '4px solid #F97316'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <i className="fas fa-envelope" style={{ color: '#F97316', fontSize: '1.5rem', marginInlineEnd: '15px' }}></i>
-                  <strong style={{ color: '#1F2937' }}>{data.contact_info.email.label}</strong>
+              <div className="contact-info-card">
+                <div className="contact-info-header">
+                  <div className="contact-info-icon">
+                    <i className="fas fa-envelope"></i>
+                  </div>
+                  <strong className="contact-info-label">{data.contact_info.email.label}</strong>
                 </div>
-                <a href={`mailto:${data.contact_info.email.link}`} style={{ 
-                  color: '#EA580C', 
-                  fontSize: '1.1rem',
-                  textDecoration: 'none',
-                  display: 'block',
-                  marginInlineStart: '40px',
-                  wordBreak: 'break-all'
-                }}>
+                <a href={`mailto:${data.contact_info.email.link}`} className="contact-info-value">
                   {data.contact_info.email.value}
                 </a>
               </div>
 
               {/* WhatsApp */}
-              <div style={{ 
-                background: '#F3F4F6', 
-                padding: '25px', 
-                borderRadius: '12px',
-                marginBottom: '20px',
-                borderLeft: '4px solid #25D366'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <i className="fab fa-whatsapp" style={{ color: '#25D366', fontSize: '1.5rem', marginInlineEnd: '15px' }}></i>
-                  <strong style={{ color: '#1F2937' }}>{data.contact_info.whatsapp.label}</strong>
+              <div className="contact-info-card">
+                <div className="contact-info-header">
+                  <div className="contact-info-icon">
+                    <i className="fab fa-whatsapp"></i>
+                  </div>
+                  <strong className="contact-info-label">{data.contact_info.whatsapp.label}</strong>
                 </div>
                 <a 
                   href={`https://wa.me/${data.contact_info.whatsapp.link}`} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ 
-                    color: '#25D366', 
-                    fontSize: '1.1rem',
-                    textDecoration: 'none',
-                    display: 'block',
-                    marginInlineStart: '40px'
-                  }}
+                  className="contact-info-value"
                 >
                   {data.contact_info.whatsapp.value}
                 </a>
               </div>
 
               {/* Address */}
-              <div style={{ 
-                background: '#F3F4F6', 
-                padding: '25px', 
-                borderRadius: '12px',
-                borderLeft: '4px solid #8B5CF6'
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                  <i className="fas fa-map-marker-alt" style={{ color: '#8B5CF6', fontSize: '1.5rem', marginInlineEnd: '15px' }}></i>
-                  <strong style={{ color: '#1F2937' }}>{data.contact_info.address.label}</strong>
+              <div className="contact-info-card">
+                <div className="contact-info-header">
+                  <div className="contact-info-icon">
+                    <i className="fas fa-map-marker-alt"></i>
+                  </div>
+                  <strong className="contact-info-label">{data.contact_info.address.label}</strong>
                 </div>
-                <p style={{ 
-                  color: '#6B7280', 
-                  fontSize: '1.1rem',
-                  margin: 0,
-                  marginInlineStart: '40px'
-                }}>
-                  {data.contact_info.address.value}
-                </p>
+                <p className="contact-info-text">{data.contact_info.address.value}</p>
               </div>
             </div>
 
             {/* Working Hours */}
-            <div style={{ 
-              background: '#FEF3C7', 
-              padding: '25px', 
-              borderRadius: '12px',
-              marginBottom: '30px'
-            }}>
-              <h3 style={{ fontSize: '1.3rem', marginBottom: '20px', color: '#92400E' }}>
-                <i className="fas fa-clock" style={{ marginInlineEnd: '10px' }}></i>
+            <div className="working-hours-card">
+              <h3 className="working-hours-title">
+                <i className="fas fa-clock"></i>
                 {data.working_hours.title}
               </h3>
               {data.working_hours.schedule.map((item: any, index: number) => (
-                <div key={index} style={{ marginBottom: '10px' }}>
-                  <strong style={{ color: '#78350F' }}>{item.days}:</strong>
-                  <span style={{ color: '#92400E', marginInlineStart: '10px' }}>{item.hours}</span>
+                <div key={index} className="working-hours-item">
+                  <span className="working-hours-day">{item.days}:</span>
+                  <span className="working-hours-time">{item.hours}</span>
                 </div>
               ))}
             </div>
 
             {/* Social Media */}
-            <div>
-              <h3 style={{ fontSize: '1.3rem', marginBottom: '20px', color: '#1F2937' }}>
+            <div className="social-media-card">
+              <h3 className="social-media-title">
                 {data.social_media.title}
               </h3>
-              <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
+              <div className="social-media-links">
                 {data.social_media.platforms.map((platform: any, index: number) => (
                   <a
                     key={index}
                     href={platform.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{
-                      width: '50px',
-                      height: '50px',
-                      borderRadius: '50%',
-                      background: 'linear-gradient(135deg, #0D9488, #14B8A6)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      color: 'white',
-                      fontSize: '1.3rem',
-                      transition: 'transform 0.3s',
-                      textDecoration: 'none'
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
-                    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                    className="social-media-link"
                   >
                     <i className={platform.icon}></i>
                   </a>
@@ -241,53 +175,34 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form - Right Side */}
-          <div className="col-lg-8">
-            <div style={{ 
-              background: 'white', 
-              padding: '40px', 
-              borderRadius: '16px',
-              boxShadow: '0 10px 40px rgba(0,0,0,0.1)'
-            }}>
-              <h2 style={{ fontSize: '2rem', marginBottom: '15px', color: '#1F2937' }}>
+          <div>
+            <div className="contact-form-card">
+              <h2 className="contact-form-title">
                 {data.form.title}
               </h2>
-              <p style={{ color: '#6B7280', marginBottom: '30px' }}>
+              <p className="contact-form-subtitle">
                 {data.form.subtitle}
               </p>
 
               {status === 'success' && (
-                <div style={{ 
-                  background: '#D1FAE5', 
-                  border: '1px solid #10B981',
-                  color: '#065F46',
-                  padding: '15px 20px',
-                  borderRadius: '8px',
-                  marginBottom: '25px'
-                }}>
-                  <i className="fas fa-check-circle" style={{ marginInlineEnd: '10px' }}></i>
-                  {statusMessage}
+                <div className="status-message success">
+                  <i className="fas fa-check-circle status-icon"></i>
+                  <span>{statusMessage}</span>
                 </div>
               )}
 
               {status === 'error' && (
-                <div style={{ 
-                  background: '#FEE2E2', 
-                  border: '1px solid #EF4444',
-                  color: '#991B1B',
-                  padding: '15px 20px',
-                  borderRadius: '8px',
-                  marginBottom: '25px'
-                }}>
-                  <i className="fas fa-exclamation-circle" style={{ marginInlineEnd: '10px' }}></i>
-                  {statusMessage}
+                <div className="status-message error">
+                  <i className="fas fa-exclamation-circle status-icon"></i>
+                  <span>{statusMessage}</span>
                 </div>
               )}
 
               <form onSubmit={handleSubmit}>
                 {/* Full Name */}
-                <div className="mb-4">
-                  <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#374151' }}>
-                    {data.form.fields.name.label} <span style={{ color: '#EF4444' }}>*</span>
+                <div className="form-group">
+                  <label className="form-label">
+                    {data.form.fields.name.label} <span className="required-asterisk">*</span>
                   </label>
                   <input
                     type="text"
@@ -296,23 +211,14 @@ export default function ContactPage() {
                     onChange={handleChange}
                     placeholder={data.form.fields.name.placeholder}
                     required
-                    style={{
-                      width: '100%',
-                      padding: '12px 15px',
-                      border: '2px solid #E5E7EB',
-                      borderRadius: '8px',
-                      fontSize: '1rem',
-                      transition: 'border-color 0.3s'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#14B8A6'}
-                    onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+                    className="form-control"
                   />
                 </div>
 
                 {/* Email */}
-                <div className="mb-4">
-                  <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#374151' }}>
-                    {data.form.fields.email.label} <span style={{ color: '#EF4444' }}>*</span>
+                <div className="form-group">
+                  <label className="form-label">
+                    {data.form.fields.email.label} <span className="required-asterisk">*</span>
                   </label>
                   <input
                     type="email"
@@ -321,23 +227,14 @@ export default function ContactPage() {
                     onChange={handleChange}
                     placeholder={data.form.fields.email.placeholder}
                     required
-                    style={{
-                      width: '100%',
-                      padding: '12px 15px',
-                      border: '2px solid #E5E7EB',
-                      borderRadius: '8px',
-                      fontSize: '1rem',
-                      transition: 'border-color 0.3s'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#14B8A6'}
-                    onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+                    className="form-control"
                   />
                 </div>
 
                 {/* Phone */}
-                <div className="mb-4">
-                  <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#374151' }}>
-                    {data.form.fields.phone.label} <span style={{ color: '#EF4444' }}>*</span>
+                <div className="form-group">
+                  <label className="form-label">
+                    {data.form.fields.phone.label} <span className="required-asterisk">*</span>
                   </label>
                   <input
                     type="tel"
@@ -346,39 +243,20 @@ export default function ContactPage() {
                     onChange={handleChange}
                     placeholder={data.form.fields.phone.placeholder}
                     required
-                    style={{
-                      width: '100%',
-                      padding: '12px 15px',
-                      border: '2px solid #E5E7EB',
-                      borderRadius: '8px',
-                      fontSize: '1rem',
-                      transition: 'border-color 0.3s'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#14B8A6'}
-                    onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+                    className="form-control"
                   />
                 </div>
 
                 {/* Visa Type */}
-                <div className="mb-4">
-                  <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#374151' }}>
+                <div className="form-group">
+                  <label className="form-label">
                     {data.form.fields.visa_type.label}
                   </label>
                   <select
                     name="visa_type"
                     value={formData.visa_type}
                     onChange={handleChange}
-                    style={{
-                      width: '100%',
-                      padding: '12px 15px',
-                      border: '2px solid #E5E7EB',
-                      borderRadius: '8px',
-                      fontSize: '1rem',
-                      transition: 'border-color 0.3s',
-                      backgroundColor: 'white'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#14B8A6'}
-                    onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+                    className="form-control"
                   >
                     <option value="">{data.form.fields.visa_type.placeholder}</option>
                     {data.form.fields.visa_type.options.map((option: string, index: number) => (
@@ -388,9 +266,9 @@ export default function ContactPage() {
                 </div>
 
                 {/* Message */}
-                <div className="mb-4">
-                  <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#374151' }}>
-                    {data.form.fields.message.label} <span style={{ color: '#EF4444' }}>*</span>
+                <div className="form-group">
+                  <label className="form-label">
+                    {data.form.fields.message.label} <span className="required-asterisk">*</span>
                   </label>
                   <textarea
                     name="message"
@@ -399,62 +277,25 @@ export default function ContactPage() {
                     placeholder={data.form.fields.message.placeholder}
                     required
                     rows={6}
-                    style={{
-                      width: '100%',
-                      padding: '12px 15px',
-                      border: '2px solid #E5E7EB',
-                      borderRadius: '8px',
-                      fontSize: '1rem',
-                      transition: 'border-color 0.3s',
-                      resize: 'vertical'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#14B8A6'}
-                    onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+                    className="form-control"
                   />
                 </div>
 
                 {/* Privacy Note */}
-                <div style={{ 
-                  background: '#EFF6FF', 
-                  padding: '15px',
-                  borderRadius: '8px',
-                  marginBottom: '25px',
-                  border: '1px solid #BFDBFE'
-                }}>
-                  <i className="fas fa-lock" style={{ color: '#3B82F6', marginInlineEnd: '10px' }}></i>
-                  <span style={{ color: '#1E40AF', fontSize: '0.95rem' }}>
-                    {data.form.privacy_note}
-                  </span>
+                <div className="privacy-note">
+                  <i className="fas fa-lock"></i>
+                  <span>{data.form.privacy_note}</span>
                 </div>
 
                 {/* Submit Button */}
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  style={{
-                    width: '100%',
-                    padding: '15px',
-                    background: status === 'submitting' 
-                      ? '#9CA3AF' 
-                      : 'linear-gradient(135deg, #0D9488, #14B8A6)',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '8px',
-                    fontSize: '1.1rem',
-                    fontWeight: '600',
-                    cursor: status === 'submitting' ? 'not-allowed' : 'pointer',
-                    transition: 'transform 0.2s'
-                  }}
-                  onMouseEnter={(e) => {
-                    if (status !== 'submitting') {
-                      e.currentTarget.style.transform = 'translateY(-2px)';
-                    }
-                  }}
-                  onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                  className="submit-button"
                 >
                   {status === 'submitting' ? (
                     <>
-                      <i className="fas fa-spinner fa-spin" style={{ marginInlineEnd: '10px' }}></i>
+                      <i className="fas fa-spinner fa-spin"></i>
                       {locale === 'ar' ? 'جاري الإرسال...' : 'Sending...'}
                     </>
                   ) : (
@@ -470,68 +311,27 @@ export default function ContactPage() {
         </div>
 
         {/* Why Choose Kaya Section */}
-        <section style={{ marginTop: '80px' }}>
-          <h2 style={{ fontSize: '2rem', textAlign: 'center', marginBottom: '50px', color: '#1F2937' }}>
-            {data.why_choose.title}
-          </h2>
-          <div className="row">
+        <section className="why-choose-section">
+          <h2 className="section-title">{data.why_choose.title}</h2>
+          <div className="why-choose-grid">
             {data.why_choose.reasons.map((reason: any, index: number) => (
-              <div key={index} className="col-md-6 col-lg-3 mb-4">
-                <div style={{
-                  textAlign: 'center',
-                  padding: '30px 20px',
-                  background: 'white',
-                  borderRadius: '12px',
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
-                  height: '100%',
-                  transition: 'transform 0.3s'
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
-                onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                >
-                  <div style={{
-                    width: '70px',
-                    height: '70px',
-                    background: 'linear-gradient(135deg, #0D9488, #14B8A6)',
-                    borderRadius: '50%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 20px',
-                    fontSize: '1.8rem',
-                    color: 'white'
-                  }}>
-                    <i className={`fas ${reason.icon}`}></i>
-                  </div>
-                  <h3 style={{ fontSize: '1.2rem', marginBottom: '15px', color: '#1F2937' }}>
-                    {reason.title}
-                  </h3>
-                  <p style={{ color: '#6B7280', fontSize: '0.95rem', margin: 0 }}>
-                    {reason.description}
-                  </p>
+              <div key={index} className="why-choose-card">
+                <div className="why-choose-icon">
+                  <i className={`fas ${reason.icon}`}></i>
                 </div>
+                <h3 className="why-choose-title">{reason.title}</h3>
+                <p className="why-choose-description">{reason.description}</p>
               </div>
             ))}
           </div>
         </section>
 
         {/* Final Message */}
-        <section style={{ 
-          marginTop: '80px',
-          background: 'linear-gradient(135deg, #0D9488, #14B8A6)',
-          color: 'white',
-          padding: '60px 40px',
-          borderRadius: '16px',
-          textAlign: 'center'
-        }}>
-          <h2 style={{ fontSize: '2rem', marginBottom: '20px' }}>
-            {data.final_message.title}
-          </h2>
-          <p style={{ fontSize: '1.2rem', marginBottom: '30px', opacity: 0.95, maxWidth: '800px', margin: '0 auto 30px' }}>
-            {data.final_message.description}
-          </p>
-          <p style={{ fontSize: '1.3rem', fontWeight: '600' }}>
-            <i className="fas fa-rocket" style={{ marginInlineEnd: '10px' }}></i>
+        <section className="final-message-section">
+          <h2 className="final-message-title">{data.final_message.title}</h2>
+          <p className="final-message-description">{data.final_message.description}</p>
+          <p className="final-message-cta">
+            <i className="fas fa-rocket"></i>
             {data.final_message.cta}
           </p>
         </section>

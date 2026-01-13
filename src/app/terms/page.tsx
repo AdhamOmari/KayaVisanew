@@ -2,6 +2,7 @@
 
 import { useI18n } from '@/lib/i18n';
 import { useState, useEffect } from 'react';
+import '@/styles/footer-pages.css';
 
 export default function TermsPage() {
   const { locale, dir } = useI18n();
@@ -26,11 +27,8 @@ export default function TermsPage() {
 
   if (loading) {
     return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{ width: '50px', height: '50px', border: '5px solid #f3f3f3', borderTop: '5px solid #667eea', borderRadius: '50%', animation: 'spin 1s linear infinite', margin: '0 auto' }} />
-          <style jsx>{`@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }}`}</style>
-        </div>
+      <div className="footer-loading">
+        <div className="footer-spinner" />
       </div>
     );
   }
@@ -38,27 +36,33 @@ export default function TermsPage() {
   if (!content) return null;
 
   return (
-    <div dir={dir} style={{ backgroundColor: '#f8f9fa', minHeight: '100vh' }}>
+    <div dir={dir} className="footer-page">
       {/* Hero */}
-      <section style={{ background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', color: 'white', padding: '100px 20px 60px', textAlign: 'center' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '15px', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>{content.title}</h1>
-          <p style={{ fontSize: '1.3rem', opacity: 0.95 }}>{content.subtitle}</p>
+      <section className="footer-hero">
+        <div className="footer-hero-content">
+          <div className="footer-hero-icon">
+            <i className="fas fa-file-contract"></i>
+          </div>
+          <h1>{content.title}</h1>
+          <p className="footer-hero-subtitle">{content.subtitle}</p>
         </div>
       </section>
 
       {/* Content */}
-      <section style={{ padding: '60px 20px', backgroundColor: 'white' }}>
-        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-          <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#48bb78', marginBottom: '40px' }}>{content.intro}</p>
+      <section className="footer-content">
+        <div className="footer-content-container">
+          <p className="footer-intro">{content.intro}</p>
 
           {/* What We Offer */}
-          <div style={{ marginBottom: '40px' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '20px' }}>{content.whatWeOffer.title}</h2>
-            <ul style={{ listStyle: 'none', padding: 0 }}>
+          <div className="footer-section" style={{ '--section-index': 0 } as React.CSSProperties}>
+            <h2 className="footer-section-title">
+              <i className="fas fa-gift footer-section-icon"></i>
+              {content.whatWeOffer.title}
+            </h2>
+            <ul className="footer-list">
               {content.whatWeOffer.items.map((item: string, idx: number) => (
-                <li key={idx} style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '1.05rem', color: '#48bb78' }}>
-                  <i className="fas fa-check-circle" style={{ color: '#667eea', fontSize: '1.3rem', marginTop: '3px' }}></i>
+                <li key={idx} className="footer-list-item">
+                  <i className="fas fa-check-circle footer-list-icon"></i>
                   <span>{item}</span>
                 </li>
               ))}
@@ -66,12 +70,15 @@ export default function TermsPage() {
           </div>
 
           {/* What We Expect */}
-          <div style={{ marginBottom: '40px' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '20px' }}>{content.whatWeExpect.title}</h2>
-            <ul style={{ listStyle: 'none', padding: 0 }}>
+          <div className="footer-section" style={{ '--section-index': 1 } as React.CSSProperties}>
+            <h2 className="footer-section-title">
+              <i className="fas fa-user-check footer-section-icon"></i>
+              {content.whatWeExpect.title}
+            </h2>
+            <ul className="footer-list">
               {content.whatWeExpect.items.map((item: string, idx: number) => (
-                <li key={idx} style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '1.05rem', color: '#48bb78' }}>
-                  <i className="fas fa-check-circle" style={{ color: '#667eea', fontSize: '1.3rem', marginTop: '3px' }}></i>
+                <li key={idx} className="footer-list-item">
+                  <i className="fas fa-check-circle footer-list-icon"></i>
                   <span>{item}</span>
                 </li>
               ))}
@@ -79,12 +86,15 @@ export default function TermsPage() {
           </div>
 
           {/* Liability */}
-          <div style={{ marginBottom: '40px' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '20px' }}>{content.liability.title}</h2>
-            <ul style={{ listStyle: 'none', padding: 0 }}>
+          <div className="footer-section" style={{ '--section-index': 2 } as React.CSSProperties}>
+            <h2 className="footer-section-title">
+              <i className="fas fa-shield-alt footer-section-icon"></i>
+              {content.liability.title}
+            </h2>
+            <ul className="footer-list">
               {content.liability.items.map((item: string, idx: number) => (
-                <li key={idx} style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '1.05rem', color: '#48bb78' }}>
-                  <i className="fas fa-exclamation-triangle" style={{ color: '#667eea', fontSize: '1.3rem', marginTop: '3px' }}></i>
+                <li key={idx} className="footer-list-item">
+                  <i className="fas fa-exclamation-triangle footer-list-icon"></i>
                   <span>{item}</span>
                 </li>
               ))}
@@ -92,14 +102,19 @@ export default function TermsPage() {
           </div>
 
           {/* Amendments */}
-          <div style={{ marginBottom: '40px' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '20px' }}>{content.amendments.title}</h2>
-            <p style={{ fontSize: '1.05rem', lineHeight: '1.8', color: '#48bb78' }}>{content.amendments.text}</p>
+          <div className="footer-section" style={{ '--section-index': 3 } as React.CSSProperties}>
+            <h2 className="footer-section-title">
+              <i className="fas fa-edit footer-section-icon"></i>
+              {content.amendments.title}
+            </h2>
+            <p style={{ fontSize: '1.08rem', lineHeight: '1.8', color: '#475569', padding: '15px', background: '#f8fafc', borderRadius: '10px' }}>
+              {content.amendments.text}
+            </p>
           </div>
 
           {/* Summary */}
-          <div style={{ padding: '30px', backgroundColor: '#f7fafc', borderLeft: '4px solid #667eea', borderRadius: '8px', marginTop: '40px' }}>
-            <p style={{ fontSize: '1.2rem', fontWeight: '600', color: '#1a202c', margin: 0 }}>{content.summary}</p>
+          <div className="footer-summary">
+            <p>{content.summary}</p>
           </div>
         </div>
       </section>

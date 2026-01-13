@@ -3,6 +3,7 @@
 import { useI18n } from '@/lib/i18n';
 import { useMemo } from 'react';
 import '@/styles/home.css';
+import Programs from '@/components/Programs';
 
 export default function HomePage() {
   const { locale, dir } = useI18n();
@@ -59,16 +60,6 @@ export default function HomePage() {
           { name: 'المملكة المتحدة', discount: 'خصم 30%', desc: 'حيث يلتقي التاريخ العريق بروح الحداثة. من معالم لندن الشهيرة مثل ساعة بيغ بن وقصر باكنغهام، إلى سحر إدنبرة الاسكتلندية.', flag: '🇬🇧' },
           { name: 'كندا', discount: 'خصم 20%', desc: 'حيث يلتقي الحلم بالواقع. استمتع بسحر الطبيعة الخلابة، المدن العصرية متعددة الثقافات، والضيافة الكندية الأصيلة.', flag: '🇨🇦' },
           { name: 'أوروبا', discount: 'خصم 25%', desc: 'من شواطئ إسبانيا الدافئة إلى جبال سويسرا المهيبة، ومن تاريخ إيطاليا العريق إلى حداثة ألمانيا وفرنسا، تمنحك تأشيرة شنغن فرصة لاكتشاف أكثر من 25 دولة أوروبية.', flag: '🇪🇺' },
-        ],
-      },
-      programs: {
-        title: 'برامجنا',
-        subtitle: 'برامج تأشيرات مصممة لتناسب احتياجاتك وتحقق طموحاتك.',
-        items: [
-          { country: 'كندا', title: 'تأشيرة كندا – فرص بلا حدود', features: ['متابعة دقيقة لملفك من البداية حتى استلام التأشيرة', 'دعم في تجهيز المستندات و خطاب الغرض من السفر'], price: 'JOD1490.00', rating: 5 },
-          { country: 'أمريكا', title: 'تأشيرة الولايات المتحدة الأميركية – رحلتك إلى الحلم الأميركي', features: ['استشارات متخصصة لمقابلة السفارة', 'تعبئة النماذج الإلكترونية (DS-160) باحترافية'], price: 'JOD1490.00', rating: 5 },
-          { country: 'بريطانيا', title: 'تأشيرة بريطانيا – قلب أوروبا النابض', features: ['تجهيز ملف متكامل مع حجوزات داعمة', 'متابعة سريعة لمواعيد البصمة والمقابلة'], price: 'JOD1490.00', rating: 5 },
-          { country: 'ألمانيا', title: 'تأشيرة ألمانيا (شنغن) – بوابتك إلى أوروبا', features: ['تأشيرة متعددة الدخول لزيارة عدة دول أوروبية', 'دعم كامل في حجز المواعيد وتقديم الطلب'], price: 'JOD1490.00', rating: 5 },
         ],
       },
       testimonials: {
@@ -158,16 +149,6 @@ export default function HomePage() {
           { name: 'The United Kingdom', discount: '30% Discount', desc: 'Where ancient history meets the spirit of modernity. From famous London landmarks like Big Ben and Buckingham Palace, to the charm of Scottish Edinburgh.', flag: '🇬🇧' },
           { name: 'Canada', discount: '20% Discount', desc: 'Where the dream meets reality. Enjoy the magic of breathtaking nature, modern multicultural cities, and authentic Canadian hospitality.', flag: '🇨🇦' },
           { name: 'Europe', discount: '25% Discount', desc: 'From the warm beaches of Spain to the majestic mountains of Switzerland, and from the ancient history of Italy to the modernity of Germany and France, the Schengen visa gives you the opportunity to discover more than 25 European countries.', flag: '🇪🇺' },
-        ],
-      },
-      programs: {
-        title: 'Our Programs',
-        subtitle: 'Visa programs designed to suit your needs and fulfill your ambitions.',
-        items: [
-          { country: 'Canada', title: 'Canada Visa – Unlimited Opportunities', features: ['Diligent follow-up of your file from start until visa receipt', 'Support in document preparation and purpose of travel letter'], price: 'JOD1490.00', rating: 5 },
-          { country: 'USA', title: 'USA Visa – Your Journey to the American Dream', features: ['Specialized consultations for the embassy interview', 'Professional completion of electronic forms (DS-160)'], price: 'JOD1490.00', rating: 5 },
-          { country: 'UK', title: 'UK Visa – The Pounding Heart of Europe', features: ['Preparation of a complete file with supporting reservations', 'Quick follow-up for biometric and interview appointments'], price: 'JOD1490.00', rating: 5 },
-          { country: 'Germany', title: 'Germany Visa (Schengen) – Your Gateway to Europe', features: ['Multiple-entry visa to visit several European countries', 'Full support in booking appointments and submitting the application'], price: 'JOD1490.00', rating: 5 },
         ],
       },
       testimonials: {
@@ -407,42 +388,7 @@ export default function HomePage() {
       </section>
 
       {/* Programs */}
-      <section style={{ padding: '80px 20px', backgroundColor: '#f8f9fa' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', color: '#1a202c', marginBottom: '15px' }}>{t.programs.title}</h2>
-            <p style={{ fontSize: '1.2rem', color: '#48bb78' }}>{t.programs.subtitle}</p>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
-            {t.programs.items.map((program, idx) => (
-              <div key={idx} style={{ padding: '30px', backgroundColor: 'white', borderRadius: '12px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', border: '2px solid #e2e8f0' }}>
-                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#667eea', marginBottom: '15px' }}>{program.title}</h3>
-                <ul style={{ listStyle: 'none', padding: 0, marginBottom: '20px' }}>
-                  {program.features.map((feature, fidx) => (
-                    <li key={fidx} style={{ display: 'flex', gap: '10px', marginBottom: '10px', fontSize: '1rem', color: '#48bb78' }}>
-                      <i className="fas fa-check-circle" style={{ color: '#48bb78', marginTop: '4px' }}></i>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px', borderTop: '1px solid #e2e8f0' }}>
-                  <div>
-                    <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#1a202c' }}>{program.price}</div>
-                    <div style={{ color: '#667eea' }}>
-                      {[...Array(program.rating)].map((_, i) => <i key={i} className="fas fa-star" style={{ fontSize: '0.9rem' }}></i>)}
-                    </div>
-                  </div>
-                  <a href="/contact" style={{ padding: '12px 25px', backgroundColor: '#667eea', color: 'white', borderRadius: '8px', textDecoration: 'none', fontWeight: '600', transition: 'all 0.3s' }}
-                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#5568d3'}
-                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#667eea'}>
-                    {locale === 'ar' ? 'اعرف المزيد' : 'Learn More'}
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Programs />
 
       {/* Partners & Team Links */}
       <section style={{ padding: '80px 20px', backgroundColor: 'white' }}>

@@ -1,0 +1,152 @@
+{
+  "ar": {
+    "title": "برامجنا",
+    "subtitle": "برامج تأشيرات مصممة لتناسب احتياجاتك وتحقق طموحاتك.",
+    "learnMore": "اعرف المزيد",
+    "programs": [
+      {
+        "id": "canada",
+        "country": "كندا",
+        "title": "تأشيرة المانيا (شنغن) – بوابتك إلى أوروبا",
+        "description": "تأشيرة متعددة الدخول لزيارة عدة دول أوروبية. دعم كامل في حجز المواعيد و تجهيز الطلب.",
+        "features": [
+          "تأشيرة متعددة الدخول لزيارة عدة دول أوروبية",
+          "دعم كامل في حجز المواعيد وتقديم الطلب",
+          "استشارات متخصصة لزيادة فرص القبول"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇨🇦",
+        "duration": "Days 15-25",
+        "persons": "Person 1"
+      },
+      {
+        "id": "usa",
+        "country": "أمريكا",
+        "title": "تأشيرة الولايات المتحدة الأميركية – رحلتك إلى الحلم الأميركي",
+        "description": "استشارات متخصصة لمقابلة السفارة. تعبئة النماذج الإلكترونية (DS-160) باحترافية.",
+        "features": [
+          "استشارات متخصصة لمقابلة السفارة",
+          "تعبئة النماذج الإلكترونية (DS-160) باحترافية",
+          "دعم كامل في حجز موعد المقابلة والبصمة"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇺🇸",
+        "duration": "Days 45-60",
+        "persons": "Person 1"
+      },
+      {
+        "id": "uk",
+        "country": "بريطانيا",
+        "title": "تأشيرة بريطانيا – قلب أوروبا النابض",
+        "description": "تجهيز ملف متكامل مع حجوزات داعمة. متابعة سريعة لمواعيد البصمة والمقابلة.",
+        "features": [
+          "تجهيز ملف متكامل مع حجوزات داعمة",
+          "متابعة سريعة لمواعيد البصمة والمقابلة",
+          "استشارات لزيادة فرص القبول"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇬🇧",
+        "duration": "Days 21-30",
+        "persons": "Person 1"
+      },
+      {
+        "id": "germany",
+        "country": "ألمانيا",
+        "title": "تأشيرة ألمانيا (شنغن) – بوابتك إلى أوروبا",
+        "description": "تأشيرة متعددة الدخول لزيارة عدة دول أوروبية. دعم كامل في حجز المواعيد وتقديم الطلب.",
+        "features": [
+          "تأشيرة متعددة الدخول لزيارة عدة دول أوروبية",
+          "دعم كامل في حجز المواعيد وتقديم الطلب",
+          "تجهيز ملف قوي لضمان أعلى فرص القبول"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇩🇪",
+        "duration": "Days 15-20",
+        "persons": "Person 1"
+      }
+    ]
+  },
+  "en": {
+    "title": "Our Programs",
+    "subtitle": "Visa programs designed to suit your needs and fulfill your ambitions.",
+    "learnMore": "Learn More",
+    "programs": [
+      {
+        "id": "canada",
+        "country": "Canada",
+        "title": "Canada Visa – Unlimited Opportunities",
+        "description": "Get your chance to live and work in one of the best countries for immigration and settlement",
+        "features": [
+          "Diligent follow-up of your file from start until visa receipt",
+          "Support in document preparation and purpose of travel letter",
+          "Specialized consultations to increase approval chances"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇨🇦",
+        "duration": "Days 15-25",
+        "persons": "Person 1"
+      },
+      {
+        "id": "usa",
+        "country": "USA",
+        "title": "USA Visa – Your Journey to the American Dream",
+        "description": "Start your journey to the land of opportunity with the best consulting services for US visa",
+        "features": [
+          "Specialized consultations for the embassy interview",
+          "Professional completion of electronic forms (DS-160)",
+          "Full support in booking interview and biometrics appointments"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇺🇸",
+        "duration": "Days 45-60",
+        "persons": "Person 1"
+      },
+      {
+        "id": "uk",
+        "country": "UK",
+        "title": "UK Visa – The Beating Heart of Europe",
+        "description": "Explore the United Kingdom with a tourist, study, or work visa",
+        "features": [
+          "Preparation of a complete file with supporting reservations",
+          "Quick follow-up for biometric and interview appointments",
+          "Consultations to increase approval chances"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇬🇧",
+        "duration": "Days 21-30",
+        "persons": "Person 1"
+      },
+      {
+        "id": "germany",
+        "country": "Germany",
+        "title": "Germany Visa (Schengen) – Your Gateway to Europe",
+        "description": "Get a Schengen visa and explore more than 25 European countries with complete freedom",
+        "features": [
+          "Multiple-entry visa to visit several European countries",
+          "Full support in booking appointments and submitting the application",
+          "Preparation of a strong file to ensure highest approval chances"
+        ],
+        "price": "1490.00",
+        "currency": "JOD",
+        "rating": 5,
+        "flag": "🇩🇪",
+        "duration": "Days 15-20",
+        "persons": "Person 1"
+      }
+    ]
+  }
+}

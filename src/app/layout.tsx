@@ -38,7 +38,7 @@ export default function RootLayout({
         <title>Kaya Travel - Your Trusted Immigration & Visa Partner</title>
         <meta name="description" content="Kaya Travel - Expert visa and immigration services for USA, Canada, UK, Europe and more" />
       </head>
-      <body className={inter.className} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <body className={inter.className} style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }} suppressHydrationWarning>
         <I18nProvider>
           {loading && <GlobalLoading />}
           <div style={{ visibility: loading ? 'hidden' : 'visible' }}>
