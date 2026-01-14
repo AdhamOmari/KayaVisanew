@@ -2,7 +2,13 @@
 
 import { useI18n } from '@/lib/i18n'
 import Link from 'next/link'
+
 import '@/styles/second-citizenship-minimal.css'
+import '@/styles/second-citizenship-antigua-barbuda.module.css'
+import '@/styles/second-citizenship-dominica.module.css'
+import '@/styles/second-citizenship-grenada.module.css'
+import '@/styles/second-citizenship-st-kitts-nevis.module.css'
+import '@/styles/second-citizenship-st-lucia.module.css'
 
 export default function SecondCitizenshipPage() {
   const { t, locale } = useI18n()
@@ -134,7 +140,11 @@ export default function SecondCitizenshipPage() {
         <div className="citizenship-countries-section">
           <div className="citizenship-countries-grid">
             {countries.map((country) => (
-              <Link key={country.slug} href={`/second-citizenship/${country.slug}`} className="citizenship-country-card">
+              <Link
+                key={country.slug}
+                href={`/second-citizenship/${country.slug}`}
+                className={`citizenship-country-card ${country.slug}`}
+              >
                 <div className="citizenship-country-image">
                   <img
                     src={country.image}

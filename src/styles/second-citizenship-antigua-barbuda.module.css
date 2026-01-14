@@ -1,0 +1,19 @@
+/* Antigua & Barbuda Country Card Styles */
+.citizenship-country-card.antigua-barbuda {
+  background: linear-gradient(rgba(28,50,105,0.45), rgba(226,188,66,0.18)), url('https://i.ibb.co/mrdjNdGv/Antigua-and-Barbuda-1.jpg') center/cover no-repeat;
+  border: 2px solid #e2bc42;
+  box-shadow: 0 4px 24px rgba(226, 188, 66, 0.13);
+  color: #fff;
+  min-height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+.citizenship-country-card.antigua-barbuda:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(28, 50, 105, 0.18);
+  border-color: #1c3269;
+}

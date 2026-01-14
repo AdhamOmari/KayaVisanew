@@ -1,0 +1,106 @@
+/* Countries Section Styles */
+.citizenship-countries-section {
+  margin-bottom: 70px;
+}
+
+.citizenship-countries-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 30px;
+}
+
+.citizenship-country-card {
+  background: var(--white);
+  border-radius: 18px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+.citizenship-country-card:hover {
+  box-shadow: 0 6px 24px rgba(28, 50, 105, 0.13);
+  border-color: var(--accent-gold);
+}
+.citizenship-country-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+  background: #e8ecf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.country-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+.citizenship-country-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin: 20px 24px 10px;
+  text-align: start;
+}
+.citizenship-country-description {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  margin: 0 24px 14px;
+  text-align: start;
+}
+.citizenship-country-badge {
+  background: var(--accent-gold);
+  color: var(--primary-blue);
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  margin: 0 24px 14px;
+  display: inline-block;
+  align-self: flex-start;
+}
+.citizenship-country-button {
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 0 0 16px 16px;
+  padding: 16px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0 24px 24px;
+  transition: background 0.2s;
+}
+.citizenship-country-button:hover {
+  background: var(--accent-gold);
+  color: var(--primary-blue);
+}
+@media (max-width: 768px) {
+  .citizenship-countries-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .citizenship-country-image {
+    height: 180px;
+  }
+  .citizenship-country-name {
+    font-size: 1.2rem;
+    margin: 15px 20px 8px;
+  }
+  .citizenship-country-description {
+    margin: 0 20px 12px;
+  }
+  .citizenship-country-badge {
+    margin: 0 20px 12px;
+  }
+  .citizenship-country-button {
+    margin: 0 20px 20px;
+  }
+}

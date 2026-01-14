@@ -1,0 +1,19 @@
+/* Grenada Country Card Styles */
+.citizenship-country-card.grenada {
+  background: linear-gradient(rgba(229,57,53,0.32), rgba(28,50,105,0.18)), url('https://i.ibb.co/6RHCD1wp/Grenada.jpg') center/cover no-repeat;
+  border: 2px solid #e53935;
+  box-shadow: 0 4px 24px rgba(229, 57, 53, 0.13);
+  color: #fff;
+  min-height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+.citizenship-country-card.grenada:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(229, 57, 53, 0.18);
+  border-color: #1c3269;
+}

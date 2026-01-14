@@ -1,10 +1,8 @@
-'use client'
-import "@/styles/antigua.css"
-import "bootstrap/dist/css/bootstrap.min.css"
-
+"use client"
 import { useI18n } from '@/lib/i18n'
 import dominicaData from '@/data/dominica.json'
 import { useState, useEffect } from 'react'
+import '@/styles/dominica.module.css'
 import GlobalLoading from '@/components/GlobalLoading'
 
 export default function DominicaPage() {
@@ -25,41 +23,39 @@ export default function DominicaPage() {
   }
 
   return (
-    <>
+    <div className="dominica-page">
 
       {/* MODERN HERO */}
-      <section className="modern-hero">
+      <section>
         <div className="container">
-          <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
-            <h1 className="hero-title">{data.title}</h1>
-            <p className="hero-subtitle">{data.intro}</p>
-            
-            <div className="hero-stats">
-              <div className="stat-item">
-                <span className="stat-number">140+</span>
-                <span className="stat-label">
+          <div dir={isRTL ? "rtl" : "ltr"}>
+            <h1>{data.title}</h1>
+            <p>{data.intro}</p>
+            <div>
+              <div>
+                <span>140+</span>
+                <span>
                   {isRTL ? "دولة بدون تأشيرة" : "Visa-Free Countries"}
                 </span>
               </div>
-              <div className="stat-item">
-                <span className="stat-number">6-9</span>
-                <span className="stat-label">
+              <div>
+                <span>6-9</span>
+                <span>
                   {isRTL ? "أشهر المعالجة" : "Months Processing"}
                 </span>
               </div>
-              <div className="stat-item">
-                <span className="stat-number">1993</span>
-                <span className="stat-label">
+              <div>
+                <span>1993</span>
+                <span>
                   {isRTL ? "تأسيس البرنامج" : "Program Established"}
                 </span>
               </div>
             </div>
-            
-            <div className="hero-actions">
-              <a href="#benefits" className="btn btn-modern-primary">
+            <div>
+              <a href="#benefits">
                 {isRTL ? "استكشاف المزايا" : "Explore Benefits"} →
               </a>
-              <a href="#requirements" className="btn btn-modern-secondary">
+              <a href="#requirements">
                 {isRTL ? "الشروط والمتطلبات" : "Requirements"}
               </a>
             </div>
@@ -323,6 +319,7 @@ export default function DominicaPage() {
         </div>
       </section>
 
-    </>
+    </div>
   )
 }
+
