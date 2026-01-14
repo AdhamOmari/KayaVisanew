@@ -4,11 +4,25 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import { useI18n } from '@/lib/i18n'
 import antiguaData from '@/data/antigua-barbuda.json'
+import { useState, useEffect } from 'react'
+import GlobalLoading from '@/components/GlobalLoading'
 
 export default function AntiguaBarbudaPage() {
   const { locale } = useI18n()
   const data = locale === 'ar' ? antiguaData.ar : antiguaData.en
   const isRTL = locale === 'ar'
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (isLoading) {
+    return <GlobalLoading />
+  }
 
   return (
     <>

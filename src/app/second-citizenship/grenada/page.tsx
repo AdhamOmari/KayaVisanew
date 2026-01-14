@@ -4,11 +4,25 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import { useI18n } from '@/lib/i18n'
 import grenadaData from '@/data/grenada.json'
+import { useState, useEffect } from 'react'
+import GlobalLoading from '@/components/GlobalLoading'
 
 export default function GrenadaPage() {
   const { locale } = useI18n()
   const data = locale === 'ar' ? grenadaData.ar : grenadaData.en
   const isRTL = locale === 'ar'
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (isLoading) {
+    return <GlobalLoading />
+  }
 
   return (
     <>

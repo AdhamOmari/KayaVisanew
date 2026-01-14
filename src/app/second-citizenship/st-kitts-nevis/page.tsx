@@ -4,11 +4,25 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import { useI18n } from '@/lib/i18n'
 import stKittsData from '@/data/st-kitts-nevis.json'
+import { useState, useEffect } from 'react'
+import GlobalLoading from '@/components/GlobalLoading'
 
 export default function StKittsNevisPage() {
   const { locale } = useI18n()
   const data = locale === 'ar' ? stKittsData.ar : stKittsData.en
   const isRTL = locale === 'ar'
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (isLoading) {
+    return <GlobalLoading />
+  }
 
   return (
     <>
