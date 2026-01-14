@@ -1,19 +1,370 @@
-/* Dominica Country Card Styles */
-.citizenship-country-card.dominica {
-  background: linear-gradient(rgba(76,175,80,0.35), rgba(28,50,105,0.18)), url('https://i.ibb.co/Ps5stNX6/Dominica.jpg') center/cover no-repeat;
-  border: 2px solid #4caf50;
-  box-shadow: 0 4px 24px rgba(76, 175, 80, 0.13);
-  color: #fff;
-  min-height: 340px;
-  width: 100%;
+:root {
+  --dominica-blue: #1c3269;
+  --dominica-gold: #e2bc42;
+  --dominica-soft-bg: #f8f9fa;
+  --dominica-white: #fff;
+  --dominica-shadow: 0 4px 24px rgba(28, 50, 105, 0.10);
+  --dominica-radius: 22px;
+}
+
+body, .dominica-page {
+  background: var(--dominica-soft-bg);
+  color: var(--dominica-blue);
+}
+
+/* HERO SECTION WITH BACKGROUND IMAGE */
+.dominica-page > section:first-child {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background-image: 
+    linear-gradient(135deg, rgba(28, 50, 105, 0.85) 0%, rgba(226, 188, 66, 0.75) 100%),
+    url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 0 0 var(--dominica-radius) var(--dominica-radius);
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+
+.dominica-page > section:first-child::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(226, 188, 66, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.dominica-page > section:first-child .container {
+  position: relative;
+  z-index: 2;
+}
+
+.dominica-page > section:first-child h1 {
+  color: var(--dominica-white);
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+}
+
+.dominica-page > section:first-child p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.35rem;
+  margin-bottom: 48px;
+  max-width: 700px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  line-height: 1.6;
+}
+
+/* Hero Stats */
+.dominica-page > section:first-child > div > div > div:nth-child(3) {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(3) > div {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(226, 188, 66, 0.4);
+  border-radius: 16px;
+  padding: 24px 32px;
+  min-width: 180px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  transition: transform 0.2s, box-shadow 0.2s;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(3) > div:hover {
+  background: rgba(226, 188, 66, 0.25);
+  border-color: rgba(226, 188, 66, 0.8);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(3) > div > span:first-child {
+  color: var(--dominica-gold);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(3) > div > span:last-child {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Hero CTA Buttons */
+.dominica-page > section:first-child > div > div > div:nth-child(4) {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(4) a {
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(4) a:first-child {
+  background: linear-gradient(90deg, #e2bc42 0%, #ffd600 100%);
+  color: #1c3269;
+  box-shadow: 0 4px 16px rgba(226, 188, 66, 0.4);
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(4) a:first-child:hover {
+  background: #ffd600;
+  box-shadow: 0 6px 24px rgba(226, 188, 66, 0.6);
+  transform: translateY(-2px);
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(4) a:last-child {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.dominica-page > section:first-child > div > div > div:nth-child(4) a:last-child:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+/* REST OF THE SECTIONS */
+.section-modern {
+  background: var(--dominica-white);
+  border-radius: var(--dominica-radius);
+  box-shadow: var(--dominica-shadow);
+  margin-bottom: 48px;
+  padding: 48px 32px;
+}
+
+.soft-bg {
+  background: linear-gradient(135deg, #f8f9fa 60%, #e2bc42 100%);
+}
+
+.section-title {
+  color: var(--dominica-blue);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #64748b;
+  font-size: 1.15rem;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.modern-card, .glass-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(28,50,105,0.07);
+  padding: 32px 24px;
+  border: 1.5px solid #e2bc42;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.modern-card:hover, .glass-card:hover {
+  box-shadow: 0 8px 32px rgba(28,50,105,0.13);
+  border-color: #4caf50;
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  color: var(--dominica-green);
+  margin-bottom: 18px;
+}
+
+.text-gold {
+  color: var(--dominica-gold) !important;
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(90deg, #e2bc42 0%, #ffd600 100%) !important;
+}
+
+.btn-modern-primary, .btn-modern-secondary {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 30px;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-modern-primary {
+  background: linear-gradient(90deg, #e2bc42 0%, #ffd600 100%);
+  color: #1c3269;
+  border: none;
+  box-shadow: 0 2px 8px rgba(226,188,66,0.18);
+}
+
+.btn-modern-primary:hover {
+  background: #e2bc42;
+  color: #1c3269;
+  box-shadow: 0 4px 16px rgba(226,188,66,0.22);
+}
+
+.btn-modern-secondary {
+  background: rgba(76,175,80,0.10);
+  color: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.btn-modern-secondary:hover {
+  background: #4caf50;
+  color: #fff;
+}
+
+.process-timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.timeline-item {
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 320px;
+}
+
+.timeline-step {
+  background: var(--dominica-gold);
+  color: var(--dominica-blue);
+  font-weight: 700;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-left: 8px;
+}
+
+.alert-gold {
+  background: #fffbe6;
+  border-color: #e2bc42;
+  color: #1c3269;
+}
+
+.modern-cta {
+  margin: 48px 0;
+}
+
+.cta-content {
+  background: linear-gradient(135deg, #1c3269 0%, #e2bc42 100%);
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(28, 50, 105, 0.2);
+  padding: 64px 32px;
+  text-align: center;
+  position: relative;
   overflow: hidden;
 }
-.citizenship-country-card.dominica:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 12px 36px rgba(76, 175, 80, 0.18);
-  border-color: #1c3269;
+
+.cta-content::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(226, 188, 66, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-title {
+  color: var(--dominica-white);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.15rem;
+  margin-bottom: 32px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+  .dominica-page > section:first-child h1 {
+    font-size: 2.5rem;
+  }
+  
+  .dominica-page > section:first-child p {
+    font-size: 1.15rem;
+  }
+  
+  .section-modern, .cta-content {
+    padding: 32px 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dominica-page > section:first-child {
+    min-height: 70vh;
+    background-attachment: scroll;
+  }
+  
+  .dominica-page > section:first-child h1 {
+    font-size: 2rem;
+  }
+  
+  .dominica-page > section:first-child p {
+    font-size: 1rem;
+  }
+  
+  .dominica-page > section:first-child > div > div > div:nth-child(3) > div {
+    min-width: 140px;
+    padding: 16px 20px;
+  }
+  
+  .dominica-page > section:first-child > div > div > div:nth-child(3) > div > span:first-child {
+    font-size: 2rem;
+  }
+  
+  .section-modern, .cta-content {
+    padding: 24px 12px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  
+  .modern-card, .glass-card {
+    padding: 20px 16px;
+  }
 }

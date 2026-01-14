@@ -2,7 +2,7 @@
 import { useI18n } from '@/lib/i18n'
 import dominicaData from '@/data/dominica.json'
 import { useState, useEffect } from 'react'
-import '@/styles/dominica.module.css'
+import '@/styles/dominica.css'
 import GlobalLoading from '@/components/GlobalLoading'
 
 export default function DominicaPage() {
