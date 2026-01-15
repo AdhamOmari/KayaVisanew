@@ -109,43 +109,40 @@ export default function MotivationLetterPage() {
   const content = data[locale];
 
   return (
-    <div dir={dir}>
-      {/* Hero Section */}
-      <section className="service-hero" style={{ background: 'linear-gradient(135deg, #0D9488 0%, #14B8A6 100%)' }}>
-        <div className="container">
-          <div className="breadcrumb" style={{ marginBottom: '20px', opacity: 0.9 }}>
-            <Link href="/" style={{ color: 'white' }}>{locale === 'ar' ? 'الرئيسية' : 'Home'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <Link href="/services" style={{ color: 'white' }}>{locale === 'ar' ? 'خدماتنا' : 'Our Services'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <span>{content.title}</span>
-          </div>
+    <div dir={dir} className="motivation-page">
+
+      {/* Hero */}
+      <section className="motivation-hero">
+        <div className="motivation-container">
+
+
           <h1>{content.hero.title}</h1>
-          <p className="hero-description">{content.hero.description}</p>
+          <p className="motivation-hero-description">{content.hero.description}</p>
         </div>
       </section>
 
-      <div className="container" style={{ marginTop: '60px', marginBottom: '60px' }}>
-        {/* Importance Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.importance.title}</h2>
-          <ul className="reasons-list">
-            {content.importance.points.map((point: string, index: number) => (
+      <div className="motivation-container">
+
+        {/* Importance */}
+        <section className="motivation-section">
+          <h2 className="motivation-section-title">{content.importance.title}</h2>
+          <ul className="motivation-reasons-list">
+            {content.importance.points.map((point, index) => (
               <li key={index}>
-                <i className="fas fa-check-circle" style={{ color: '#14B8A6', marginInlineEnd: '10px' }}></i>
+                <i className="fas fa-check-circle motivation-check-icon"></i>
                 {point}
               </li>
             ))}
           </ul>
         </section>
 
-        {/* Important Notes */}
-        <section style={{ marginBottom: '60px', background: '#F3F4F6', padding: '40px', borderRadius: '12px' }}>
-          <h2 className="section-title">{content.notes.title}</h2>
-          <ul className="reasons-list">
-            {content.notes.items.map((item: string, index: number) => (
+        {/* Notes */}
+        <section className="motivation-section motivation-notes-box">
+          <h2 className="motivation-section-title">{content.notes.title}</h2>
+          <ul className="motivation-reasons-list">
+            {content.notes.items.map((item, index) => (
               <li key={index}>
-                <i className="fas fa-info-circle" style={{ color: '#F97316', marginInlineEnd: '10px' }}></i>
+                <i className="fas fa-info-circle motivation-info-icon"></i>
                 {item}
               </li>
             ))}
@@ -153,13 +150,13 @@ export default function MotivationLetterPage() {
         </section>
 
         {/* Services */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.services.title}</h2>
-          <div className="row">
-            {content.services.items.map((service: string, index: number) => (
-              <div key={index} className="col-md-6 mb-3">
-                <div className="feature-card">
-                  <i className="fas fa-file-signature" style={{ color: '#14B8A6', fontSize: '2rem', marginBottom: '15px' }}></i>
+        <section className="motivation-section">
+          <h2 className="motivation-section-title">{content.services.title}</h2>
+          <div className="motivation-row">
+            {content.services.items.map((service, index) => (
+              <div key={index} className="motivation-col-md-6 motivation-mb-3">
+                <div className="motivation-feature-card">
+                  <i className="fas fa-file-signature motivation-feature-icon"></i>
                   <p>{service}</p>
                 </div>
               </div>
@@ -167,52 +164,46 @@ export default function MotivationLetterPage() {
           </div>
         </section>
 
-        {/* Difference Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.difference.title}</h2>
-          <div className="row">
-            <div className="col-md-6 mb-4">
-              <div style={{ padding: '30px', background: 'linear-gradient(135deg, #0D9488, #14B8A6)', color: 'white', borderRadius: '12px', height: '100%' }}>
-                <i className="fas fa-heart" style={{ fontSize: '2.5rem', marginBottom: '15px' }}></i>
-                <p style={{ lineHeight: '1.8' }}>{content.difference.motivation}</p>
+        {/* Difference */}
+        <section className="motivation-section">
+          <h2 className="motivation-section-title">{content.difference.title}</h2>
+
+          <div className="motivation-row">
+            <div className="motivation-col-md-6 motivation-mb-4">
+              <div className="motivation-diff-card motivation-diff-motivation">
+                <i className="fas fa-heart motivation-diff-icon"></i>
+                <p>{content.difference.motivation}</p>
               </div>
             </div>
-            <div className="col-md-6 mb-4">
-              <div style={{ padding: '30px', background: 'linear-gradient(135deg, #F97316, #FB923C)', color: 'white', borderRadius: '12px', height: '100%' }}>
-                <i className="fas fa-file-alt" style={{ fontSize: '2.5rem', marginBottom: '15px' }}></i>
-                <p style={{ lineHeight: '1.8' }}>{content.difference.cover}</p>
+
+            <div className="motivation-col-md-6 motivation-mb-4">
+              <div className="motivation-diff-card motivation-diff-cover">
+                <i className="fas fa-file-alt motivation-diff-icon"></i>
+                <p>{content.difference.cover}</p>
               </div>
             </div>
           </div>
-          <div style={{ background: '#F3F4F6', padding: '25px', borderRadius: '12px', marginTop: '20px' }}>
-            <p style={{ fontSize: '1.1rem', margin: 0, color: '#1F2937' }}>
-              <i className="fas fa-lightbulb" style={{ color: '#F97316', marginInlineEnd: '10px' }}></i>
-              {content.difference.summary}
-            </p>
+
+          <div className="motivation-diff-summary">
+            <i className="fas fa-lightbulb motivation-summary-icon"></i>
+            {content.difference.summary}
           </div>
         </section>
 
-        {/* Value Section */}
-        <section style={{ background: '#F3F4F6', padding: '40px', borderRadius: '12px', marginBottom: '60px' }}>
-          <h2 className="section-title">{content.value.title}</h2>
-          <p style={{ fontSize: '1.1rem', color: '#6B7280', lineHeight: '1.8' }}>{content.value.description}</p>
+        {/* Value */}
+        <section className="motivation-section motivation-value-box">
+          <h2 className="motivation-section-title">{content.value.title}</h2>
+          <p className="motivation-text">{content.value.description}</p>
         </section>
 
-        {/* CTA Section */}
-        <section style={{ textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #0D9488, #14B8A6)', borderRadius: '16px', color: 'white' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: '15px' }}>{content.cta.title}</h2>
-          <Link href="/contact" className="btn btn-light" style={{ 
-            padding: '15px 40px',
-            fontSize: '1.1rem',
-            background: 'white',
-            color: '#0D9488',
-            border: 'none',
-            marginTop: '20px'
-          }}>
-            <i className="fas fa-phone" style={{ marginInlineEnd: '10px' }}></i>
+        {/* CTA */}
+        <section className="motivation-cta-section">
+          <h2 className="motivation-cta-title">{content.cta.title}</h2>
+          <Link href="/contact" className="motivation-cta-button">
             {content.cta.button}
           </Link>
         </section>
+
       </div>
     </div>
   );
