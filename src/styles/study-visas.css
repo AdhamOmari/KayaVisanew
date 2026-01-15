@@ -1,268 +1,1130 @@
-/* Study Visas - Education Theme Colors */
-:root {
-  --study-primary: #2C5F2D;
-  --study-secondary: #97BC62;
-  --study-accent: #FDB913;
-  --study-dark: #1a3d1b;
-  --study-light: #f0f7f0;
+/* ===== STUDY VISAS PAGE - UNIQUE DESIGN ===== */
+
+/* Base Styles */
+.study-visas-page {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  color: #1c3269;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
 }
 
-/* Import base styles from antigua (citizenship template) */
-@import url('./antigua.css');
-
-/* Override specific colors for study visa theme */
-.modern-hero {
-  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-dark) 100%);
+/* HERO SECTION */
+.study-hero {
+  position: relative;
+  min-height: 650px;
+  background: linear-gradient(135deg, #1c3269 0%, #2a5282 50%, #4a7fbe 100%);
+  color: white;
+  padding: 120px 0 80px;
+  overflow: hidden;
+  border-radius: 0 0 30px 30px;
 }
 
-.btn-modern-primary {
-  background: var(--study-primary);
-  border-color: var(--study-primary);
+.study-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://i.ibb.co/6x3JRJF/image.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
 }
 
-.btn-modern-primary:hover {
-  background: var(--study-dark);
-  border-color: var(--study-dark);
-  transform: translateY(-2px);
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.btn-modern-secondary {
-  background: var(--study-accent);
-  border-color: var(--study-accent);
-  color: var(--study-dark);
+.hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.btn-modern-secondary:hover {
-  background: #e6a711;
-  border-color: #e6a711;
-  color: var(--study-dark);
-  transform: translateY(-2px);
+.hero-badge span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
-.card-icon {
-  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
+.hero-title {
+  margin-bottom: 40px;
 }
 
-.glass-card {
-  background: linear-gradient(135deg, 
-    rgba(44, 95, 45, 0.95), 
-    rgba(151, 188, 98, 0.85)
-  );
+.hero-title-main {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-.modern-cta {
-  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-dark) 100%);
+.hero-title-sub {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.9;
 }
 
-.text-study-primary {
-  color: var(--study-primary);
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px 0;
+  flex-wrap: wrap;
 }
 
-.text-study-accent {
-  color: var(--study-accent);
+.stat-item {
+  text-align: center;
+  padding: 25px 35px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
 
-.bg-study-primary {
-  background-color: var(--study-primary);
+.stat-item:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-.bg-study-accent {
-  background-color: var(--study-accent);
+.stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffd166;
+  margin-bottom: 10px;
+  display: block;
 }
 
-.bg-study-light {
-  background-color: var(--study-light);
+.stat-label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
 }
 
-.badge.bg-study-primary {
-  background-color: var(--study-primary) !important;
+.hero-cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
-/* Timeline adjustments for study visas */
-.timeline-step {
-  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
+.btn-study-primary,
+.btn-study-secondary {
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
 }
 
-/* Study destination cards */
-.destination-card {
+.btn-study-primary {
+  background: #ffd166;
+  color: #1c3269;
+  box-shadow: 0 5px 20px rgba(255, 209, 102, 0.4);
+}
+
+.btn-study-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 209, 102, 0.6);
+  background: #ffc745;
+}
+
+.btn-study-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-study-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-3px);
+}
+
+.hero-decoration {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.decoration-item {
+  font-size: 2rem;
+  color: white;
+  animation: float 6s ease-in-out infinite;
+}
+
+.decoration-item.book {
+  animation-delay: 0s;
+}
+
+.decoration-item.globe {
+  animation-delay: 2s;
+}
+
+.decoration-item.degree {
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* SECTION STYLES */
+.section-study {
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1c3269;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #1c3269 0%, #4a7fbe 100%);
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* MISSION SECTION */
+.mission-section {
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+}
+
+.mission-card {
+  background: white;
+  border-radius: 25px;
+  padding: 50px;
+  box-shadow: 0 20px 60px rgba(28, 50, 105, 0.1);
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
-  transition: all 0.4s ease;
-  border-radius: 16px;
-  background: white;
-  border: 2px solid transparent;
 }
 
-.destination-card:hover {
-  border-color: var(--study-primary);
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(44, 95, 45, 0.2);
-}
-
-.destination-card::before {
+.mission-card::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 5px;
-  background: linear-gradient(90deg, var(--study-primary), var(--study-secondary), var(--study-accent));
+  background: linear-gradient(90deg, #ffd166 0%, #4a7fbe 100%);
 }
 
-.destination-icon {
+.mission-icon {
   width: 80px;
   height: 80px;
+  background: linear-gradient(135deg, #1c3269 0%, #4a7fbe 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--study-primary), var(--study-secondary));
   color: white;
+  font-size: 2.5rem;
+  margin: 0 auto 30px;
+}
+
+.mission-title {
   font-size: 2rem;
-  margin: 0 auto 1.5rem;
-  transition: all 0.3s ease;
-}
-
-.destination-card:hover .destination-icon {
-  transform: scale(1.1) rotate(5deg);
-}
-
-/* Service option cards */
-.service-option {
-  padding: 2rem;
-  border-radius: 16px;
-  background: white;
-  border: 2px solid var(--study-light);
-  transition: all 0.3s ease;
-  height: 100%;
-}
-
-.service-option:hover {
-  border-color: var(--study-secondary);
-  box-shadow: 0 10px 30px rgba(44, 95, 45, 0.15);
-  transform: translateY(-5px);
-}
-
-.service-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--study-primary) 0%, var(--study-secondary) 100%);
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-/* Conditional admission section */
-.conditional-admission-box {
-  background: linear-gradient(135deg, var(--study-light) 0%, white 100%);
-  border-left: 5px solid var(--study-accent);
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-}
-
-.country-tag {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background: var(--study-primary);
-  color: white;
-  border-radius: 20px;
-  margin: 0.25rem;
-  font-size: 0.875rem;
+  color: #1c3269;
+  margin-bottom: 25px;
   font-weight: 600;
 }
 
-/* Educational path visualization */
-.education-path {
-  position: relative;
-  padding: 2rem 0;
+.mission-text {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
 }
 
-.education-path::before {
+/* PROGRAMS SECTION */
+.programs-section {
+  background: white;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.program-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+  position: relative;
+  overflow: hidden;
+}
+
+.program-card::before {
   content: '';
   position: absolute;
-  left: 50%;
   top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(180deg, var(--study-primary), var(--study-secondary), var(--study-accent));
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #1c3269 0%, #4a7fbe 100%);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .education-path::before {
-    left: 30px;
-  }
+.program-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 25px 50px rgba(28, 50, 105, 0.15);
+  border-color: #4a7fbe;
 }
 
-/* Highlight list in destination cards */
-.highlight-list {
+.program-card:hover::before {
+  transform: translateX(0);
+}
+
+.program-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 25px;
+}
+
+.program-icon.language {
+  background: linear-gradient(135deg, #1c3269 0%, #2a5282 100%);
+}
+
+.program-icon.diploma {
+  background: linear-gradient(135deg, #dc3545 0%, #e35d6a 100%);
+}
+
+.program-icon.bachelor {
+  background: linear-gradient(135deg, #28a745 0%, #5dd777 100%);
+}
+
+.program-icon.master {
+  background: linear-gradient(135deg, #6f42c1 0%, #9d7fe0 100%);
+}
+
+.program-card h3 {
+  color: #1c3269;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.program-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.program-tag {
+  display: inline-block;
+  background: rgba(28, 50, 105, 0.1);
+  color: #1c3269;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* CONDITIONAL ADMISSION */
+.conditional-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.conditional-card {
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(28, 50, 105, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.conditional-header {
+  background: linear-gradient(90deg, #1c3269 0%, #4a7fbe 100%);
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.conditional-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 20px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.conditional-badge i {
+  color: #ffd166;
+}
+
+.conditional-title {
+  font-size: 2.2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.conditional-content {
+  padding: 50px;
+}
+
+.conditional-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.info-block h4 {
+  color: #1c3269;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8f9fa;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.country-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: #4a7fbe;
+}
+
+.country-item i {
+  color: #28a745;
+}
+
+.country-item span {
+  font-weight: 600;
+  color: #1c3269;
+}
+
+.benefits-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.highlight-list li {
-  padding: 0.5rem 0;
-  padding-left: 1.5rem;
-  position: relative;
+.benefits-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: #495057;
+  line-height: 1.6;
 }
 
-.highlight-list li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: var(--study-secondary);
-  font-weight: bold;
+.benefits-list li i {
+  color: #28a745;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.conditional-tip {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-left: 5px solid #1c3269;
+}
+
+.tip-icon {
+  width: 60px;
+  height: 60px;
+  background: #1c3269;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.conditional-tip p {
+  margin: 0;
+  color: #1c3269;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* DESTINATIONS SECTION */
+.destinations-section {
+  background: white;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.destination-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+}
+
+.destination-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+.destination-header {
+  color: white;
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.destination-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.destination-title h3 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1;
+}
+
+.destination-title p {
+  margin: 5px 0 0;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.destination-body {
+  padding: 30px;
+}
+
+.duration-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f8f9fa;
+  color: #1c3269;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.duration-tag i {
+  color: #6c757d;
+}
+
+.destination-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.destination-highlights li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+  color: #495057;
+  line-height: 1.5;
+}
+
+.destination-highlights li i {
+  color: #28a745;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.destination-cta {
+  text-align: center;
+}
+
+.btn-destination {
+  display: inline-block;
+  background: #1c3269;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid #1c3269;
+}
+
+.btn-destination:hover {
+  background: white;
+  color: #1c3269;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(28, 50, 105, 0.2);
+}
+
+/* WHY SECTION */
+
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.why-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.why-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(28, 50, 105, 0.15);
+  border-color: #1c3269;
+}
+
+.why-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto 25px;
+}
+
+.why-icon.experience {
+  background: linear-gradient(135deg, #1c3269 0%, #4a7fbe 100%);
+}
+
+.why-icon.support {
+  background: linear-gradient(135deg, #28a745 0%, #5dd777 100%);
+}
+
+.why-icon.partnerships {
+  background: linear-gradient(135deg, #dc3545 0%, #e35d6a 100%);
+}
+
+.why-icon.complete {
+  background: linear-gradient(135deg, #6f42c1 0%, #9d7fe0 100%);
+}
+
+.why-card h4 {
+  color: #1c3269;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.why-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.success-message {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(28, 50, 105, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #ffd166 0%, #ffc745 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1c3269;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.success-message p {
+  margin: 0;
+  color: #1c3269;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* STUDY CTA */
+.study-cta {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #1c3269 0%, #2a5282 100%);
+  border-radius: 30px 30px 0 0;
+  margin-top: 80px;
+}
+
+.cta-card {
+  background: white;
+  border-radius: 25px;
+  padding: 60px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta-content {
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  color: #1c3269;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta-subtitle {
+  color: #6c757d;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.btn-cta-primary,
+.btn-cta-secondary {
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid;
+}
+
+.btn-cta-primary {
+  background: #ffd166;
+  color: #1c3269;
+  border-color: #ffd166;
+}
+
+.btn-cta-primary:hover {
+  background: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 209, 102, 0.4);
+}
+
+.btn-cta-secondary {
+  background: white;
+  color: #1c3269;
+  border-color: #1c3269;
+}
+
+.btn-cta-secondary:hover {
+  background: #1c3269;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(28, 50, 105, 0.4);
+}
+
+.cta-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  border-top: 1px solid #e9ecef;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1c3269;
+  font-weight: 600;
+}
+
+.feature-item i {
+  color: #4a7fbe;
   font-size: 1.2rem;
 }
 
-/* Academic success banner */
-.academic-banner {
-  background: linear-gradient(135deg, 
-    rgba(44, 95, 45, 0.05) 0%, 
-    rgba(151, 188, 98, 0.05) 100%
-  );
-  border-radius: 16px;
-  padding: 3rem;
+/* RESPONSIVE STYLES */
+@media (max-width: 992px) {
+  .hero-title-main {
+    font-size: 2.8rem;
+  }
+  
+  .hero-title-sub {
+    font-size: 1.2rem;
+  }
+  
+  .stat-item {
+    padding: 20px 25px;
+  }
+  
+  .stat-number {
+    font-size: 2.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .conditional-info {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .destinations-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .success-message {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .study-hero {
+    min-height: 550px;
+    padding: 80px 0 60px;
+  }
+  
+  .hero-title-main {
+    font-size: 2.2rem;
+  }
+  
+  .hero-stats {
+    gap: 20px;
+  }
+  
+  .stat-item {
+    padding: 15px 20px;
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-study-primary,
+  .btn-study-secondary {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .mission-card,
+  .conditional-content,
+  .cta-card {
+    padding: 30px 20px;
+  }
+  
+  .section-study {
+    padding: 60px 0;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-cta-primary,
+  .btn-cta-secondary {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .cta-features {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title-main {
+    font-size: 1.8rem;
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat-item {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .programs-grid,
+  .destinations-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .conditional-tip {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  
+  .cta-subtitle {
+    font-size: 1rem;
+  }
+}
+/* ===== UPDATED CSS FOR FLAG IMAGES ===== */
+
+/* Flag Images in Destination Cards */
+.destination-flag {
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.destination-card:hover .destination-flag {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.flag-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Updated Destination Header */
+.destination-header {
+  color: white;
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
   position: relative;
   overflow: hidden;
 }
 
-.academic-banner::before {
-  content: '🎓';
+.destination-header::before {
+  content: '';
   position: absolute;
-  font-size: 15rem;
-  opacity: 0.05;
-  right: -50px;
-  top: -50px;
-  transform: rotate(-15deg);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
-/* Responsive adjustments */
+.destination-flag,
+.destination-title {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive flag adjustments */
 @media (max-width: 768px) {
-  .destination-icon {
+  .destination-flag {
     width: 60px;
-    height: 60px;
-    font-size: 1.5rem;
+    height: 40px;
   }
   
-  .service-icon {
+  .destination-header {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  
+  .destination-title h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .destination-flag {
     width: 50px;
-    height: 50px;
-    font-size: 1.25rem;
+    height: 35px;
   }
   
-  .conditional-admission-box {
-    padding: 1.5rem;
+  .destination-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
   }
   
-  .country-tag {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.8rem;
+  .destination-title h3 {
+    font-size: 1.6rem;
   }
+}
+
+/* Add flag images to conditional admission section */
+.country-item {
+  position: relative;
+  padding-left: 50px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8f9fa;
+  padding: 12px 25px 12px 50px;
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.country-item::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Add specific flags for each country */
+.country-item:nth-child(1)::before { background-image: url('https://flagcdn.com/w40/us.png'); }
+.country-item:nth-child(2)::before { background-image: url('https://flagcdn.com/w40/ca.png'); }
+.country-item:nth-child(3)::before { background-image: url('https://flagcdn.com/w40/gb.png'); }
+.country-item:nth-child(4)::before { background-image: url('https://flagcdn.com/w40/au.png'); }
+.country-item:nth-child(5)::before { background-image: url('https://flagcdn.com/w40/de.png'); }
+.country-item:nth-child(6)::before { background-image: url('https://flagcdn.com/w40/es.png'); }
+
+[dir="rtl"] .country-item {
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+[dir="rtl"] .country-item::before {
+  left: auto;
+  right: 15px;
 }

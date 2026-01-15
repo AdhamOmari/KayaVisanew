@@ -11,6 +11,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import Navbar from '@/components/Navbar'
 import GlobalLoading from '@/components/GlobalLoading'
 import { useState, useEffect } from 'react'
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -1,7 +1,7 @@
 'use client'
-import "@/styles/antigua.css"
+import "@/styles/grenada.css"
+import '@/styles/shard-style.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-
 import { useI18n } from '@/lib/i18n'
 import grenadaData from '@/data/grenada.json'
 import { useState, useEffect } from 'react'
@@ -25,41 +25,39 @@ export default function GrenadaPage() {
   }
 
   return (
-    <>
+    <div className="dominica-page">
 
       {/* MODERN HERO */}
-      <section className="modern-hero">
+      <section className="hero-section">
         <div className="container">
-          <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
-            <h1 className="hero-title">{data.title}</h1>
-            <p className="hero-subtitle">{data.intro}</p>
-            
-            <div className="hero-stats">
-              <div className="stat-item">
+          <div dir={isRTL ? "rtl" : "ltr"}>
+            <h1>{data.title}</h1>
+            <p>{data.intro}</p>
+            <div className="stats-container">
+              <div className="stat-card">
                 <span className="stat-number">147+</span>
                 <span className="stat-label">
                   {isRTL ? "دولة بدون تأشيرة" : "Visa-Free Countries"}
                 </span>
               </div>
-              <div className="stat-item">
+              <div className="stat-card">
                 <span className="stat-number">4-6</span>
                 <span className="stat-label">
                   {isRTL ? "أشهر المعالجة" : "Months Processing"}
                 </span>
               </div>
-              <div className="stat-item">
+              <div className="stat-card">
                 <span className="stat-number">E-2</span>
                 <span className="stat-label">
                   {isRTL ? "تأشيرة أمريكا" : "US Visa Access"}
                 </span>
               </div>
             </div>
-            
-            <div className="hero-actions">
-              <a href="#benefits" className="btn btn-modern-primary">
-                {isRTL ? "استكشاف المزايا" : "Explore Benefits"} →
+            <div className="buttons-container">
+              <a href="#benefits" className="hero-btn btn-secondary">
+                {isRTL ? "استكشاف المزايا" : "Explore Benefits"} 
               </a>
-              <a href="#requirements" className="btn btn-modern-secondary">
+              <a href="#requirements" className="hero-btn btn-secondary">
                 {isRTL ? "الشروط والمتطلبات" : "Requirements"}
               </a>
             </div>
@@ -129,7 +127,7 @@ export default function GrenadaPage() {
           
           <div className="row g-4 mt-5">
             {data.why_choose.reasons.map((item, i) => (
-              <div className="col-md-6 col-lg-4" key={i}>
+              <div className="col-md-6" key={i}>
                 <div className="glass-card" dir={isRTL ? "rtl" : "ltr"}>
                   <div className="d-flex align-items-start gap-3">
                     <div className="text-gold fs-4">
@@ -177,9 +175,6 @@ export default function GrenadaPage() {
                       {isRTL ? "الحد الأدنى للاستثمار" : "Minimum investment"}
                     </p>
                   </div>
-                  <button className="btn btn-outline-primary mt-3 w-100">
-                    {isRTL ? "التفاصيل الكاملة" : "Full Details"}
-                  </button>
                 </div>
               </div>
             ))}
@@ -206,7 +201,6 @@ export default function GrenadaPage() {
               <div className="timeline-item" key={i}>
                 <div className="modern-card">
                   <div className="d-flex align-items-center gap-3 mb-3">
-                    <span className="fs-2">{step.icon}</span>
                     <span className="timeline-step">{i + 1}</span>
                   </div>
                   <h4 className="h5 mb-2">
@@ -231,7 +225,7 @@ export default function GrenadaPage() {
             <div className="alert alert-gold bg-gradient-gold bg-opacity-10 border border-gold border-opacity-25 rounded-3 d-inline-flex align-items-center gap-3 px-4 py-3">
               <i className="fas fa-clock text-gold fs-4"></i>
               <div className="text-start">
-                <h5 className="mb-1 fw-semibold">
+                <h5 className="mb-1 fw-semibold text-justify">
                   {isRTL ? "مدة المعالجة" : "Processing Time"}
                 </h5>
                 <p className="mb-0 text-dark">{data.processing_time}</p>
@@ -253,7 +247,7 @@ export default function GrenadaPage() {
               <div className="col-md-6 col-lg-4" key={i}>
                 <div className="modern-card">
                   <div className="d-flex align-items-start gap-3">
-                    <div className="bg-antigua-blue bg-opacity-10 p-2 rounded-2">
+                    <div className="p-2 rounded-2">
                       <i className={`fas fa-${
                         i === 0 ? 'passport' : 
                         i === 1 ? 'file-medical' : 
@@ -323,6 +317,6 @@ export default function GrenadaPage() {
         </div>
       </section>
 
-    </>
+    </div>
   )
 }

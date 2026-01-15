@@ -1,7 +1,7 @@
 'use client'
-import "@/styles/antigua.css"
+import "@/styles/st-lucia.css"
+import '@/styles/shard-style.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-
 import { useI18n } from '@/lib/i18n'
 import stLuciaData from '@/data/st-lucia.json'
 import { useState, useEffect } from 'react'
@@ -25,29 +25,29 @@ export default function StLuciaPage() {
   }
 
   return (
-    <>
+    <div className="dominica-page">
 
       {/* MODERN HERO */}
-      <section className="modern-hero">
+      <section className="hero-section">
         <div className="container">
-          <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
-            <h1 className="hero-title">{data.title}</h1>
-            <p className="hero-subtitle">{data.intro}</p>
+          <div dir={isRTL ? "rtl" : "ltr"}>
+            <h1>{data.title}</h1>
+            <p className="hero-intro">{data.intro}</p>
             
-            <div className="hero-stats">
-              <div className="stat-item">
+            <div className="stats-container">
+              <div className="stat-card">
                 <span className="stat-number">146+</span>
                 <span className="stat-label">
                   {isRTL ? "دولة بدون تأشيرة" : "Visa-Free Countries"}
                 </span>
               </div>
-              <div className="stat-item">
+              <div className="stat-card">
                 <span className="stat-number">3-4</span>
                 <span className="stat-label">
                   {isRTL ? "أشهر المعالجة" : "Months Processing"}
                 </span>
               </div>
-              <div className="stat-item">
+              <div className="stat-card">
                 <span className="stat-number">2015</span>
                 <span className="stat-label">
                   {isRTL ? "تأسيس البرنامج" : "Program Established"}
@@ -55,13 +55,117 @@ export default function StLuciaPage() {
               </div>
             </div>
             
-            <div className="hero-actions">
-              <a href="#benefits" className="btn btn-modern-primary">
-                {isRTL ? "استكشاف المزايا" : "Explore Benefits"} →
+            <div className="buttons-container">
+              <a href="#benefits" className="hero-btn btn-secondary">
+                {isRTL ? "استكشاف المزايا" : "Explore Benefits"} 
               </a>
-              <a href="#requirements" className="btn btn-modern-secondary">
+              <a href="#requirements" className="hero-btn btn-secondary">
                 {isRTL ? "الشروط والمتطلبات" : "Requirements"}
               </a>
+              <a href="#visa-free" className="hero-btn btn-secondary">
+                {isRTL ? "الدول بدون تأشيرة" : "Visa-Free Countries"}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* INTRO SECTION */}
+      <section className="section-modern intro-section">
+        <div className="container">
+          <div className="row g-4">
+            <div className="col-lg-8 mx-auto">
+              <div className="modern-card" dir={isRTL ? "rtl" : "ltr"}>
+                <h2 className="text-center mb-4">
+                  {isRTL ? "لماذا جنسية سانت لوسيا؟" : "Why St. Lucia Citizenship?"}
+                </h2>
+                <p className="lead text-center mb-5">
+                  {isRTL ? "في عالم تتزايد فيه أهمية حرية التنقل والفرص العالمية، تمنحك برامج الجنسية عبر الاستثمار في دول الكاريبي فرصة استثنائية لتأمين مستقبل أكثر استقراراً لك ولعائلتك، مع جواز سفر قوي يفتح أمامك أبواب العالم." : 
+                   "In a world where mobility and global opportunities are increasingly important, Caribbean citizenship by investment programs offer you an exceptional opportunity to secure a more stable future for yourself and your family, with a powerful passport that opens doors worldwide."}
+                </p>
+                
+                <div className="country-info-grid">
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "الموقع" : "Location"}</h5>
+                      <p>{isRTL ? "شمال ترينيداد وتوباغو وجنوب مارتينيك" : "North of Trinidad & Tobago and south of Martinique"}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-globe-americas"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "ترتيب جواز السفر" : "Passport Rank"}</h5>
+                      <p>{isRTL ? "32 عالميًا" : "32nd worldwide"}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-landmark"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "العاصمة" : "Capital"}</h5>
+                      <p>{isRTL ? "كاستريس" : "Castries"}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-language"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "اللغة" : "Language"}</h5>
+                      <p>{isRTL ? "الإنجليزية" : "English"}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-clock"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "الوقت" : "Timezone"}</h5>
+                      <p>GMT-4</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "المساحة" : "Area"}</h5>
+                      <p>617 كم²</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-university"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "نوع الحكم" : "Government"}</h5>
+                      <p>{isRTL ? "ملكية دستورية" : "Constitutional monarchy"}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="info-item">
+                    <div className="info-icon">
+                      <i className="fas fa-mountain"></i>
+                    </div>
+                    <div className="info-content">
+                      <h5>{isRTL ? "المعالم" : "Landmarks"}</h5>
+                      <p>{isRTL ? "جبال بيتونز الشهيرة" : "Famous Pitons mountains"}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -129,7 +233,7 @@ export default function StLuciaPage() {
           
           <div className="row g-4 mt-5">
             {data.why_choose.reasons.map((item, i) => (
-              <div className="col-md-6 col-lg-4" key={i}>
+              <div className="col-md-6" key={i}>
                 <div className="glass-card" dir={isRTL ? "rtl" : "ltr"}>
                   <div className="d-flex align-items-start gap-3">
                     <div className="text-gold fs-4">
@@ -177,12 +281,72 @@ export default function StLuciaPage() {
                       {isRTL ? "الحد الأدنى للاستثمار" : "Minimum investment"}
                     </p>
                   </div>
-                  <button className="btn btn-outline-primary mt-3 w-100">
-                    {isRTL ? "التفاصيل الكاملة" : "Full Details"}
-                  </button>
                 </div>
               </div>
             ))}
+          </div>
+          
+          {/* INVESTMENT DETAILS */}
+          <div className="row mt-5">
+            <div className="col-12">
+              <div className="modern-card">
+                <h4 className="text-center mb-4">
+                  {isRTL ? "تفاصيل الاستثمار" : "Investment Details"}
+                </h4>
+                <div className="row g-4">
+                  <div className="col-md-6">
+                    <div className="investment-detail">
+                      <div className="detail-icon">
+                        <i className="fas fa-hand-holding-usd"></i>
+                      </div>
+                      <div className="detail-content">
+                        <h5>{isRTL ? "قيمة الاستثمار" : "Investment Value"}</h5>
+                        <p>
+                          {isRTL ? "ابتداءً من 240,000 دولار أمريكي." : 
+                           "Starting from $240,000 USD."}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="investment-detail">
+                      <div className="detail-icon">
+                        <i className="fas fa-shield-alt"></i>
+                      </div>
+                      <div className="detail-content">
+                        <h5>{isRTL ? "الأهمية" : "Importance"}</h5>
+                        <p>
+                          {isRTL ? "أحدث برامج الكاريبي وأكثرها مرونة." : 
+                           "Newest Caribbean program with high flexibility."}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="row mt-4">
+                  <div className="col-12">
+                    <div className="additional-options">
+                      <h5 className="text-center mb-3">{isRTL ? "خيارات الاستثمار:" : "Investment Options:"}</h5>
+                      <div className="options-grid">
+                        <div className="option-item">
+                          <i className="fas fa-donate"></i>
+                          <span>{isRTL ? "مساهمة مالية لصندوق الاقتصاد الوطني" : "Financial contribution to National Economic Fund"}</span>
+                        </div>
+                        <div className="option-item">
+                          <i className="fas fa-building"></i>
+                          <span>{isRTL ? "استثمار عقاري" : "Real estate investment"}</span>
+                        </div>
+                        <div className="option-item">
+                          <i className="fas fa-file-invoice-dollar"></i>
+                          <span>{isRTL ? "سندات حكومية" : "Government bonds"}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -206,7 +370,6 @@ export default function StLuciaPage() {
               <div className="timeline-item" key={i}>
                 <div className="modern-card">
                   <div className="d-flex align-items-center gap-3 mb-3">
-                    <span className="fs-2">{step.icon}</span>
                     <span className="timeline-step">{i + 1}</span>
                   </div>
                   <h4 className="h5 mb-2">
@@ -231,10 +394,13 @@ export default function StLuciaPage() {
             <div className="alert alert-gold bg-gradient-gold bg-opacity-10 border border-gold border-opacity-25 rounded-3 d-inline-flex align-items-center gap-3 px-4 py-3">
               <i className="fas fa-clock text-gold fs-4"></i>
               <div className="text-start">
-                <h5 className="mb-1 fw-semibold">
+                <h5 className="mb-1 fw-semibold text-justify">
                   {isRTL ? "مدة المعالجة" : "Processing Time"}
                 </h5>
-                <p className="mb-0 text-dark">{data.processing_time}</p>
+                <p className="mb-0 text-dark">
+                  {isRTL ? "6 إلى 9 أشهر قد تمتد أحياناً إلى 12 – 18 شهراً في حال وجود ضغط على الملفات أو تأخير في الفحص الأمني" : 
+                   "6 to 9 months, sometimes extending to 12-18 months in case of file backlog or security check delays"}
+                </p>
               </div>
             </div>
           </div>
@@ -253,7 +419,7 @@ export default function StLuciaPage() {
               <div className="col-md-6 col-lg-4" key={i}>
                 <div className="modern-card">
                   <div className="d-flex align-items-start gap-3">
-                    <div className="bg-antigua-blue bg-opacity-10 p-2 rounded-2">
+                    <div className="p-2 rounded-2">
                       <i className={`fas fa-${
                         i === 0 ? 'passport' : 
                         i === 1 ? 'file-medical' : 
@@ -273,6 +439,178 @@ export default function StLuciaPage() {
               </div>
             ))}
           </div>
+          
+          {/* GENERAL REQUIREMENTS */}
+          <div className="row mt-5">
+            <div className="col-12">
+              <div className="modern-card">
+                <h4 className="text-center mb-4">
+                  {isRTL ? "المتطلبات الأساسية للتقديم" : "General Application Requirements"}
+                </h4>
+                <p className="text-center mb-4">
+                  {isRTL ? "قبل اختيار الدولة المناسبة، هناك شروط عامة يجب أن يستوفيها كل متقدم لبرامج الجنسية عبر الاستثمار في دول الكاريبي:" : 
+                   "Before choosing the appropriate country, there are general requirements that every applicant for Caribbean citizenship by investment programs must meet:"}
+                </p>
+                <div className="requirements-grid">
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-birthday-cake"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "السن القانوني" : "Legal Age"}</h5>
+                      <p>{isRTL ? "يجب أن يكون مقدم الطلب الرئيسي قد أتم 18 عامًا." : "The main applicant must be at least 18 years old."}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-user-check"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "حسن السيرة والسلوك" : "Good Character"}</h5>
+                      <p>{isRTL ? "يشترط أن يتمتع المتقدم بسمعة طيبة وشخصية سوية." : "The applicant must have a good reputation and sound character."}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-gavel"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "سجل جنائي نظيف" : "Clean Criminal Record"}</h5>
+                      <p>{isRTL ? "لا يُقبل أي متقدم لديه سوابق جنائية أو قضايا معلقة." : "No applicant with criminal records or pending cases will be accepted."}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-heartbeat"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "الصحة الجيدة" : "Good Health"}</h5>
+                      <p>{isRTL ? "يجب أن يكون المتقدم في حالة صحية جيدة وخالٍ من الأمراض المعدية الخطيرة." : "The applicant must be in good health and free from serious infectious diseases."}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-chart-line"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "القدرة المالية" : "Financial Capability"}</h5>
+                      <p>{isRTL ? "إثبات مصدر الأموال بشكل قانوني وشفاف." : "Proof of legal and transparent source of funds."}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="requirement-item">
+                    <div className="req-icon">
+                      <i className="fas fa-search"></i>
+                    </div>
+                    <div className="req-content">
+                      <h5>{isRTL ? "اجتياز العناية الواجبة" : "Due Diligence"}</h5>
+                      <p>{isRTL ? "يخضع جميع المتقدمين لفحص أمني ومالي دقيق لضمان المصداقية." : "All applicants undergo thorough security and financial checks to ensure credibility."}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* VISA-FREE COUNTRIES SECTION */}
+      <section id="visa-free" className="section-modern">
+        <div className="container">
+          <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
+            {isRTL ? "حرية التنقل بجواز سانت لوسيا" : "Travel Freedom with St. Lucia Passport"}
+          </h2>
+          
+          <div className="visa-categories">
+            <div className="visa-category visa-free">
+              <div className="category-header">
+                <h3>{isRTL ? "بدون تأشيرة (حوالي 112 دولة)" : "Visa-Free (Approx. 112 countries)"}</h3>
+                <span className="badge">{isRTL ? "الحرية المطلقة" : "Absolute Freedom"}</span>
+              </div>
+              <div className="category-content">
+                <div className="row">
+                  <div className="col-md-4">
+                    <h5>{isRTL ? "أوروبا" : "Europe"}</h5>
+                    <ul>
+                      <li>{isRTL ? "جميع دول منطقة شنغن الأوروبية" : "All Schengen Area European countries"}</li>
+                      <li>{isRTL ? "المملكة المتحدة وأيرلندا" : "United Kingdom and Ireland"}</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-4">
+                    <h5>{isRTL ? "الكاريبي" : "Caribbean"}</h5>
+                    <ul>
+                      <li>{isRTL ? "أنتيغوا وباربودا، دومينيكا" : "Antigua & Barbuda, Dominica"}</li>
+                      <li>{isRTL ? "سانت كيتس ونيفيس، غرينادا، باربادوس" : "St. Kitts & Nevis, Grenada, Barbados"}</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-4">
+                    <h5>{isRTL ? "آسيا وأفريقيا" : "Asia & Africa"}</h5>
+                    <ul>
+                      <li>{isRTL ? "سنغافورة، كوريا الجنوبية، هونغ كونغ" : "Singapore, South Korea, Hong Kong"}</li>
+                      <li>{isRTL ? "جنوب إفريقيا، المغرب، تونس، سيشل" : "South Africa, Morocco, Tunisia, Seychelles"}</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="visa-category visa-on-arrival">
+              <div className="category-header">
+                <h3>{isRTL ? "عند الوصول (حوالي 25 دولة)" : "Visa on Arrival (Approx. 25 countries)"}</h3>
+                <span className="badge">{isRTL ? "سهولة الوصول" : "Easy Access"}</span>
+              </div>
+              <div className="category-content">
+                <p>{isRTL ? "نيبال، المالديف، كمبوديا، لاوس، كينيا، تنزانيا، أوغندا، مدغشقر، زامبيا، زيمبابوي، ملاوي، توغو، جزر مارشال، بالاو، ميكرونيزيا، فانواتو، فيجي، ساموا، بوليفيا، نيكاراغوا، إيران" : 
+                  "Nepal, Maldives, Cambodia, Laos, Kenya, Tanzania, Uganda, Madagascar, Zambia, Zimbabwe, Malawi, Togo, Marshall Islands, Palau, Micronesia, Vanuatu, Fiji, Samoa, Bolivia, Nicaragua, Iran"}</p>
+              </div>
+            </div>
+            
+            <div className="visa-category eta">
+              <div className="category-header">
+                <h3>{isRTL ? "إلكترونية (3 دول)" : "Electronic (3 countries)"}</h3>
+                <span className="badge">{isRTL ? "الطلب السريع" : "Quick Application"}</span>
+              </div>
+              <div className="category-content">
+                <ul>
+                  <li>{isRTL ? "كندا (eTA)" : "Canada (eTA)"}</li>
+                  <li>{isRTL ? "أستراليا (eTA)" : "Australia (eTA)"}</li>
+                  <li>{isRTL ? "نيوزيلندا (eTA)" : "New Zealand (eTA)"}</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="visa-category visa-required">
+              <div className="category-header">
+                <h3>{isRTL ? "بتأشيرة" : "Visa Required"}</h3>
+                <span className="badge">{isRTL ? "يتطلب تخطيط" : "Requires Planning"}</span>
+              </div>
+              <div className="category-content">
+                <ul>
+                  <li>{isRTL ? "الولايات المتحدة الأمريكية" : "United States"}</li>
+                  <li>{isRTL ? "الصين (باستثناء هونغ كونغ وماكاو)" : "China (except Hong Kong & Macau)"}</li>
+                  <li>{isRTL ? "روسيا" : "Russia"}</li>
+                  <li>{isRTL ? "معظم دول الشرق الأوسط" : "Most Middle Eastern countries"}</li>
+                  <li>{isRTL ? "بعض الدول الإفريقية" : "Some African countries"}</li>
+                  <li>{isRTL ? "بعض دول آسيا الوسطى" : "Some Central Asian countries"}</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="visa-category evisa">
+              <div className="category-header">
+                <h3>{isRTL ? "بتأشيرة إلكترونية مسبقة (eVisa) (حوالي 8 دول)" : "Pre-approved Electronic Visa (eVisa) (Approx. 8 countries)"}</h3>
+                <span className="badge">{isRTL ? "الطلب المسبق" : "Pre-application"}</span>
+              </div>
+              <div className="category-content">
+                <p>{isRTL ? "الهند، سريلانكا، تركيا، أذربيجان، فيتنام، إثيوبيا، بنغلادش، ساحل العاج" : 
+                  "India, Sri Lanka, Turkey, Azerbaijan, Vietnam, Ethiopia, Bangladesh, Ivory Coast"}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -280,7 +618,7 @@ export default function StLuciaPage() {
       <section className="modern-cta">
         <div className="cta-content" dir={isRTL ? "rtl" : "ltr"}>
           <h2 className="cta-title">
-            {isRTL ? "ابدأ رحلتك نحو الجنسية الثانية" : "Start Your Second Citizenship Journey"}
+            {isRTL ? "احصل على جنسية سانت لوسيا الآن" : "Get St. Lucia Citizenship Now"}
           </h2>
           <p className="cta-subtitle">
             {isRTL ? "انضم إلى آلاف العائلات التي حصلت على جواز سفر سانت لوسيا. احجز استشارتك المجانية اليوم." : 
@@ -323,6 +661,6 @@ export default function StLuciaPage() {
         </div>
       </section>
 
-    </>
+    </div>
   )
 }
