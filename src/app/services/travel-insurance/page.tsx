@@ -11,149 +11,157 @@ export default function TravelInsurancePage() {
     ar: {
       title: 'خدمة تأمين السفر',
       hero: {
-        title: 'تأمين السفر الصحي (Health Travel Insurance)',
-        description: 'تأمين السفر الصحي هو الحماية التي توفر لك الاطمئنان خلال رحلتك. يُغطي التكاليف الطبية في حالات الطوارئ، ويُعد متطلبًا إلزاميًا للحصول على تأشيرات شنغن، كندا، أستراليا، وغيرها.'
+        title: 'تأمين السفر الصحي',
+        description: 'السفر تجربة رائعة، لكنه قد يحمل بعض المفاجآت غير المتوقعة مثل الوعكات الصحية، الحوادث الطارئة، أو الحاجة إلى رعاية طبية عاجلة. هنا يأتي دور تأمين السفر الصحي ليمنحك راحة البال ويضمن أنك محمي في أي مكان حول العالم.'
       },
       importance: {
-        title: 'لماذا يُعتبر تأمين السفر الصحي ضروريًا؟',
+        title: 'لماذا تأمين السفر الصحي ضروري؟',
         points: [
-          'متطلب إلزامي: معظم السفارات تطلبه كشرط أساسي للموافقة على التأشيرة',
-          'حماية مالية: يُغطي التكاليف الطبية في حالات الطوارئ، والتي قد تكون باهظة جدًا في الخارج',
-          'راحة نفسية: يمنحك الأمان والاطمئنان أثناء السفر',
-          'تغطية شاملة: يشمل الحوادث، الأمراض المفاجئة، إلغاء الرحلات، وأحيانًا فقدان الأمتعة'
+          'متطلب إلزامي للسفارات للحصول على التأشيرة',
+          'حماية مالية من التكاليف الطبية المرتفعة في الخارج',
+          'راحة البال والأمان خلال رحلتك',
+          'تغطية شاملة للطوارئ الطبية والحوادث',
+          'دعم فوري في الحالات الطارئة على مدار الساعة'
         ]
       },
+      why_necessary: {
+        title: 'امتلاك تأمين صحي أثناء السفر ليس مجرد خيار إضافي',
+        description: 'بل هو شرط أساسي في العديد من الدول للحصول على التأشيرة، وهو الضمان الحقيقي لرحلة آمنة بلا قلق.'
+      },
       advantages: {
-        title: 'مميزات الحصول على تأمين السفر مع كايا',
+        title: 'المزايا التي نقدمها لك في كايا',
         items: [
           {
             icon: 'fa-certificate',
-            title: 'خطط معتمدة من السفارات',
-            description: 'نوفر لك تأمينًا صحيًا معتمدًا ومطابقًا لمتطلبات جميع السفارات'
+            title: 'خطط معتمدة دوليًا',
+            description: 'تأمين معتمد ومقبول لدى السفارات والجهات الرسمية في جميع الدول'
           },
           {
             icon: 'fa-shield-alt',
             title: 'تغطية شاملة',
-            description: 'يشمل الطوارئ الطبية، الحوادث، الإقامة في المستشفى، وأحيانًا فقدان الأمتعة'
+            description: 'العلاج الطبي الطارئ، دخول المستشفيات، العمليات الجراحية، والأدوية'
+          },
+          {
+            icon: 'fa-suitcase',
+            title: 'خدمات إضافية',
+            description: 'تغطية فقدان الأمتعة، إلغاء الرحلات، أو الحوادث الشخصية'
+          },
+          {
+            icon: 'fa-credit-card',
+            title: 'مرونة في الاختيار',
+            description: 'باقات متعددة تناسب ميزانيتك ومدة سفرك'
           },
           {
             icon: 'fa-headset',
-            title: 'خدمات إضافية',
-            description: 'دعم على مدار الساعة عند الحاجة، وإجراءات سريعة في حالات الطوارئ'
-          },
-          {
-            icon: 'fa-calendar-check',
-            title: 'مرونة في الخطط',
-            description: 'نقدم خططًا قصيرة أو طويلة المدى حسب احتياجاتك'
-          },
-          {
-            icon: 'fa-hands-helping',
-            title: 'دعم مستمر',
-            description: 'نساعدك في اختيار الخطة الأنسب، ونتابع معك لضمان حصولك على التغطية المطلوبة'
+            title: 'دعم متواصل',
+            description: 'مساعدتك في تقديم المطالبات والحصول على الخدمة الطبية بسرعة'
           }
         ]
       },
-      services_list: {
-        title: 'الخدمات التي نقدمها في كايا',
+      services: {
+        title: 'ماذا نقدم لك في كايا؟',
         items: [
-          'توفير تأمين صحي مُعتمد من السفارات',
-          'تغطية الطوارئ الطبية والحوادث',
-          'تأمين إلغاء الرحلات (حسب الخطة)',
-          'تأمين فقدان الأمتعة (اختياري)',
-          'خطط تأمين قصيرة أو طويلة المدى حسب احتياجاتك'
-        ]
-      },
-      process: {
-        title: 'كيف تعمل الخدمة؟',
-        steps: [
-          { icon: 'fa-comments', title: 'التواصل', description: 'نتعرف على تفاصيل رحلتك ونوع التأشيرة' },
-          { icon: 'fa-clipboard-list', title: 'اختيار الخطة', description: 'نساعدك في اختيار التأمين الأنسب' },
-          { icon: 'fa-file-signature', title: 'التسجيل', description: 'نُجهز لك التأمين ونُصدر الوثائق' },
-          { icon: 'fa-certificate', title: 'الحصول على الشهادة', description: 'تحصل على شهادة التأمين المعتمدة' },
-          { icon: 'fa-headset', title: 'الدعم المستمر', description: 'نقدم لك الدعم عند الحاجة' }
+          'استشارات متخصصة لاختيار خطة التأمين الأنسب لرحلتك',
+          'تجهيز وثائق التأمين بشكل رسمي ومعتمد لتقديمها مع طلب التأشيرة',
+          'متابعة دقيقة لضمان أن تغطيتك تشمل كل ما تحتاجه أثناء السفر',
+          'دعم شخصي عند الحاجة لتنسيق الخدمات الطبية أو الطارئة في بلد الوجهة'
         ]
       },
       value: {
-        title: 'القيمة المضافة لك مع كايا',
-        description: 'نوفر لك تأمينًا صحيًا معتمدًا يُلبي متطلبات السفارات، مع تغطية شاملة تمنحك راحة البال وحماية مالية أثناء رحلتك.'
+        title: 'القيمة المضافة لك',
+        description: 'مع تأمين السفر الصحي من كايا، أنت لا تحصل فقط على وثيقة، بل على شبكة أمان متكاملة تحميك من أي طارئ صحي أو مالي أثناء رحلتك. إنه استثمار في راحة بالك وسلامتك وسلامة عائلتك.'
+      },
+      process: {
+        title: 'كيف نعمل؟',
+        steps: [
+          { icon: 'fa-laptop', title: 'استلام الطلب', description: 'استلام طلبك إلكترونيًا' },
+          { icon: 'fa-map-marked', title: 'تحليل الاحتياجات', description: 'مراجعة وجهة السفر ومدة الرحلة لتحديد الخطة الأنسب' },
+          { icon: 'fa-file-contract', title: 'إصدار الوثيقة', description: 'إصدار وثيقة التأمين بشكل رسمي ومعتمد' },
+          { icon: 'fa-download', title: 'التسليم', description: 'تسليم الوثيقة إلكترونيًا' },
+          { icon: 'fa-user-shield', title: 'المتابعة', description: 'متابعة ودعم عند الحاجة أثناء السفر' }
+        ]
       },
       cta: {
-        title: 'هل تريد تأمين سفر معتمد يحميك ويزيد من فرص قبول تأشيرتك؟',
-        button: 'احصل على تأمينك الآن'
+        title: 'هل ترغب في السفر بأمان وراحة بال؟',
+        button: 'تواصل معنا الآن'
       }
     },
     en: {
       title: 'Travel Insurance Service',
       hero: {
         title: 'Health Travel Insurance',
-        description: 'Health travel insurance is the protection that provides you peace of mind during your trip. It covers medical costs in emergencies and is a mandatory requirement for obtaining Schengen, Canada, Australia visas, and others.'
+        description: 'Travel is a wonderful experience, but it can bring unexpected surprises like health issues, emergency accidents, or urgent medical care needs. This is where health travel insurance comes in to give you peace of mind and ensure you\'re protected anywhere in the world.'
       },
       importance: {
-        title: 'Why is Health Travel Insurance Essential?',
+        title: 'Why is Health Travel Insurance Necessary?',
         points: [
-          'Mandatory requirement: Most embassies require it as a basic condition for visa approval',
-          'Financial protection: Covers medical costs in emergencies, which can be very expensive abroad',
-          'Peace of mind: Gives you security and reassurance while traveling',
-          'Comprehensive coverage: Includes accidents, sudden illnesses, trip cancellations, and sometimes lost luggage'
+          'Mandatory requirement for embassies to obtain a visa',
+          'Financial protection from high medical costs abroad',
+          'Peace of mind and security during your trip',
+          'Comprehensive coverage for medical emergencies and accidents',
+          'Immediate support in emergency cases 24/7'
         ]
       },
+      why_necessary: {
+        title: 'Having health insurance during travel is not just an additional option',
+        description: 'It\'s a basic requirement in many countries for obtaining a visa, and it\'s the real guarantee of a safe, worry-free journey.'
+      },
       advantages: {
-        title: 'Advantages of Getting Travel Insurance with Kaya',
+        title: 'Advantages We Offer at Kaya',
         items: [
           {
             icon: 'fa-certificate',
-            title: 'Embassy-Approved Plans',
-            description: 'We provide embassy-approved health insurance that meets all requirements'
+            title: 'Internationally Approved Plans',
+            description: 'Insurance approved and accepted by embassies and official authorities in all countries'
           },
           {
             icon: 'fa-shield-alt',
             title: 'Comprehensive Coverage',
-            description: 'Includes medical emergencies, accidents, hospital stays, and sometimes lost luggage'
+            description: 'Emergency medical treatment, hospital admissions, surgeries, and medications'
+          },
+          {
+            icon: 'fa-suitcase',
+            title: 'Additional Services',
+            description: 'Lost luggage coverage, trip cancellation, or personal accidents'
+          },
+          {
+            icon: 'fa-credit-card',
+            title: 'Flexible Choices',
+            description: 'Multiple packages that suit your budget and travel duration'
           },
           {
             icon: 'fa-headset',
-            title: 'Additional Services',
-            description: '24/7 support when needed, and quick procedures in emergencies'
-          },
-          {
-            icon: 'fa-calendar-check',
-            title: 'Flexible Plans',
-            description: 'We offer short or long-term plans according to your needs'
-          },
-          {
-            icon: 'fa-hands-helping',
             title: 'Continuous Support',
-            description: 'We help you choose the most suitable plan and follow up to ensure you get the required coverage'
+            description: 'Helping you submit claims and get medical services quickly'
           }
         ]
       },
-      services_list: {
-        title: 'Services We Provide at Kaya',
+      services: {
+        title: 'What We Offer at Kaya?',
         items: [
-          'Providing embassy-approved health insurance',
-          'Coverage for medical emergencies and accidents',
-          'Trip cancellation insurance (plan-dependent)',
-          'Lost luggage insurance (optional)',
-          'Short or long-term insurance plans according to your needs'
-        ]
-      },
-      process: {
-        title: 'How Does the Service Work?',
-        steps: [
-          { icon: 'fa-comments', title: 'Consultation', description: 'We learn about your trip details and visa type' },
-          { icon: 'fa-clipboard-list', title: 'Plan Selection', description: 'We help you choose the most suitable insurance' },
-          { icon: 'fa-file-signature', title: 'Registration', description: 'We prepare your insurance and issue documents' },
-          { icon: 'fa-certificate', title: 'Get Certificate', description: 'You receive the approved insurance certificate' },
-          { icon: 'fa-headset', title: 'Ongoing Support', description: 'We provide support when needed' }
+          'Specialized consultations to choose the most suitable insurance plan for your trip',
+          'Preparation of official and certified insurance documents to submit with visa application',
+          'Careful follow-up to ensure your coverage includes everything you need during travel',
+          'Personal support when needed to coordinate medical or emergency services in destination country'
         ]
       },
       value: {
-        title: 'Added Value with Kaya',
-        description: 'We provide you with approved health insurance that meets embassy requirements, with comprehensive coverage that gives you peace of mind and financial protection during your trip.'
+        title: 'Added Value for You',
+        description: 'With Kaya\'s travel health insurance, you\'re not just getting a document, but a complete safety network that protects you from any health or financial emergency during your trip. It\'s an investment in your peace of mind, safety, and your family\'s safety.'
+      },
+      process: {
+        title: 'How We Work?',
+        steps: [
+          { icon: 'fa-laptop', title: 'Request Receipt', description: 'Receiving your request electronically' },
+          { icon: 'fa-map-marked', title: 'Needs Analysis', description: 'Reviewing travel destination and duration to determine the most suitable plan' },
+          { icon: 'fa-file-contract', title: 'Document Issuance', description: 'Issuing insurance documents in official and certified format' },
+          { icon: 'fa-download', title: 'Delivery', description: 'Electronic document delivery' },
+          { icon: 'fa-user-shield', title: 'Follow-up', description: 'Follow-up and support when needed during travel' }
+        ]
       },
       cta: {
-        title: 'Want approved travel insurance that protects you and increases your visa approval chances?',
-        button: 'Get Your Insurance Now'
+        title: 'Want to travel safely and with peace of mind?',
+        button: 'Contact Us Now'
       }
     }
   };
@@ -161,90 +169,134 @@ export default function TravelInsurancePage() {
   const content = data[locale];
 
   return (
-    <div dir={dir}>
-      {/* Hero Section */}
-      <section className="service-hero" style={{ background: 'linear-gradient(135deg, #EF4444 0%, #F87171 100%)' }}>
+    <div className="service-page-base" dir={dir}>
+      {/* Hero Section - Using hero-insurance class */}
+      <section className="hero-insurance">
         <div className="container">
-          <div className="breadcrumb" style={{ marginBottom: '20px', opacity: 0.9 }}>
-            <Link href="/" style={{ color: 'white' }}>{locale === 'ar' ? 'الرئيسية' : 'Home'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <Link href="/services" style={{ color: 'white' }}>{locale === 'ar' ? 'خدماتنا' : 'Our Services'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <span>{content.title}</span>
+          <div className="hero-content">
+            <div className="hero-badge">
+              <span>{locale === 'ar' ? 'حماية مضمونة' : 'Guaranteed Protection'}</span>
+            </div>
+            
+            <div className="hero-title">
+              <h1 className="hero-title-main">{content.hero.title}</h1>
+              <p className="hero-title-sub">{content.hero.description}</p>
+            </div>
+
+            <div className="service-stats">
+              <div className="service-stat-item">
+                <span className="stat-number">100%</span>
+                <span className="stat-label">{locale === 'ar' ? 'موافقة' : 'Approval'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">24/7</span>
+                <span className="stat-label">{locale === 'ar' ? 'دعم' : 'Support'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">50+</span>
+                <span className="stat-label">{locale === 'ar' ? 'دولة' : 'Countries'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">30</span>
+                <span className="stat-label">{locale === 'ar' ? 'دقيقة' : 'Minutes'}</span>
+              </div>
+            </div>
+
+            <div className="hero-cta">
+              <Link href="#importance" className="btn-service-primary">
+                {locale === 'ar' ? 'لماذا التأمين؟' : 'Why Insurance?'}
+              </Link>
+              <Link href="/contact" className="btn-service-secondary">
+                {locale === 'ar' ? 'احصل على تأمينك' : 'Get Insured Now'}
+              </Link>
+            </div>
           </div>
-          <h1>{content.hero.title}</h1>
-          <p className="hero-description">{content.hero.description}</p>
         </div>
       </section>
 
-      <div className="container" style={{ marginTop: '60px', marginBottom: '60px' }}>
+      <div className="container" style={{ marginTop: '80px', marginBottom: '80px' }}>
         {/* Importance Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.importance.title}</h2>
-          <ul className="reasons-list">
+        <section id="importance" className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.importance.title}</h2>
+          </div>
+          <div className="service-grid">
             {content.importance.points.map((point: string, index: number) => (
-              <li key={index}>
-                <i className="fas fa-check-circle" style={{ color: '#EF4444', marginInlineEnd: '10px' }}></i>
-                {point}
-              </li>
+              <div key={index} className="service-card">
+                <div className="service-icon" >
+                  <i className="fas fa-check-circle"></i>
+                </div>
+                <p>{point}</p>
+              </div>
             ))}
-          </ul>
+          </div>
+          
+          <div className="service-notes-card" style={{ 
+            marginTop: '40px'
+          }}>
+            <h3 >
+              {content.why_necessary.title}
+            </h3>
+            <p style={{ color: '#1c3269', margin: 0, fontSize: '1.1rem' }}>
+              {content.why_necessary.description}
+            </p>
+          </div>
         </section>
 
         {/* Advantages Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.advantages.title}</h2>
-          <div className="row">
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.advantages.title}</h2>
+          </div>
+          <div className="service-feature-grid">
             {content.advantages.items.map((advantage: any, index: number) => (
-              <div key={index} className="col-md-4 col-sm-6 mb-4">
-                <div className="feature-card" style={{ height: '100%', textAlign: 'center' }}>
-                  <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #EF4444, #F87171)' }}>
-                    <i className={`fas ${advantage.icon}`}></i>
-                  </div>
-                  <h3>{advantage.title}</h3>
-                  <p>{advantage.description}</p>
+              <div key={index} className="feature-card">
+                <div className="feature-icon" >
+                  <i className={`fas ${advantage.icon}`}></i>
                 </div>
+                <h4>{advantage.title}</h4>
+                <p>{advantage.description}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Services List */}
-        <section style={{ marginBottom: '60px', background: '#FEE2E2', padding: '40px', borderRadius: '12px' }}>
-          <h2 className="section-title">{content.services_list.title}</h2>
-          <ul className="reasons-list">
-            {content.services_list.items.map((service: string, index: number) => (
-              <li key={index}>
-                <i className="fas fa-shield-alt" style={{ color: '#EF4444', marginInlineEnd: '10px' }}></i>
-                {service}
-              </li>
-            ))}
-          </ul>
+        {/* Services Section */}
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.services.title}</h2>
+          </div>
+          <div className="service-notes-card">
+            <div className="row">
+              {content.services.items.map((service: string, index: number) => (
+                <div key={index} className="col-md-6 mb-3">
+                  <div className="note-item">
+                    <i className="fas fa-shield-alt note-icon" ></i>
+                    <p className="note-text">{service}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* Process Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.process.title}</h2>
-          <div className="row">
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.process.title}</h2>
+          </div>
+          <div className="service-feature-grid">
             {content.process.steps.map((step: any, index: number) => (
-              <div key={index} className="col-md-4 col-sm-6 mb-4">
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{
-                    width: '80px',
-                    height: '80px',
-                    background: 'linear-gradient(135deg, #EF4444, #F87171)',
-                    borderRadius: '50%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 20px',
-                    fontSize: '2rem',
-                    color: 'white'
-                  }}>
-                    <i className={`fas ${step.icon}`}></i>
-                  </div>
-                  <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: '#1F2937' }}>{step.title}</h3>
-                  <p style={{ color: '#6B7280' }}>{step.description}</p>
+              <div key={index} className="process-card">
+                <div className="process-icon" >
+                  <i className={`fas ${step.icon}`}></i>
+                </div>
+                <h4>{step.title}</h4>
+                <p>{step.description}</p>
+                <div className="process-step-number" >
+                  <span >
+                    {index + 1} {locale === 'ar' ? 'خطوة' : 'Step'}
+                  </span>
                 </div>
               </div>
             ))}
@@ -252,27 +304,45 @@ export default function TravelInsurancePage() {
         </section>
 
         {/* Value Section */}
-        <section style={{ background: '#F3F4F6', padding: '40px', borderRadius: '12px', marginBottom: '60px' }}>
-          <h2 className="section-title">{content.value.title}</h2>
-          <p style={{ fontSize: '1.1rem', color: '#6B7280', lineHeight: '1.8' }}>{content.value.description}</p>
-        </section>
-
-        {/* CTA Section */}
-        <section style={{ textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #EF4444, #F87171)', borderRadius: '16px', color: 'white' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: '15px' }}>{content.cta.title}</h2>
-          <Link href="/contact" className="btn btn-light" style={{ 
-            padding: '15px 40px',
-            fontSize: '1.1rem',
-            background: 'white',
-            color: '#EF4444',
-            border: 'none',
-            marginTop: '20px'
-          }}>
-            <i className="fas fa-phone" style={{ marginInlineEnd: '10px' }}></i>
-            {content.cta.button}
-          </Link>
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.value.title}</h2>
+          </div>
+          <div className="value-card">
+            <div className="service-icon" style={{ 
+              width: '80px',
+              height: '80px',
+              fontSize: '2rem'
+            }}>
+              <i className="fas fa-heartbeat"></i>
+            </div>
+            <p>{content.value.description}</p>
+          </div>
         </section>
       </div>
+
+      {/* CTA Section */}
+      <section className="service-cta-section" style={{ 
+      }}>
+        <div className="container">
+          <div className="service-cta-banner">
+            <h2>{content.cta.title}</h2>
+            <p>
+              {locale === 'ar' 
+                ? 'تواصل معنا للحصول على تأمين سفر صحي معتمد يلبي متطلبات السفارة ويحميك في كل خطوة'
+                : 'Contact us to get approved health travel insurance that meets embassy requirements and protects you every step of the way'
+              }
+            </p>
+            <Link href="/contact" className="btn-cta" style={{ 
+              border: 'none',
+              color: 'white'
+            }}>
+              <i className="fas fa-phone-alt"></i>
+              {content.cta.button}
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

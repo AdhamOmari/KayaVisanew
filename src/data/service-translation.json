@@ -1,114 +1,7 @@
 {
-  "en": {
-    "title": "Translation Services",
-    "slug": "translation",
-    "tagline": "Linguistic Accuracy • Time Commitment • Certified Translation",
-    "hero": {
-      "title": "Translation Services at Kaya",
-      "description": "At Kaya, we are proud to provide professional translation services that cover all the needs of our individual and institutional clients, ensuring the highest standards of quality and linguistic accuracy, in compliance with official and certified use by government and private entities inside and outside the country."
-    },
-    "why_choose": {
-      "title": "Why Choose Kaya for Translation?",
-      "reasons": [
-        "Officially certified translation for embassies, judicial authorities, ministries, and official bodies",
-        "Team of professional translators with experience in various specializations and languages",
-        "Speed and adherence to deadlines without compromising translation quality",
-        "Complete confidentiality in handling personal and commercial documents",
-        "Comprehensive translation service including legal, commercial, medical, educational, and technical texts"
-      ]
-    },
-    "services": [
-      {
-        "title": "Legal Translation",
-        "description": "Translation of contracts, powers of attorney, judicial rulings, and official documents with high accuracy, in compliance with the legal systems of the concerned country",
-        "icon": "fa-gavel"
-      },
-      {
-        "title": "Certified Translation of Official Documents",
-        "description": "Such as passports, birth certificates, marriage certificates, academic transcripts, and medical reports; valid for use in official transactions and submission to embassies and international bodies",
-        "icon": "fa-certificate"
-      },
-      {
-        "title": "Commercial Translation",
-        "description": "Translation of company files, presentations, annual reports, correspondence, and feasibility studies, supporting your business expansion in global markets",
-        "icon": "fa-briefcase"
-      },
-      {
-        "title": "Medical Translation",
-        "description": "Accurate translation of medical reports, prescriptions, and scientific texts, by translators familiar with medical terminology to ensure content accuracy and safety",
-        "icon": "fa-heartbeat"
-      },
-      {
-        "title": "Educational and Academic Translation",
-        "description": "Translation of certificates, degrees, research papers, and academic articles, with perfect formatting to ensure acceptance by universities and institutes",
-        "icon": "fa-graduation-cap"
-      }
-    ],
-    "languages": {
-      "title": "Languages We Provide at Kaya",
-      "subtitle": "We cover a wide range of languages, including:",
-      "list": [
-        "English",
-        "French",
-        "German",
-        "Spanish",
-        "Turkish",
-        "Russian",
-        "Italian",
-        "Chinese",
-        "Japanese",
-        "Arabic"
-      ]
-    },
-    "process": {
-      "title": "How We Work",
-      "steps": [
-        {
-          "title": "Document Receipt",
-          "description": "Electronically or via delivery service",
-          "icon": "fa-file-upload"
-        },
-        {
-          "title": "Initial Review",
-          "description": "Cost determination and execution timeline",
-          "icon": "fa-search"
-        },
-        {
-          "title": "Translation Execution",
-          "description": "By a specialized translator in the required field",
-          "icon": "fa-language"
-        },
-        {
-          "title": "Comprehensive Review",
-          "description": "Linguistic proofreading and quality check",
-          "icon": "fa-check-circle"
-        },
-        {
-          "title": "Final Delivery",
-          "description": "Paper or electronic copy as per your preference",
-          "icon": "fa-paper-plane"
-        }
-      ]
-    },
-    "ready": {
-      "title": "Ready to Serve You",
-      "description": "At Kaya, we believe that translation is not just about transferring words, but about conveying meaning, trust, and professionalism. We provide certified professional translation services covering all documents required for visas and university admissions, with:",
-      "features": [
-        "High accuracy and professional drafting",
-        "Certified translation accepted by embassies and universities",
-        "Fast execution while maintaining quality"
-      ]
-    },
-    "cta": {
-      "title": "Do you need certified and accurate translation for your official or academic documents?",
-      "subtitle": "The Kaya team is waiting for you",
-      "button": "Contact Us Now"
-    }
-  },
   "ar": {
-    "title": "خدمات الترجمة",
-    "slug": "translation",
-    "tagline": "دقة لغوية • التزام زمني • ترجمة معتمدة",
+    "title": "خدمات الترجمة في كايا",
+    "tagline": "دقة لغوية؛ التزام زمني؛ ترجمة معتمدة",
     "hero": {
       "title": "خدمات الترجمة في كايا",
       "description": "في كايا، نفخر بتقديم خدمات ترجمة احترافية تغطي جميع احتياجات عملائنا الأفراد والمؤسسات، مع ضمان أعلى معايير الجودة والدقة اللغوية، بما يتوافق مع الاستخدام الرسمي والمعتمد لدى الجهات الحكومية والخاصة داخل وخارج الدولة."
@@ -116,44 +9,45 @@
     "why_choose": {
       "title": "لماذا تختار كايا للترجمة؟",
       "reasons": [
-        "ترجمة معتمدة رسمياً لدى السفارات، والجهات القضائية، والوزارات، والهيئات الرسمية",
-        "فريق من المترجمين المحترفين ذوي الخبرة في مختلف التخصصات واللغات",
-        "السرعة والالتزام بالمواعيد دون المساس بجودة الترجمة",
-        "سرية تامة في التعامل مع الوثائق الشخصية والتجارية",
-        "خدمة ترجمة شاملة تشمل النصوص القانونية، التجارية، الطبية، التعليمية، والتقنية"
+        "ترجمة معتمدة رسمياً لدى السفارات، والجهات القضائية، والوزارات، والهيئات الرسمية.",
+        "فريق من المترجمين المحترفين ذوي الخبرة في مختلف التخصصات واللغات.",
+        "السرعة والالتزام بالمواعيد دون المساس بجودة الترجمة.",
+        "سرية تامة في التعامل مع الوثائق الشخصية والتجارية.",
+        "خدمة ترجمة شاملة تشمل النصوص القانونية، التجارية، الطبية، التعليمية، والتقنية."
       ]
     },
     "services": [
       {
         "title": "الترجمة القانونية",
-        "description": "ترجمة العقود، الوكالات، الأحكام القضائية، والوثائق الرسمية بدقة عالية، وبما يتوافق مع الأنظمة القانونية للدولة المعنية",
-        "icon": "fa-gavel"
+        "icon": "fa-gavel",
+        "description": "ترجمة العقود، الوكالات، الأحكام القضائية، والوثائق الرسمية بدقة عالية، وبما يتوافق مع الأنظمة القانونية للدولة المعنية."
       },
       {
         "title": "الترجمة المعتمدة للوثائق الرسمية",
-        "description": "مثل جوازات السفر، شهادات الميلاد، شهادات الزواج، السجلات الأكاديمية، والتقارير الطبية؛ صالحة للاستخدام في المعاملات الرسمية والتقديم للسفارات والهيئات الدولية",
-        "icon": "fa-certificate"
+        "icon": "fa-file-signature",
+        "description": "ترجمة جوازات السفر، شهادات الميلاد، الزواج، السجلات الأكاديمية، والتقارير الطبية، صالحة للاستخدام في المعاملات الرسمية والسفارات."
       },
       {
         "title": "الترجمة التجارية",
-        "description": "ترجمة ملفات الشركات، العروض التقديمية، التقارير السنوية، المراسلات، ودراسات الجدوى، بما يدعم توسع أعمالك في الأسواق العالمية",
-        "icon": "fa-briefcase"
+        "icon": "fa-briefcase",
+        "description": "ترجمة ملفات الشركات، العروض التقديمية، التقارير، والمراسلات لدعم توسع أعمالك في الأسواق العالمية."
       },
       {
         "title": "الترجمة الطبية",
-        "description": "ترجمة دقيقة للتقارير الطبية، وصفات الأطباء، والنصوص العلمية، على يد مترجمين ملمين بالمصطلحات الطبية لضمان دقة المحتوى وسلامته",
-        "icon": "fa-heartbeat"
+        "icon": "fa-notes-medical",
+        "description": "ترجمة دقيقة للتقارير الطبية والوصفات والنصوص العلمية على يد مترجمين متخصصين بالمصطلحات الطبية."
       },
       {
         "title": "الترجمة التعليمية والأكاديمية",
-        "description": "ترجمة الشهادات، الدرجات، الأبحاث، والمقالات الأكاديمية، مع تنسيق مثالي يضمن قبولها لدى الجامعات والمعاهد",
-        "icon": "fa-graduation-cap"
+        "icon": "fa-graduation-cap",
+        "description": "ترجمة الشهادات، الدرجات، الأبحاث والمقالات الأكاديمية مع تنسيق معتمد يضمن قبولها لدى الجامعات."
       }
     ],
     "languages": {
       "title": "اللغات التي نوفرها في كايا",
-      "subtitle": "نغطي مجموعة واسعة من اللغات، من بينها:",
+      "subtitle": "نغطي مجموعة واسعة من اللغات لتلبية احتياجات عملائنا حول العالم",
       "list": [
+        "العربية",
         "الإنجليزية",
         "الفرنسية",
         "الألمانية",
@@ -162,8 +56,7 @@
         "الروسية",
         "الإيطالية",
         "الصينية",
-        "اليابانية",
-        "العربية"
+        "اليابانية"
       ]
     },
     "process": {
@@ -171,34 +64,34 @@
       "steps": [
         {
           "title": "استلام المستندات",
-          "description": "إلكترونياً أو عبر خدمة التوصيل",
-          "icon": "fa-file-upload"
+          "icon": "fa-file-upload",
+          "description": "استلام المستندات إلكترونياً أو عبر خدمة التوصيل."
         },
         {
-          "title": "مراجعة أولية",
-          "description": "تحديد التكلفة ومدة التنفيذ",
-          "icon": "fa-search"
+          "title": "المراجعة والتسعير",
+          "icon": "fa-calculator",
+          "description": "مراجعة المستندات وتحديد التكلفة ومدة التنفيذ."
         },
         {
           "title": "تنفيذ الترجمة",
-          "description": "على يد مترجم متخصص في المجال المطلوب",
-          "icon": "fa-language"
+          "icon": "fa-language",
+          "description": "تنفيذ الترجمة على يد مترجم متخصص في المجال المطلوب."
         },
         {
-          "title": "مراجعة شاملة",
-          "description": "تدقيق لغوي وفحص للجودة",
-          "icon": "fa-check-circle"
+          "title": "التدقيق والمراجعة",
+          "icon": "fa-check-double",
+          "description": "مراجعة وتدقيق لغوي شامل لضمان أعلى جودة."
         },
         {
-          "title": "التسليم النهائي",
-          "description": "نسخة ورقية أو إلكترونية حسب رغبتكم",
-          "icon": "fa-paper-plane"
+          "title": "التسليم",
+          "icon": "fa-file-export",
+          "description": "تسليم النسخة المترجمة ورقياً أو إلكترونياً حسب رغبتكم."
         }
       ]
     },
     "ready": {
       "title": "جاهزون لخدمتك",
-      "description": "في كايا، نؤمن أن الترجمة ليست مجرد نقل كلمات، بل نقل معنى وثقة واحترافية. نقدّم خدمات ترجمة احترافية معتمدة تغطي جميع الوثائق المطلوبة للتأشيرات والقبولات الجامعية، مع:",
+      "description": "في كايا، نؤمن أن الترجمة ليست مجرد نقل كلمات، بل نقل معنى وثقة واحترافية. نقدم خدمات ترجمة معتمدة تغطي جميع الوثائق المطلوبة للتأشيرات والقبولات الجامعية.",
       "features": [
         "دقة عالية وصياغة احترافية",
         "ترجمة معتمدة ومقبولة لدى السفارات والجامعات",
@@ -206,9 +99,114 @@
       ]
     },
     "cta": {
-      "title": "هل تحتاج ترجمة معتمدة ودقيقة لوثائقك الرسمية أو الأكاديمية؟",
-      "subtitle": "فريق كايا بانتظارك",
+      "title": "هل تحتاج ترجمة معتمدة ودقيقة؟",
+      "subtitle": "فريق كايا بانتظارك لترجمة وثائقك الرسمية والأكاديمية بأعلى مستوى من الاحترافية.",
       "button": "تواصل معنا الآن"
+    }
+  },
+  "en": {
+    "title": "Kaya Translation Services",
+    "tagline": "Linguistic Accuracy · On-Time Delivery · Certified Translation",
+    "hero": {
+      "title": "Kaya Translation Services",
+      "description": "At Kaya, we proudly provide professional translation services that cover the full range of individual and corporate needs, ensuring the highest standards of quality and linguistic accuracy in compliance with official and legal requirements locally and internationally."
+    },
+    "why_choose": {
+      "title": "Why Choose Kaya?",
+      "reasons": [
+        "Officially certified translations accepted by embassies, courts, ministries, and government authorities.",
+        "A team of professional translators specialized in multiple industries and languages.",
+        "Fast turnaround with strict commitment to deadlines without compromising quality.",
+        "Full confidentiality for all personal and business documents.",
+        "Comprehensive translation services covering legal, business, medical, academic, and technical fields."
+      ]
+    },
+    "services": [
+      {
+        "title": "Legal Translation",
+        "icon": "fa-gavel",
+        "description": "Accurate translation of contracts, powers of attorney, court rulings, and official documents in compliance with the legal system of the target country."
+      },
+      {
+        "title": "Certified Document Translation",
+        "icon": "fa-file-signature",
+        "description": "Certified translation of passports, birth and marriage certificates, academic records, and medical reports accepted for embassies and official applications."
+      },
+      {
+        "title": "Business Translation",
+        "icon": "fa-briefcase",
+        "description": "Translation of company profiles, presentations, reports, correspondence, and feasibility studies to support your business expansion globally."
+      },
+      {
+        "title": "Medical Translation",
+        "icon": "fa-notes-medical",
+        "description": "Precise translation of medical reports, prescriptions, and scientific texts by translators specialized in medical terminology."
+      },
+      {
+        "title": "Academic & Educational Translation",
+        "icon": "fa-graduation-cap",
+        "description": "Translation of certificates, transcripts, research papers, and academic articles with professional formatting accepted by universities and institutes."
+      }
+    ],
+    "languages": {
+      "title": "Languages We Support",
+      "subtitle": "We provide translation services across a wide range of global languages",
+      "list": [
+        "Arabic",
+        "English",
+        "French",
+        "German",
+        "Spanish",
+        "Turkish",
+        "Russian",
+        "Italian",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    "process": {
+      "title": "How We Work",
+      "steps": [
+        {
+          "title": "Document Submission",
+          "icon": "fa-file-upload",
+          "description": "Submit your documents electronically or through our delivery service."
+        },
+        {
+          "title": "Review & Quotation",
+          "icon": "fa-calculator",
+          "description": "We review the documents and provide pricing and turnaround time."
+        },
+        {
+          "title": "Translation",
+          "icon": "fa-language",
+          "description": "Your documents are translated by a specialized professional translator."
+        },
+        {
+          "title": "Proofreading & QA",
+          "icon": "fa-check-double",
+          "description": "Comprehensive linguistic and quality review before delivery."
+        },
+        {
+          "title": "Final Delivery",
+          "icon": "fa-file-export",
+          "description": "Receive your translated documents in digital or printed format."
+        }
+      ]
+    },
+    "ready": {
+      "title": "Ready to Serve You",
+      "description": "At Kaya, we believe translation is more than words — it is trust, precision, and professionalism. We provide certified translation services for visa and academic applications.",
+      "features": [
+        "High accuracy and professional wording",
+        "Certified translations accepted by embassies and universities",
+        "Fast delivery while maintaining quality"
+      ]
+    },
+    "cta": {
+      "title": "Need Certified & Accurate Translation?",
+      "subtitle": "Our Kaya team is ready to assist you with all your official and academic translation needs.",
+      "button": "Contact Us Now"
     }
   }
 }

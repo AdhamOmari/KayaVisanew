@@ -4,6 +4,7 @@ import { useI18n } from '@/lib/i18n';
 import Link from 'next/link';
 import '@/styles/services.css';
 
+
 const flightData = require('@/data/service-flight-bookings.json');
 
 export default function FlightBookingsPage() {

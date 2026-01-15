@@ -11,118 +11,124 @@ export default function TravelPlanPage() {
     ar: {
       title: 'خدمة خطة السفر',
       hero: {
-        title: 'خطة السفر (Travel Itinerary)',
-        description: 'خطة السفر هي وثيقة تفصيلية توضح برنامج رحلتك اليومي، بما في ذلك: تذاكر الطيران، حجوزات الفنادق، الأماكن التي ستزورها، والأنشطة المخططة. إنها الدليل الذي يُظهر للسفارة أنك مُنظم ومُستعد تمامًا لرحلتك.'
+        title: 'خدمة خطة السفر (Travel Itinerary)',
+        description: 'خطة السفر هي الوثيقة التي تُرفق عادةً مع طلبات التأشيرات، وتُظهر للسفارة أو الجهة الرسمية أن رحلتك منظمة ومخطط لها بدقة. إنها ليست مجرد جدول مواعيد، بل دليل على أنك مسافر مسؤول، تعرف وجهتك، وتملك خطة واضحة للإقامة والتنقل.'
       },
       importance: {
         title: 'أهمية خطة السفر',
         points: [
-          'تُظهر التزامك وجديتك أمام السفارة، لأنك مُخطط بوضوح لرحلتك',
-          'توفر دليلاً واضحًا على غرض السفر (سياحة، زيارة عائلية، عمل)',
-          'تزيد من مصداقية طلبك، لأنها تُبرز أنك لست مسافرًا عشوائيًا',
-          'تُسهل على موظف التأشيرات فهم ملفك والموافقة عليه بسرعة'
+          'تعزز قوة ملفك أمام السفارات وتزيد من فرص قبول التأشيرة',
+          'توضح تفاصيل رحلتك من مواعيد الطيران إلى حجوزات الفنادق والأنشطة اليومية',
+          'تُظهر الجدية والالتزام في تنظيم رحلتك',
+          'تمنحك راحة البال لأنك تعرف مسبقًا كل تفاصيل رحلتك'
         ]
       },
       notes: {
         title: 'ملاحظات مهمة',
         items: [
-          'يجب أن تكون الخطة واقعية ومفصلة، بحيث تعكس رحلة حقيقية',
-          'لا تُرفق خطة عامة أو غير مُحددة، لأن ذلك يُضعف طلبك',
-          'يجب أن تتضمن: تذاكر الطيران، حجوزات الفنادق، الأماكن المخططة، والأنشطة اليومية',
-          'مهم: خطة السفر تُقوي الطلب، خاصة لتأشيرات السياحة والزيارة'
+          'يجب أن تكون الخطة واقعية ومفصلة، مع ذكر التواريخ والأماكن بدقة',
+          'تُرفق دائمًا مع المستندات الرسمية (حجوزات الطيران والفنادق، التأمين الصحي)',
+          'لا يلزم أن تكون طويلة جدًا، لكن يجب أن تُظهر أن الرحلة منظمة ومخطط لها',
+          'يجب تعديل الأنشطة حسب نوع الرحلة (سياحة، دراسة، عمل)'
         ]
       },
-      specific: {
-        title: 'متطلبات خاصة لرحلات الدراسة والعمل',
+      studyWork: {
+        title: 'ملاحظات خاصة بالدراسة والعمل',
         items: [
-          'رحلات الدراسة: يجب أن تتضمن الخطة جدول الدراسة، أو مواعيد الاختبارات، أو الإقامة قرب الجامعة',
-          'رحلات العمل: يجب أن تتضمن مواعيد الاجتماعات، المؤتمرات، أو الفعاليات التي ستحضرها'
+          'في حالة الدراسة: يجب أن تُظهر الخطة ارتباطك بالجامعة (مواعيد التسجيل، بداية المحاضرات، السكن الجامعي)',
+          'في حالة العمل: يجب أن تُبرز تفاصيل عقد العمل، مواعيد الاجتماعات، وخطة الاندماج في بيئة العمل',
+          'الخطة يجب أن تكون واقعية ومقنعة، مدعومة بالمستندات الرسمية (قبول جامعي، عقد عمل، حجوزات)',
+          'كلما كانت الخطة دقيقة، زادت فرص قبول التأشيرة لأنها تُظهر أنك شخص منظم وملتزم'
         ]
       },
       services: {
         title: 'ماذا نقدم لك في كايا؟',
         items: [
-          'إعداد خطة سفر احترافية وواقعية مع حجوزات فنادق وطيران',
-          'توضيح الأماكن السياحية أو الأنشطة المخططة خلال الرحلة',
-          'تخصيص الخطة حسب نوع التأشيرة (سياحة، دراسة، عمل، زيارة عائلية)',
-          'التأكد من أن الخطة منطقية ومفصلة، وتُظهر التزامك بالعودة'
-        ]
-      },
-      process: {
-        title: 'كيف تعمل الخدمة؟',
-        steps: [
-          { icon: 'fa-comments', title: 'التواصل', description: 'نستمع لتفاصيل رحلتك وأهدافك' },
-          { icon: 'fa-plane', title: 'الحجز', description: 'نحجز تذاكر الطيران والفنادق المناسبة' },
-          { icon: 'fa-calendar-alt', title: 'التخطيط', description: 'نُجهز خطة مفصلة يومية لرحلتك' },
-          { icon: 'fa-check-circle', title: 'المراجعة', description: 'نراجع الخطة لضمان الدقة والواقعية' },
-          { icon: 'fa-file-pdf', title: 'التسليم', description: 'نسلمك الخطة بصيغة PDF جاهزة للطباعة' }
+          'إعداد خطة سفر مفصلة ومقنعة تتوافق مع متطلبات السفارات',
+          'تضمين جميع التفاصيل الأساسية: مواعيد الرحلات، حجوزات الفنادق، الأنشطة، وخطوط التنقل',
+          'صياغة احترافية تُظهر التنظيم والجدية',
+          'تخصيص الخطة حسب نوع الرحلة (سياحة، عمل، دراسة)',
+          'تنسيق متكامل مع خدماتنا الأخرى مثل حجوزات الطيران والفنادق والتأمين الصحي'
         ]
       },
       value: {
-        title: 'القيمة المضافة لك مع كايا',
-        description: 'نُجهز لك خطة سفر احترافية ومفصلة، تُبرز جديتك وتُزيد من فرص قبولك لدى السفارة.'
+        title: 'القيمة المضافة لك',
+        description: 'خطة السفر ليست مجرد ورقة، بل هي أداة استراتيجية تدعم ملفك أمام السفارات وتمنحك رحلة منظمة بلا مفاجآت. إنها دليل على أنك مستعد ومهتم بكل تفاصيل رحلتك.'
+      },
+      process: {
+        title: 'كيف نعمل؟',
+        steps: [
+          { icon: 'fa-clipboard-list', title: 'استلام التفاصيل', description: 'نستلم تفاصيل رحلتك (الوجهة، المدة، الغرض)' },
+          { icon: 'fa-map', title: 'إعداد الخطة', description: 'إعداد خطة أولية تشمل الرحلات والإقامة والأنشطة' },
+          { icon: 'fa-search-check', title: 'المراجعة', description: 'مراجعة وتدقيق الخطة لتكون متوافقة مع متطلبات السفارة' },
+          { icon: 'fa-file-download', title: 'التسليم', description: 'تسليم الخطة بشكل رسمي ومعتمد (ورقي أو إلكتروني)' },
+          { icon: 'fa-headset', title: 'الدعم', description: 'دعم إضافي لتحديث الخطة عند الحاجة' }
+        ]
       },
       cta: {
-        title: 'هل تريد خطة سفر احترافية تزيد من فرص قبول تأشيرتك؟',
+        title: 'هل ترغب في تعزيز ملفك بخطة سفر احترافية ومقنعة؟',
         button: 'تواصل معنا الآن'
       }
     },
     en: {
       title: 'Travel Plan Service',
       hero: {
-        title: 'Travel Itinerary Service',
-        description: 'A travel itinerary is a detailed document outlining your daily trip schedule, including: flight tickets, hotel reservations, places you will visit, and planned activities. It\'s the proof that shows the embassy you are organized and fully prepared for your trip.'
+        title: 'Travel Plan Service (Travel Itinerary)',
+        description: 'A travel itinerary is a document that is typically attached to visa applications, showing the embassy or official authorities that your trip is well-organized and meticulously planned. It\'s not just a schedule, but proof that you\'re a responsible traveler who knows your destination and has a clear plan for accommodation and transportation.'
       },
       importance: {
         title: 'Importance of a Travel Plan',
         points: [
-          'Shows your commitment and seriousness to the embassy, as you have clearly planned your trip',
-          'Provides clear evidence of the purpose of travel (tourism, family visit, business)',
-          'Increases the credibility of your application, as it shows you are not a random traveler',
-          'Makes it easier for visa officers to understand your file and approve it quickly'
+          'Strengthens your application file with embassies and increases visa approval chances',
+          'Clarifies all details of your trip from flight times to hotel bookings and daily activities',
+          'Shows seriousness and commitment in organizing your trip',
+          'Gives you peace of mind because you know all trip details in advance'
         ]
       },
       notes: {
         title: 'Important Notes',
         items: [
-          'The plan should be realistic and detailed, reflecting a real journey',
-          'Do not attach a general or vague plan, as that weakens your application',
-          'Should include: flight tickets, hotel bookings, planned places, and daily activities',
-          'Important: A travel plan strengthens the application, especially for tourism and visit visas'
+          'The plan must be realistic and detailed, with accurate dates and locations',
+          'Always attached with official documents (flight and hotel bookings, health insurance)',
+          'Doesn\'t need to be very long, but should show that the trip is organized and planned',
+          'Activities should be adjusted according to trip type (tourism, study, work)'
         ]
       },
-      specific: {
-        title: 'Special Requirements for Study and Work Trips',
+      studyWork: {
+        title: 'Special Notes for Study and Work',
         items: [
-          'Study trips: The plan should include study schedule, exam dates, or accommodation near the university',
-          'Business trips: Should include meeting schedules, conferences, or events you will attend'
+          'For study trips: The plan should show your connection to the university (registration dates, class start, university housing)',
+          'For work trips: Should highlight work contract details, meeting schedules, and integration plan',
+          'The plan must be realistic and convincing, supported by official documents (university acceptance, work contract, bookings)',
+          'The more accurate the plan, the higher the visa approval chances as it shows you\'re organized and committed'
         ]
       },
       services: {
-        title: 'What We Offer at Kaya',
+        title: 'What We Offer at Kaya?',
         items: [
-          'Preparing a professional and realistic travel plan with hotel and flight bookings',
-          'Clarifying tourist places or planned activities during the trip',
-          'Customizing the plan according to visa type (tourism, study, work, family visit)',
-          'Ensuring the plan is logical and detailed, showing your commitment to return'
-        ]
-      },
-      process: {
-        title: 'How Does the Service Work?',
-        steps: [
-          { icon: 'fa-comments', title: 'Consultation', description: 'We listen to your trip details and goals' },
-          { icon: 'fa-plane', title: 'Booking', description: 'We book appropriate flights and hotels' },
-          { icon: 'fa-calendar-alt', title: 'Planning', description: 'We prepare a detailed daily itinerary' },
-          { icon: 'fa-check-circle', title: 'Review', description: 'We review the plan for accuracy and realism' },
-          { icon: 'fa-file-pdf', title: 'Delivery', description: 'We deliver the plan in print-ready PDF format' }
+          'Preparation of a detailed and convincing travel plan that meets embassy requirements',
+          'Inclusion of all essential details: trip schedules, hotel bookings, activities, and transportation routes',
+          'Professional formulation that shows organization and seriousness',
+          'Customization of the plan according to trip type (tourism, work, study)',
+          'Integrated coordination with our other services like flight bookings, hotels, and health insurance'
         ]
       },
       value: {
-        title: 'Added Value with Kaya',
-        description: 'We prepare a professional and detailed travel plan that highlights your seriousness and increases your chances of embassy approval.'
+        title: 'Added Value for You',
+        description: 'A travel plan is not just a paper; it\'s a strategic tool that supports your application with embassies and gives you an organized trip without surprises. It\'s proof that you\'re prepared and care about all details of your journey.'
+      },
+      process: {
+        title: 'How We Work?',
+        steps: [
+          { icon: 'fa-clipboard-list', title: 'Details Collection', description: 'We receive your trip details (destination, duration, purpose)' },
+          { icon: 'fa-map', title: 'Plan Preparation', description: 'Preparation of initial plan including trips, accommodation, and activities' },
+          { icon: 'fa-search-check', title: 'Review', description: 'Review and auditing to ensure compliance with embassy requirements' },
+          { icon: 'fa-file-download', title: 'Delivery', description: 'Delivery of the plan in official and certified format (paper or electronic)' },
+          { icon: 'fa-headset', title: 'Support', description: 'Additional support to update the plan when needed' }
+        ]
       },
       cta: {
-        title: 'Want a professional travel plan to increase your visa approval chances?',
+        title: 'Want to strengthen your application with a professional and convincing travel plan?',
         button: 'Contact Us Now'
       }
     }
@@ -131,102 +137,138 @@ export default function TravelPlanPage() {
   const content = data[locale];
 
   return (
-    <div dir={dir}>
-      {/* Hero Section */}
-      <section className="service-hero" style={{ background: 'linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%)' }}>
-        <div className="container">
-          <div className="breadcrumb" style={{ marginBottom: '20px', opacity: 0.9 }}>
-            <Link href="/" style={{ color: 'white' }}>{locale === 'ar' ? 'الرئيسية' : 'Home'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <Link href="/services" style={{ color: 'white' }}>{locale === 'ar' ? 'خدماتنا' : 'Our Services'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <span>{content.title}</span>
+    <div className="service-page-base" dir={dir}>
+      {/* Hero Section with Purple Theme */}
+      <section className=" purple-theme plan-hero">
+        <div className="container ">
+          <div className="hero-content ">
+  
+            
+            <div className="hero-title">
+              <h1 className="hero-title-main">{content.hero.title}</h1>
+              <p className="hero-title-sub">{content.hero.description}</p>
+            </div>
+
+            <div className="service-stats">
+              <div className="service-stat-item">
+                <span className="stat-number">95%</span>
+                <span className="stat-label">{locale === 'ar' ? 'زيادة الفرص' : 'Chance Increase'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">24</span>
+                <span className="stat-label">{locale === 'ar' ? 'ساعة' : 'Hours Delivery'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">100%</span>
+                <span className="stat-label">{locale === 'ar' ? 'مخصصة' : 'Customized'}</span>
+              </div>
+              <div className="service-stat-item">
+                <span className="stat-number">50+</span>
+                <span className="stat-label">{locale === 'ar' ? 'دولة' : 'Countries'}</span>
+              </div>
+            </div>
+
+            <div className="hero-cta">
+              <Link href="#services" className="btn-service-primary">
+                {locale === 'ar' ? 'تفاصيل الخدمة' : 'Service Details'}
+              </Link>
+              <Link href="/contact" className="btn-service-secondary">
+                {locale === 'ar' ? 'اطلب الآن' : 'Order Now'}
+              </Link>
+            </div>
           </div>
-          <h1>{content.hero.title}</h1>
-          <p className="hero-description">{content.hero.description}</p>
         </div>
       </section>
 
-      <div className="container" style={{ marginTop: '60px', marginBottom: '60px' }}>
+      <div className="container" style={{ marginTop: '80px', marginBottom: '80px' }}>
         {/* Importance Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.importance.title}</h2>
-          <ul className="reasons-list">
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.importance.title}</h2>
+          </div>
+          <div className="service-grid">
             {content.importance.points.map((point: string, index: number) => (
-              <li key={index}>
-                <i className="fas fa-check-circle" style={{ color: '#8B5CF6', marginInlineEnd: '10px' }}></i>
-                {point}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Important Notes */}
-        <section style={{ marginBottom: '60px', background: '#F3E8FF', padding: '40px', borderRadius: '12px' }}>
-          <h2 className="section-title">{content.notes.title}</h2>
-          <ul className="reasons-list">
-            {content.notes.items.map((item: string, index: number) => (
-              <li key={index}>
-                <i className="fas fa-info-circle" style={{ color: '#8B5CF6', marginInlineEnd: '10px' }}></i>
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Specific Requirements */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.specific.title}</h2>
-          <div className="row">
-            {content.specific.items.map((item: string, index: number) => (
-              <div key={index} className="col-md-6 mb-3">
-                <div className="feature-card">
-                  <i className="fas fa-graduation-cap" style={{ color: '#8B5CF6', fontSize: '2rem', marginBottom: '15px' }}></i>
-                  <p>{item}</p>
+              <div key={index} className="service-card">
+                <div className="service-icon">
+                  <i className="fas fa-check-circle"></i>
                 </div>
+                <p>{point}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Services */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.services.title}</h2>
-          <div className="row">
-            {content.services.items.map((service: string, index: number) => (
-              <div key={index} className="col-md-6 mb-3">
-                <div className="feature-card">
-                  <i className="fas fa-map-marked-alt" style={{ color: '#8B5CF6', fontSize: '2rem', marginBottom: '15px' }}></i>
-                  <p>{service}</p>
+        {/* Important Notes */}
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.notes.title}</h2>
+          </div>
+          <div className="service-notes-card">
+            <div className="row">
+              {content.notes.items.map((item: string, index: number) => (
+                <div key={index} className="col-md-6 mb-3">
+                  <div className="note-item">
+                    <i className="fas fa-info-circle note-icon"></i>
+                    <p className="note-text">{item}</p>
+                  </div>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Study/Work Specific Notes */}
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.studyWork.title}</h2>
+          </div>
+          <div className="service-grid">
+            {content.studyWork.items.map((item: string, index: number) => (
+              <div key={index} className="service-card">
+                <div className="service-icon">
+                  <i className={index < 2 ? 'fas fa-graduation-cap' : 'fas fa-briefcase'}></i>
+                </div>
+                <p>{item}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Services Offered */}
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.services.title}</h2>
+          </div>
+          <div className="service-feature-grid">
+            {content.services.items.map((service: string, index: number) => (
+              <div key={index} className="feature-card">
+                <div className="feature-icon">
+                  <i className="fas fa-map-marked-alt"></i>
+                </div>
+                <h4>
+                  {locale === 'ar' ? ['ميزة', 'تفاصيل', 'صياغة', 'تخصيص', 'تكامل'][index] : ['Feature', 'Details', 'Formulation', 'Customization', 'Integration'][index]}
+                </h4>
+                <p>{service}</p>
               </div>
             ))}
           </div>
         </section>
 
         {/* Process Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{content.process.title}</h2>
-          <div className="row">
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.process.title}</h2>
+          </div>
+          <div className="service-feature-grid">
             {content.process.steps.map((step: any, index: number) => (
-              <div key={index} className="col-md-4 col-sm-6 mb-4">
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{
-                    width: '80px',
-                    height: '80px',
-                    background: 'linear-gradient(135deg, #8B5CF6, #A78BFA)',
-                    borderRadius: '50%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 20px',
-                    fontSize: '2rem',
-                    color: 'white'
-                  }}>
-                    <i className={`fas ${step.icon}`}></i>
-                  </div>
-                  <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: '#1F2937' }}>{step.title}</h3>
-                  <p style={{ color: '#6B7280' }}>{step.description}</p>
+              <div key={index} className="process-card">
+                <div className="process-icon">
+                  <i className={`fas ${step.icon}`}></i>
+                </div>
+                <h4>{step.title}</h4>
+                <p>{step.description}</p>
+                <div className="process-step-number">
+                  <span>{index + 1} {locale === 'ar' ? 'خطوة' : 'Step'}</span>
                 </div>
               </div>
             ))}
@@ -234,25 +276,35 @@ export default function TravelPlanPage() {
         </section>
 
         {/* Value Section */}
-        <section style={{ background: '#F3F4F6', padding: '40px', borderRadius: '12px', marginBottom: '60px' }}>
-          <h2 className="section-title">{content.value.title}</h2>
-          <p style={{ fontSize: '1.1rem', color: '#6B7280', lineHeight: '1.8' }}>{content.value.description}</p>
+        <section className="service-section" style={{ marginBottom: '80px' }}>
+          <div className="section-header">
+            <h2 className="section-title">{content.value.title}</h2>
+          </div>
+          <div className="value-card">
+            <div className="service-icon">
+              <i className="fas fa-star"></i>
+            </div>
+            <p>{content.value.description}</p>
+          </div>
         </section>
 
         {/* CTA Section */}
-        <section style={{ textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #8B5CF6, #A78BFA)', borderRadius: '16px', color: 'white' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: '15px' }}>{content.cta.title}</h2>
-          <Link href="/contact" className="btn btn-light" style={{ 
-            padding: '15px 40px',
-            fontSize: '1.1rem',
-            background: 'white',
-            color: '#8B5CF6',
-            border: 'none',
-            marginTop: '20px'
-          }}>
-            <i className="fas fa-phone" style={{ marginInlineEnd: '10px' }}></i>
-            {content.cta.button}
-          </Link>
+        <section className="service-cta-section purple-theme">
+          <div className="container">
+            <div className="service-cta-banner">
+              <h2>{content.cta.title}</h2>
+              <p>
+                {locale === 'ar' 
+                  ? 'نحن هنا لمساعدتك في إعداد خطة سفر احترافية تعزز فرص قبول تأشيرتك'
+                  : 'We\'re here to help you prepare a professional travel plan that enhances your visa approval chances'
+                }
+              </p>
+              <Link href="/contact" className="btn-cta">
+                <i className="fas fa-paper-plane me-2"></i>
+                {content.cta.button}
+              </Link>
+            </div>
+          </div>
         </section>
       </div>
     </div>

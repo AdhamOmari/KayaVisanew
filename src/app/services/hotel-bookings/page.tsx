@@ -4,6 +4,7 @@ import { useI18n } from '@/lib/i18n';
 import Link from 'next/link';
 import '@/styles/services.css';
 
+
 const hotelData = require('@/data/service-hotel-bookings.json');
 
 export default function HotelBookingsPage() {
@@ -11,104 +12,82 @@ export default function HotelBookingsPage() {
   const data = hotelData[locale];
 
   return (
-    <div dir={dir}>
-      {/* Hero Section */}
-      <section className="service-hero" style={{ background: 'linear-gradient(135deg, #0D9488 0%, #14B8A6 100%)' }}>
-        <div className="container">
-          <div className="breadcrumb" style={{ marginBottom: '20px', opacity: 0.9 }}>
-            <Link href="/" style={{ color: 'white' }}>{locale === 'ar' ? 'الرئيسية' : 'Home'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <Link href="/services" style={{ color: 'white' }}>{locale === 'ar' ? 'خدماتنا' : 'Our Services'}</Link>
-            <span style={{ margin: '0 10px' }}>/</span>
-            <span>{data.title}</span>
-          </div>
+    <div dir={dir} className="hotel-page">
+
+      {/* Hero */}
+      <section className="hotel-hero">
+        <div className="hotel-container">
           <h1>{data.hero.title}</h1>
-          <p className="hero-description">{data.hero.description}</p>
+          <p className="hotel-hero-description">{data.hero.description}</p>
         </div>
       </section>
 
-      <div className="container" style={{ marginTop: '60px', marginBottom: '60px' }}>
-        {/* Advantages Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{data.advantages.title}</h2>
-          <div className="row">
-            {data.advantages.items.map((advantage: any, index: number) => (
-              <div key={index} className="col-md-4 col-sm-6 mb-4">
-                <div className="feature-card" style={{ height: '100%', textAlign: 'center' }}>
-                  <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #0D9488, #14B8A6)' }}>
-                    <i className={`fas ${advantage.icon}`}></i>
+      <div className="hotel-container">
+
+        {/* Advantages */}
+        <section className="hotel-section">
+          <h2 className="hotel-section-title">{data.advantages.title}</h2>
+          <div className="hotel-row">
+            {data.advantages.list.map((adv: any, index: number) => (
+              <div key={index} className="hotel-col-md-4 hotel-col-sm-6 hotel-mb-4">
+                <div className="hotel-feature-card">
+                  <div className="hotel-feature-icon">
+                    <i className={`fas ${adv.icon}`}></i>
                   </div>
-                  <h3>{advantage.title}</h3>
-                  <p>{advantage.description}</p>
+                  <h3>{adv.title}</h3>
+                  <p>{adv.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Services List */}
-        <section style={{ marginBottom: '60px', background: '#F3F4F6', padding: '40px', borderRadius: '12px' }}>
-          <h2 className="section-title">{data.services_list.title}</h2>
-          <ul className="reasons-list">
-            {data.services_list.items.map((service: string, index: number) => (
+        {/* Services */}
+        <section className="hotel-section hotel-services-box">
+          <h2 className="hotel-section-title">{data.services.title}</h2>
+          <ul className="hotel-reasons-list">
+            {data.services.list.map((item: string, index: number) => (
               <li key={index}>
-                <i className="fas fa-hotel" style={{ color: '#14B8A6', marginInlineEnd: '10px' }}></i>
-                {service}
+                <i className="fas fa-hotel hotel-reason-icon"></i>
+                {item}
               </li>
             ))}
           </ul>
         </section>
 
-        {/* Value Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{data.value.title}</h2>
-          <p style={{ fontSize: '1.1rem', color: '#6B7280', lineHeight: '1.8' }}>{data.value.description}</p>
+        {/* Value */}
+        <section className="hotel-section">
+          <h2 className="hotel-section-title">{data.value.title}</h2>
+          <p className="hotel-text">{data.value.description}</p>
         </section>
 
-        {/* Process Section */}
-        <section style={{ marginBottom: '60px' }}>
-          <h2 className="section-title">{data.process.title}</h2>
-          <div className="row">
+        {/* Process */}
+        <section className="hotel-section">
+          <h2 className="hotel-section-title">{data.process.title}</h2>
+          <div className="hotel-row">
             {data.process.steps.map((step: any, index: number) => (
-              <div key={index} className="col-md-4 col-sm-6 mb-4">
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{
-                    width: '80px',
-                    height: '80px',
-                    background: 'linear-gradient(135deg, #0D9488, #14B8A6)',
-                    borderRadius: '50%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    margin: '0 auto 20px',
-                    fontSize: '2rem',
-                    color: 'white'
-                  }}>
+              <div key={index} className="hotel-col-md-4 hotel-col-sm-6 hotel-mb-4">
+                <div className="hotel-process-step">
+                  <div className="hotel-process-icon">
                     <i className={`fas ${step.icon}`}></i>
                   </div>
-                  <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: '#1F2937' }}>{step.title}</h3>
-                  <p style={{ color: '#6B7280' }}>{step.description}</p>
+                  <h3 className="hotel-process-title">{step.title}</h3>
+                  <p className="hotel-process-description">{step.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section style={{ textAlign: 'center', padding: '40px 20px', background: 'linear-gradient(135deg, #0D9488, #14B8A6)', borderRadius: '16px', color: 'white' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: '15px' }}>{data.cta.title}</h2>
-          <p style={{ fontSize: '1.1rem', marginBottom: '25px', opacity: 0.95 }}>{data.cta.subtitle}</p>
-          <Link href="/contact" className="btn btn-light" style={{ 
-            padding: '15px 40px',
-            fontSize: '1.1rem',
-            background: 'white',
-            color: '#0D9488',
-            border: 'none'
-          }}>
-            <i className="fas fa-phone" style={{ marginInlineEnd: '10px' }}></i>
+        {/* CTA */}
+        <section className="hotel-cta-section">
+          <h2 className="hotel-cta-title">{data.cta.title}</h2>
+          <Link href="/contact" className="hotel-cta-button">
+            <i className="fas fa-phone hotel-cta-icon"></i>
             {data.cta.button}
           </Link>
         </section>
+
       </div>
     </div>
   );

@@ -99,8 +99,6 @@ export default function Navbar() {
         title: 'خدماتنا',
         items: [
           { name: 'الترجمة', slug: 'translation', icon: 'fas fa-language' },
-          { name: 'برامجنا', slug: 'programs', icon: 'fas fa-graduation-cap' },
-          { name: 'شركاؤنا', slug: 'partners', icon: 'fas fa-handshake' },
           { name: 'حجوزات الطيران', slug: 'flight-bookings', icon: 'fas fa-plane' },
           { name: 'حجوزات الفنادق', slug: 'hotel-bookings', icon: 'fas fa-hotel' },
           { name: 'تأمين السفر الصحي', slug: 'travel-insurance', icon: 'fas fa-shield-alt' },
