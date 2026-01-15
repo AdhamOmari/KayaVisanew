@@ -20,7 +20,6 @@ export default function TravelJapanPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag mb-4">
-              <i className="fas fa-flag fs-1"></i>
             </div>
             <h1 className="hero-title">{data.title}</h1>
             <p className="hero-subtitle">{data.hero.subtitle}</p>

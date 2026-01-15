@@ -403,274 +403,352 @@
     font-size: 1rem;
   }
 }
-/* Canada color overrides in shared-study.css */
-.study-country-page:not(.usa-page) .study-hero {
-}
 
-.study-country-page:not(.usa-page) .stat-number {
-  color: #e2bc42;
-}
-
-.study-country-page:not(.usa-page) .btn-study-primary {
-  background: #e2bc42;
-  color: #1a202c;
-  box-shadow: 0 5px 20px rgba(226, 188, 66, 0.4);
-}
-
-.study-country-page:not(.usa-page) .btn-study-primary:hover {
-  background: #e2bc42;
-}
-
-.study-country-page:not(.usa-page) .reason-icon,
-.study-country-page:not(.usa-page) .program-icon,
-.study-country-page:not(.usa-page) .major-icon,
-.study-country-page:not(.usa-page) .activity-icon,
-.study-country-page:not(.usa-page) .work-icon,
-.study-country-page:not(.usa-page) .service-icon,
-.study-country-page:not(.usa-page) .message-icon {
-  background: linear-gradient(135deg, #e2bc42 0%, #f0d378 100%);
-}
-
-.study-country-page:not(.usa-page) .cost-icon {
-  color: #e2bc42;
-}
-
-.study-country-page:not(.usa-page) .work-card.during-studies .work-header {
-  background: linear-gradient(90deg, #e2bc42 0%, #f0d378 100%);
-}
-
-.study-country-page:not(.usa-page) .work-card.after-graduation .work-header {
-  background: linear-gradient(90deg, #e2bc42 0%, #e2bc42 100%);
-}
-/* Australia Specific Styles */
-.au-hero {
+/* UK Specific Styles */
+.uk-hero {
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 120px 20px 80px;
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
-    url('https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+    url('https://i.ibb.co/jksXYGtJ/image.jpg');
   background-size: cover;
   background-position: center;
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 60px;
+  box-shadow: 0 8px 24px rgba(28, 50, 105, 0.12);
 }
 
+.uk-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
 
-.gr-hero{
-  background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
-    url('https://i.ibb.co/MkkcY055/image.jpg');
-  background-size: cover;
-  background-position: center;
+.uk-hero .hero-title-main {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, white 0%, #ffd166 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: nowrap;
 }
-.au-hero{
-  background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
-    url('https://i.ibb.co/BpGyRpK/image.jpg');
-  background-size: cover;
-  background-position: center;
+
+.uk-hero .hero-title-sub {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
-.uk-hero{
-  background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
-    url('https://i.ibb.co/gbCySkLS/image.jpg');
-  background-size: cover;
-  background-position: center;
+
+.uk-hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px 0;
+  flex-wrap: wrap;
 }
-.au-hero .stat-number {
+
+.uk-hero .stat-item {
+  text-align: center;
+  padding: 25px 35px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 160px;
+}
+
+.uk-hero .stat-item:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.uk-hero .stat-number {
+  font-size: 3rem;
+  font-weight: 800;
   color: #ffd166;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Australia Button Colors */
-.btn-study-primary.au-primary {
+.uk-hero .stat-label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.uk-hero .hero-cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+/* UK Hero Buttons */
+.btn-study-primary,
+.btn-study-secondary {
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-study-primary {
   background: linear-gradient(135deg, #ffd166 0%, #ffb347 100%);
   color: #1c3269;
+  box-shadow: 0 10px 30px rgba(255, 209, 102, 0.4);
 }
 
-.btn-study-primary.au-primary:hover {
+.btn-study-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.7s;
+}
+
+.btn-study-primary:hover::before {
+  left: 100%;
+}
+
+.btn-study-primary:hover {
+  transform: translateY(-3px);
   box-shadow: 0 15px 40px rgba(255, 209, 102, 0.6);
+  color: #1c3269;
 }
 
-/* Australia Conditional Admission */
-.au-conditional-admission {
+.btn-study-secondary {
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.btn-study-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-3px);
+  color: white;
+}
+
+/* UK Hero Decoration */
+.uk-hero .hero-decoration {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.uk-hero .decoration-item {
+  font-size: 2rem;
+  color: white;
+  animation: float 6s ease-in-out infinite;
+}
+
+.uk-hero .decoration-item:nth-child(1) { animation-delay: 0s; }
+.uk-hero .decoration-item:nth-child(2) { animation-delay: 2s; }
+.uk-hero .decoration-item:nth-child(3) { animation-delay: 4s; }
+
+/* UK Flag */
+.uk-hero .hero-flag {
+  margin-bottom: 30px;
+  animation: pulse 2s infinite;
+}
+
+.uk-hero .flag-img {
+  width: 120px;
+  height: 80px;
+  border-radius: 12px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  border: 4px solid white;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.uk-hero .flag-img:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* UK Conditional Admission */
+.uk-conditional-admission {
   background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
   border-left: 5px solid #1c3269;
+  margin-top: 50px;
 }
 
-.au-conditional-admission i {
+.uk-conditional-admission i {
+  font-size: 3rem;
   color: #1c3269;
+  min-width: 60px;
 }
 
-/* Australia Costs */
-.au-costs .cost-header {
+/* UK Costs */
+.uk-costs .cost-header {
   background: linear-gradient(135deg, #1c3269 0%, #ffd166 100%);
+  color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.au-costs .cost-icon {
+.uk-costs .cost-icon {
+  width: 50px;
+  height: 50px;
   background: #ffd166;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
   color: #1c3269;
 }
 
-.au-costs .range-value {
+.uk-costs .range-value {
   color: #ffd166;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
-.au-costs .detail-price {
+.uk-costs .detail-price {
   color: #ffd166;
-}
-
-.au-costs .total-value {
-  color: #ffd166;
-}
-
-/* Australia CTA */
-.au-cta .cta-card::before {
-  background: linear-gradient(90deg, #ffd166 0%, #1c3269 100%);
-}
-
-/* Australia Work Cards */
-.au-work .work-card.during-studies .work-header {
-  background: linear-gradient(135deg, #1c3269 0%, #4a7fbe 100%);
-}
-
-.au-work .work-card.after-graduation .work-header {
-  background: linear-gradient(135deg, #ffd166 0%, #ffb347 100%);
-}
-
-/* Australia Icons */
-.au-hero .reason-icon,
-.au-hero .program-icon,
-.au-hero .major-icon,
-.au-hero .activity-icon,
-.au-hero .work-icon,
-.au-hero .service-icon,
-.au-hero .message-icon {
-  background: linear-gradient(135deg, #ffd166 0%, #ffb347 100%);
-}
-
-/* Australia Major Card Icons */
-.au-majors .major-card .major-icon {
-  background: linear-gradient(135deg, #1c3269 0%, #4a7fbe 100%);
-}
-/* Spain Specific Styles */
-.es-hero {
-  background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
-    url('https://i.ibb.co/KcSM3dhp/image.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-
-
-.es-hero .stat-number {
-  color: #ffd166;
-}
-
-/* Spain Button Colors */
-.es-hero .btn-study-primary {
-  background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
-  color: #ffffff;
-  box-shadow: 0 10px 30px rgba(170, 21, 27, 0.4);
-}
-
-.es-hero .btn-study-primary:hover {
-  background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
-  box-shadow: 0 15px 40px rgba(170, 21, 27, 0.6);
-  color: #ffffff;
-}
-
-/* Spain Conditional Admission */
-.es-hero .conditional-admission {
-  background: linear-gradient(135deg, #ffeaea 0%, #ffd6d6 100%);
-  border-left: 5px solid #1c3269;
-}
-
-.es-hero .conditional-admission i {
-  color: #1c3269;
-}
-
-/* Spain Costs */
-.es-costs .cost-header {
-  background: linear-gradient(135deg, #1c3269 0%, #ffd166 100%);
-}
-
-.es-costs .cost-icon {
-  background: #ffffff;
-  color: #1c3269;
-}
-
-.es-costs .range-value {
-  color: #1c3269;
   font-weight: 700;
 }
 
-.es-costs .detail-price {
-  color: #1c3269;
-  font-weight: 700;
-}
-
-.es-costs .total-value {
-  color: #1c3269;
+.uk-costs .total-value {
+  color: #ffd166;
   font-weight: 800;
   font-size: 1.4rem;
 }
 
-/* Spain CTA */
-  /* .es-cta {
-    background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
+/* UK CTA */
+.uk-cta .cta-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #ffd166 0%, #1c3269 100%);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* RTL Support */
+[dir="rtl"] .step-item {
+  padding-left: 0;
+  padding-right: 80px;
+}
+
+[dir="rtl"] .step-number {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .steps-timeline::before {
+  left: auto;
+  right: 30px;
+}
+
+[dir="rtl"] .section-title::after {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+/* Responsive adjustments for RTL */
+@media (max-width: 768px) {
+  [dir="rtl"] .step-item {
+    padding-right: 70px;
   }
-
-  .es-cta .cta-card::before {
-    background: linear-gradient(90deg, #ffd166 0%, #1c3269 100%);
-  } */
-
-/* Spain Work Cards */
-/* .es-work .work-card.during-studies .work-header {
-  background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
+  
+  [dir="rtl"] .steps-timeline::before {
+    right: 25px;
+  }
 }
 
-.es-work .work-card.after-graduation .work-header {
-  background: linear-gradient(135deg, #ffd166 0%, #f9a602 100%);
-} */
-
-.es-work .work-card.after-graduation .work-header h4 {
-  color: #1c3269;
+@media (max-width: 576px) {
+  [dir="rtl"] .step-item {
+    padding-right: 60px;
+  }
 }
 
-/* Spain Icons */
-.es-hero .reason-icon,
-.es-hero .program-icon,
-.es-hero .major-icon,
-.es-hero .activity-icon,
-.es-hero .work-icon,
-.es-hero .service-icon,
-.es-hero .message-icon {
-  background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
+/* For UK Hero RTL */
+.uk-hero [dir="rtl"] .hero-flag {
+  direction: ltr; /* Keep flag orientation */
 }
 
-/* Spain Major Card Icons */
-.es-majors .major-card .major-icon {
-  background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
-}
-
-/* Spain Visa Fee Highlight */
-.visa-fee-info {
-  border: 2px solid #ffd166;
-  background: linear-gradient(135deg, #fff9e6 0%, #fff0cc 100%) !important;
-}
-
-.visa-fee-info h6 {
-  color: #1c3269 !important;
-}
-
-/* Spain Tips Cards */
-.es-why .reason-card:hover {
-  border-color: #1c3269;
-}
-
-/* Spain Activity Cards */
-.es-life .activity-card:hover {
-  border-color: #1c3269;
-}
-
-/* Spain Service Cards */
-.es-hero .service-card:hover {
-  border-color: #1c3269;
-}
-
-/* Spain City Cards */
-.es-life .city-card:hover {
-  box-shadow: 0 20px 40px rgba(170, 21, 27, 0.2);
+/* Print Styles */
+@media print {
+  .uk-hero .hero-decoration,
+  .uk-hero .hero-cta,
+  .study-country-cta {
+    display: none;
+  }
+  
+  .uk-hero {
+    min-height: auto;
+    padding: 40px 0;
+  }
+  
+  .uk-hero .hero-title-main {
+    font-size: 2rem;
+    -webkit-text-fill-color: black;
+  }
+  
+  .section-country {
+    padding: 30px 0;
+    page-break-inside: avoid;
+  }
 }

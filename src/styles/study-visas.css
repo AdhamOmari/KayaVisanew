@@ -66,6 +66,7 @@
   font-weight: 800;
   margin-bottom: 15px;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
 }
 
 .hero-title-sub {
@@ -1127,4 +1128,131 @@
 [dir="rtl"] .country-item::before {
   left: auto;
   right: 15px;
+}
+/* Germany Specific Styles */
+.de-hero {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.9) 100%),
+    url('https://images.unsplash.com/photo-1529669851560-7f2c5d6b5b5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.de-hero .hero-title-main {
+  background: linear-gradient(135deg, #ffffff 0%, #ffd166 50%, #d4af37 100%);
+}
+
+.de-hero .stat-number {
+  color: #ffd166;
+}
+
+/* Germany Button Colors */
+.de-hero .btn-study-primary {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+  color: #ffd166;
+  box-shadow: 0 10px 30px rgba(255, 209, 102, 0.3);
+}
+
+.de-hero .btn-study-primary:hover {
+  background: linear-gradient(135deg, #333333 0%, #666666 100%);
+  box-shadow: 0 15px 40px rgba(255, 209, 102, 0.5);
+  color: #ffd166;
+}
+
+/* Germany Conditional Admission */
+.de-hero .conditional-admission {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+  border-left: 5px solid #000000;
+}
+
+.de-hero .conditional-admission i {
+  color: #000000;
+}
+
+/* Germany Costs */
+.de-costs .cost-header {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+}
+
+.de-costs .cost-icon {
+  background: #ffd166;
+  color: #000000;
+}
+
+.de-costs .range-value {
+  color: #000000;
+  font-weight: 700;
+}
+
+.de-costs .detail-price {
+  color: #000000;
+  font-weight: 700;
+}
+
+.de-costs .total-value {
+  color: #000000;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+/* Germany CTA */
+.de-cta {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+}
+
+.de-cta .cta-card::before {
+  background: linear-gradient(90deg, #ffd166 0%, #000000 100%);
+}
+
+/* Germany Work Cards */
+.de-work .work-card.during-studies .work-header {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+}
+
+.de-work .work-card.after-graduation .work-header {
+  background: linear-gradient(135deg, #ffd166 0%, #d4af37 100%);
+}
+
+.de-work .work-card.after-graduation .work-header h4 {
+  color: #000000;
+}
+
+/* Germany Icons */
+.de-hero .reason-icon,
+.de-hero .program-icon,
+.de-hero .major-icon,
+.de-hero .activity-icon,
+.de-hero .work-icon,
+.de-hero .service-icon,
+.de-hero .message-icon {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+}
+
+/* Germany Major Card Icons */
+.de-majors .major-card .major-icon {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+}
+
+/* Germany Blocked Account Highlight */
+.blocked-account-info {
+  border: 2px solid #ffd166;
+  background: linear-gradient(135deg, #fff9e6 0%, #fff0cc 100%) !important;
+}
+
+.blocked-account-info h6 {
+  color: #000000 !important;
+}
+
+/* Germany Tips Cards */
+.de-why .reason-card:hover {
+  border-color: #000000;
+}
+
+/* Germany Activity Cards */
+.de-life .activity-card:hover {
+  border-color: #000000;
+}
+
+/* Germany Service Cards */
+.de-hero .service-card:hover {
+  border-color: #000000;
 }

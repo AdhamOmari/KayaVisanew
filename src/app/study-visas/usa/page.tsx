@@ -34,11 +34,7 @@ export default function StudyUsaPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
-              <img 
-                src="https://flagcdn.com/w320/us.png" 
-                alt="USA Flag"
-                className="flag-img"
-              />
+         
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
@@ -796,7 +792,7 @@ export default function StudyUsaPage() {
                   {isRTL ? "احجز استشارة مجانية" : "Book Free Consultation"}
                 </a>
                 <Link href="/study-visas" className="btn-cta-secondary">
-                  <i className="bi bi-arrow-left me-2"></i>
+                  <i className="bi  me-2"></i>
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
