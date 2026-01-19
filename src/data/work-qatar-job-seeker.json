@@ -8,40 +8,72 @@
       "title": "Overview",
       "description": "The Independent Residence in Qatar represents an ideal opportunity for job seekers and specialized skilled individuals. It grants you a legal residence for two years, renewable, allowing you to explore the Qatari labor market, which is one of the fastest-growing economies in the region, particularly in the energy, logistics, infrastructure, and education sectors."
     },
+    "economy_highlight": {
+      "title": "Qatar's Fast-Growing Economy",
+      "description": "Qatar is one of the fastest-growing economies in the region, especially in the energy, logistics, infrastructure, and education sectors. The Qatari market offers numerous opportunities for skilled professionals and entrepreneurs."
+    },
     "benefits": {
       "title": "Key Benefits",
-      "list": [
+      "items": [
         "Independent residence for two years without need for pre-arranged employment contract",
         "Freedom to search for job or engage in freelance work",
         "Possibility of family reunification after obtaining residency",
         "Multinational work environment with high standard of living",
         "Flexibility to later change legal status to employment residency linked to company or institution",
-        "Freedom to search for job during residency without leaving the country",
-        "Flexibility to switch from independent to company-sponsored residency",
-        "Possibility of establishing freelance work or small business during residency"
+        "Residence duration: Two years renewable, with possibility of later conversion to employment residency linked to formal contract"
       ]
     },
     "target_categories": {
       "title": "Target Categories",
-      "list": [
+      "items": [
         "Recent graduates seeking job opportunities",
         "Specialized skilled professionals (Engineering, Energy, Logistics, Education, Technology)",
         "Freelancers who wish to work independently or establish small businesses"
       ]
     },
-    "requirements": {
-      "title": "Basic Requirements",
-      "list": [
-        "Appropriate academic or professional qualification (university degree or specialized diploma preferred)",
-        "Proven professional experience or proof of financial solvency",
-        "Valid passport for at least 6 months",
-        "Medical certificate confirming applicant is free from infectious diseases"
+    "fees_section": {
+      "title": "Fees",
+      "description": "Varies depending on category and additional services",
+      "amount": "Typically ranges between QAR 600 – 2,000 Qatari Riyals including application, medical test, and ID card (QID)"
+    },
+    "responsible_authorities": {
+      "title": "Responsible Authorities",
+      "items": [
+        "Ministry of Interior (MOI) - for issuing residence",
+        "Ministry of Labour - for regulating labor market and permits"
+      ]
+    },
+    "practical_advantages": {
+      "title": "Practical Advantages",
+      "items": [
+        "Freedom to search for jobs during residency period without needing to leave the country",
+        "Flexibility to transition from independent residence to company-sponsored residence",
+        "Possibility to establish freelance work or small business during residency period"
       ]
     },
     "difference": {
       "title": "Difference from Traditional Work Visa",
       "traditional": "Tied to a sponsor (company/institution)",
       "independent": "Provides full independence to search for job or engage in self-employment without sponsor"
+    },
+    "requirements": {
+      "title": "Basic Requirements",
+      "items": [
+        "Appropriate academic or professional qualification (university degree or specialized diploma preferred)",
+        "Proven professional experience or proof of financial solvency",
+        "Valid passport for at least 6 months",
+        "Medical certificate confirming applicant is free from infectious diseases"
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "items": [
+        "Valid passport",
+        "Recent personal photos according to official specifications",
+        "Translated and certified educational qualifications",
+        "Proof of professional experience or financial income",
+        "Approved medical fitness certificate"
+      ]
     },
     "process": {
       "title": "Application Steps",
@@ -61,17 +93,11 @@
         {
           "title": "Await Approval",
           "description": "Await approval and issuance of independent residency permit"
+        },
+        {
+          "title": "Upon Arrival",
+          "description": "After arriving in Qatar: Conduct medical test and fingerprinting, then issue Qatar ID and stamp residence on passport"
         }
-      ]
-    },
-    "documents": {
-      "title": "Required Documents",
-      "list": [
-        "Valid passport",
-        "Recent personal photos according to official specifications",
-        "Translated and certified educational qualifications",
-        "Proof of professional experience or financial income",
-        "Approved medical fitness certificate"
       ]
     },
     "upon_arrival": {
@@ -83,19 +109,29 @@
         "Possibility to renew residency or adjust legal status later"
       ]
     },
-    "processing_time": "Varies based on application processing",
+    "processingTime": "Varies based on application processing",
     "validity": "Two years, renewable",
     "fees": {
       "title": "Fees and Costs",
-      "amount": "QAR 600 - 2,000 (including application, medical fitness test, and Personal ID card - QID)",
+      "description": "Varies depending on category and additional services",
+      "items": [
+        "Application fee: QAR 600 - 2,000 (depending on category)",
+        "Medical fitness test: Included in application fee",
+        "Qatar ID (QID) card: Included in application fee"
+      ],
       "responsible_authorities": [
         "Ministry of Interior (MOI) - for issuing residence",
         "Ministry of Labour - for regulating labor market and permits"
+      ],
+      "notes": [
+        "Fees may vary based on specific category and additional services",
+        "All fees include application processing, medical test, and ID card",
+        "Renewal fees apply after two years"
       ]
     },
     "tips": {
       "title": "Important Tips",
-      "list": [
+      "items": [
         "Grants two years of legal stability and complete freedom to explore labor market",
         "Practical and flexible alternative to traditional sponsor-tied visa",
         "Qatar's economy is one of fastest-growing in region, especially in energy, logistics, infrastructure, and education",
@@ -103,7 +139,14 @@
         "Can establish freelance work or small business during residency period"
       ]
     },
-    "with_kaya": {
+    "additional_notes": {
+      "title": "Additional Notes",
+      "items": [
+        "The independent residence in Qatar gives you two years of legal stability and complete freedom to explore the job market",
+        "It is a practical and flexible alternative to the traditional sponsor-linked visa"
+      ]
+    },
+    "withKaya": {
       "title": "How Kaya Helps You",
       "services": [
         "Free initial assessment of your eligibility for independent residency",
@@ -112,6 +155,10 @@
         "Step-by-step follow-up of the application until residency is issued",
         "Additional consultations on job opportunities and integration into Qatari labor market"
       ]
+    },
+    "summary": {
+      "title": "Summary",
+      "description": "The independent residence in Qatar gives you two years of legal stability and complete freedom to explore the job market, and is a practical and flexible alternative to the traditional sponsor-linked visa."
     },
     "cta": {
       "title": "Start Your Qatar Career",
@@ -128,40 +175,72 @@
       "title": "لمحة عامة",
       "description": "الإقامة الحرة في قطر تمثل فرصة مثالية للباحثين عن عمل أو أصحاب المهارات المستقلة. فهي تمنحك إقامة قانونية لمدة سنتين قابلة للتجديد، وتتيح لك استكشاف سوق العمل القطري الذي يُعد من أسرع الاقتصادات نموًا في المنطقة، خاصة في قطاعات الطاقة، الخدمات اللوجستية، البنية التحتية، والتعليم."
     },
+    "economy_highlight": {
+      "title": "اقتصاد قطر سريع النمو",
+      "description": "قطر هي واحدة من أسرع الاقتصادات نمواً في المنطقة، خاصة في قطاعات الطاقة، الخدمات اللوجستية، البنية التحتية، والتعليم. السوق القطري يوفر العديد من الفرص للمهنيين أصحاب المهارات وأصحاب المشاريع."
+    },
     "benefits": {
       "title": "المزايا الرئيسية",
-      "list": [
+      "items": [
         "إقامة مستقلة لمدة سنتين دون الحاجة إلى عقد عمل مسبق",
         "حرية البحث عن وظيفة أو ممارسة العمل الحر",
         "إمكانية لمّ الشمل العائلي بعد الحصول على الإقامة",
         "بيئة عمل متعددة الجنسيات مع مستوى معيشي مرتفع",
         "مرونة في تغيير الوضع القانوني لاحقًا إلى إقامة عمل مرتبطة بشركة أو مؤسسة",
-        "حرية البحث عن وظيفة أثناء فترة الإقامة دون الحاجة لمغادرة الدولة",
-        "مرونة في الانتقال من الإقامة الحرة إلى إقامة عمل مرتبطة بشركة",
-        "إمكانية تأسيس عمل حر أو مشروع صغير خلال فترة الإقامة"
+        "مدة الإقامة: سنتان قابلة للتجديد، مع إمكانية التحويل لاحقًا إلى إقامة عمل مرتبطة بعقد رسمي"
       ]
     },
     "target_categories": {
       "title": "الفئات المستهدفة",
-      "list": [
+      "items": [
         "الخريجون الجدد الباحثون عن فرص عمل",
         "أصحاب المهارات المتخصصة (الهندسة، الطاقة، الخدمات اللوجستية، التعليم، التكنولوجيا)",
         "المستقلون (Freelancers) الذين يرغبون بالعمل بشكل حر أو تأسيس مشاريع صغيرة"
       ]
     },
-    "requirements": {
-      "title": "الشروط الأساسية",
-      "list": [
-        "مؤهل علمي أو مهني مناسب (يفضل شهادة جامعية أو دبلوم تخصصي)",
-        "خبرة عملية مثبتة أو إثبات ملاءة مالية",
-        "جواز سفر ساري المفعول لمدة لا تقل عن 6 أشهر",
-        "شهادة صحية تثبت خلو المتقدم من الأمراض المعدية"
+    "fees_section": {
+      "title": "الرسوم",
+      "description": "تختلف حسب الفئة والخدمات الإضافية",
+      "amount": "تتراوح غالبًا بين 600 – 2,000 ريال قطري شاملة الطلب، الفحص الطبي، والبطاقة الشخصية (QID)"
+    },
+    "responsible_authorities": {
+      "title": "الجهات المسؤولة",
+      "items": [
+        "وزارة الداخلية القطرية - لإصدار الإقامة",
+        "وزارة العمل - لتنظيم سوق العمل والتصاريح"
+      ]
+    },
+    "practical_advantages": {
+      "title": "المزايا العملية",
+      "items": [
+        "حرية البحث عن وظيفة أثناء فترة الإقامة دون الحاجة لمغادرة الدولة",
+        "مرونة في الانتقال من الإقامة الحرة إلى إقامة عمل مرتبطة بشركة",
+        "إمكانية تأسيس عمل حر أو مشروع صغير خلال فترة الإقامة"
       ]
     },
     "difference": {
       "title": "الفرق عن تأشيرة العمل التقليدية",
       "traditional": "مرتبطة بكفيل (شركة/مؤسسة)",
       "independent": "تمنحك استقلالية كاملة للبحث عن عمل أو ممارسة العمل الحر دون كفيل"
+    },
+    "requirements": {
+      "title": "الشروط الأساسية",
+      "items": [
+        "مؤهل علمي أو مهني مناسب (يفضل شهادة جامعية أو دبلوم تخصصي)",
+        "خبرة عملية مثبتة أو إثبات ملاءة مالية",
+        "جواز سفر ساري المفعول لمدة لا تقل عن 6 أشهر",
+        "شهادة صحية تثبت خلو المتقدم من الأمراض المعدية"
+      ]
+    },
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "items": [
+        "جواز سفر ساري المفعول",
+        "صور شخصية حديثة وفق المواصفات الرسمية",
+        "شهادات المؤهل العلمي مترجمة ومصدّقة",
+        "إثبات الخبرة العملية أو الدخل المالي",
+        "شهادة صحية معتمدة"
+      ]
     },
     "process": {
       "title": "خطوات التقديم",
@@ -176,22 +255,16 @@
         },
         {
           "title": "دفع الرسوم",
-          "description": "دفع الرسوم المقررة (تتراوح عادة بين 600 - 2,000 ريال قطري حسب الفئة)"
+          "description": "دفع الرسوم المقررة (تتراوح عادة بين 600 – 2,000 ريال قطري حسب الفئة)"
         },
         {
           "title": "انتظار الموافقة",
           "description": "انتظار الموافقة وإصدار تصريح الإقامة الحرة"
+        },
+        {
+          "title": "بعد الوصول",
+          "description": "بعد الوصول إلى قطر: إجراء الفحص الطبي والبصمة، ثم إصدار بطاقة الهوية القطرية وختم الإقامة على جواز السفر"
         }
-      ]
-    },
-    "documents": {
-      "title": "المستندات المطلوبة",
-      "list": [
-        "جواز سفر ساري المفعول",
-        "صور شخصية حديثة وفق المواصفات الرسمية",
-        "شهادات المؤهل العلمي مترجمة ومصدّقة",
-        "إثبات الخبرة العملية أو الدخل المالي",
-        "شهادة صحية معتمدة"
       ]
     },
     "upon_arrival": {
@@ -203,19 +276,29 @@
         "إمكانية تجديد الإقامة أو تعديل الوضع القانوني لاحقًا"
       ]
     },
-    "processing_time": "يختلف حسب معالجة الطلب",
+    "processingTime": "يختلف حسب معالجة الطلب",
     "validity": "سنتان، قابلة للتجديد",
     "fees": {
       "title": "الرسوم والتكاليف",
-      "amount": "600 - 2,000 ريال قطري (وتشمل الطلب، الفحص الطبي، والبطاقة الشخصية - QID)",
+      "description": "تختلف حسب الفئة والخدمات الإضافية",
+      "items": [
+        "رسوم الطلب: 600 - 2,000 ريال قطري (حسب الفئة)",
+        "فحص اللياقة الطبية: مدرج في رسوم الطلب",
+        "بطاقة الهوية القطرية (QID): مدرجة في رسوم الطلب"
+      ],
       "responsible_authorities": [
         "وزارة الداخلية القطرية - لإصدار الإقامة",
         "وزارة العمل - لتنظيم سوق العمل والتصاريح"
+      ],
+      "notes": [
+        "الرسوم قد تختلف حسب الفئة والخدمات الإضافية",
+        "جميع الرسوم تشمل معالجة الطلب والفحص الطبي والبطاقة الشخصية",
+        "تطبق رسوم التجديد بعد سنتين"
       ]
     },
     "tips": {
       "title": "نصائح مهمة",
-      "list": [
+      "items": [
         "تمنح سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل",
         "بديل عملي ومرن عن التأشيرة التقليدية المرتبطة بالكفيل",
         "اقتصاد قطر من أسرع الاقتصادات نمواً في المنطقة، خاصة في الطاقة واللوجستيات والبنية التحتية والتعليم",
@@ -223,7 +306,14 @@
         "يمكن تأسيس عمل حر أو مشروع صغير خلال فترة الإقامة"
       ]
     },
-    "with_kaya": {
+    "additional_notes": {
+      "title": "ملاحظات إضافية",
+      "items": [
+        "الإقامة الحرة في قطر تمنحك سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل",
+        "وهي بديل عملي ومرن عن التأشيرة التقليدية المرتبطة بالكفيل"
+      ]
+    },
+    "withKaya": {
       "title": "ما نقدمه لك في كايا",
       "services": [
         "تقييم أولي مجاني لمدى أهليتك للإقامة الحرة",
@@ -232,6 +322,10 @@
         "متابعة الطلب خطوة بخطوة حتى صدور الإقامة",
         "استشارات إضافية حول فرص العمل والاندماج في سوق العمل القطري"
       ]
+    },
+    "summary": {
+      "title": "الخلاصة",
+      "description": "الإقامة الحرة في قطر تمنحك سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل، وهي بديل عملي ومرن عن التأشيرة التقليدية المرتبطة بالكفيل."
     },
     "cta": {
       "title": "ابدأ مسيرتك في قطر",

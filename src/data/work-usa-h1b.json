@@ -38,9 +38,22 @@
         },
         {
           "method": "Asylum or Humanitarian Protection",
-          "description": "For refugees or asylum seekers"
+          "description": "For refugees or asylum seekers after one year of residence"
         }
-      ]
+      ],
+      "rights_obligations": {
+        "title": "Rights and Obligations",
+        "rights": [
+          "Work in any job (except some sensitive government positions)",
+          "Benefit from education and healthcare services",
+          "Protection under US law"
+        ],
+        "obligations": [
+          "Pay taxes",
+          "Comply with US laws",
+          "Maintain residence within the United States (not to be absent for long periods)"
+        ]
+      }
     },
     "benefits": {
       "title": "Key Advantages",
@@ -92,7 +105,7 @@
         },
         {
           "title": "Employer Files LCA",
-          "description": "Employer files the Labor Condition Application (LCA) with the Department of Labor (DOL). The company commits to paying a salary not less than the prevailing wage for the occupation."
+          "description": "Employer files the Labor Condition Application (LCA) with the Department of Labor (DOL). The company commits to paying a salary not less than the prevailing wage for the occupation. Ensure the job requires specialized qualifications."
         },
         {
           "title": "H-1B Petition to USCIS",
@@ -104,7 +117,7 @@
         },
         {
           "title": "Visa Application at Embassy",
-          "description": "After USCIS approval, the applicant attends an interview to complete the visa process."
+          "description": "After USCIS approval, the applicant attends an interview at the US embassy or consulate to complete the procedures."
         }
       ]
     },
@@ -117,7 +130,7 @@
         "Proof of professional experience (experience letters or previous contracts)",
         "Copy of the DOL's LCA approval",
         "Copy of USCIS approval of Form I-129",
-        "Recent Biometric Photos (clear, 2x2 inches / 51x51 mm, with a white background, face filling 50–69% of the photo height)",
+        "Recent Biometric Photos (clear, 2x2 inches / 51x51 mm, with a white background, face filling 50–69% of the photo height - recent, clear, white background, full face visible)",
         "Visa fee payment receipt"
       ]
     },
@@ -166,6 +179,15 @@
     },
     "processing_time": "Varies by country and lottery selection",
     "validity": "3 years, extendable up to 6 years",
+    "additional_notes": {
+      "title": "Additional Notes",
+      "list": [
+        "Competition is very high: Applications often exceed 200,000 annually against only 85,000 slots",
+        "Selection is random (lottery), but Master's degree holders from US universities have an additional chance",
+        "You cannot apply individually; there must be a US employer sponsor (Sponsor)",
+        "The visa does not grant a direct path to citizenship, but it opens the door to obtaining a Green Card"
+      ]
+    },
     "with_kaya": {
       "title": "What We Offer You at Kaya",
       "description": "The H-1B visa is a rare, quota-limited opportunity requiring a US sponsor and precise procedures with the DOL and USCIS. With Kaya, we ensure a comprehensive file that increases your chances of acceptance and shortens your path to the US job market.",
@@ -225,7 +247,20 @@
           "method": "اللجوء أو الحماية الإنسانية",
           "description": "للاجئين أو طالبي اللجوء بعد مرور عام على إقامتهم"
         }
-      ]
+      ],
+      "rights_obligations": {
+        "title": "الحقوق والواجبات",
+        "rights": [
+          "العمل في أي وظيفة (باستثناء بعض المناصب الحكومية الحساسة)",
+          "الاستفادة من التعليم والخدمات الصحية",
+          "الحماية بموجب القانون الأميركي"
+        ],
+        "obligations": [
+          "دفع الضرائب",
+          "الالتزام بالقوانين الأميركية",
+          "الحفاظ على الإقامة داخل الولايات المتحدة (عدم الغياب لفترات طويلة)"
+        ]
+      }
     },
     "benefits": {
       "title": "المزايا الرئيسية",
@@ -277,7 +312,7 @@
         },
         {
           "title": "تقديم شهادة العمل (LCA)",
-          "description": "الشركة تتعهد بدفع راتب لا يقل عن الحد الأدنى للأجور في التخصص، وتقدم شهادة العمل إلى وزارة العمل الأميركية (DOL)."
+          "description": "الشركة تتعهد بدفع راتب لا يقل عن الحد الأدنى للأجور في التخصص. التأكد من أن الوظيفة تتطلب مؤهلاً متخصصاً. تقديم شهادة العمل إلى وزارة العمل الأميركية (DOL)."
         },
         {
           "title": "تقديم طلب H‑1B إلى USCIS",
@@ -351,6 +386,15 @@
     },
     "processing_time": "يختلف حسب الدولة واختيار اليانصيب",
     "validity": "3 سنوات، قابلة للتمديد حتى 6 سنوات",
+    "additional_notes": {
+      "title": "ملاحظات إضافية",
+      "list": [
+        "المنافسة عالية جداً: الطلبات غالباً ما تتجاوز 200,000 سنوياً مقابل 85,000 مكان فقط",
+        "الاختيار عشوائي (يانصيب)، لكن حاملي الماجستير من الجامعات الأميركية لديهم فرصة إضافية",
+        "لا يمكن التقديم بشكل فردي، بل يجب أن يكون هناك صاحب عمل أميركي راعٍ (Sponsor)",
+        "التأشيرة لا تمنح مساراً مباشراً للجنسية، لكنها تفتح الباب للحصول على Green Card"
+      ]
+    },
     "with_kaya": {
       "title": "ما نقدمه لك في كايا",
       "description": "تأشيرة H‑1B هي فرصة نادرة ومحدودة العدد، تتطلب راعياً أميركياً وإجراءات دقيقة مع وزارة العمل وUSCIS. مع كايا، نضمن لك ملفاً متكاملاً يزيد فرص قبولك ويختصر عليك الطريق نحو سوق العمل الأميركي.",

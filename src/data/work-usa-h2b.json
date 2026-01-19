@@ -8,11 +8,17 @@
       "title": "Overview",
       "description": "The H-2B visa is a temporary, non-immigrant work visa that allows US employers to bring temporary foreign workers for non-agricultural sectors that face a shortage of local labor. Unlike the H-1B visa, which is for highly qualified professionals, the H-2B is targeted at seasonal or temporary jobs in non-agricultural fields."
     },
-    "key_info": {
-      "initial_duration": "Typically up to one year",
-      "extension": "Can be extended in increments, but the maximum limit is 3 years",
-      "requirement": "After the maximum duration, the worker must leave the US for a minimum of 3 months before applying again",
-      "family": "Spouses and unmarried children under 21 can accompany the visa holder via the H-4 visa. Note: H-4 holders are generally not allowed to work unless they obtain a separate work authorization."
+    "duration_validity": {
+      "title": "Duration & Validity",
+      "items": [
+        "Typically granted for up to one year",
+        "Can be extended in stages, but the maximum limit is 3 years",
+        "After the maximum duration, the worker must leave the US for a minimum of 3 months before applying again"
+      ]
+    },
+    "family_accompanying": {
+      "title": "Family & Accompanying Persons",
+      "description": "Spouses and unmarried children under 21 can accompany the visa holder via the H-4 visa. Note: H-4 holders are generally not allowed to work unless they obtain a separate work authorization."
     },
     "benefits": {
       "title": "Key Advantages",
@@ -110,18 +116,24 @@
       ],
       "notes": [
         "In some years, the US government may issue temporary supplementary quotas to cover labor shortages, especially in the tourism and hospitality sectors",
-        "Applications are subject to specific deadlines, and the cap is often reached quickly due to high demand"
+        "Applications are subject to specific deadlines, and the cap is often reached quickly due to high demand",
+        "Some sectors (such as summer or winter tourism) rely heavily on this visa to cover peak seasons"
       ]
     },
     "additional_notes": {
       "title": "Additional Notes",
       "points": [
         "Applications are subject to specific deadlines, and the cap is often reached quickly due to high demand",
+        "Some sectors (such as summer or winter tourism) rely heavily on this visa to cover peak seasons",
         "This visa does not grant a direct path to Permanent Residency (Green Card), but it provides valuable work experience in the US market"
       ]
     },
     "processing_time": "Varies by season and demand",
     "validity": "Up to 1 year initially, extendable up to maximum of 3 years",
+    "summary": {
+      "title": "Summary",
+      "description": "The H-2B visa is an ideal opportunity for temporary foreign workers to enter the US labor market in non-agricultural sectors. However, it is quota-limited (66,000 annually) and requires a US sponsor and precise procedures with the DOL and USCIS."
+    },
     "with_kaya": {
       "title": "What We Offer You at Kaya",
       "services": [
@@ -146,11 +158,17 @@
       "title": "لمحة عامة",
       "description": "تأشيرة H‑2B هي تأشيرة عمل مؤقتة لغير المهاجرين، تتيح لأصحاب العمل الأميركيين استقدام عمالة أجنبية مؤقتة في القطاعات التي تعاني من نقص في اليد العاملة المحلية. على عكس تأشيرة H‑1B المخصصة للمهنيين ذوي المؤهلات العالية، فإن H‑2B تستهدف الوظائف الموسمية أو المؤقتة في مجالات غير زراعية."
     },
-    "key_info": {
-      "initial_duration": "تمنح عادة لمدة حتى سنة واحدة",
-      "extension": "يمكن تمديدها على مراحل، لكن الحد الأقصى هو 3 سنوات",
-      "requirement": "بعد انتهاء المدة القصوى، يجب على العامل مغادرة الولايات المتحدة لفترة لا تقل عن 3 أشهر قبل التقديم مجدداً",
-      "family": "يمكن للزوج/الزوجة والأبناء غير المتزوجين تحت 21 سنة مرافقة حامل التأشيرة عبر تأشيرة H‑4. لكن لا يُسمح لهم بالعمل إلا إذا حصلوا على تصريح عمل منفصل."
+    "duration_validity": {
+      "title": "المدة والصلاحية",
+      "items": [
+        "تمنح عادة لمدة حتى سنة واحدة",
+        "يمكن تمديدها على مراحل، لكن الحد الأقصى هو 3 سنوات",
+        "بعد انتهاء المدة القصوى، يجب على العامل مغادرة الولايات المتحدة لفترة لا تقل عن 3 أشهر قبل التقديم مجدداً"
+      ]
+    },
+    "family_accompanying": {
+      "title": "العائلة والمرافقون",
+      "description": "يمكن للزوج/الزوجة والأبناء غير المتزوجين تحت 21 سنة مرافقة حامل التأشيرة عبر تأشيرة H‑4. لكن لا يُسمح لهم بالعمل إلا إذا حصلوا على تصريح عمل منفصل."
     },
     "benefits": {
       "title": "المزايا الرئيسية",
@@ -248,7 +266,8 @@
       ],
       "notes": [
         "في بعض السنوات، قد تصدر الحكومة الأميركية حصص إضافية مؤقتة لتغطية النقص في العمالة، خاصة في قطاعات السياحة والضيافة",
-        "الطلبات تخضع لمواعيد محددة، وغالباً ما يتم الوصول للحد الأقصى بسرعة بسبب الإقبال الكبير"
+        "الطلبات تخضع لمواعيد محددة، وغالباً ما يتم الوصول للحد الأقصى بسرعة بسبب الإقبال الكبير",
+        "بعض القطاعات (مثل السياحة الصيفية أو الشتوية) تعتمد بشكل كبير على هذه التأشيرة لتغطية مواسم الذروة"
       ]
     },
     "additional_notes": {
@@ -261,6 +280,10 @@
     },
     "processing_time": "يختلف حسب الموسم والطلب",
     "validity": "حتى سنة واحدة في البداية، قابلة للتمديد حتى 3 سنوات كحد أقصى",
+    "summary": {
+      "title": "الخلاصة",
+      "description": "تأشيرة H‑2B هي فرصة مثالية للعمالة الأجنبية المؤقتة لدخول سوق العمل الأميركي في القطاعات غير الزراعية. لكنها محدودة العدد (66,000 سنوياً) وتتطلب راعياً أميركياً وإجراءات دقيقة مع وزارة العمل وUSCIS."
+    },
     "with_kaya": {
       "title": "ما نقدمه لك في كايا",
       "services": [

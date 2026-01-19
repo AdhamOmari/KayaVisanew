@@ -16,6 +16,8 @@
         "Possibility of family reunification after obtaining residency",
         "Global work environment with high standard of living",
         "Flexibility to later change legal status to employment residency linked to company or institution",
+        "Residence duration: Usually two years, renewable according to conditions",
+        "Practical benefits:",
         "Possibility to apply for jobs during residency without leaving the country",
         "Flexibility to switch from independent to company-sponsored residency",
         "Opportunity to experience UAE job market before long-term commitment"
@@ -29,27 +31,57 @@
         "Freelancers who wish to work independently"
       ]
     },
-    "requirements": {
-      "title": "Basic Requirements",
+    "fees_section": {
+      "title": "Fees",
+      "description": "Varies depending on residence duration and additional services",
+      "amount": "Usually ranges between AED 1,200 - 2,000 Emirati Dirhams including application, medical test, and ID"
+    },
+    "responsible_authorities": {
+      "title": "Responsible Authorities",
       "list": [
-        "Obtaining a Freelance Permit from Ministry of Human Resources and Emiratisation (MoHRE)",
-        "Academic or professional qualification not less than Bachelor's degree or specialized diploma",
-        "Proof of financial solvency or appropriate annual income (sometimes requires income of at least AED 360,000 over preceding two years or equivalent)",
-        "Valid passport for at least 6 months",
-        "Medical certificate confirming applicant is free from infectious diseases"
+        "Federal Authority for Identity, Citizenship, Customs & Port Security (ICP)",
+        "General Directorate of Residency and Foreigners Affairs – Dubai (GDRFA)"
+      ]
+    },
+    "practical_advantages": {
+      "title": "Practical Advantages",
+      "list": [
+        "Possibility to apply for jobs during residency period without needing to leave the country",
+        "Flexibility to transition from independent residency to company-sponsored residency",
+        "Opportunity to experience the UAE job market before committing to a long-term contract"
       ]
     },
     "difference": {
       "title": "Difference from Traditional Work Visa",
       "traditional": "Linked to a sponsor (company/institution)",
-      "independent": "Grants full independence to search for job or practice self-employment without sponsor"
+      "independent": "Grants you complete independence to search for work or practice freelance work without a sponsor"
+    },
+    "requirements": {
+      "title": "Basic Requirements",
+      "list": [
+        "Obtaining a freelance work permit from the Ministry of Human Resources and Emiratisation",
+        "Possession of an academic or professional qualification not less than a Bachelor's degree or specialized diploma",
+        "Proof of financial solvency or appropriate annual income (sometimes requires income not less than AED 360,000 over the previous two years or equivalent)",
+        "Valid passport for at least 6 months",
+        "Medical certificate proving the applicant is free from infectious diseases"
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "list": [
+        "Valid passport",
+        "Recent personal photos according to official specifications",
+        "Educational qualification certificates translated and certified",
+        "Proof of professional experience or financial income",
+        "Approved medical fitness certificate"
+      ]
     },
     "process": {
       "title": "Application Steps",
       "steps": [
         {
           "title": "Access Platform",
-          "description": "Access smart services platform or approved 'Amer' centers"
+          "description": "Access the smart services platform or approved 'Amer' centers"
         },
         {
           "title": "Fill Application",
@@ -61,33 +93,28 @@
         },
         {
           "title": "Await Approval",
-          "description": "Await approval and issuance of independent residency permit"
+          "description": "Wait for approval and issuance of independent residence permit"
+        },
+        {
+          "title": "After Arrival",
+          "description": "After arriving in UAE: Conduct medical test and fingerprinting, then issue Emirates ID and stamp residence on passport"
         }
-      ]
-    },
-    "documents": {
-      "title": "Required Documents",
-      "list": [
-        "Valid passport",
-        "Recent personal photos according to official specifications",
-        "Translated and certified educational qualifications",
-        "Proof of professional experience or financial income",
-        "Approved medical fitness certificate"
       ]
     },
     "upon_arrival": {
       "title": "Upon Arrival in the UAE",
       "steps": [
-        "Undergo medical fitness test and biometrics at approved centers",
+        "Conduct medical test and biometrics at approved centers",
         "Receive Emirates ID (Emirates Identity Card)",
         "Have independent residence stamped on passport for two years",
         "Possibility to renew residency or adjust legal status later"
       ]
     },
-    "processing_time": "Varies based on application processing",
+    "processing_time": "Varies according to application processing",
     "validity": "Two years, renewable",
     "fees": {
       "title": "Fees and Costs",
+      "description": "Varies depending on residence duration and additional services",
       "amount": "AED 1,200 - 2,000 (including application, medical fitness test, and Emirates ID)",
       "responsible_authorities": [
         "Federal Authority for Identity, Citizenship, Customs & Port Security (ICP)",
@@ -114,6 +141,10 @@
         "Additional consultations on job opportunities and integration into UAE labor market"
       ]
     },
+    "summary": {
+      "title": "Summary",
+      "description": "Independent Residence in the UAE is an ideal opportunity for job seekers or independent skilled professionals, giving you two years of legal stability and complete freedom to explore the job market before committing to a formal contract."
+    },
     "cta": {
       "title": "Start Your UAE Career",
       "description": "Independent Residence in the UAE is an ideal opportunity for job seekers or specialized skilled professionals. Start your professional journey in the UAE now with Kaya — we prepare everything you need to confidently enter the job market.",
@@ -137,9 +168,7 @@
         "إمكانية لمّ الشمل العائلي بعد الحصول على الإقامة",
         "بيئة عمل عالمية مع مستوى معيشي مرتفع",
         "مرونة في تغيير الوضع القانوني لاحقًا إلى إقامة عمل مرتبطة بشركة أو مؤسسة",
-        "إمكانية التقديم على وظائف أثناء فترة الإقامة دون الحاجة لمغادرة الدولة",
-        "مرونة في الانتقال من الإقامة الحرة إلى إقامة عمل مرتبطة بشركة",
-        "فرصة لتجربة سوق العمل الإماراتي قبل الالتزام بعقد طويل الأمد"
+        "مدة الإقامة: عادةً سنتين، مع إمكانية التجديد وفق الشروط"
       ]
     },
     "target_categories": {
@@ -149,6 +178,31 @@
         "أصحاب المهارات المتخصصة (التكنولوجيا، المالية، الهندسة، التصميم)",
         "المستقلون (Freelancers) الذين يرغبون بالعمل بشكل حر"
       ]
+    },
+    "fees_section": {
+      "title": "الرسوم",
+      "description": "تختلف حسب مدة الإقامة والخدمات الإضافية",
+      "amount": "تتراوح غالبًا بين 1,200 – 2,000 درهم إماراتي شاملة الطلب والفحص الطبي والهوية"
+    },
+    "responsible_authorities": {
+      "title": "الجهات المسؤولة",
+      "list": [
+        "الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ (ICP)",
+        "الإدارة العامة للإقامة وشؤون الأجانب – دبي (GDRFA)"
+      ]
+    },
+    "practical_advantages": {
+      "title": "المزايا العملية",
+      "list": [
+        "إمكانية التقديم على وظائف أثناء فترة الإقامة دون الحاجة لمغادرة الدولة",
+        "مرونة في الانتقال من الإقامة الحرة إلى إقامة عمل مرتبطة بشركة",
+        "فرصة لتجربة سوق العمل الإماراتي قبل الالتزام بعقد طويل الأمد"
+      ]
+    },
+    "difference": {
+      "title": "الفرق عن تأشيرة العمل التقليدية",
+      "traditional": "مرتبطة بكفيل (شركة/مؤسسة)",
+      "independent": "تمنحك استقلالية كاملة للبحث عن عمل أو ممارسة العمل الحر دون كفيل"
     },
     "requirements": {
       "title": "الشروط الأساسية",
@@ -160,10 +214,15 @@
         "شهادة صحية تثبت خلو المتقدم من الأمراض المعدية"
       ]
     },
-    "difference": {
-      "title": "الفرق عن تأشيرة العمل التقليدية",
-      "traditional": "مرتبطة بكفيل (شركة/مؤسسة)",
-      "independent": "تمنحك استقلالية كاملة للبحث عن عمل أو ممارسة العمل الحر دون كفيل"
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "list": [
+        "جواز سفر ساري المفعول",
+        "صور شخصية حديثة وفق المواصفات الرسمية",
+        "شهادات المؤهل العلمي مترجمة ومصدّقة",
+        "إثبات الخبرة العملية أو الدخل المالي",
+        "شهادة صحية معتمدة"
+      ]
     },
     "process": {
       "title": "خطوات التقديم",
@@ -183,17 +242,11 @@
         {
           "title": "انتظار الموافقة",
           "description": "انتظار الموافقة وإصدار تصريح الإقامة الحرة"
+        },
+        {
+          "title": "بعد الوصول",
+          "description": "بعد الوصول إلى الإمارات: إجراء الفحص الطبي والبصمة، ثم إصدار بطاقة الهوية الإماراتية وختم الإقامة على جواز السفر"
         }
-      ]
-    },
-    "documents": {
-      "title": "المستندات المطلوبة",
-      "list": [
-        "جواز سفر ساري المفعول",
-        "صور شخصية حديثة وفق المواصفات الرسمية",
-        "شهادات المؤهل العلمي مترجمة ومصدّقة",
-        "إثبات الخبرة العملية أو الدخل المالي",
-        "شهادة صحية معتمدة"
       ]
     },
     "upon_arrival": {
@@ -209,6 +262,7 @@
     "validity": "سنتان، قابلة للتجديد",
     "fees": {
       "title": "الرسوم والتكاليف",
+      "description": "تختلف حسب مدة الإقامة والخدمات الإضافية",
       "amount": "1,200 - 2,000 درهم إماراتي (شاملة الطلب والفحص الطبي والهوية)",
       "responsible_authorities": [
         "الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ (ICP)",
@@ -234,6 +288,10 @@
         "متابعة الطلب خطوة بخطوة حتى صدور الإقامة",
         "استشارات إضافية حول فرص العمل والاندماج في سوق العمل الإماراتي"
       ]
+    },
+    "summary": {
+      "title": "ملخص",
+      "description": "الإقامة الحرة في الإمارات هي فرصة مثالية للباحثين عن عمل أو أصحاب المهارات المستقلة، تمنحك سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل قبل الارتباط بعقد رسمي."
     },
     "cta": {
       "title": "ابدأ مسيرتك في الإمارات",

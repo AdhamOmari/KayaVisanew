@@ -1,0 +1,798 @@
+/* ===== GERMANY JOB SEEKER VISA PAGE - COMPLETE CSS ===== */
+
+/* Base Styles - Blue Theme */
+.germany-jobseeker-page {
+  background: linear-gradient(135deg, #f0f7ff 0%, #f8fbfe 100%);
+  color: #1c3269;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.germany-jobseeker-hero {
+  position: relative;
+  min-height: 70vh;
+  background: linear-gradient(135deg, #003366 0%, #1a4d8c 50%, #2c6cb0 100%);
+  color: white;
+  padding: 80px 0 40px;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.germany-jobseeker-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.germany-jobseeker-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-badge.germany-jobseeker-badge {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.hero-badge.germany-jobseeker-badge span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.hero-title-main.germany-jobseeker-main {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title-sub.germany-jobseeker-sub {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Decoration items */
+.germany-jobseeker-decoration {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.germany-jobseeker-decoration .decoration-item {
+  font-size: 2.5rem;
+  color: white;
+  transition: transform 0.3s ease;
+  animation: gentleFloat 6s ease-in-out infinite;
+}
+
+.germany-jobseeker-decoration .decoration-item:nth-child(1) { animation-delay: 0s; }
+.germany-jobseeker-decoration .decoration-item:nth-child(2) { animation-delay: 1s; }
+.germany-jobseeker-decoration .decoration-item:nth-child(3) { animation-delay: 2s; }
+.germany-jobseeker-decoration .decoration-item:nth-child(4) { animation-delay: 3s; }
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* SECTION STYLES */
+.germany-jobseeker-section {
+  padding: 80px 0;
+}
+
+.germany-jobseeker-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.germany-jobseeker-section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.germany-jobseeker-section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+  margin: 12px auto;
+  border-radius: 2px;
+}
+
+.germany-jobseeker-section-subtitle {
+  color: #4a7fbe;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 15px auto 0;
+  line-height: 1.6;
+}
+
+/* Job Search Highlight */
+.job-search-highlight {
+  background: linear-gradient(135deg, #e6f0ff 0%, #f0f7ff 100%);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px 0;
+  border-left: 5px solid #2c6cb0;
+}
+
+.job-search-highlight h3 {
+  color: #003366;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.job-search-highlight p {
+  color: #4a7fbe;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Glass Card - Standard */
+.germany-jobseeker-glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(0, 51, 102, 0.1);
+  border: 2px solid rgba(44, 108, 176, 0.1);
+  border-top: 5px solid #2c6cb0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.germany-jobseeker-glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(0, 51, 102, 0.15);
+  border-color: rgba(44, 108, 176, 0.2);
+}
+
+/* Requirements List - Standard */
+.requirements-list.germany-jobseeker-requirements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.requirements-list.germany-jobseeker-requirements li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 12px;
+  border-left: 4px solid #2c6cb0;
+  transition: all 0.3s ease;
+}
+
+.requirements-list.germany-jobseeker-requirements li:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateX(5px);
+}
+
+.requirements-list.germany-jobseeker-requirements li i {
+  margin-top: 3px;
+  flex-shrink: 0;
+  font-size: 1.1rem;
+}
+
+.requirements-list.germany-jobseeker-requirements li span {
+  color: #1c3269;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Icon Colors */
+.info-blue { color: #2c6cb0 !important; }
+.check-green { color: #28a745 !important; }
+.check-cyan { color: #17a2b8 !important; }
+.file-yellow { color: #ffc107 !important; }
+
+/* Process Cards */
+.process-steps.germany-jobseeker-process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.process-card.germany-jobseeker-card {
+  background: white;
+  border-radius: 18px;
+  padding: 35px 30px;
+  border: 2px solid #e6f0ff;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.process-card.germany-jobseeker-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+}
+
+.process-card.germany-jobseeker-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 51, 102, 0.12);
+}
+
+.step-number.germany-jobseeker-step {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #003366 0%, #2c6cb0 100%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-card.germany-jobseeker-card h3 {
+  color: #003366;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.process-card.germany-jobseeker-card p {
+  color: #4a7fbe;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Upon Arrival Section */
+.upon-arrival-section .germany-jobseeker-glass-card {
+  background: linear-gradient(135deg, rgba(240, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
+}
+
+.upon-arrival-section .requirements-list.germany-jobseeker-requirements li {
+  background: rgba(230, 240, 255, 0.9);
+  border-left-color: #17a2b8;
+}
+
+.upon-arrival-section .requirements-list.germany-jobseeker-requirements li:hover {
+  background: rgba(210, 230, 255, 0.95);
+}
+
+/* Tips Section */
+.tips-section .germany-jobseeker-glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(250, 255, 240, 0.95) 100%);
+}
+
+.tips-section .requirements-list.germany-jobseeker-requirements li {
+  background: rgba(255, 255, 240, 0.9);
+  border-left-color: #28a745;
+}
+
+.tips-section .requirements-list.germany-jobseeker-requirements li:hover {
+  background: rgba(255, 255, 230, 0.95);
+}
+
+/* Info Grid */
+.info-grid.germany-jobseeker-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-card.germany-jobseeker-info {
+  background: white;
+  border-radius: 18px;
+  padding: 35px 30px;
+  border: 2px solid #e6f0ff;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card.germany-jobseeker-info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+}
+
+.info-card.germany-jobseeker-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 51, 102, 0.1);
+}
+
+.icon-circle.germany-jobseeker-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #003366 0%, #2c6cb0 100%);
+  color: white;
+  font-size: 1.8rem;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-card.germany-jobseeker-info h4 {
+  color: #003366;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.info-card.germany-jobseeker-info p {
+  color: #4a7fbe;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Services List */
+.services-list.germany-jobseeker-services {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services-list.germany-jobseeker-services li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+  padding: 20px 25px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 15px;
+  border-left: 4px solid #2c6cb0;
+  transition: all 0.3s ease;
+}
+
+.services-list.germany-jobseeker-services li:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateX(8px);
+}
+
+.services-list.germany-jobseeker-services li i {
+  color: #2c6cb0;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.services-list.germany-jobseeker-services li span {
+  color: #1c3269;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* CTA SECTION */
+.germany-jobseeker-cta {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #003366 0%, #1a4d8c 100%);
+  border-radius: 30px 30px 0 0;
+  margin-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.germany-jobseeker-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1520170350707-b2da5996d8f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.professional-journey-banner.germany-jobseeker-banner {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+  padding: 60px 50px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 51, 102, 0.2);
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid rgba(44, 108, 176, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.professional-journey-banner.germany-jobseeker-banner h2 {
+  font-size: 2.3rem;
+  color: #003366;
+  margin-bottom: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.professional-journey-banner.germany-jobseeker-banner p {
+  color: #4a7fbe;
+  font-size: 1.15rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.cta-buttons.germany-jobseeker-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.btn-cta-primary.germany-jobseeker-primary {
+  background: linear-gradient(135deg, #2c6cb0 0%, #4a7fbe 100%);
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 5px 20px rgba(44, 108, 176, 0.3);
+}
+
+.btn-cta-primary.germany-jobseeker-primary:hover {
+  background: linear-gradient(135deg, #1a4d8c 0%, #2c6cb0 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(44, 108, 176, 0.4);
+}
+
+.btn-cta-secondary.germany-jobseeker-secondary {
+  background: transparent;
+  color: #003366;
+  border: 2px solid #003366;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-cta-secondary.germany-jobseeker-secondary:hover {
+  background: #003366;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 51, 102, 0.3);
+}
+
+.cta-features.germany-jobseeker-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  border-top: 2px solid rgba(0, 51, 102, 0.1);
+}
+
+.feature-item.germany-jobseeker-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #003366;
+  font-weight: 600;
+  padding: 12px 25px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.feature-item.germany-jobseeker-feature:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateY(-3px);
+}
+
+.feature-item.germany-jobseeker-feature i {
+  color: #2c6cb0;
+  font-size: 1.1rem;
+}
+
+/* Special Icons for New Sections */
+.fa-tip {
+  color: #ffc107 !important;
+}
+
+.fa-map-signs {
+  color: #17a2b8 !important;
+}
+
+.fa-plane-arrival {
+  color: #2c6cb0 !important;
+}
+
+.fa-lightbulb {
+  color: #ffc107 !important;
+}
+
+.fa-money-bill-wave {
+  color: #28a745 !important;
+}
+
+.fa-file {
+  color: #ffc107 !important;
+}
+
+.fa-check {
+  color: #28a745 !important;
+}
+
+.fa-check-circle {
+  color: #17a2b8 !important;
+}
+
+/* RTL Support */
+[dir="rtl"] .requirements-list.germany-jobseeker-requirements li,
+[dir="rtl"] .services-list.germany-jobseeker-services li {
+  border-left: none;
+  border-right: 4px solid #2c6cb0;
+  text-align: right;
+}
+
+[dir="rtl"] .requirements-list.germany-jobseeker-requirements li:hover,
+[dir="rtl"] .services-list.germany-jobseeker-services li:hover {
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .job-search-highlight,
+[dir="rtl"] .upon-arrival-section .requirements-list.germany-jobseeker-requirements li,
+[dir="rtl"] .tips-section .requirements-list.germany-jobseeker-requirements li {
+  border-left: none;
+  border-right: 5px solid #2c6cb0;
+}
+
+[dir="rtl"] .upon-arrival-section .requirements-list.germany-jobseeker-requirements li {
+  border-right-color: #17a2b8;
+}
+
+[dir="rtl"] .tips-section .requirements-list.germany-jobseeker-requirements li {
+  border-right-color: #28a745;
+}
+
+[dir="rtl"] .me-3 {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+[dir="rtl"] .me-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1200px) {
+  .hero-title-main.germany-jobseeker-main {
+    font-size: 2.5rem;
+  }
+  
+  .germany-jobseeker-section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .germany-jobseeker-hero {
+    min-height: 60vh;
+  }
+  
+  .hero-title-main.germany-jobseeker-main {
+    font-size: 2.2rem;
+  }
+  
+  .hero-title-sub.germany-jobseeker-sub {
+    font-size: 1.1rem;
+  }
+  
+  .germany-jobseeker-section {
+    padding: 60px 0;
+  }
+  
+  .germany-jobseeker-glass-card {
+    padding: 35px 30px;
+  }
+  
+  .job-search-highlight {
+    padding: 25px;
+    margin: 25px 0;
+  }
+  
+  .job-search-highlight h3 {
+    font-size: 1.3rem;
+  }
+  
+  .job-search-highlight p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .germany-jobseeker-hero {
+    min-height: 50vh;
+    padding: 60px 0 30px;
+  }
+  
+  .hero-title-main.germany-jobseeker-main {
+    font-size: 2rem;
+  }
+  
+  .germany-jobseeker-section-title {
+    font-size: 1.8rem;
+  }
+  
+  .cta-buttons.germany-jobseeker-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-cta-primary.germany-jobseeker-primary,
+  .btn-cta-secondary.germany-jobseeker-secondary {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .professional-journey-banner.germany-jobseeker-banner {
+    padding: 40px 30px;
+  }
+  
+  .professional-journey-banner.germany-jobseeker-banner h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-features.germany-jobseeker-features {
+    gap: 20px;
+  }
+  
+  .process-steps.germany-jobseeker-process {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .info-grid.germany-jobseeker-info-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .germany-jobseeker-decoration {
+    gap: 25px;
+    bottom: 15px;
+  }
+  
+  .germany-jobseeker-decoration .decoration-item {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .germany-jobseeker-hero {
+    min-height: 45vh;
+    padding: 50px 0 20px;
+  }
+  
+  .hero-title-main.germany-jobseeker-main {
+    font-size: 1.8rem;
+  }
+  
+  .hero-badge.germany-jobseeker-badge {
+    padding: 8px 20px;
+  }
+  
+  .germany-jobseeker-section {
+    padding: 40px 0;
+  }
+  
+  .germany-jobseeker-section-title {
+    font-size: 1.6rem;
+  }
+  
+  .germany-jobseeker-glass-card {
+    padding: 25px 20px;
+  }
+  
+  .requirements-list.germany-jobseeker-requirements li,
+  .services-list.germany-jobseeker-services li {
+    padding: 15px 18px;
+  }
+  
+  .cta-features.germany-jobseeker-features {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .feature-item.germany-jobseeker-feature {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .germany-jobseeker-decoration {
+    display: none;
+  }
+  
+  .process-card.germany-jobseeker-card,
+  .info-card.germany-jobseeker-info {
+    padding: 25px 20px;
+  }
+  
+  .step-number.germany-jobseeker-step {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .icon-circle.germany-jobseeker-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+}

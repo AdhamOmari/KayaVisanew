@@ -1,0 +1,683 @@
+/* ===== GERMANY POINTS VISA PAGE - BLUE THEME (Matching EU Blue Card) ===== */
+
+/* Base Styles - Same as EU Blue Card */
+.germany-points-page {
+  background: linear-gradient(135deg, #f0f7ff 0%, #f8fbfe 100%);
+  color: #1c3269;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* HERO SECTION - Same Blue Theme */
+.germany-hero {
+  position: relative;
+  min-height: 70vh;
+  background: linear-gradient(135deg, #003366 0%, #1a4d8c 50%, #2c6cb0 100%);
+  color: white;
+  padding: 80px 0 40px;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.germany-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.germany-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-badge.germany-badge {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.hero-badge.germany-badge span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.hero-title-main.germany-main {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title-sub.germany-sub {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Decoration items positioned at bottom */
+.germany-decoration {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.germany-decoration .decoration-item {
+  font-size: 2.5rem;
+  color: white;
+  transition: transform 0.3s ease;
+  animation: gentleFloat 6s ease-in-out infinite;
+}
+
+.germany-decoration .decoration-item:nth-child(1) { animation-delay: 0s; }
+.germany-decoration .decoration-item:nth-child(2) { animation-delay: 1s; }
+.germany-decoration .decoration-item:nth-child(3) { animation-delay: 2s; }
+.germany-decoration .decoration-item:nth-child(4) { animation-delay: 3s; }
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* SECTION STYLES - Same Blue Theme */
+.germany-section {
+  padding: 80px 0;
+}
+
+.germany-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.germany-section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.germany-section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+  margin: 12px auto;
+  border-radius: 2px;
+}
+
+.germany-section-subtitle {
+  color: #4a7fbe;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 15px auto 0;
+  line-height: 1.6;
+}
+
+/* Glass Card - Same Blue Theme */
+.germany-glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(0, 51, 102, 0.1);
+  border: 2px solid rgba(44, 108, 176, 0.1);
+  border-top: 5px solid #2c6cb0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.germany-glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(0, 51, 102, 0.15);
+  border-color: rgba(44, 108, 176, 0.2);
+}
+
+/* Requirements List - Same Blue Theme */
+.requirements-list.germany-requirements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.requirements-list.germany-requirements li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 12px;
+  border-left: 4px solid #2c6cb0;
+  transition: all 0.3s ease;
+}
+
+.requirements-list.germany-requirements li:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateX(5px);
+}
+
+.requirements-list.germany-requirements li i {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.requirements-list.germany-requirements li span {
+  color: #1c3269;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Same Icon Colors as EU Blue Card */
+.info-blue { color: #2c6cb0 !important; }
+.check-green { color: #28a745 !important; }
+.check-cyan { color: #17a2b8 !important; }
+.file-yellow { color: #ffc107 !important; }
+
+/* Process Cards - Same Blue Theme */
+.process-steps.germany-process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.process-card.germany-card {
+  background: white;
+  border-radius: 18px;
+  padding: 35px 30px;
+  border: 2px solid #e6f0ff;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.process-card.germany-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+}
+
+.process-card.germany-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 51, 102, 0.12);
+}
+
+.step-number.germany-step {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #003366 0%, #2c6cb0 100%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-card.germany-card h3 {
+  color: #003366;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.process-card.germany-card p {
+  color: #4a7fbe;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Points System Highlight - Blue Theme */
+.points-highlight {
+  background: linear-gradient(135deg, #e6f0ff 0%, #f0f7ff 100%);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px 0;
+  border-left: 5px solid #2c6cb0;
+}
+
+.points-highlight h3 {
+  color: #003366;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.points-highlight p {
+  color: #4a7fbe;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Info Grid - Same Blue Theme */
+.info-grid.germany-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-card.germany-info {
+  background: white;
+  border-radius: 18px;
+  padding: 35px 30px;
+  border: 2px solid #e6f0ff;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card.germany-info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+}
+
+.info-card.germany-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 51, 102, 0.1);
+}
+
+.icon-circle.germany-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #003366 0%, #2c6cb0 100%);
+  color: white;
+  font-size: 1.8rem;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-card.germany-info h4 {
+  color: #003366;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.info-card.germany-info p {
+  color: #4a7fbe;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Services List - Same Blue Theme */
+.services-list.germany-services {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services-list.germany-services li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+  padding: 20px 25px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 15px;
+  border-left: 4px solid #2c6cb0;
+  transition: all 0.3s ease;
+}
+
+.services-list.germany-services li:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateX(8px);
+}
+
+.services-list.germany-services li i {
+  color: #2c6cb0;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.services-list.germany-services li span {
+  color: #1c3269;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* CTA SECTION - Same Blue Theme */
+.germany-cta {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #003366 0%, #1a4d8c 100%);
+  border-radius: 30px 30px 0 0;
+  margin-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.germany-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.professional-journey-banner.germany-banner {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+  padding: 60px 50px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 51, 102, 0.2);
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid rgba(44, 108, 176, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.professional-journey-banner.germany-banner h2 {
+  font-size: 2.3rem;
+  color: #003366;
+  margin-bottom: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #003366 0%, #2c6cb0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.professional-journey-banner.germany-banner p {
+  color: #4a7fbe;
+  font-size: 1.15rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.cta-buttons.germany-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.btn-cta-primary.germany-primary {
+  background: linear-gradient(135deg, #2c6cb0 0%, #4a7fbe 100%);
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 5px 20px rgba(44, 108, 176, 0.3);
+}
+
+.btn-cta-primary.germany-primary:hover {
+  background: linear-gradient(135deg, #1a4d8c 0%, #2c6cb0 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(44, 108, 176, 0.4);
+}
+
+.btn-cta-secondary.germany-secondary {
+  background: transparent;
+  color: #003366;
+  border: 2px solid #003366;
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-cta-secondary.germany-secondary:hover {
+  background: #003366;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 51, 102, 0.3);
+}
+
+.cta-features.germany-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  border-top: 2px solid rgba(0, 51, 102, 0.1);
+}
+
+.feature-item.germany-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #003366;
+  font-weight: 600;
+  padding: 12px 25px;
+  background: rgba(240, 247, 255, 0.8);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.feature-item.germany-feature:hover {
+  background: rgba(220, 237, 255, 0.9);
+  transform: translateY(-3px);
+}
+
+.feature-item.germany-feature i {
+  color: #2c6cb0;
+  font-size: 1.1rem;
+}
+
+/* RTL Support - Same as EU Blue Card */
+[dir="rtl"] .requirements-list.germany-requirements li,
+[dir="rtl"] .services-list.germany-services li {
+  border-left: none;
+  border-right: 4px solid #2c6cb0;
+  text-align: right;
+}
+
+[dir="rtl"] .requirements-list.germany-requirements li:hover,
+[dir="rtl"] .services-list.germany-services li:hover {
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .points-highlight {
+  border-left: none;
+  border-right: 5px solid #2c6cb0;
+}
+
+[dir="rtl"] .me-3 {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+[dir="rtl"] .me-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+/* RESPONSIVE STYLES - Same as EU Blue Card */
+@media (max-width: 1200px) {
+  .hero-title-main.germany-main {
+    font-size: 2.5rem;
+  }
+  
+  .germany-section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .germany-hero {
+    min-height: 60vh;
+  }
+  
+  .hero-title-main.germany-main {
+    font-size: 2.2rem;
+  }
+  
+  .hero-title-sub.germany-sub {
+    font-size: 1.1rem;
+  }
+  
+  .germany-section {
+    padding: 60px 0;
+  }
+  
+  .germany-glass-card {
+    padding: 35px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .germany-hero {
+    min-height: 50vh;
+    padding: 60px 0 30px;
+  }
+  
+  .hero-title-main.germany-main {
+    font-size: 2rem;
+  }
+  
+  .germany-section-title {
+    font-size: 1.8rem;
+  }
+  
+  .cta-buttons.germany-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-cta-primary.germany-primary,
+  .btn-cta-secondary.germany-secondary {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .professional-journey-banner.germany-banner {
+    padding: 40px 30px;
+  }
+  
+  .cta-features.germany-features {
+    gap: 20px;
+  }
+  
+  .process-steps.germany-process {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .info-grid.germany-info-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .germany-decoration {
+    gap: 25px;
+    bottom: 15px;
+  }
+  
+  .germany-decoration .decoration-item {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .germany-hero {
+    min-height: 45vh;
+    padding: 50px 0 20px;
+  }
+  
+  .hero-title-main.germany-main {
+    font-size: 1.8rem;
+  }
+  
+  .hero-badge.germany-badge {
+    padding: 8px 20px;
+  }
+  
+  .germany-section {
+    padding: 40px 0;
+  }
+  
+  .germany-section-title {
+    font-size: 1.6rem;
+  }
+  
+  .germany-glass-card {
+    padding: 25px 20px;
+  }
+  
+  .requirements-list.germany-requirements li,
+  .services-list.germany-services li {
+    padding: 15px 18px;
+  }
+  
+  .cta-features.germany-features {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .germany-decoration {
+    display: none;
+  }
+}

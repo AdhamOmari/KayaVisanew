@@ -11,6 +11,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 import Navbar from '@/components/Navbar'
 import GlobalLoading from '@/components/GlobalLoading'
 import { useState, useEffect } from 'react'
+import { initSlowScroll } from '../lib/slowScrollInit';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,6 +28,11 @@ export default function RootLayout({
     const timer = setTimeout(() => {
       setLoading(false);
     }, 1500); // Show loading for 1.5 seconds
+
+    // Initialize slow scroll for anchor links
+    if (typeof window !== 'undefined') {
+      initSlowScroll();
+    }
 
     return () => clearTimeout(timer)
   }, [])

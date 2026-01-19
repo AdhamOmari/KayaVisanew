@@ -74,8 +74,8 @@ export default function Navbar() {
         title: 'تأشيرات العمل',
         types: [
           { name: 'البطاقة الزرقاء EU', slug: 'eu-blue-card' },
-          { name: 'تأشيرة العمل أمريكا H1B', slug: 'h1b' },
-          { name: 'تأشيرة العمل أمريكا H2B', slug: 'h2b' },
+          { name: 'تأشيرة العمل أمريكا H1B', slug: 'usa-h1b' },
+          { name: 'تأشيرة العمل أمريكا H2B', slug: 'usa-h2b' },
           { name: 'تأشيرة النقاط ألمانيا', slug: 'germany-points' },
           { name: 'تأشيرة البحث عن عمل ألمانيا', slug: 'germany-job-seeker' },
           { name: 'تأشيرة البحث عن عمل الإمارات', slug: 'uae-job-seeker' },
@@ -174,8 +174,8 @@ export default function Navbar() {
         title: 'Work Visas',
         types: [
           { name: 'EU Blue Card', slug: 'eu-blue-card' },
-          { name: 'USA Work Visa H1B', slug: 'h1b' },
-          { name: 'USA Work Visa H2B', slug: 'h2b' },
+          { name: 'USA Work Visa H1B', slug: 'usa-h1b' },
+          { name: 'USA Work Visa H2B', slug: 'usa-h2b' },
           { name: 'Germany Points Visa', slug: 'germany-points' },
           { name: 'Germany Job Seeker Visa', slug: 'germany-job-seeker' },
           { name: 'UAE Job Seeker Visa', slug: 'uae-job-seeker' },

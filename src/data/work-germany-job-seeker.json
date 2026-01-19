@@ -10,7 +10,7 @@
     },
     "benefits": {
       "title": "Key Benefits",
-      "list": [
+      "items": [
         "Legal entry into Germany without the need for a prior job contract",
         "6-month stay convertible to a work permit upon signing a contract",
         "Possibility of family reunification after securing a job contract and converting the visa",
@@ -21,7 +21,7 @@
     },
     "requirements": {
       "title": "Basic Requirements",
-      "list": [
+      "items": [
         "Recognized university degree in Germany or a specialized professional certificate",
         "Minimum of two years of professional experience in your field of specialization",
         "Proof of financial capacity to cover living costs throughout stay (Blocked Account or guarantee)",
@@ -56,7 +56,7 @@
     },
     "documents": {
       "title": "Required Documents",
-      "list": [
+      "items": [
         "Valid Passport",
         "Recent Biometric Photos (35x45 mm, light background, face clearly visible at 70-80% of photo area, no shadows or Photoshop modification)",
         "Professional CV compliant with German standards",
@@ -76,44 +76,37 @@
         "Upon signing employment contract, directly convert visa into Work Residence Permit or EU Blue Card"
       ]
     },
-    "processing_time": "Usually 4 to 12 weeks",
-    "validity": "Up to 6 months",
+    "processingTime": {
+      "title": "Processing Time",
+      "duration": "Usually 4 to 12 weeks"
+    },
+    "validity": {
+      "title": "Visa Validity",
+      "duration": "Up to 6 months"
+    },
     "fees": {
       "title": "Official Fees and Costs",
-      "visa_fee": "€75 (paid when submitting application at German embassy or consulate)",
-      "financial_proof": [
-        "Must demonstrate sufficient funds to cover living expenses for entire stay (up to 6 months)",
-        "Blocked Account: approximately €1,027 per month (around €6,162 for 6 months)",
-        "Alternative: Formal guarantee (Verpflichtungserklärung) from resident in Germany who commits to covering costs"
-      ],
-      "health_insurance": [
-        "Travel health insurance covering entire stay is mandatory",
-        "Costs vary by provider: €40-€80 per month"
-      ],
-      "additional": [
-        "Translation and certification of documents: €200-€500",
-        "Passport photos meeting German specifications: €10-€20",
-        "Postal service or appointment fees (vary by country of application)"
-      ],
-      "notes": [
-        "Fees are non-refundable even if application is rejected",
-        "Costs may vary by country of submission or bank used for Blocked Account",
-        "Upon securing job contract and converting visa, additional fees may apply (approx. €100-€140)"
+      "items": [
+        "Visa fee: €75 (paid when submitting application at German embassy or consulate)",
+        "Financial proof: Must demonstrate sufficient funds to cover living expenses for entire stay (up to 6 months). Blocked Account: approx €1,027 per month (≈€6,162 total). Alternative: Formal guarantee (Verpflichtungserklärung) from a resident in Germany",
+        "Health insurance: Mandatory travel health insurance covering entire stay, approx €40-80/month",
+        "Additional costs: Translation & certification €200-500, Passport photos €10-20, Postal or appointment fees vary",
+        "Notes: Fees non-refundable, costs may vary by country, additional fees may apply after converting visa to work permit or EU Blue Card (€100-140)"
       ]
     },
     "tips": {
       "title": "Important Tips",
-      "list": [
+      "items": [
         "Register your address within two weeks of arrival",
         "You can work experimentally up to 10 hours per week during job search",
-        "Direct conversion to work permit or EU Blue Card possible after securing job",
+        "Direct conversion to work permit or EU Blue Card possible after securing a job",
         "German language skills are highly beneficial for job search success",
         "Network actively with companies and attend job fairs"
       ]
     },
-    "with_kaya": {
+    "withKaya": {
       "title": "How Kaya Helps You",
-      "services": [
+      "items": [
         "Free initial assessment of your eligibility for the visa",
         "Preparation of your professional file and CV according to German standards",
         "Legal and certified preparation and translation of documents",
@@ -138,7 +131,7 @@
     },
     "benefits": {
       "title": "المزايا الرئيسية",
-      "list": [
+      "items": [
         "دخول قانوني إلى ألمانيا دون الحاجة إلى عقد عمل مسبق",
         "إقامة لمدة 6 أشهر قابلة للتحويل إلى إقامة عمل بمجرد توقيع عقد",
         "إمكانية لمّ الشمل العائلي بعد الحصول على عقد عمل وتحويل التأشيرة",
@@ -149,7 +142,7 @@
     },
     "requirements": {
       "title": "الشروط الأساسية",
-      "list": [
+      "items": [
         "مؤهل جامعي معترف به في ألمانيا أو شهادة مهنية متخصصة",
         "خبرة عملية لا تقل عن سنتين في مجال التخصص",
         "إثبات القدرة المالية لتغطية تكاليف المعيشة طوال فترة الإقامة (حساب بنكي مغلق أو كفالة)",
@@ -184,9 +177,9 @@
     },
     "documents": {
       "title": "المستندات المطلوبة",
-      "list": [
+      "items": [
         "جواز سفر ساري المفعول",
-        "صور شخصية حديثة وفق المواصفات البيومترية (35×45 ملم، خلفية فاتحة، الوجه ظاهر بوضوح بنسبة 70-80% من مساحة الصورة، بدون ظلال أو تعديل بالفوتوشوب)",
+        "صور شخصية حديثة وفق المواصفات البيومترية (35×45 ملم، خلفية فاتحة، الوجه ظاهر بوضوح بنسبة 70–80% من مساحة الصورة، بدون ظلال أو تعديل بالفوتوشوب)",
         "سيرة ذاتية احترافية وفق المعايير الألمانية",
         "رسالة دافع (Motivation Letter) توضّح خطة البحث عن عمل",
         "شهادات المؤهل العلمي مترجمة ومصدّقة",
@@ -204,34 +197,27 @@
         "عند توقيع عقد عمل، يمكنك تحويل التأشيرة مباشرة إلى إقامة عمل أو EU Blue Card"
       ]
     },
-    "processing_time": "عادة من 4 إلى 12 أسبوعاً",
-    "validity": "حتى 6 أشهر",
+    "processingTime": {
+      "title": "مدة المعالجة",
+      "duration": "عادة من 4 إلى 12 أسبوعاً"
+    },
+    "validity": {
+      "title": "مدة التأشيرة",
+      "duration": "حتى 6 أشهر"
+    },
     "fees": {
       "title": "الرسوم والتكاليف الرسمية",
-      "visa_fee": "75 يورو (تُدفع عند تقديم الطلب في السفارة أو القنصلية الألمانية)",
-      "financial_proof": [
-        "يجب أن يثبت المتقدّم امتلاكه ما يكفي لتغطية تكاليف المعيشة طوال فترة الإقامة (حتى 6 أشهر)",
-        "حساب بنكي مغلق (Blocked Account): حوالي 1,027 يورو شهرياً (أي حوالي 6,162 يورو لمدة 6 أشهر)",
-        "بديل: تقديم كفالة رسمية (Verpflichtungserklärung) من شخص مقيم في ألمانيا يتعهد بتغطية التكاليف"
-      ],
-      "health_insurance": [
-        "مطلوب تأمين صحي للسفر يغطي كامل فترة الإقامة",
-        "التكلفة تختلف حسب الشركة: 40-80 يورو شهرياً"
-      ],
-      "additional": [
-        "ترجمة وتصديق الشهادات: 200-500 يورو",
-        "صور شخصية وفق المواصفات الألمانية: 10-20 يورو",
-        "رسوم خدمات البريد أو المواعيد (تختلف حسب بلد التقديم)"
-      ],
-      "notes": [
-        "الرسوم غير قابلة للاسترداد حتى في حال رفض الطلب",
-        "التكاليف قد تختلف قليلاً حسب بلد التقديم أو البنك الذي يفتح الحساب المغلق",
-        "بعد الحصول على عقد عمل وتحويل التأشيرة، قد تُفرض رسوم إضافية (بين 100-140 يورو تقريباً)"
+      "items": [
+        "رسوم التأشيرة: 75 يورو (تُدفع عند تقديم الطلب في السفارة أو القنصلية الألمانية)",
+        "إثبات القدرة المالية: يجب أن يثبت المتقدّم امتلاكه ما يكفي لتغطية تكاليف المعيشة طوال فترة الإقامة (حتى 6 أشهر). غالباً يُطلب حساب بنكي مغلق (≈1,027 يورو شهرياً، أي حوالي 6,162 يورو لمدة 6 أشهر). بديل: تقديم كفالة رسمية (Verpflichtungserklärung) من شخص مقيم في ألمانيا",
+        "التأمين الصحي: مطلوب تأمين صحي للسفر يغطي كامل فترة الإقامة، التكلفة عادة 40-80 يورو شهرياً",
+        "تكاليف إضافية: ترجمة وتصديق الشهادات 200-500 يورو، صور شخصية 10-20 يورو، رسوم البريد أو المواعيد تختلف حسب البلد",
+        "ملاحظات: الرسوم غير قابلة للاسترداد، التكاليف قد تختلف حسب البلد، بعد الحصول على عقد عمل وتحويل التأشيرة قد تُفرض رسوم إضافية 100-140 يورو تقريباً"
       ]
     },
     "tips": {
       "title": "نصائح مهمة",
-      "list": [
+      "items": [
         "سجّل عنوانك خلال أسبوعين من الوصول",
         "يمكنك العمل بشكل تجريبي حتى 10 ساعات أسبوعياً خلال البحث عن عمل",
         "التحويل المباشر إلى إقامة عمل أو EU Blue Card ممكن بعد الحصول على وظيفة",
@@ -239,9 +225,9 @@
         "تواصل بنشاط مع الشركات واحضر معارض التوظيف"
       ]
     },
-    "with_kaya": {
+    "withKaya": {
       "title": "ما نقدمه لك في كايا",
-      "services": [
+      "items": [
         "تقييم أولي مجاني لمدى أهليتك للتأشيرة",
         "إعداد ملفك المهني والسيرة الذاتية وفق المعايير الألمانية",
         "تجهيز وترجمة المستندات بشكل قانوني معتمد",

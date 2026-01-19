@@ -1,206 +1,14 @@
 {
-  "en": {
-    "title": "European Blue Card Visa (EU Blue Card)",
-    "hero": {
-      "subtitle": "Your Strategic Path to Work and Live in the Heart of Europe"
-    },
-    "overview": {
-      "title": "Overview",
-      "description": "The European Blue Card is one of the most important work and residence permits in Europe, specifically designed for highly qualified professionals from outside the European Union. This card grants you the opportunity to legally work and reside in an EU member state, with the possibility of moving to other countries later, making it a strategic choice for building a professional future and a stable life in the heart of Europe."
-    },
-    "importance": {
-      "title": "The Importance of the Blue Card",
-      "points": [
-        "Addressing the European Labor Market Shortage: The card targets experts in demanded fields such as IT, engineering, medicine, and science.",
-        "Freedom of Movement: After a certain period of residence, you can move to another European country without needing to start the procedures from scratch.",
-        "Family Stability: It allows for simplified and fast family reunification.",
-        "Permanent Residency Opportunity: In some countries like Germany, you can apply for permanent residency after only 21–27 months if you are proficient in the German language."
-      ]
-    },
-    "countries": {
-      "title": "Main Countries Offering the Blue Card",
-      "list": [
-        {
-          "name": "Germany",
-          "flag": "🇩🇪",
-          "description": "The most sought-after destination due to its strong economy and diverse job opportunities."
-        },
-        {
-          "name": "France",
-          "flag": "🇫🇷",
-          "description": "An environment rich with opportunities in research, engineering, and science."
-        },
-        {
-          "name": "Spain",
-          "flag": "🇪🇸",
-          "description": "An attractive option for professionals seeking a blend of professional life and vibrant culture."
-        }
-      ],
-      "note": "Almost all EU member states offer the Blue Card, with the exception of Denmark and Ireland."
-    },
-    "requirements": {
-      "title": "Essential Requirements",
-      "list": [
-        "A recognized university degree or equivalent professional qualification",
-        "A job contract or job offer from an employer in the European Union",
-        "A minimum annual salary threshold (varies by country, e.g., in Germany: €48,300 in 2025, or €43,759 for shortage occupations)",
-        "Health insurance covering the period of residence",
-        "Proof that the job is related to your academic or professional specialization"
-      ]
-    },
-    "process": {
-      "title": "Application Process",
-      "steps": [
-        {
-          "title": "Secure a Job Contract",
-          "description": "Obtain a job contract from a European company or institution"
-        },
-        {
-          "title": "Qualification Recognition",
-          "description": "Ensure your qualifications are recognized (e.g., via the ZAB office in Germany)"
-        },
-        {
-          "title": "Prepare Documents",
-          "description": "Gather passport, photos, job contract, academic qualification, proof of salary, and health insurance"
-        },
-        {
-          "title": "Submit Application",
-          "description": "Submit the application at the embassy, consulate, or immigration office in the target country"
-        },
-        {
-          "title": "Wait for Decision",
-          "description": "Processing may take from 8 weeks to several months, depending on the country"
-        },
-        {
-          "title": "Receive Blue Card",
-          "description": "Upon approval, receive the Blue Card and start working"
-        }
-      ]
-    },
-    "documents": {
-      "title": "Required Documents",
-      "categories": [
-        {
-          "category": "Personal Documents",
-          "items": [
-            "Valid passport (preferably covering the entire expected duration of stay)",
-            "Recent personal photos (compliant with European biometric standards: 35x45 mm, light background)"
-          ]
-        },
-        {
-          "category": "Academic and Professional Documents",
-          "items": [
-            "Recognized university degree or equivalent (must be officially recognized in the target country)",
-            "Qualification recognition certificate (e.g., via ZAB or ANABIN database in Germany)",
-            "Experience letters or previous employment contracts to prove professional experience"
-          ]
-        },
-        {
-          "category": "Employment Contract and Income Proof",
-          "items": [
-            "Signed employment contract or official job offer from an EU employer",
-            "Proof of annual salary (must exceed the minimum required in the country, e.g., €48,300 in Germany for 2025, or €43,759 for shortage occupations)"
-          ]
-        },
-        {
-          "category": "Financial and Insurance Documents",
-          "items": [
-            "Proof of financial capacity (usually through the employment contract itself, but a bank statement may be requested)",
-            "Comprehensive health insurance covering the residence period from the first day"
-          ]
-        },
-        {
-          "category": "Additional Documents",
-          "items": [
-            "Completed and signed National Visa (D-Visa) application form",
-            "Updated CV according to European standards (Europass CV)",
-            "Motivation Letter explaining your choice of the country and job",
-            "Marriage or birth certificates (if applying with family)"
-          ]
-        }
-      ],
-      "notes": [
-        "All non-English or non-German documents must be certified translation and legalized",
-        "Some European countries may request additional specific documents (such as a clear criminal record or a health certificate)",
-        "Originals and copies must be submitted together upon application",
-        "Documents vary slightly from one country to another, but Germany, France, and Spain have similar essential requirements"
-      ]
-    },
-    "processing_time": "8 weeks to several months",
-    "validity": "4 years or contract duration plus 3 months",
-    "fees": {
-      "title": "Fees and Costs",
-      "official": [
-        {
-          "item": "National Visa (D-Visa) application fee",
-          "amount": "€75"
-        },
-        {
-          "item": "Residence permit fee (upon arrival)",
-          "amount": "€100 – €140"
-        },
-        {
-          "item": "Card renewal fee",
-          "amount": "€80 – €100"
-        }
-      ],
-      "additional": [
-        {
-          "item": "Health Insurance",
-          "amount": "€100 – €400 per month"
-        },
-        {
-          "item": "Translation and Legalization of Certificates",
-          "amount": "€200 – €600"
-        },
-        {
-          "item": "Personal Photos and Additional Services",
-          "amount": "€20 – €50"
-        }
-      ],
-      "notes": [
-        "Fees are non-refundable even if the application is rejected",
-        "Costs vary slightly from one European country to another, but Germany is considered the most common destination",
-        "The card is usually granted for 4 years or the contract duration plus 3 months, with the possibility of extension"
-      ]
-    },
-    "benefits": {
-      "title": "Key Advantages",
-      "list": [
-        "Legal residence and work in the EU",
-        "Family reunification",
-        "Possibility of moving to other European countries after a period of residence",
-        "Application for permanent residency after a specified period"
-      ]
-    },
-    "with_kaya": {
-      "title": "What We Offer You at Kaya",
-      "services": [
-        "Specialized consultations to determine your eligibility for the Blue Card",
-        "Preparation of your academic and professional file according to the requirements of each country",
-        "Step-by-step follow-up of the application until visa issuance",
-        "Additional support for your family in case of family reunification application",
-        "Guidance after arrival regarding registration and integration into the labor market"
-      ]
-    },
-    "cta": {
-      "title": "Start Your European Journey Today",
-      "description": "With Kaya, the European Blue Card is not just a work permit; it is the beginning of a new life in the heart of Europe.",
-      "button_text": "Contact Us"
-    }
-  },
   "ar": {
     "title": "تأشيرة البطاقة الزرقاء الأوروبية (EU Blue Card)",
-    "hero": {
-      "subtitle": "طريقك الاستراتيجي للعمل والإقامة في قلب أوروبا"
-    },
+    "subtitle": "ابدأ حياتك المهنية في أوروبا مع البطاقة الزرقاء",
     "overview": {
       "title": "لمحة عامة",
       "description": "تُعد البطاقة الزرقاء الأوروبية من أهم تصاريح العمل والإقامة في أوروبا، وهي مخصصة للمهنيين ذوي الكفاءات العالية من خارج الاتحاد الأوروبي. تمنحك هذه البطاقة فرصة العمل والإقامة بشكل قانوني في إحدى دول الاتحاد الأوروبي، مع إمكانية الانتقال لاحقاً إلى دول أخرى، مما يجعلها خياراً استراتيجياً لبناء مستقبل مهني وحياة مستقرة في قلب أوروبا."
     },
     "importance": {
       "title": "أهمية البطاقة الزرقاء",
-      "points": [
+      "items": [
         "سد النقص في سوق العمل الأوروبي: البطاقة تستهدف أصحاب الخبرات في المجالات المطلوبة مثل تكنولوجيا المعلومات، الهندسة، الطب، والعلوم.",
         "حرية التنقل: بعد فترة إقامة معينة، يمكنك الانتقال إلى دولة أوروبية أخرى دون الحاجة إلى بدء الإجراءات من الصفر.",
         "الاستقرار العائلي: تتيح لك لمّ شمل العائلة بشكل مبسط وسريع.",
@@ -209,174 +17,219 @@
     },
     "countries": {
       "title": "الدول الرئيسية التي تقدم البطاقة الزرقاء",
-      "list": [
-        {
-          "name": "ألمانيا",
-          "flag": "🇩🇪",
-          "description": "الوجهة الأكثر طلباً بفضل قوة اقتصادها وتنوع فرص العمل."
-        },
-        {
-          "name": "فرنسا",
-          "flag": "🇫🇷",
-          "description": "بيئة غنية بالفرص في مجالات البحث، الهندسة، والعلوم."
-        },
-        {
-          "name": "إسبانيا",
-          "flag": "🇪🇸",
-          "description": "خيار جذاب للمهنيين الباحثين عن مزيج بين الحياة المهنية والثقافة الحيوية."
-        }
+      "items": [
+        "ألمانيا 🇩🇪: الوجهة الأكثر طلباً بفضل قوة اقتصادها وتنوع فرص العمل.",
+        "فرنسا 🇫🇷: بيئة غنية بالفرص في مجالات البحث، الهندسة، والعلوم.",
+        "إسبانيا 🇪🇸: خيار جذاب للمهنيين الباحثين عن مزيج بين الحياة المهنية والثقافة الحيوية."
       ],
       "note": "جميع دول الاتحاد الأوروبي تقريباً تقدم البطاقة الزرقاء باستثناء الدنمارك وأيرلندا."
     },
     "requirements": {
-      "title": "الشروط الأساسية",
-      "list": [
-        "مؤهل جامعي معترف به أو شهادة مهنية معادلة",
-        "عقد عمل أو عرض عمل من صاحب عمل في الاتحاد الأوروبي",
-        "حد أدنى للراتب السنوي (يختلف حسب الدولة، مثلاً في ألمانيا 48,300 يورو في 2025، أو 43,759 يورو للمهن المطلوبة)",
-        "تأمين صحي يغطي فترة الإقامة",
-        "إثبات أن الوظيفة مرتبطة بتخصصك الأكاديمي أو المهني"
+      "title": "الشروط الأساسية للحصول على البطاقة الزرقاء",
+      "items": [
+        "مؤهل جامعي معترف به أو شهادة مهنية معادلة.",
+        "عقد عمل أو عرض عمل من صاحب عمل في الاتحاد الأوروبي.",
+        "حد أدنى للراتب السنوي (يختلف حسب الدولة، مثل 48,300 يورو في ألمانيا 2025، أو 43,759 يورو للمهن المطلوبة).",
+        "تأمين صحي يغطي فترة الإقامة.",
+        "إثبات أن الوظيفة مرتبطة بالتخصص الأكاديمي أو المهني."
       ]
     },
     "process": {
-      "title": "خطوات التقديم",
+      "title": "خطوات الحصول على البطاقة الزرقاء",
       "steps": [
-        {
-          "title": "الحصول على عقد عمل",
-          "description": "الحصول على عقد عمل من شركة أو مؤسسة أوروبية"
-        },
-        {
-          "title": "معادلة الشهادة",
-          "description": "التأكد من معادلة شهادتك (في ألمانيا مثلاً عبر مكتب ZAB)"
-        },
-        {
-          "title": "تجهيز المستندات",
-          "description": "تجميع جواز سفر، صور شخصية، عقد العمل، المؤهل العلمي، إثبات الراتب، تأمين صحي"
-        },
-        {
-          "title": "تقديم الطلب",
-          "description": "تقديم الطلب لدى السفارة أو القنصلية أو مكتب الهجرة في الدولة المستهدفة"
-        },
-        {
-          "title": "انتظار القرار",
-          "description": "قد يستغرق من 8 أسابيع حتى عدة أشهر حسب الدولة"
-        },
-        {
-          "title": "استلام البطاقة",
-          "description": "عند الموافقة، استلام البطاقة الزرقاء والبدء بالعمل"
-        }
+        {"title": "الحصول على عقد عمل", "description": "الحصول على عقد عمل من شركة أو مؤسسة أوروبية."},
+        {"title": "معادلة الشهادة", "description": "التأكد من معادلة شهادتك، مثل مكتب ZAB في ألمانيا."},
+        {"title": "تجهيز المستندات", "description": "تجميع جواز السفر، الصور الشخصية، عقد العمل، المؤهل العلمي، إثبات الراتب، والتأمين الصحي."},
+        {"title": "تقديم الطلب", "description": "تقديم الطلب لدى السفارة أو القنصلية أو مكتب الهجرة في الدولة المستهدفة."},
+        {"title": "انتظار القرار", "description": "قد يستغرق من 8 أسابيع حتى عدة أشهر حسب الدولة."},
+        {"title": "استلام البطاقة", "description": "عند الموافقة، يتم استلام البطاقة الزرقاء والبدء بالعمل."}
       ]
     },
     "documents": {
       "title": "المستندات المطلوبة",
-      "categories": [
-        {
-          "category": "المستندات الشخصية",
-          "items": [
-            "جواز سفر ساري المفعول (يُفضّل أن تكون صلاحيته تغطي كامل مدة الإقامة المتوقعة)",
-            "صور شخصية حديثة (وفق المواصفات البيومترية الأوروبية: 35×45 ملم، خلفية فاتحة)"
-          ]
-        },
-        {
-          "category": "المستندات الأكاديمية والمهنية",
-          "items": [
-            "شهادة جامعية معترف بها أو ما يعادلها (يجب أن تكون معادلة في الدولة المستهدفة)",
-            "شهادة معادلة المؤهل (في ألمانيا مثلاً عبر مكتب ZAB أو قاعدة بيانات ANABIN)",
-            "خطابات خبرة أو عقود عمل سابقة لإثبات الخبرة العملية"
-          ]
-        },
-        {
-          "category": "عقد العمل وإثبات الدخل",
-          "items": [
-            "عقد عمل موقع أو عرض عمل رسمي من صاحب عمل في الاتحاد الأوروبي",
-            "إثبات الراتب السنوي (يجب أن يتجاوز الحد الأدنى المطلوب في الدولة، مثل 48,300 يورو في ألمانيا لعام 2025، أو 43,759 يورو للمهن المطلوبة)"
-          ]
-        },
-        {
-          "category": "المستندات المالية والتأمين",
-          "items": [
-            "إثبات القدرة المالية (عادةً عبر عقد العمل نفسه، لكن قد يُطلب كشف حساب بنكي)",
-            "تأمين صحي شامل يغطي فترة الإقامة منذ اليوم الأول"
-          ]
-        },
-        {
-          "category": "مستندات إضافية",
-          "items": [
-            "استمارة طلب التأشيرة الوطنية (D‑Visa) معبأة وموقعة",
-            "سيرة ذاتية محدثة وفق المعايير الأوروبية (Europass CV)",
-            "رسالة دافع (Motivation Letter) توضّح سبب اختيارك للدولة والوظيفة",
-            "شهادات الزواج أو الميلاد (في حال التقديم مع العائلة)"
-          ]
-        }
+      "items": [
+        "جواز سفر ساري المفعول يغطي كامل مدة الإقامة المتوقعة.",
+        "صور شخصية حديثة وفق المواصفات البيومترية الأوروبية (35×45 ملم، خلفية فاتحة).",
+        "شهادة جامعية معترف بها أو ما يعادلها ومعادلة في الدولة المستهدفة.",
+        "شهادة معادلة المؤهل (مثل ZAB أو ANABIN في ألمانيا).",
+        "خطابات خبرة أو عقود عمل سابقة لإثبات الخبرة المهنية.",
+        "عقد عمل موقع أو عرض عمل رسمي من صاحب عمل أوروبي.",
+        "إثبات الراتب السنوي بما يتجاوز الحد الأدنى المطلوب.",
+        "إثبات القدرة المالية (عقد العمل أو كشف حساب بنكي عند الطلب).",
+        "تأمين صحي شامل منذ اليوم الأول للإقامة.",
+        "استمارة طلب التأشيرة الوطنية (D-Visa) معبأة وموقعة.",
+        "سيرة ذاتية وفق المعايير الأوروبية (Europass CV).",
+        "رسالة دافع توضح سبب اختيار الدولة والوظيفة.",
+        "شهادات الزواج أو الميلاد في حال التقديم مع العائلة."
       ],
       "notes": [
-        "جميع الوثائق غير الإنجليزية أو الألمانية يجب أن تكون مترجمة ترجمة محلفة ومصدّقة",
-        "قد تطلب بعض الدول الأوروبية مستندات إضافية خاصة بها (مثل سجل جنائي نظيف أو شهادة خلو من الأمراض)",
-        "يجب تقديم الأصول والنسخ معاً عند التقديم",
-        "المستندات تختلف قليلاً من دولة لأخرى، لكن ألمانيا وفرنسا وإسبانيا تتشابه في المتطلبات الأساسية"
+        "جميع الوثائق غير الإنجليزية أو الألمانية يجب أن تكون مترجمة ترجمة محلفة ومصدّقة.",
+        "قد تطلب بعض الدول الأوروبية مستندات إضافية مثل سجل جنائي نظيف أو شهادة طبية.",
+        "يجب تقديم الأصول والنسخ معاً عند التقديم.",
+        "المستندات تختلف قليلاً بين الدول، لكن ألمانيا وفرنسا وإسبانيا متشابهة في المتطلبات الأساسية."
       ]
     },
-    "processing_time": "من 8 أسابيع إلى عدة أشهر",
-    "validity": "4 سنوات أو مدة العقد + 3 أشهر",
+    "processingTime": {
+      "title": "المدة الزمنية",
+      "duration": "عادةً تُمنح البطاقة لمدة 4 سنوات أو مدة العقد + 3 أشهر. يمكن أن تستغرق إجراءات الحصول عليها وقتاً طويلاً، أحياناً عدة أشهر، خاصة في الدول ذات الطلب المرتفع مثل ألمانيا."
+    },
+    "validity": {
+      "title": "مدة البطاقة",
+      "duration": "تُمنح عادة لمدة 4 سنوات أو مدة العقد + 3 أشهر، مع إمكانية التمديد."
+    },
     "fees": {
-      "title": "الرسوم والتكاليف",
-      "official": [
-        {
-          "item": "رسوم طلب التأشيرة الوطنية (D‑Visa)",
-          "amount": "75 يورو"
-        },
-        {
-          "item": "رسوم تصريح الإقامة (عند الوصول)",
-          "amount": "100 – 140 يورو"
-        },
-        {
-          "item": "رسوم تجديد البطاقة",
-          "amount": "80 – 100 يورو"
-        }
-      ],
-      "additional": [
-        {
-          "item": "التأمين الصحي",
-          "amount": "100 – 400 يورو شهرياً"
-        },
-        {
-          "item": "ترجمة وتصديق الشهادات",
-          "amount": "200 – 600 يورو"
-        },
-        {
-          "item": "صور شخصية ورسوم خدمات إضافية",
-          "amount": "20 – 50 يورو"
-        }
+      "title": "الرسوم والتكاليف بالتفصيل",
+      "items": [
+        "رسوم طلب التأشيرة الوطنية (D-Visa): حوالي 75 يورو (تُدفع في السفارة/القنصلية).",
+        "رسوم تصريح الإقامة عند الوصول: بين 100 – 140 يورو لإصدار البطاقة الزرقاء.",
+        "رسوم تجديد البطاقة: بين 80 – 100 يورو حسب مدة التمديد.",
+        "التأمين الصحي: إلزامي طوال فترة الإقامة، وتكلفته تختلف حسب نوع التأمين (عام أو خاص)، عادة بين 100 – 400 يورو شهرياً.",
+        "إثبات القدرة المالية: يجب أن يثبت المتقدّم دخلاً سنوياً لا يقل عن 48,300 يورو (2025) أو 43,759 يورو للمهن المطلوبة.",
+        "ترجمة وتصديق الشهادات: قد تتراوح بين 200 – 600 يورو حسب عدد الوثائق.",
+        "صور شخصية ورسوم خدمات إضافية: حوالي 20 – 50 يورو."
       ],
       "notes": [
-        "الرسوم غير قابلة للاسترداد حتى في حال رفض الطلب",
-        "تختلف التكاليف قليلاً من دولة أوروبية إلى أخرى، لكن ألمانيا تُعتبر الوجهة الأكثر شيوعاً",
-        "البطاقة عادة تُمنح لمدة 4 سنوات أو مدة العقد + 3 أشهر، مع إمكانية التمديد"
+        "الرسوم غير قابلة للاسترداد حتى في حال رفض الطلب.",
+        "تختلف التكاليف قليلاً من دولة أوروبية إلى أخرى، لكن ألمانيا تُعد الوجهة الأكثر شيوعاً.",
+        "يمكن تمديد البطاقة بعد انتهاء مدتها وفق الشروط المعتمدة."
       ]
     },
     "benefits": {
       "title": "المزايا الرئيسية",
-      "list": [
-        "إقامة وعمل قانوني في الاتحاد الأوروبي",
-        "لمّ الشمل العائلي",
-        "إمكانية الانتقال إلى دول أوروبية أخرى بعد فترة إقامة",
-        "التقدّم للإقامة الدائمة بعد فترة محددة"
+      "items": [
+        "إقامة وعمل قانوني في الاتحاد الأوروبي.",
+        "لمّ الشمل العائلي.",
+        "إمكانية الانتقال إلى دول أوروبية أخرى بعد فترة إقامة.",
+        "التقدّم للإقامة الدائمة بعد فترة محددة."
       ]
     },
-    "with_kaya": {
+    "withKaya": {
       "title": "ما نقدمه لك في كايا",
       "services": [
-        "استشارات متخصصة لتحديد أهليتك للبطاقة الزرقاء",
-        "تجهيز ملفك الأكاديمي والمهني وفق متطلبات كل دولة",
-        "متابعة الطلب خطوة بخطوة حتى صدور التأشيرة",
-        "دعم إضافي لعائلتك في حال التقديم على لمّ الشمل",
-        "إرشادك بعد الوصول حول التسجيل والاندماج في سوق العمل"
+        "استشارات متخصصة لتحديد أهليتك للبطاقة الزرقاء.",
+        "تجهيز ملفك الأكاديمي والمهني وفق متطلبات كل دولة.",
+        "متابعة الطلب خطوة بخطوة حتى صدور التأشيرة.",
+        "دعم إضافي لعائلتك في حال التقديم على لمّ الشمل.",
+        "إرشادك بعد الوصول حول التسجيل والاندماج في سوق العمل.",
+        "مع كايا، البطاقة الزرقاء الأوروبية ليست مجرد تصريح عمل، بل بداية حياة جديدة في قلب أوروبا."
+      ]
+    }
+  },
+
+  "en": {
+    "title": "EU Blue Card Visa",
+    "subtitle": "Start your professional journey in Europe with the Blue Card",
+    "overview": {
+      "title": "Overview",
+      "description": "The EU Blue Card is one of the most important work and residence permits in Europe, designed for highly skilled professionals from outside the EU. It allows you to legally work and live in an EU country, with the possibility to move to other countries later, making it a strategic choice for building a professional career and a stable life in the heart of Europe."
+    },
+    "importance": {
+      "title": "Importance of the Blue Card",
+      "items": [
+        "Addressing labor shortages in Europe: targets professionals in in-demand fields such as IT, engineering, medicine, and sciences.",
+        "Freedom of movement: after a certain period, you can move to another EU country without restarting the application process.",
+        "Family stability: simplifies and speeds up family reunification procedures.",
+        "Permanent residence opportunity: in countries like Germany, you can apply after 21–27 months if you are proficient in the language."
       ]
     },
-    "cta": {
-      "title": "ابدأ رحلتك الأوروبية اليوم",
-      "description": "مع كايا، البطاقة الزرقاء الأوروبية ليست مجرد تصريح عمل، بل هي بداية حياة جديدة في قلب أوروبا.",
-      "button_text": "تواصل معنا"
+    "countries": {
+      "title": "Main Countries Offering the Blue Card",
+      "items": [
+        "Germany 🇩🇪: the most demanded destination due to a strong economy and diverse job opportunities.",
+        "France 🇫🇷: rich environment for research, engineering, and sciences.",
+        "Spain 🇪🇸: attractive option for professionals seeking a mix of work and cultural life."
+      ],
+      "note": "Almost all EU countries offer the Blue Card except Denmark and Ireland."
+    },
+    "requirements": {
+      "title": "Basic Requirements for the Blue Card",
+      "items": [
+        "Recognized university degree or equivalent professional qualification.",
+        "Employment contract or job offer from an EU employer.",
+        "Minimum annual salary (varies by country, e.g., €48,300 in Germany 2025, or €43,759 for shortage occupations).",
+        "Health insurance covering the entire stay.",
+        "Proof that the job is related to your academic or professional specialty."
+      ]
+    },
+    "process": {
+      "title": "Application Steps",
+      "steps": [
+        {"title": "Obtain a job offer", "description": "Get an employment contract from a European company or institution."},
+        {"title": "Degree recognition", "description": "Ensure your degree is recognized, e.g., ZAB office in Germany."},
+        {"title": "Prepare documents", "description": "Collect passport, photos, employment contract, academic certificate, salary proof, and health insurance."},
+        {"title": "Submit application", "description": "Submit the application at the embassy, consulate, or immigration office of the target country."},
+        {"title": "Wait for decision", "description": "Processing may take 8 weeks to several months depending on the country."},
+        {"title": "Receive the Blue Card", "description": "Upon approval, receive the Blue Card and start working."}
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "items": [
+        "Valid passport covering the expected duration of stay.",
+        "Recent passport photos according to EU biometric standards (35×45 mm, light background).",
+        "Recognized university degree or equivalent, recognized in the target country.",
+        "Degree recognition certificate (e.g., ZAB or ANABIN in Germany).",
+        "Experience letters or previous employment contracts.",
+        "Signed employment contract or official job offer from an EU employer.",
+        "Proof of annual salary above the minimum required.",
+        "Proof of financial capacity (employment contract or bank statement if requested).",
+        "Comprehensive health insurance from day one of stay.",
+        "Completed and signed national visa (D-Visa) application form.",
+        "Curriculum Vitae (Europass CV).",
+        "Motivation letter explaining why you chose the country and the job.",
+        "Marriage or birth certificates if applying with family."
+      ],
+      "notes": [
+        "All documents not in English or German must be certified translated.",
+        "Some EU countries may require additional documents like a clean criminal record or health certificate.",
+        "Provide originals and copies when submitting.",
+        "Requirements vary slightly by country, but Germany, France, and Spain are similar in basic requirements."
+      ]
+    },
+    "processingTime": {
+      "title": "Processing Time",
+      "duration": "The card is usually granted for 4 years or contract duration + 3 months. Processing can take several months, especially in high-demand countries like Germany."
+    },
+    "validity": {
+      "title": "Card Validity",
+      "duration": "Usually granted for 4 years or contract duration + 3 months, with possibility of extension."
+    },
+    "fees": {
+      "title": "Fees & Costs",
+      "items": [
+        "National visa (D-Visa) fee: approx. €75 (paid at the embassy/consulate).",
+        "Residence permit upon arrival: €100–140 for issuing the Blue Card.",
+        "Card renewal fee: €80–100 depending on extension duration.",
+        "Health insurance: mandatory for the entire stay, cost varies between €100–400/month.",
+        "Proof of financial capacity: must show annual income not less than €48,300 (2025) or €43,759 for shortage occupations.",
+        "Document translation and certification: €200–600 depending on the number of documents.",
+        "Passport photos and additional service fees: approx. €20–50."
+      ],
+      "notes": [
+        "Fees are non-refundable even if the application is rejected.",
+        "Costs vary slightly by country, Germany is the most common destination.",
+        "The card can be extended after expiry according to approved conditions."
+      ]
+    },
+    "benefits": {
+      "title": "Main Benefits",
+      "items": [
+        "Legal residence and work in the EU.",
+        "Family reunification.",
+        "Freedom to move between EU countries after a stay period.",
+        "Possibility to apply for permanent residence after a certain time."
+      ]
+    },
+    "withKaya": {
+      "title": "What We Offer at Kaya",
+      "services": [
+        "Specialized consultation to determine your eligibility for the Blue Card.",
+        "Preparing your academic and professional file according to each country's requirements.",
+        "Step-by-step follow-up until the visa is issued.",
+        "Additional support for your family in case of family reunification application.",
+        "Guidance after arrival on registration and integration into the labor market.",
+        "With Kaya, the EU Blue Card is not just a work permit but the start of a new life in the heart of Europe."
+      ]
     }
   }
 }
