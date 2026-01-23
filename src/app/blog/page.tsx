@@ -48,7 +48,7 @@ export default function BlogPage() {
 
     // Filter by category
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(post => 
+      filtered = filtered.filter(post =>
         post.category[locale].toLowerCase() === selectedCategory.toLowerCase()
       );
     }
@@ -77,7 +77,7 @@ export default function BlogPage() {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return locale === 'ar' 
+    return locale === 'ar'
       ? date.toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' })
       : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
@@ -85,7 +85,7 @@ export default function BlogPage() {
   if (loading) {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ fontSize: '1.5rem', color: '#7C3AED' }}>
+        <div style={{ fontSize: '1.5rem', color: '#e2bc42' }}>
           {locale === 'ar' ? 'جاري التحميل...' : 'Loading...'}
         </div>
       </div>
@@ -99,7 +99,7 @@ export default function BlogPage() {
         <div className="container">
           <h1>{locale === 'ar' ? 'المدونة' : 'Blog'}</h1>
           <p>
-            {locale === 'ar' 
+            {locale === 'ar'
               ? 'دليلك الموثوق لعالم السفر والتأشيرات - نصائح وأخبار ومقالات شاملة'
               : 'Your Trusted Guide to the World of Travel and Visas - Tips, News, and Comprehensive Articles'}
           </p>
@@ -118,7 +118,7 @@ export default function BlogPage() {
             />
             <i className="fas fa-search"></i>
           </div>
-          
+
           <div className="category-filters">
             {categories.map(cat => (
               <button
@@ -146,9 +146,9 @@ export default function BlogPage() {
                   <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
                     <div className="featured-card">
                       <div className="card-image">
-                        <Image 
-                          src={post.image} 
-                          alt={post.title[locale]} 
+                        <Image
+                          src={post.image}
+                          alt={post.title[locale]}
                           width={400}
                           height={250}
                           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -194,7 +194,7 @@ export default function BlogPage() {
               </span>
             )}
           </h2>
-          
+
           {regularPosts.length === 0 ? (
             <div style={{ textAlign: 'center', padding: '60px 20px', color: '#6B7280' }}>
               <i className="fas fa-search" style={{ fontSize: '4rem', marginBottom: '20px', opacity: 0.3 }}></i>
@@ -208,9 +208,9 @@ export default function BlogPage() {
                 <Link key={post.id} href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
                   <div className="post-card">
                     <div className="card-image">
-                      <Image 
-                        src={post.image} 
-                        alt={post.title[locale]} 
+                      <Image
+                        src={post.image}
+                        alt={post.title[locale]}
                         width={400}
                         height={250}
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
