@@ -26,28 +26,32 @@ export default function Navbar() {
         title: 'تأشيرات أمريكا',
         categories: [
           { name: 'تأشيرة السياحة والزيارة B1-B2', slug: 'b1-b2' },
-          { name: 'تأشيرات الدراسة F-M', slug: 'f-m', sub: [
-            { name: 'الدراسة الأكاديمية F1-F2', slug: 'f1-f2' },
-            { name: 'الدراسة المهنية M1-M2', slug: 'm1-m2' },
-          ]},
-          { name: 'تأشيرات التبادل الثقافي J1-J2', slug: 'j1-j2', sub: [
-            { name: 'سفر العمل الصيفي', slug: 'summer-work' },
-            { name: 'مستشار المخيم', slug: 'camp-counselor' },
-            { name: 'المتدرّبون المهنيون', slug: 'trainees' },
-            { name: 'المتدربون', slug: 'interns' },
-            { name: 'طالب الكلية والجامعة', slug: 'college-student' },
-            { name: 'طالب في المرحلة الثانوية', slug: 'secondary-student' },
-            { name: 'عالم بحث', slug: 'research-scholar' },
-            { name: 'أستاذ جامعي', slug: 'professor' },
-            { name: 'المعلّمون', slug: 'teachers' },
-            { name: 'الأطباء', slug: 'physicians' },
-            { name: 'المساعدون المنزليون', slug: 'au-pair' },
-            { name: 'الزائرون الدوليون', slug: 'international-visitors' },
-            { name: 'الزائرون الحكوميون', slug: 'government-visitors' },
-            { name: 'المتخصصون', slug: 'specialists' },
-            { name: 'الباحثون لفترة قصيرة', slug: 'short-term-scholars' },
-            { name: 'مبادرات العلوم والتكنولوجيا', slug: 'science-tech' },
-          ]},
+          {
+            name: 'تأشيرات الدراسة F-M', slug: 'f-m', sub: [
+              { name: 'الدراسة الأكاديمية F1-F2', slug: 'f1-f2' },
+              { name: 'الدراسة المهنية M1-M2', slug: 'm1-m2' },
+            ]
+          },
+          {
+            name: 'تأشيرات التبادل الثقافي J1-J2', slug: 'j1-j2', sub: [
+              { name: 'سفر العمل الصيفي', slug: 'summer-work' },
+              { name: 'مستشار المخيم', slug: 'camp-counselor' },
+              { name: 'المتدرّبون المهنيون', slug: 'trainees' },
+              { name: 'المتدربون', slug: 'interns' },
+              { name: 'طالب الكلية والجامعة', slug: 'college-student' },
+              { name: 'طالب في المرحلة الثانوية', slug: 'secondary-student' },
+              { name: 'عالم بحث', slug: 'research-scholar' },
+              { name: 'أستاذ جامعي', slug: 'professor' },
+              { name: 'المعلّمون', slug: 'teachers' },
+              { name: 'الأطباء', slug: 'physicians' },
+              { name: 'المساعدون المنزليون', slug: 'au-pair' },
+              { name: 'الزائرون الدوليون', slug: 'international-visitors' },
+              { name: 'الزائرون الحكوميون', slug: 'government-visitors' },
+              { name: 'المتخصصون', slug: 'specialists' },
+              { name: 'الباحثون لفترة قصيرة', slug: 'short-term-scholars' },
+              { name: 'مبادرات العلوم والتكنولوجيا', slug: 'science-tech' },
+            ]
+          },
         ],
       },
       schengenVisas: {
@@ -126,28 +130,32 @@ export default function Navbar() {
         title: 'USA Visas',
         categories: [
           { name: 'Tourism & Visit B1-B2', slug: 'b1-b2' },
-          { name: 'Study Visas F-M', slug: 'f-m', sub: [
-            { name: 'Academic Study F1-F2', slug: 'f1-f2' },
-            { name: 'Vocational Study M1-M2', slug: 'm1-m2' },
-          ]},
-          { name: 'Cultural Exchange J1-J2', slug: 'j1-j2', sub: [
-            { name: 'Summer Work Travel', slug: 'summer-work' },
-            { name: 'Camp Counselor', slug: 'camp-counselor' },
-            { name: 'Trainees', slug: 'trainees' },
-            { name: 'Interns', slug: 'interns' },
-            { name: 'College/University Student', slug: 'college-student' },
-            { name: 'Secondary School Student', slug: 'secondary-student' },
-            { name: 'Research Scholar', slug: 'research-scholar' },
-            { name: 'Professor', slug: 'professor' },
-            { name: 'Teachers', slug: 'teachers' },
-            { name: 'Physicians', slug: 'physicians' },
-            { name: 'Au Pair', slug: 'au-pair' },
-            { name: 'International Visitors', slug: 'international-visitors' },
-            { name: 'Government Visitors', slug: 'government-visitors' },
-            { name: 'Specialists', slug: 'specialists' },
-            { name: 'Short-term Scholars', slug: 'short-term-scholars' },
-            { name: 'Science & Technology Initiatives', slug: 'science-tech' },
-          ]},
+          {
+            name: 'Study Visas F-M', slug: 'f-m', sub: [
+              { name: 'Academic Study F1-F2', slug: 'f1-f2' },
+              { name: 'Vocational Study M1-M2', slug: 'm1-m2' },
+            ]
+          },
+          {
+            name: 'Cultural Exchange J1-J2', slug: 'j1-j2', sub: [
+              { name: 'Summer Work Travel', slug: 'summer-work' },
+              { name: 'Camp Counselor', slug: 'camp-counselor' },
+              { name: 'Trainees', slug: 'trainees' },
+              { name: 'Interns', slug: 'interns' },
+              { name: 'College/University Student', slug: 'college-student' },
+              { name: 'Secondary School Student', slug: 'secondary-student' },
+              { name: 'Research Scholar', slug: 'research-scholar' },
+              { name: 'Professor', slug: 'professor' },
+              { name: 'Teachers', slug: 'teachers' },
+              { name: 'Physicians', slug: 'physicians' },
+              { name: 'Au Pair', slug: 'au-pair' },
+              { name: 'International Visitors', slug: 'international-visitors' },
+              { name: 'Government Visitors', slug: 'government-visitors' },
+              { name: 'Specialists', slug: 'specialists' },
+              { name: 'Short-term Scholars', slug: 'short-term-scholars' },
+              { name: 'Science & Technology Initiatives', slug: 'science-tech' },
+            ]
+          },
         ],
       },
       schengenVisas: {
@@ -238,29 +246,25 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Menu */}
-          <div style={{ gap: '5px' }} className="desktop-menu">
+          <div className="desktop-menu">
             {/* Home */}
-            <a href="/" style={{ padding: '10px 15px', color: 'white', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', borderRadius: '6px', transition: 'all 0.3s' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}>
+            <a href="/" className="nav-link">
               {t.home}
             </a>
 
             {/* Second Citizenship Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('citizenship')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/second-citizenship" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'citizenship' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/second-citizenship" className={`nav-link ${openMenu === 'citizenship' ? 'active' : ''}`}>
                 {t.secondCitizenship.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'citizenship' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '20px', minWidth: '280px', marginTop: '10px' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '15px', textTransform: 'uppercase' }}>{t.secondCitizenship.title}</div>
+                <div className="mega-menu-content small-width">
+                  <div className="mega-menu-label">{t.secondCitizenship.title}</div>
                   {t.secondCitizenship.countries.map((country, idx) => (
-                    <a key={idx} href={`/second-citizenship/${country.slug}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '0.95rem', transition: 'all 0.2s', marginBottom: '5px' }}
-                      onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.paddingLeft = '20px'; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.paddingLeft = '12px'; }}>
+                    <a key={idx} href={`/second-citizenship/${country.slug}`} className="mega-menu-item">
                       <i className="fas fa-passport" style={{ marginRight: dir === 'rtl' ? '0' : '8px', marginLeft: dir === 'rtl' ? '8px' : '0', color: '#667eea' }}></i>
                       {country.name}
                     </a>
@@ -270,30 +274,26 @@ export default function Navbar() {
             </div>
 
             {/* USA Visas Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('usa')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/usa-visas" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'usa' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/usa-visas" className={`nav-link ${openMenu === 'usa' ? 'active' : ''}`}>
                 {t.usaVisas.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'usa' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '25px', minWidth: '600px', marginTop: '10px', maxHeight: '500px', overflowY: 'auto' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '20px', textTransform: 'uppercase' }}>{t.usaVisas.title}</div>
+                <div className="mega-menu-content large-width">
+                  <div className="mega-menu-label">{t.usaVisas.title}</div>
                   {t.usaVisas.categories.map((category, idx) => (
                     <div key={idx} style={{ marginBottom: '20px' }}>
-                      <a href={`/usa-visas/${category.slug}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '1rem', fontWeight: '600', transition: 'all 0.2s', marginBottom: '8px' }}
-                        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f7fafc'}
-                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}>
+                      <a href={`/usa-visas/${category.slug}`} className="mega-menu-category-link">
                         <i className="fas fa-flag-usa" style={{ marginRight: dir === 'rtl' ? '0' : '8px', marginLeft: dir === 'rtl' ? '8px' : '0', color: '#667eea' }}></i>
                         {category.name}
                       </a>
                       {category.sub && (
-                        <div style={{ paddingLeft: dir === 'rtl' ? '0' : '25px', paddingRight: dir === 'rtl' ? '25px' : '0', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px' }}>
+                        <div className="mega-menu-sub-grid">
                           {category.sub.map((sub, sidx) => (
-                            <a key={sidx} href={`/usa-visas/${category.slug}/${sub.slug}`} style={{ display: 'block', padding: '8px 12px', color: '#48bb78', textDecoration: 'none', borderRadius: '6px', fontSize: '0.9rem', transition: 'all 0.2s' }}
-                              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.color = '#667eea'; }}
-                              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#48bb78'; }}>
+                            <a key={sidx} href={`/usa-visas/${category.slug}/${sub.slug}`} className="mega-menu-sub-link">
                               • {sub.name}
                             </a>
                           ))}
@@ -306,21 +306,19 @@ export default function Navbar() {
             </div>
 
             {/* Schengen Visas Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('schengen')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/schengen-visas" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'schengen' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/schengen-visas" className={`nav-link ${openMenu === 'schengen' ? 'active' : ''}`}>
                 {t.schengenVisas.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'schengen' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '25px', minWidth: '700px', marginTop: '10px', maxHeight: '500px', overflowY: 'auto' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '20px', textTransform: 'uppercase' }}>{t.schengenVisas.title}</div>
+                <div className="mega-menu-content xl-width">
+                  <div className="mega-menu-label">{t.schengenVisas.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
                     {t.schengenVisas.countries.map((country, idx) => (
-                      <a key={idx} href={`/schengen-visas/${country.toLowerCase()}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '0.9rem', transition: 'all 0.2s' }}
-                        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.color = '#667eea'; }}
-                        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#1a202c'; }}>
+                      <a key={idx} href={`/schengen-visas/${country.toLowerCase()}`} className="mega-menu-sub-link" style={{ color: '#1a202c' }}>
                         <i className="fas fa-globe-europe" style={{ marginRight: dir === 'rtl' ? '0' : '6px', marginLeft: dir === 'rtl' ? '6px' : '0', fontSize: '0.8rem' }}></i>
                         {country}
                       </a>
@@ -331,20 +329,18 @@ export default function Navbar() {
             </div>
 
             {/* Study Visas Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('study')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/study-visas" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'study' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/study-visas" className={`nav-link ${openMenu === 'study' ? 'active' : ''}`}>
                 {t.studyVisas.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'study' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '20px', minWidth: '280px', marginTop: '10px' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '15px', textTransform: 'uppercase' }}>{t.studyVisas.title}</div>
+                <div className="mega-menu-content small-width">
+                  <div className="mega-menu-label">{t.studyVisas.title}</div>
                   {t.studyVisas.countries.map((country, idx) => (
-                    <a key={idx} href={`/study-visas/${country.slug}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '0.95rem', transition: 'all 0.2s', marginBottom: '5px' }}
-                      onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.paddingLeft = '20px'; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.paddingLeft = '12px'; }}>
+                    <a key={idx} href={`/study-visas/${country.slug}`} className="mega-menu-item">
                       <i className="fas fa-graduation-cap" style={{ marginRight: dir === 'rtl' ? '0' : '8px', marginLeft: dir === 'rtl' ? '8px' : '0', color: '#667eea' }}></i>
                       {country.name}
                     </a>
@@ -354,20 +350,18 @@ export default function Navbar() {
             </div>
 
             {/* Work Visas Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('work')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/work-visas" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'work' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/work-visas" className={`nav-link ${openMenu === 'work' ? 'active' : ''}`}>
                 {t.workVisas.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'work' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '20px', minWidth: '320px', marginTop: '10px' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '15px', textTransform: 'uppercase' }}>{t.workVisas.title}</div>
+                <div className="mega-menu-content medium-width">
+                  <div className="mega-menu-label">{t.workVisas.title}</div>
                   {t.workVisas.types.map((type, idx) => (
-                    <a key={idx} href={`/work-visas/${type.slug}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '0.95rem', transition: 'all 0.2s', marginBottom: '5px' }}
-                      onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.paddingLeft = '20px'; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.paddingLeft = '12px'; }}>
+                    <a key={idx} href={`/work-visas/${type.slug}`} className="mega-menu-item">
                       <i className="fas fa-briefcase" style={{ marginRight: dir === 'rtl' ? '0' : '8px', marginLeft: dir === 'rtl' ? '8px' : '0', color: '#667eea' }}></i>
                       {type.name}
                     </a>
@@ -377,21 +371,19 @@ export default function Navbar() {
             </div>
 
             {/* Travel Visas Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('travel')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/travel-visas" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'travel' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/travel-visas" className={`nav-link ${openMenu === 'travel' ? 'active' : ''}`}>
                 {t.travelVisas.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'travel' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '20px', minWidth: '280px', marginTop: '10px' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '15px', textTransform: 'uppercase' }}>{t.travelVisas.title}</div>
+                <div className="mega-menu-content medium-width">
+                  <div className="mega-menu-label">{t.travelVisas.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px' }}>
                     {t.travelVisas.countries.map((country, idx) => (
-                      <a key={idx} href={`/travel-visas/${country.slug}`} style={{ display: 'block', padding: '10px 12px', color: '#1a202c', textDecoration: 'none', borderRadius: '6px', fontSize: '0.9rem', transition: 'all 0.2s' }}
-                        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#f7fafc'; e.currentTarget.style.color = '#667eea'; }}
-                        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#1a202c'; }}>
+                      <a key={idx} href={`/travel-visas/${country.slug}`} className="mega-menu-sub-link">
                         <i className="fas fa-plane" style={{ marginRight: dir === 'rtl' ? '0' : '6px', marginLeft: dir === 'rtl' ? '6px' : '0', fontSize: '0.8rem' }}></i>
                         {country.name}
                       </a>
@@ -402,21 +394,19 @@ export default function Navbar() {
             </div>
 
             {/* Services Mega Menu */}
-            <div style={{ position: 'relative' }}
+            <div className="mega-menu-container"
               onMouseEnter={() => setOpenMenu('services')}
               onMouseLeave={() => setOpenMenu(null)}>
-              <a href="/services" style={{ padding: '10px 15px', color: 'white', backgroundColor: openMenu === 'services' ? 'rgba(255,255,255,0.1)' : 'transparent', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', cursor: 'pointer', borderRadius: '6px', transition: 'all 0.3s', display: 'flex', alignItems: 'center', gap: '5px' }}>
+              <a href="/services" className={`nav-link ${openMenu === 'services' ? 'active' : ''}`}>
                 {t.services.title}
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'services' && (
-                <div style={{ position: 'absolute', top: '100%', left: 0, backgroundColor: 'white', color: '#1a202c', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '25px', minWidth: '500px', marginTop: '10px' }}>
-                  <div style={{ fontSize: '0.85rem', fontWeight: '600', color: '#667eea', marginBottom: '20px', textTransform: 'uppercase' }}>{t.services.title}</div>
+                <div className="mega-menu-content large-width">
+                  <div className="mega-menu-label">{t.services.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
                     {t.services.items.map((item, idx) => (
-                      <a key={idx} href={`/services/${item.slug}`} style={{ display: 'block', padding: '12px 15px', color: '#1a202c', textDecoration: 'none', borderRadius: '8px', fontSize: '0.95rem', transition: 'all 0.2s', border: '1px solid #e2e8f0' }}
-                        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#667eea'; e.currentTarget.style.color = 'white'; e.currentTarget.style.borderColor = '#667eea'; }}
-                        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#1a202c'; e.currentTarget.style.borderColor = '#e2e8f0'; }}>
+                      <a key={idx} href={`/services/${item.slug}`} className="mega-menu-card">
                         <i className={item.icon} style={{ marginRight: dir === 'rtl' ? '0' : '10px', marginLeft: dir === 'rtl' ? '10px' : '0', fontSize: '1.1rem' }}></i>
                         {item.name}
                       </a>
@@ -427,19 +417,17 @@ export default function Navbar() {
             </div>
 
             {/* Blog */}
-            <a href="/blog" style={{ padding: '10px 15px', color: 'white', textDecoration: 'none', fontSize: '1rem', fontWeight: '500', borderRadius: '6px', transition: 'all 0.3s' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}>
+            <a href="/blog" className="nav-link">
               {t.blog}
             </a>
 
             {/* Language Switcher */}
-            <LanguageSwitcher />
+            <div className="lang-switcher-wrapper">
+              <LanguageSwitcher />
+            </div>
 
             {/* Contact */}
-            <a href="/contact" style={{ padding: '10px 20px', backgroundColor: '#667eea', color: 'white', textDecoration: 'none', fontSize: '1rem', fontWeight: '600', borderRadius: '8px', transition: 'all 0.3s' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#5568d3'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#667eea'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href="/contact" className="nav-contact-btn">
               {t.contact}
             </a>
           </div>
@@ -491,18 +479,162 @@ export default function Navbar() {
       )}
 
       <style jsx>{`
-        @media (min-width: 1024px) {
-          .desktop-menu {
-            display: flex !important;
-          }
-          .mobile-menu-btn {
-            display: none !important;
-          }
+        .desktop-menu {
+          display: flex;
+          align-items: center;
+          gap: 10px;
         }
-        @media (max-width: 1023px) {
-          .desktop-menu {
-            display: none !important;
-          }
+
+        .nav-link {
+          padding: 10px 12px;
+          color: white;
+          text-decoration: none;
+          font-size: 0.95rem;
+          font-weight: 500;
+          border-radius: 6px;
+          transition: all 0.3s;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+
+        .nav-link:hover, .nav-link.active {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-contact-btn {
+          padding: 10px 18px;
+          background-color: #667eea;
+          color: white;
+          text-decoration: none;
+          font-size: 0.95rem;
+          font-weight: 600;
+          border-radius: 8px;
+          transition: all 0.3s;
+          white-space: nowrap;
+        }
+
+        .nav-contact-btn:hover {
+          background-color: #5568d3;
+          transform: translateY(-2px);
+        }
+
+        .mega-menu-container {
+          position: relative;
+        }
+
+        .mega-menu-content {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: white;
+          color: #1a202c;
+          border-radius: 12px;
+          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+          padding: 25px;
+          margin-top: 10px;
+          z-index: 1001;
+        }
+
+        .small-width { min-width: 250px; }
+        .medium-width { min-width: 350px; }
+        .large-width { min-width: 550px; }
+        .xl-width { min-width: 700px; }
+
+        .mega-menu-label {
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: #667eea;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+        }
+
+        .mega-menu-item {
+          display: block;
+          padding: 10px 12px;
+          color: #1a202c;
+          text-decoration: none;
+          border-radius: 6px;
+          font-size: 0.95rem;
+          transition: all 0.2s;
+          margin-bottom: 5px;
+        }
+
+        .mega-menu-item:hover {
+          background-color: #f7fafc;
+          padding-inline-start: 20px;
+        }
+
+        .mega-menu-category-link {
+          display: block;
+          padding: 10px 12px;
+          color: #1a202c;
+          text-decoration: none;
+          border-radius: 6px;
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 8px;
+        }
+
+        .mega-menu-sub-grid {
+          padding-inline-start: 25px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8px;
+        }
+
+        .mega-menu-sub-link {
+          display: block;
+          padding: 8px 12px;
+          color: #48bb78;
+          text-decoration: none;
+          border-radius: 6px;
+          font-size: 0.9rem;
+          transition: all 0.2s;
+        }
+
+        .mega-menu-sub-link:hover {
+          background-color: #f7fafc;
+          color: #667eea !important;
+        }
+
+        .mega-menu-card {
+           display: block;
+           padding: 12px 15px;
+           color: #1a202c;
+           text-decoration: none;
+           border-radius: 8px;
+           font-size: 0.95rem;
+           transition: all 0.2s;
+           border: 1px solid #e2e8f0;
+        }
+
+        .mega-menu-card:hover {
+          background-color: #667eea;
+          color: white;
+          border-color: #667eea;
+        }
+
+        @media (max-width: 1400px) {
+          .desktop-menu { gap: 6px; }
+          .nav-link { padding: 8px 8px; font-size: 0.9rem; }
+          .nav-contact-btn { padding: 8px 14px; font-size: 0.9rem; }
+        }
+
+        @media (max-width: 1200px) {
+          .desktop-menu { gap: 4px; }
+          .nav-link { padding: 6px 6px; font-size: 0.85rem; }
+          .nav-contact-btn { padding: 6px 10px; font-size: 0.85rem; }
+        }
+
+        @media (min-width: 1101px) {
+          .desktop-menu { display: flex !important; }
+          .mobile-menu-btn { display: none !important; }
+        }
+
+        @media (max-width: 1100px) {
+          .desktop-menu { display: none !important; }
+          .mobile-menu-btn { display: block !important; }
         }
       `}</style>
     </nav>
