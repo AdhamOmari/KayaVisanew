@@ -1,0 +1,520 @@
+/* USA Visa Premium Design System - Shared Styles */
+
+:root {
+    --usa-navy-deep: #0f172a;
+    --usa-navy-bright: #1e293b;
+    --usa-gold-premium: #e2bc42;
+    --usa-gold-hover: #d4ae3a;
+    --usa-gold-gradient: linear-gradient(135deg, #e2bc42 0%, #f3d47a 100%);
+    --usa-text-main: #334155;
+    --usa-text-muted: #64748b;
+    --usa-border-light: #e2e8f0;
+    --usa-bg-soft: #f8fafc;
+    --premium-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Animated Background for Hero */
+@keyframes meshGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Section Spacing */
+.usa-section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.usa-section-dark {
+    background-color: var(--usa-navy-deep);
+    color: white;
+}
+
+/* Premium Hero */
+.usa-hero-suite {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--usa-navy-deep);
+    color: white;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.usa-hero-overlay-suite {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.7) 100%);
+    z-index: 1;
+}
+
+.usa-hero-bg-suite {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    filter: blur(2px);
+    z-index: 0;
+}
+
+.usa-hero-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.usa-hero-label {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(226, 188, 66, 0.15);
+    color: var(--usa-gold-premium);
+    border: 1px solid rgba(226, 188, 66, 0.3);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.usa-hero-title-suite {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+}
+
+.usa-hero-subtitle-suite {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+/* Stats Styling */
+.usa-stats-row {
+    display: flex;
+    gap: 48px;
+    margin-top: 40px;
+}
+
+.usa-stat-box {
+    text-align: left;
+}
+
+[dir="rtl"] .usa-stat-box {
+    text-align: right;
+}
+
+.usa-stat-val {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--usa-gold-premium);
+    line-height: 1;
+}
+
+.usa-stat-desc {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* REDESIGNED PREMIUM BUTTONS */
+.btn-usa-primary {
+    background: var(--usa-gold-gradient);
+    color: var(--usa-navy-deep);
+    padding: 18px 42px;
+    border-radius: 14px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(226, 188, 66, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-usa-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.5s;
+}
+
+.btn-usa-primary:hover {
+    background: var(--usa-gold-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(226, 188, 66, 0.4);
+    color: var(--usa-navy-deep);
+}
+
+.btn-usa-primary:hover::before {
+    left: 100%;
+}
+
+.btn-usa-outline {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 18px 42px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.btn-usa-outline:hover {
+    border-color: white;
+    background: white;
+    color: var(--usa-navy-deep) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+}
+
+/* Cards & Grid */
+.usa-card-premium {
+    background: white;
+    border-radius: 24px;
+    padding: 40px;
+    height: 100%;
+    border: 1px solid var(--usa-border-light);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.usa-card-premium:hover {
+    border-color: var(--usa-gold-premium);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.usa-card-icon-wrap {
+    width: 64px;
+    height: 64px;
+    background: var(--usa-bg-soft);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--usa-navy-deep);
+    margin-bottom: 24px;
+    transition: all 0.4s ease;
+}
+
+.usa-card-premium:hover .usa-card-icon-wrap {
+    background: var(--usa-gold-premium);
+    color: var(--usa-navy-deep);
+}
+
+.usa-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--usa-navy-deep);
+    margin-bottom: 16px;
+}
+
+.usa-card-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--usa-text-main);
+    flex-grow: 1;
+}
+
+/* Process Steps */
+.usa-process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.usa-step-item {
+    position: relative;
+    padding: 32px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid var(--usa-border-light);
+}
+
+.usa-step-number {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(15, 23, 42, 0.05);
+    line-height: 1;
+}
+
+[dir="rtl"] .usa-step-number {
+    right: auto;
+    left: 24px;
+}
+
+.usa-step-tag {
+    color: var(--usa-gold-premium);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+}
+
+/* Common Section Heading */
+.usa-section-head {
+    max-width: 800px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+
+.usa-section-heading {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: var(--usa-navy-deep);
+    margin-bottom: 20px;
+}
+
+.usa-section-subheading {
+    color: var(--usa-text-muted);
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+/* States Slider Styling */
+.usa-states-slider-wrap {
+    padding: 60px 0;
+}
+
+.usa-states-names-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.usa-state-name-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.usa-state-name-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--usa-gold-premium);
+    color: white;
+    transform: translateX(5px);
+}
+
+[dir="rtl"] .usa-state-name-item:hover {
+    transform: translateX(-5px);
+}
+
+.usa-state-name-item i {
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.usa-state-name-item:hover i {
+    color: var(--usa-gold-premium) !important;
+    opacity: 1 !important;
+}
+
+.usa-state-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 480px;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: grab;
+    width: 100%;
+}
+
+.usa-state-card:hover {
+    transform: translateY(-10px);
+}
+
+.usa-state-img {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.8s ease;
+}
+
+.usa-state-card:hover .usa-state-img {
+    transform: scale(1.1);
+}
+
+.usa-state-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.3) 60%, transparent 100%);
+    z-index: 1;
+}
+
+.usa-state-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 32px;
+    z-index: 2;
+    color: white;
+    text-align: left;
+}
+
+[dir="rtl"] .usa-state-content {
+    text-align: right;
+}
+
+.usa-state-name {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.usa-state-tag {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--usa-gold-premium);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Redesigned CTA - Immersive Suite Style */
+.usa-section-cta-premium {
+    padding: 120px 0;
+    background: var(--usa-navy-deep);
+    position: relative;
+    overflow: hidden;
+}
+
+.usa-cta-bg-glow {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(226, 188, 66, 0.1) 0%, transparent 70%);
+    top: -400px;
+    right: -400px;
+    z-index: 0;
+}
+
+.usa-cta-content-suite {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.usa-cta-glass-box {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 80px 40px;
+    border-radius: 40px;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.usa-cta-title-suite {
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px;
+    line-height: 1.1;
+}
+
+.usa-cta-subtitle-suite {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 800px;
+    margin: 0 auto 48px;
+}
+
+/* Swiper Pagination & Navigation Customization - HIGH END */
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.3) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--usa-gold-premium) !important;
+    width: 32px !important;
+    border-radius: 6px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--usa-gold-premium) !important;
+    background: rgba(15, 23, 42, 0.4);
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(226, 188, 66, 0.3);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 1.5rem !important;
+    font-weight: 900;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: var(--usa-gold-premium);
+    color: var(--usa-navy-deep) !important;
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(226, 188, 66, 0.3);
+}
+
+[dir="rtl"] .swiper-button-next {
+    right: auto;
+    left: 20px;
+}
+
+[dir="rtl"] .swiper-button-prev {
+    left: auto;
+    right: 20px;
+}
