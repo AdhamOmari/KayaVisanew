@@ -12,7 +12,7 @@ export default function QatarFreelancePage() {
 
   useEffect(() => {
     try {
-      const content = require("@/data/work-qatar-freelance.json");
+      const content = require("@/data/work-qatar-job-seeker.json");
       setData(content[locale] || content.en || content);
     } catch (error) {
       console.error("Error loading data:", error);
@@ -74,7 +74,7 @@ export default function QatarFreelancePage() {
           <div className="qatar-highlight-card">
             <h3>{locale === "ar" ? "اقتصاد قطر سريع النمو" : "Qatar's Fast-Growing Economy"}</h3>
             <p>
-              {locale === "ar" 
+              {locale === "ar"
                 ? "قطر هي واحدة من أسرع الاقتصادات نمواً في المنطقة، خاصة في قطاعات الطاقة، الخدمات اللوجستية، البنية التحتية، والتعليم."
                 : "Qatar is one of the fastest-growing economies in the region, particularly in energy, logistics, infrastructure, and education sectors."}
             </p>
@@ -454,7 +454,7 @@ export default function QatarFreelancePage() {
           <div className="qatar-glass-card">
             <div className="qatar-highlight-card">
               <p className="mb-0 fs-5">
-                {locale === 'ar' 
+                {locale === 'ar'
                   ? 'الإقامة الحرة في قطر تمنحك سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل، وهي بديل عملي ومرن عن التأشيرة التقليدية المرتبطة بالكفيل.'
                   : 'The independent residence in Qatar gives you two years of legal stability and complete freedom to explore the job market, and is a practical and flexible alternative to the traditional sponsor-tied visa.'}
               </p>
@@ -469,7 +469,7 @@ export default function QatarFreelancePage() {
           <div className="professional-journey-banner qatar-banner">
             <h2>{data?.cta?.title || (locale === 'ar' ? 'ابدأ مسيرتك في قطر' : 'Start Your Qatar Career')}</h2>
             <p>
-              {data?.cta?.description || (locale === 'ar' 
+              {data?.cta?.description || (locale === 'ar'
                 ? 'الإقامة الحرة في قطر تمنحك سنتين من الاستقرار القانوني والحرية الكاملة لاستكشاف سوق العمل. ابدأ الآن رحلتك المهنية في قطر مع كايا — نحن نجهّز لك كل ما تحتاجه لتصل إلى سوق العمل بثقة.'
                 : 'The independent residence in Qatar gives you two years of legal stability and complete freedom to explore the job market. Start your professional journey in Qatar now with Kaya — we prepare everything you need to confidently enter the job market.')}
             </p>

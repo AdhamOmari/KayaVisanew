@@ -23,7 +23,7 @@ export default function TravelQatarPage() {
             </div>
             <h1 className="hero-title">{data.title}</h1>
             <p className="hero-subtitle">{data.hero.subtitle}</p>
-            
+
             <div className="hero-actions">
               <a href="#requirements" className="btn btn-modern-primary">
                 {isRTL ? "المتطلبات" : "Requirements"} →
@@ -42,7 +42,7 @@ export default function TravelQatarPage() {
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
             {isRTL ? "أنواع التأشيرات" : "Visa Types"}
           </h2>
-          
+
           <div className="row g-4 mt-4">
             {data.visa_types.map((visa: any, idx: number) => (
               <div key={idx} className="col-md-4">
@@ -65,7 +65,7 @@ export default function TravelQatarPage() {
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
             {isRTL ? "المتطلبات الأساسية" : "Basic Requirements"}
           </h2>
-          
+
           <div className="row justify-content-center mt-4">
             <div className="col-lg-8">
               <div className="checklist-modern">
@@ -121,7 +121,7 @@ export default function TravelQatarPage() {
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
             {isRTL ? "نصائح مهمة" : "Important Tips"}
           </h2>
-          
+
           <div className="row g-4 mt-4">
             {data.tips.map((tip: string, idx: number) => (
               <div key={idx} className="col-md-6">
@@ -141,7 +141,7 @@ export default function TravelQatarPage() {
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
             {isRTL ? "خدماتنا في كايا" : "Our Services at Kaya"}
           </h2>
-          
+
           <div className="row g-4 mt-4">
             {data.with_kaya.map((service: string, idx: number) => (
               <div key={idx} className="col-md-6">
