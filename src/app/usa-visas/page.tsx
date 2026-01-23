@@ -343,9 +343,11 @@ export default function USAVisasPage() {
               ))}
             </div>
 
-            <div className="mt-5 p-4 bg-primary bg-opacity-5 rounded-4 border-start border-4 border-primary d-flex align-items-center gap-3">
-              <i className="fas fa-info-circle text-primary fs-4"></i>
-              <span className="fw-bold text-primary">{data.visa_categories.immigrant.note}</span>
+            <div className="usa-pathway-note">
+              <div className="usa-pathway-icon">
+                <i className="fas fa-flag-usa"></i>
+              </div>
+              <p className="usa-pathway-text">{data.visa_categories.immigrant.note}</p>
             </div>
           </div>
         </div>

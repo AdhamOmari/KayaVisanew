@@ -518,3 +518,52 @@
     left: auto;
     right: 20px;
 }
+
+/* Premium Pathway/Citizenship Note */
+.usa-pathway-note {
+    background: linear-gradient(135deg, rgba(226, 188, 66, 0.08) 0%, rgba(255, 255, 255, 0.5) 100%);
+    border-left: 5px solid var(--usa-gold-premium);
+    padding: 32px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 60px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(226, 188, 66, 0.1);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.03);
+}
+
+[dir="rtl"] .usa-pathway-note {
+    border-left: 1px solid rgba(226, 188, 66, 0.1);
+    border-right: 5px solid var(--usa-gold-premium);
+}
+
+.usa-pathway-note:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 25px 50px rgba(226, 188, 66, 0.1);
+    background: linear-gradient(135deg, rgba(226, 188, 66, 0.12) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+
+.usa-pathway-icon {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--usa-gold-premium);
+    box-shadow: 0 10px 25px rgba(226, 188, 66, 0.15);
+    flex-shrink: 0;
+}
+
+.usa-pathway-text {
+    font-weight: 700;
+    color: var(--usa-navy-deep);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+}
