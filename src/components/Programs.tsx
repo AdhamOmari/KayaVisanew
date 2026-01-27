@@ -54,7 +54,7 @@ export default function Programs() {
                 transform: `translateX(-${currentIndex * (100 / 3)}%)`,
               }}
             >
-              {content.programs.map((program, idx) => (
+              {content.programs.map((program: any, idx: number) => (
                 <div key={program.id} className="program-card-wrapper">
                   <div className="program-card">
                     <div className="program-card-header">
@@ -67,7 +67,7 @@ export default function Programs() {
                       <p className="program-card-description">{program.description}</p>
 
                       <ul className="program-features-list">
-                        {program.features.map((feature, fidx) => (
+                        {program.features.map((feature: any, fidx: number) => (
                           <li key={fidx} className="program-feature-item">
                             <i className="fas fa-check-circle"></i>
                             <span>{feature}</span>
@@ -109,7 +109,7 @@ export default function Programs() {
         </div>
 
         <div className="slider-dots">
-          {content.programs.map((_, idx) => (
+          {content.programs.map((_: any, idx: number) => (
             <button
               key={idx}
               className={`slider-dot ${idx === currentIndex ? 'active' : ''}`}

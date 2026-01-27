@@ -1,0 +1,264 @@
+{
+  "en": {
+    "title": "Professional Trainees Program (J-1 Visa)",
+    "hero": {
+      "heading": "Professional Training & Skill Development in America",
+      "subtitle": "Gain hands-on professional training and develop specialized skills through structured training programs"
+    },
+    "overview": {
+      "heading": "About the Professional Trainees Program",
+      "description": "The Professional Trainees program provides international professionals with structured, hands-on training in their field of expertise. Unlike interns, trainees have completed their education and focus on practical skill development and professional advancement.",
+      "additional": "This program is designed for early-career professionals seeking to enhance their skills, gain international experience, and build their professional network in the United States."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Completed bachelor's degree or higher in relevant field",
+        "1-5 years of professional experience",
+        "Training must relate to degree and career goals",
+        "English proficiency (intermediate to advanced)",
+        "Valid passport and clean background check",
+        "Commitment to full training program duration"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "6-18 months (depending on training complexity)"
+        },
+        {
+          "title": "Training Structure",
+          "description": "Structured program with specific learning objectives"
+        },
+        {
+          "title": "Supervision",
+          "description": "Direct supervision by experienced professionals"
+        },
+        {
+          "title": "Skill Focus",
+          "description": "Practical application of theoretical knowledge"
+        }
+      ]
+    },
+    "training_categories": {
+      "heading": "Training Categories",
+      "categories": [
+        {
+          "name": "Business & Management",
+          "description": "Corporate training, project management, leadership development"
+        },
+        {
+          "name": "Technology & IT",
+          "description": "Software development, systems analysis, technical training"
+        },
+        {
+          "name": "Healthcare",
+          "description": "Medical administration, healthcare management, specialized care"
+        },
+        {
+          "name": "Engineering",
+          "description": "Process engineering, quality control, technical operations"
+        },
+        {
+          "name": "Hospitality & Tourism",
+          "description": "Hotel management, event planning, tourism operations"
+        },
+        {
+          "name": "Education",
+          "description": "Educational administration, curriculum development, teaching methods"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Hands-on professional training experience",
+        "Skill development in specialized areas",
+        "Networking with industry professionals",
+        "International work experience",
+        "Potential for career advancement",
+        "Cultural immersion and adaptation",
+        "Professional certification opportunities"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Identify training program and sponsoring organization",
+        "Prepare detailed training plan and objectives",
+        "Submit application with supporting documents",
+        "Obtain DS-2019 form from sponsor",
+        "Apply for J-1 visa at US embassy/consulate",
+        "Begin training program upon arrival"
+      ]
+    },
+    "sponsors": {
+      "heading": "Program Sponsors",
+      "description": "US companies, organizations, and institutions that provide structured training programs for international professionals.",
+      "types": [
+        "Fortune 500 companies",
+        "Professional associations",
+        "Industry-specific organizations",
+        "Educational institutions",
+        "Government agencies",
+        "Non-profit organizations"
+      ]
+    },
+    "important_notes": [
+      "Training must be structured and skill-focused",
+      "Cannot displace American workers",
+      "Regular progress evaluations required",
+      "Health insurance coverage mandatory",
+      "Cannot change sponsors mid-program",
+      "Two-year home residency requirement may apply"
+    ],
+    "success_stories": {
+      "heading": "Trainee Success Stories",
+      "stories": [
+        {
+          "name": "Ahmed H.",
+          "country": "Saudi Arabia",
+          "story": "The professional training program gave me invaluable hands-on experience in my field and helped me advance my career significantly."
+        },
+        {
+          "name": "Maria G.",
+          "country": "Brazil",
+          "story": "Working with industry leaders in the US taught me skills and techniques that aren't available in my home country."
+        }
+      ]
+    }
+  },
+  "ar": {
+    "title": "برنامج المتدربين المهنيين (تأشيرة J-1)",
+    "hero": {
+      "heading": "التدريب المهني وتطوير المهارات في أمريكا",
+      "subtitle": "اكتسب تدريباً عملياً مهنياً وطور مهارات متخصصة من خلال برامج تدريب منظمة"
+    },
+    "overview": {
+      "heading": "حول برنامج المتدربين المهنيين",
+      "description": "يوفر برنامج المتدربين المهنيين للمهنيين الدوليين تدريباً منظماً وعملياً في مجال تخصصهم. على عكس المتدربين، أكمل المتدربون تعليمهم ويركزون على تطوير المهارات العملية والتقدم المهني.",
+      "additional": "تم تصميم هذا البرنامج للمهنيين في بداية مسيرتهم المهنية الذين يسعون لتعزيز مهاراتهم واكتساب خبرة دولية وبناء شبكتهم المهنية في الولايات المتحدة."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "إكمال درجة البكالوريوس أو أعلى في المجال ذي الصلة",
+        "خبرة مهنية من 1-5 سنوات",
+        "يجب أن يتعلق التدريب بالدرجة وأهداف المهنة",
+        "إتقان اللغة الإنجليزية (مستوى متوسط إلى متقدم)",
+        "جواز سفر ساري المفعول وفحص خلفية نظيف",
+        "الالتزام بمدة البرنامج التدريبي الكاملة"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "6-18 شهراً (حسب تعقيد التدريب)"
+        },
+        {
+          "title": "هيكل التدريب",
+          "description": "برنامج منظم مع أهداف تعلم محددة"
+        },
+        {
+          "title": "الإشراف",
+          "description": "إشراف مباشر من قبل محترفين ذوي خبرة"
+        },
+        {
+          "title": "تركيز المهارات",
+          "description": "تطبيق عملي للمعرفة النظرية"
+        }
+      ]
+    },
+    "training_categories": {
+      "heading": "فئات التدريب",
+      "categories": [
+        {
+          "name": "الأعمال والإدارة",
+          "description": "التدريب المؤسسي، إدارة المشاريع، تطوير القيادة"
+        },
+        {
+          "name": "التكنولوجيا وتكنولوجيا المعلومات",
+          "description": "تطوير البرمجيات، تحليل الأنظمة، التدريب التقني"
+        },
+        {
+          "name": "الرعاية الصحية",
+          "description": "الإدارة الطبية، إدارة الرعاية الصحية، الرعاية المتخصصة"
+        },
+        {
+          "name": "الهندسة",
+          "description": "هندسة العمليات، مراقبة الجودة، العمليات التقنية"
+        },
+        {
+          "name": "الضيافة والسياحة",
+          "description": "إدارة الفنادق، تخطيط الفعاليات، عمليات السياحة"
+        },
+        {
+          "name": "التعليم",
+          "description": "الإدارة التعليمية، تطوير المناهج، طرق التدريس"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "خبرة تدريب مهني عملي مباشر",
+        "تطوير المهارات في مجالات متخصصة",
+        "التواصل مع المهنيين في المجال",
+        "خبرة عمل دولية",
+        "إمكانية التقدم المهني",
+        "الغمر الثقافي والتكيف",
+        "فرص الشهادة المهنية"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "تحديد برنامج التدريب والمنظمة الراعية",
+        "إعداد خطة تدريب مفصلة وأهداف",
+        "تقديم الطلب مع الوثائق الداعمة",
+        "الحصول على نموذج DS-2019 من الراعي",
+        "التقديم لتأشيرة J-1 في السفارة/القنصلية الأمريكية",
+        "بدء برنامج التدريب عند الوصول"
+      ]
+    },
+    "sponsors": {
+      "heading": "رعاة البرنامج",
+      "description": "الشركات والمنظمات والمؤسسات الأمريكية التي توفر برامج تدريب منظمة للمهنيين الدوليين.",
+      "types": [
+        "شركات فورتشين 500",
+        "الجمعيات المهنية",
+        "المنظمات الخاصة بالصناعة",
+        "المؤسسات التعليمية",
+        "الوكالات الحكومية",
+        "المنظمات غير الربحية"
+      ]
+    },
+    "important_notes": [
+      "يجب أن يكون التدريب منظماً ومركزاً على المهارات",
+      "لا يمكن استبدال العمال الأمريكيين",
+      "تقييمات التقدم المنتظمة مطلوبة",
+      "تغطية التأمين الصحي إلزامية",
+      "لا يمكن تغيير الرعاة أثناء البرنامج",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين"
+    ],
+    "success_stories": {
+      "heading": "قصص نجاح المتدربين",
+      "stories": [
+        {
+          "name": "أحمد ح.",
+          "country": "السعودية",
+          "story": "أعطاني برنامج التدريب المهني خبرة عملية مباشرة لا تقدر بثمن في مجالي وساعدني في التقدم المهني بشكل كبير."
+        },
+        {
+          "name": "ماريا ج.",
+          "country": "البرازيل",
+          "story": "العمل مع قادة الصناعة في الولايات المتحدة علمتني مهارات وتقنيات غير متوفرة في بلدي الأصلي."
+        }
+      ]
+    }
+  }
+}

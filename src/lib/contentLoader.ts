@@ -10,17 +10,13 @@ export function getSecondCitizenshipContent() {
 }
 
 export function getSchengenVisasContent() {
-  const schengenFolder = extractedContent.folders.find((f: any) => 
-    f.name === '4- تاشيرات الشنغن '
-  );
-  return schengenFolder?.content || { folders: [], files: {}, images: [] };
+  const schengenFolder = (extractedContent as any)['4- تاشيرات الشنغن '];
+  return schengenFolder || { folders: [], files: {}, images: [] };
 }
 
 export function getUSAVisasContent() {
-  const usaFolder = extractedContent.folders.find((f: any) => 
-    f.name === '3- تاشيرات امريكا'
-  );
-  return usaFolder?.content || { folders: [], files: {}, images: [] };
+  const usaFolder = (extractedContent as any)['3- تاشيرات امريكا'];
+  return usaFolder || { folders: [], files: {}, images: [] };
 }
 
 export function getAllContent() {

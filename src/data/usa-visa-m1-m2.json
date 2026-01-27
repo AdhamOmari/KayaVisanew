@@ -1,0 +1,272 @@
+{
+  "en": {
+    "title": "M1-M2 Vocational Study Visa",
+    "hero": {
+      "heading": "Vocational & Technical Training in America",
+      "subtitle": "Gain practical skills and hands-on experience through specialized vocational programs in the United States"
+    },
+    "overview": {
+      "heading": "M1-M2 Visa Overview",
+      "description": "The M visa is designed for international students pursuing non-academic or vocational training at specialized institutes in the United States. Unlike F visas, M visas focus on practical, hands-on training that leads directly to employment.",
+      "additional": "M visas are perfect for students who prefer technical and vocational education over traditional academic programs, offering shorter program durations and direct career preparation."
+    },
+    "visa_types": {
+      "heading": "M Visa Categories",
+      "types": [
+        {
+          "name": "M1 Visa (Primary Student)",
+          "description": "For students enrolled in vocational or technical training programs at accredited institutions",
+          "features": ["Vocational training programs", "Technical and trade schools", "Limited work authorization", "Shorter program duration"],
+          "icon": "tools"
+        },
+        {
+          "name": "M2 Visa (Dependents)",
+          "description": "For spouses and unmarried children under 21 of M1 visa holders",
+          "features": ["Family reunification", "No independent work authorization", "Can pursue studies", "Cultural integration support"],
+          "icon": "user-friends"
+        }
+      ]
+    },
+    "program_types": {
+      "heading": "Types of M Visa Programs",
+      "programs": [
+        {
+          "name": "Technical Training",
+          "description": "Hands-on training in technical fields like electronics, mechanics, and engineering",
+          "duration": "6-24 months",
+          "icon": "cogs"
+        },
+        {
+          "name": "Trade Skills",
+          "description": "Vocational training in trades such as welding, plumbing, and construction",
+          "duration": "6-18 months",
+          "icon": "hammer"
+        },
+        {
+          "name": "Business Skills",
+          "description": "Training in business administration, hospitality, and service industries",
+          "duration": "9-24 months",
+          "icon": "briefcase"
+        },
+        {
+          "name": "Healthcare Training",
+          "description": "Medical and healthcare assistant training programs",
+          "duration": "12-24 months",
+          "icon": "heartbeat"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Application Requirements",
+      "academic": [
+        "Acceptance from accredited vocational institution",
+        "Proof of English proficiency (TOEFL/IELTS)",
+        "High school diploma or equivalent",
+        "Program-specific prerequisites"
+      ],
+      "financial": [
+        "Proof of financial support ($15,000-$25,000 annually)",
+        "Bank statements or sponsor affidavits",
+        "Health insurance coverage",
+        "Tuition payment proof"
+      ],
+      "other": [
+        "Valid passport with 6 months validity",
+        "Medical examination results",
+        "SEVIS fee payment ($350)",
+        "DS-160 form completion"
+      ]
+    },
+    "process": {
+      "heading": "Application Process",
+      "steps": [
+        "Research and select accredited vocational institution",
+        "Apply for program admission and receive acceptance letter",
+        "Complete Form I-20 (or DS-2019 for some programs)",
+        "Pay SEVIS fee and receive SEVIS approval",
+        "Submit DS-160 application online",
+        "Schedule visa interview at U.S. embassy/consulate",
+        "Attend visa interview with all required documents",
+        "Travel to U.S. and begin program within grace period"
+      ]
+    },
+    "work_options": {
+      "heading": "Work Authorization",
+      "options": [
+        "Limited on-campus employment (20 hours/week during studies)",
+        "No Optional Practical Training (OPT) after completion",
+        "No Curricular Practical Training (CPT) during studies",
+        "Practical training component included in program curriculum",
+        "Cooperative education opportunities at some institutions"
+      ]
+    },
+    "advantages": {
+      "heading": "Advantages of M Visa",
+      "benefits": [
+        "Shorter program duration (6-24 months vs 2-4 years for bachelor's)",
+        "Practical, hands-on training leading directly to employment",
+        "Lower tuition costs compared to traditional universities",
+        "More affordable cost of living",
+        "Direct career preparation without extensive theoretical coursework",
+        "Smaller class sizes and personalized instruction"
+      ]
+    },
+    "important_notes": [
+      "M visas do not qualify for Optional Practical Training (OPT)",
+      "Students must maintain full-time enrollment status",
+      "Health insurance is mandatory throughout the program",
+      "Program changes require SEVIS record updates",
+      "M-2 dependents cannot work independently in the U.S.",
+      "Some institutions may have specific admission requirements"
+    ],
+    "institutions": {
+      "heading": "Popular M Visa Institutions",
+      "schools": [
+        "ITT Technical Institute",
+        "DeVry University (vocational programs)",
+        "Strayer University (technical programs)",
+        "Kaplan University (career training)",
+        "Apollo College (healthcare training)",
+        "Lincoln College of Technology",
+        "Universal Technical Institute (UTI)",
+        "Ross Medical Education Center"
+      ]
+    },
+    "cta": "Ready to start your vocational training journey in America? Contact Kaya Visa for expert guidance on M1-M2 visas"
+  },
+  "ar": {
+    "title": "تأشيرة M1-M2 للدراسة المهنية",
+    "hero": {
+      "heading": "التدريب المهني والتقني في أمريكا",
+      "subtitle": "اكتسب مهارات عملية وخبرة مباشرة من خلال برامج التدريب المتخصصة في الولايات المتحدة"
+    },
+    "overview": {
+      "heading": "نظرة عامة على تأشيرة M1-M2",
+      "description": "تأشيرة M مصممة للطلاب الدوليين الذين يسعون للحصول على التدريب غير الأكاديمي أو المهني في المعاهد المتخصصة في الولايات المتحدة. على عكس تأشيرات F، تركز تأشيرات M على التدريب العملي المباشر الذي يؤدي مباشرة إلى التوظيف.",
+      "additional": "تأشيرات M مثالية للطلاب الذين يفضلون التعليم التقني والمهني على البرامج الأكاديمية التقليدية، وتقدم مدد برامج أقصر وتحضير مهني مباشر."
+    },
+    "visa_types": {
+      "heading": "فئات تأشيرة M",
+      "types": [
+        {
+          "name": "تأشيرة M1 (الطالب الرئيسي)",
+          "description": "للطلاب المسجلين في برامج التدريب المهني أو التقني في المؤسسات المعتمدة",
+          "features": ["برامج التدريب المهني", "المدارس التقنية والمهنية", "تصريح عمل محدود", "مدة برنامج أقصر"],
+          "icon": "tools"
+        },
+        {
+          "name": "تأشيرة M2 (المرافقون)",
+          "description": "لأزواج وأطفال غير متزوجين تحت 21 عاماً من حاملي تأشيرة M1",
+          "features": ["لم شمل الأسرة", "لا تصريح عمل مستقل", "يمكن متابعة الدراسات", "دعم التكامل الثقافي"],
+          "icon": "user-friends"
+        }
+      ]
+    },
+    "program_types": {
+      "heading": "أنواع برامج تأشيرة M",
+      "programs": [
+        {
+          "name": "التدريب التقني",
+          "description": "تدريب عملي في المجالات التقنية مثل الإلكترونيات والميكانيك والهندسة",
+          "duration": "6-24 شهراً",
+          "icon": "cogs"
+        },
+        {
+          "name": "مهارات الحرف",
+          "description": "تدريب مهني في الحرف مثل اللحام والسباكة والبناء",
+          "duration": "6-18 شهراً",
+          "icon": "hammer"
+        },
+        {
+          "name": "مهارات الأعمال",
+          "description": "تدريب في إدارة الأعمال والضيافة وصناعات الخدمات",
+          "duration": "9-24 شهراً",
+          "icon": "briefcase"
+        },
+        {
+          "name": "تدريب الرعاية الصحية",
+          "description": "برامج تدريب المساعدين الطبيين والرعاية الصحية",
+          "duration": "12-24 شهراً",
+          "icon": "heartbeat"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "متطلبات التقديم",
+      "academic": [
+        "قبول من مؤسسة مهنية معتمدة",
+        "إثبات إتقان اللغة الإنجليزية (TOEFL/IELTS)",
+        "شهادة الثانوية العامة أو ما يعادلها",
+        "متطلبات محددة للبرنامج"
+      ],
+      "financial": [
+        "إثبات الدعم المالي (15,000-25,000 دولار سنوياً)",
+        "كشوفات بنكية أو إفادات كفيل",
+        "تغطية التأمين الصحي",
+        "إثبات دفع الرسوم الدراسية"
+      ],
+      "other": [
+        "جواز سفر صالح لمدة 6 أشهر على الأقل",
+        "نتائج الفحص الطبي",
+        "دفع رسوم SEVIS (350 دولار)",
+        "إكمال نموذج DS-160"
+      ]
+    },
+    "process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "البحث واختيار المؤسسة المهنية المعتمدة",
+        "التقدم للقبول في البرنامج والحصول على خطاب القبول",
+        "إكمال النموذج I-20 (أو DS-2019 لبعض البرامج)",
+        "دفع رسوم SEVIS والحصول على موافقة SEVIS",
+        "تقديم طلب DS-160 عبر الإنترنت",
+        "تحديد موعد مقابلة التأشيرة في السفارة/القنصلية الأمريكية",
+        "حضور مقابلة التأشيرة مع جميع الوثائق المطلوبة",
+        "السفر إلى الولايات المتحدة وبدء البرنامج خلال فترة السماح"
+      ]
+    },
+    "work_options": {
+      "heading": "تصريح العمل",
+      "options": [
+        "عمل محدود داخل الحرم الجامعي (20 ساعة/أسبوع أثناء الدراسة)",
+        "لا تدريب عملي اختياري (OPT) بعد التخرج",
+        "لا تدريب عملي منهجي (CPT) أثناء الدراسة",
+        "مكون التدريب العملي مشمول في منهج البرنامج",
+        "فرص التعليم التعاوني في بعض المؤسسات"
+      ]
+    },
+    "advantages": {
+      "heading": "مزايا تأشيرة M",
+      "benefits": [
+        "مدة برنامج أقصر (6-24 شهراً مقابل 2-4 سنوات للبكالوريوس)",
+        "تدريب عملي مباشر يؤدي مباشرة إلى التوظيف",
+        "تكاليف دراسية أقل مقارنة بالجامعات التقليدية",
+        "تكلفة معيشة أكثر اقتصادية",
+        "تحضير مهني مباشر دون مناهج نظرية مكثفة",
+        "حجم فصول أصغر وتعليم مخصص"
+      ]
+    },
+    "important_notes": [
+      "تأشيرات M لا تؤهل للتدريب العملي الاختياري (OPT)",
+      "يجب الحفاظ على حالة التسجيل بدوام كامل",
+      "التأمين الصحي إلزامي طوال فترة البرنامج",
+      "تغييرات البرنامج تتطلب تحديث سجل SEVIS",
+      "المرافقون M-2 لا يمكنهم العمل بشكل مستقل في الولايات المتحدة",
+      "قد يكون لبعض المؤسسات متطلبات قبول محددة"
+    ],
+    "institutions": {
+      "heading": "المؤسسات الشائعة لتأشيرة M",
+      "schools": [
+        "ITT Technical Institute",
+        "DeVry University (vocational programs)",
+        "Strayer University (technical programs)",
+        "Kaplan University (career training)",
+        "Apollo College (healthcare training)",
+        "Lincoln College of Technology",
+        "Universal Technical Institute (UTI)",
+        "Ross Medical Education Center"
+      ]
+    },
+    "cta": "مستعد لبدء رحلتك التدريبية المهنية في أمريكا؟ تواصل مع كايا فيزا للحصول على إرشادات الخبراء حول تأشيرات M1-M2"
+  }
+}

@@ -46,7 +46,6 @@ export default function B1B2VisaPage() {
                   {isRTL ? "كيفية التقديم" : "How to Apply"}
                 </a>
               </div>
-            </div>
           </div>
         </div>
       </section>

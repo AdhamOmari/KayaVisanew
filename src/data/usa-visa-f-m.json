@@ -1,0 +1,210 @@
+{
+  "en": {
+    "title": "Study Visas F-M (F1-F2 & M1-M2)",
+    "hero": {
+      "heading": "Academic & Vocational Study in America",
+      "subtitle": "Choose between academic excellence or vocational training to build your future in the United States"
+    },
+    "overview": {
+      "heading": "F-M Study Visa Overview",
+      "description": "F and M visas are designed for international students pursuing education in the United States. F visas are for academic study at universities and colleges, while M visas are for vocational and technical training programs.",
+      "additional": "Both visa categories allow students to gain valuable education and work experience in America, opening doors to career opportunities and potential pathways to permanent residency."
+    },
+    "visa_types": {
+      "heading": "Types of F-M Study Visas",
+      "types": [
+        {
+          "name": "F1 Visa (Academic Study)",
+          "description": "For students enrolled in universities, colleges, seminaries, conservatories, or language training programs",
+          "features": ["Full-time academic study", "On-campus employment", "Optional Practical Training (OPT)", "STEM OPT extension"],
+          "icon": "graduation-cap"
+        },
+        {
+          "name": "F2 Visa (Dependents)",
+          "description": "For spouses and unmarried children under 21 of F1 students",
+          "features": ["No work authorization", "Can study in the US", "Path to F1 status", "Family reunification"],
+          "icon": "users"
+        },
+        {
+          "name": "M1 Visa (Vocational Study)",
+          "description": "For students pursuing vocational or non-academic training at technical or vocational schools",
+          "features": ["Technical training programs", "Limited work options", "Shorter program duration", "Hands-on learning"],
+          "icon": "tools"
+        },
+        {
+          "name": "M2 Visa (Dependents)",
+          "description": "For spouses and unmarried children under 21 of M1 students",
+          "features": ["No work authorization", "Can pursue studies", "Family support", "Cultural integration"],
+          "icon": "user-friends"
+        }
+      ]
+    },
+    "comparison": {
+      "heading": "F vs M Visa Comparison",
+      "f_visa": {
+        "title": "F Visa (Academic)",
+        "pros": ["Broader university access", "OPT work opportunities", "Path to H-1B visa", "Research opportunities"],
+        "cons": ["Higher academic requirements", "More expensive", "Longer programs", "Intensive coursework"]
+      },
+      "m_visa": {
+        "title": "M Visa (Vocational)",
+        "pros": ["Practical skills training", "Shorter program duration", "More affordable", "Direct job preparation"],
+        "cons": ["Limited work options", "Fewer institutions", "No OPT extension", "Fewer transfer options"]
+      }
+    },
+    "requirements": {
+      "heading": "General Requirements",
+      "academic": [
+        "Acceptance from accredited U.S. institution",
+        "Proof of financial support",
+        "English proficiency (TOEFL/IELTS)",
+        "Medical examination",
+        "Valid passport"
+      ],
+      "financial": [
+        "Minimum $25,000 annual income proof (F1)",
+        "Bank statements or sponsor affidavits",
+        "Tuition payment plans",
+        "Health insurance coverage"
+      ]
+    },
+    "process": {
+      "heading": "Application Process",
+      "steps": [
+        "Choose your educational institution and program",
+        "Apply and receive acceptance letter (I-20 or DS-2019 form)",
+        "Pay SEVIS fee ($350 for F/M visas)",
+        "Complete DS-160 online application",
+        "Schedule visa interview at U.S. embassy/consulate",
+        "Attend visa interview with required documents"
+      ]
+    },
+    "work_options": {
+      "heading": "Work Opportunities",
+      "f_options": [
+        "On-campus employment (20 hours/week during semester)",
+        "Optional Practical Training (OPT) after completion",
+        "STEM OPT extension (additional 24 months)",
+        "Curricular Practical Training (CPT) during studies"
+      ],
+      "m_options": [
+        "Limited on-campus work (limited hours)",
+        "No OPT after completion",
+        "No CPT during studies",
+        "Focus on vocational training"
+      ]
+    },
+    "important_notes": [
+      "F visas offer more work flexibility than M visas",
+      "Both require full-time enrollment status",
+      "Health insurance is mandatory for international students",
+      "Visa must be renewed annually until program completion",
+      "Change of status possible between F and M visas under certain conditions"
+    ],
+    "cta": "Ready to start your educational journey in America? Contact Kaya Visa for expert guidance on F-M study visas"
+  },
+  "ar": {
+    "title": "تأشيرات الدراسة F-M (F1-F2 & M1-M2)",
+    "hero": {
+      "heading": "الدراسة الأكاديمية والمهنية في أمريكا",
+      "subtitle": "اختر بين التميز الأكاديمي أو التدريب المهني لبناء مستقبلك في الولايات المتحدة"
+    },
+    "overview": {
+      "heading": "نظرة عامة على تأشيرات الدراسة F-M",
+      "description": "تأشيرات F و M مصممة للطلاب الدوليين الذين يسعون للحصول على التعليم في الولايات المتحدة. تأشيرات F مخصصة للدراسة الأكاديمية في الجامعات والكليات، بينما تأشيرات M مخصصة لبرامج التدريب المهني والتقني.",
+      "additional": "يسمح كلا نوعي التأشيرات للطلاب بالحصول على تعليم قيم وخبرة عمل في أمريكا، مما يفتح الأبواب أمام فرص وظيفية ومسارات محتملة للإقامة الدائمة."
+    },
+    "visa_types": {
+      "heading": "أنواع تأشيرات الدراسة F-M",
+      "types": [
+        {
+          "name": "تأشيرة F1 (الدراسة الأكاديمية)",
+          "description": "للطلاب المسجلين في الجامعات والكليات والمعاهد الدينية أو برامج تدريب اللغات",
+          "features": ["الدراسة الأكاديمية بدوام كامل", "العمل داخل الحرم الجامعي", "التدريب العملي الاختياري (OPT)", "تمديد STEM OPT"],
+          "icon": "graduation-cap"
+        },
+        {
+          "name": "تأشيرة F2 (المرافقون)",
+          "description": "لأزواج وأطفال غير متزوجين تحت 21 عاماً من طلاب F1",
+          "features": ["لا تصريح عمل", "يمكن الدراسة في الولايات المتحدة", "المسار إلى حالة F1", "لم شمل الأسرة"],
+          "icon": "users"
+        },
+        {
+          "name": "تأشيرة M1 (الدراسة المهنية)",
+          "description": "للطلاب الذين يسعون للحصول على تدريب مهني أو غير أكاديمي في المدارس التقنية أو المهنية",
+          "features": ["برامج التدريب التقني", "خيارات عمل محدودة", "مدة برنامج أقصر", "تعلم عملي مباشر"],
+          "icon": "tools"
+        },
+        {
+          "name": "تأشيرة M2 (المرافقون)",
+          "description": "لأزواج وأطفال غير متزوجين تحت 21 عاماً من طلاب M1",
+          "features": ["لا تصريح عمل", "يمكن متابعة الدراسات", "دعم الأسرة", "التكامل الثقافي"],
+          "icon": "user-friends"
+        }
+      ]
+    },
+    "comparison": {
+      "heading": "مقارنة بين تأشيرة F و M",
+      "f_visa": {
+        "title": "تأشيرة F (أكاديمية)",
+        "pros": ["وصول أوسع للجامعات", "فرص عمل OPT", "المسار إلى تأشيرة H-1B", "فرص البحث"],
+        "cons": ["متطلبات أكاديمية أعلى", "أغلى تكلفة", "برامج أطول", "مناهج مكثفة"]
+      },
+      "m_visa": {
+        "title": "تأشيرة M (مهنية)",
+        "pros": ["تدريب مهارات عملية", "مدة برنامج أقصر", "أكثر اقتصادية", "تحضير مباشر للوظيفة"],
+        "cons": ["خيارات عمل محدودة", "مؤسسات أقل", "لا تمديد OPT", "خيارات نقل أقل"]
+      }
+    },
+    "requirements": {
+      "heading": "المتطلبات العامة",
+      "academic": [
+        "قبول من مؤسسة معتمدة في الولايات المتحدة",
+        "إثبات الدعم المالي",
+        "إتقان اللغة الإنجليزية (TOEFL/IELTS)",
+        "فحص طبي",
+        "جواز سفر ساري المفعول"
+      ],
+      "financial": [
+        "إثبات دخل سنوي لا يقل عن 25,000 دولار (F1)",
+        "كشوفات بنكية أو إفادات كفيل",
+        "خطط دفع الرسوم الدراسية",
+        "تغطية التأمين الصحي"
+      ]
+    },
+    "process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "اختر المؤسسة التعليمية والبرنامج",
+        "تقدم واحصل على خطاب القبول (نموذج I-20 أو DS-2019)",
+        "ادفع رسوم SEVIS (350 دولار لتأشيرات F/M)",
+        "أكمل نموذج DS-160 عبر الإنترنت",
+        "حدد موعد مقابلة التأشيرة في السفارة/القنصلية الأمريكية",
+        "احضر مقابلة التأشيرة مع الوثائق المطلوبة"
+      ]
+    },
+    "work_options": {
+      "heading": "فرص العمل",
+      "f_options": [
+        "العمل داخل الحرم الجامعي (20 ساعة/أسبوع أثناء الفصل)",
+        "التدريب العملي الاختياري (OPT) بعد التخرج",
+        "تمديد STEM OPT (24 شهراً إضافياً)",
+        "التدريب العملي المنهجي (CPT) أثناء الدراسة"
+      ],
+      "m_options": [
+        "عمل محدود داخل الحرم الجامعي (ساعات محدودة)",
+        "لا يوجد OPT بعد التخرج",
+        "لا يوجد CPT أثناء الدراسة",
+        "التركيز على التدريب المهني"
+      ]
+    },
+    "important_notes": [
+      "توفر تأشيرات F مرونة أكبر في العمل مقارنة بتأشيرات M",
+      "كلا النوعين يتطلب التسجيل بدوام كامل",
+      "التأمين الصحي إلزامي للطلاب الدوليين",
+      "يجب تجديد التأشيرة سنوياً حتى إكمال البرنامج",
+      "يمكن تغيير الحالة بين تأشيرة F و M تحت شروط معينة"
+    ],
+    "cta": "مستعد لبدء رحلتك التعليمية في أمريكا؟ تواصل مع كايا فيزا للحصول على إرشادات الخبراء حول تأشيرات الدراسة F-M"
+  }
+}

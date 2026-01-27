@@ -21,60 +21,100 @@
       "heading": "J-1 Program Categories",
       "categories": [
         {
-          "name": "Au Pair",
-          "description": "Live with American families, provide childcare, and experience American culture"
+          "name": "Summer Work Travel",
+          "description": "Work and travel in the US during summer months",
+          "slug": "summer-work",
+          "icon": "suitcase-rolling"
         },
         {
           "name": "Camp Counselor",
-          "description": "Work at US summer camps with American youth"
+          "description": "Work at US summer camps with American youth",
+          "slug": "camp-counselor",
+          "icon": "campground"
+        },
+        {
+          "name": "Professional Trainees",
+          "description": "Structured training programs for professionals",
+          "slug": "trainees",
+          "icon": "user-tie"
+        },
+        {
+          "name": "Interns",
+          "description": "Gain practical experience in your career field",
+          "slug": "interns",
+          "icon": "laptop-code"
         },
         {
           "name": "College/University Student",
-          "description": "Study at accredited post-secondary institutions"
-        },
-        {
-          "name": "Government Visitor",
-          "description": "Government officials on cultural exchange programs"
-        },
-        {
-          "name": "Intern",
-          "description": "Gain practical experience in your career field"
-        },
-        {
-          "name": "International Visitor",
-          "description": "Selected by the US government for professional visits"
-        },
-        {
-          "name": "Physician",
-          "description": "Medical graduates for graduate medical education or training"
-        },
-        {
-          "name": "Professor/Research Scholar",
-          "description": "Teach, conduct research, or consult at educational institutions"
+          "description": "Study at accredited post-secondary institutions",
+          "slug": "college-student",
+          "icon": "graduation-cap"
         },
         {
           "name": "Secondary School Student",
-          "description": "Study at accredited US high schools"
+          "description": "High school exchange programs",
+          "slug": "secondary-student",
+          "icon": "school"
         },
         {
-          "name": "Short-term Scholar",
-          "description": "Professors, research scholars for lectures or consultations"
+          "name": "Research Scholar",
+          "description": "Conduct research at US institutions",
+          "slug": "research-scholar",
+          "icon": "flask"
         },
         {
-          "name": "Specialist",
-          "description": "Experts in specialized fields for observation and consultation"
+          "name": "University Professor",
+          "description": "Teach or conduct research at universities",
+          "slug": "professor",
+          "icon": "chalkboard-teacher"
         },
         {
-          "name": "Summer Work Travel",
-          "description": "University students for summer employment and travel"
+          "name": "Teachers",
+          "description": "Teach in US schools and educational institutions",
+          "slug": "teachers",
+          "icon": "book-open"
         },
         {
-          "name": "Teacher",
-          "description": "Teach full-time in primary or secondary schools"
+          "name": "Physicians",
+          "description": "Medical graduates for graduate medical education or training",
+          "slug": "physicians",
+          "icon": "user-md"
         },
         {
-          "name": "Trainee",
-          "description": "Receive training in your professional field"
+          "name": "Au Pair",
+          "description": "Live with American families, provide childcare, and experience American culture",
+          "slug": "au-pair",
+          "icon": "home"
+        },
+        {
+          "name": "International Visitors",
+          "description": "Selected by the US government for professional visits",
+          "slug": "international-visitors",
+          "icon": "globe"
+        },
+        {
+          "name": "Government Visitors",
+          "description": "Government officials on cultural exchange programs",
+          "slug": "government-visitors",
+          "icon": "landmark"
+        },
+        {
+          "name": "Specialists",
+          "description": "Demonstrate special skills or provide expertise",
+          "slug": "specialists",
+          "icon": "user-friends"
+        },
+        {
+          "name": "Short-term Scholars",
+          "description": "Brief research, lecture, or consultation visits",
+          "slug": "short-term-scholars",
+          "icon": "clock"
+        },
+        {
+          "name": "Science & Technology",
+          "description": "Research and development in STEM fields",
+          "slug": "science-tech",
+          "icon": "atom"
         }
       ]
     },

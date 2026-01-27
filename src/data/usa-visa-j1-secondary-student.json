@@ -1,0 +1,200 @@
+{
+  "en": {
+    "title": "Secondary School Student Program (J-1 Visa)",
+    "hero": {
+      "heading": "High School Exchange Experience in America",
+      "subtitle": "Immerse yourself in American high school culture and education for an unforgettable year abroad"
+    },
+    "overview": {
+      "heading": "About the Secondary School Student Program",
+      "description": "The Secondary School Student program allows international high school students aged 15-18 to study in American public or private high schools for one academic year. This cultural exchange program provides students with unique opportunities to experience American education while living with host families.",
+      "additional": "Students participate in regular academic classes, extracurricular activities, and community events, gaining valuable cross-cultural understanding and language skills."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Aged 15-18 years old",
+        "Currently enrolled in secondary school",
+        "Good academic standing and school recommendation",
+        "English proficiency (intermediate level minimum)",
+        "Clean disciplinary record",
+        "Commitment to full academic year program",
+        "Parental consent and support"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "One full academic year (August-June)"
+        },
+        {
+          "title": "Accommodation",
+          "description": "Host family placement with meals provided"
+        },
+        {
+          "title": "School Type",
+          "description": "Public or private high schools"
+        },
+        {
+          "title": "Academic Load",
+          "description": "Regular high school curriculum and classes"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Full immersion in American culture and education",
+        "Improvement of English language skills",
+        "Personal growth and increased independence",
+        "Cross-cultural friendships and understanding",
+        "Participation in American extracurricular activities",
+        "Enhanced college application prospects",
+        "Life-changing international experience"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Complete application form with personal information",
+        "Submit academic records and school recommendation",
+        "English proficiency test results",
+        "Family background and motivation statement",
+        "Host family placement and school assignment",
+        "Pre-departure orientation and visa processing",
+        "Begin exchange year in the US"
+      ]
+    },
+    "host_family_experience": {
+      "heading": "Host Family Experience",
+      "description": "Living with an American host family is a cornerstone of the secondary school exchange experience.",
+      "aspects": [
+        {
+          "name": "Cultural Integration",
+          "description": "Daily interaction with American family life and traditions"
+        },
+        {
+          "name": "Language Practice",
+          "description": "Constant opportunity to practice English conversation"
+        },
+        {
+          "name": "Support System",
+          "description": "Emotional support and guidance from host family"
+        },
+        {
+          "name": "Local Activities",
+          "description": "Participation in community events and family outings"
+        }
+      ]
+    },
+    "important_notes": [
+      "Program requires full academic year commitment",
+      "Health insurance coverage mandatory",
+      "Regular communication with natural family required",
+      "Academic performance affects program continuation",
+      "Cultural adaptation support provided",
+      "Host family changes not permitted mid-program"
+    ]
+  },
+  "ar": {
+    "title": "برنامج طالب المرحلة الثانوية (تأشيرة J-1)",
+    "hero": {
+      "heading": "تجربة التبادل الثانوي في أمريكا",
+      "subtitle": "انغمس في ثقافة المدرسة الثانوية الأمريكية والتعليم لعام دراسي لا يُنسى في الخارج"
+    },
+    "overview": {
+      "heading": "حول برنامج طالب المرحلة الثانوية",
+      "description": "يسمح برنامج طالب المرحلة الثانوية لطلاب المدارس الثانوية الدوليين الذين تتراوح أعمارهم بين 15-18 عاماً بالدراسة في المدارس الثانوية العامة أو الخاصة الأمريكية لمدة عام دراسي كامل. يوفر برنامج التبادل الثقافي هذا للطلاب فرصاً فريدة لتجربة التعليم الأمريكي مع العيش مع عائلات مضيفة.",
+      "additional": "يشارك الطلاب في الصفوف الأكاديمية العادية، الأنشطة خارج المنهج، والفعاليات المجتمعية، مكتسبين فهماً قيماً للثقافات المختلفة ومهارات اللغة."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "العمر بين 15-18 عاماً",
+        "مسجل حالياً في المدرسة الثانوية",
+        "وضع أكاديمي جيد وتوصية من المدرسة",
+        "إتقان اللغة الإنجليزية (مستوى متوسط كحد أدنى)",
+        "سجل تأديبي نظيف",
+        "التزام ببرنامج العام الدراسي الكامل",
+        "موافقة الوالدين والدعم"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "عام دراسي كامل (أغسطس-يونيو)"
+        },
+        {
+          "title": "الإقامة",
+          "description": "إقامة مع عائلة مضيفة مع توفير الوجبات"
+        },
+        {
+          "title": "نوع المدرسة",
+          "description": "المدارس الثانوية العامة أو الخاصة"
+        },
+        {
+          "title": "الحمل الأكاديمي",
+          "description": "منهج مدرسي ثانوي عادي وصفوف"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "غمر كامل في الثقافة والتعليم الأمريكي",
+        "تحسين مهارات اللغة الإنجليزية",
+        "النمو الشخصي وزيادة الاستقلالية",
+        "صداقات متعددة الثقافات والتفاهم",
+        "المشاركة في الأنشطة الأمريكية خارج المنهج",
+        "تعزيز فرص التقديم للجامعة",
+        "تجربة دولية تغير الحياة"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "إكمال نموذج الطلب مع المعلومات الشخصية",
+        "تقديم السجلات الأكاديمية وتوصية المدرسة",
+        "نتائج اختبار إتقان اللغة الإنجليزية",
+        "خلفية العائلة وبيان الدافع",
+        "توفير عائلة مضيفة وتعيين المدرسة",
+        "التحضير قبل المغادرة ومعالجة التأشيرة",
+        "بدء عام التبادل في الولايات المتحدة"
+      ]
+    },
+    "host_family_experience": {
+      "heading": "تجربة العائلة المضيفة",
+      "description": "العيش مع عائلة مضيفة أمريكية هو حجر الأساس لتجربة التبادل الثانوي.",
+      "aspects": [
+        {
+          "name": "التكامل الثقافي",
+          "description": "التفاعل اليومي مع الحياة العائلية والتقاليد الأمريكية"
+        },
+        {
+          "name": "ممارسة اللغة",
+          "description": "فرصة مستمرة لممارسة محادثة الإنجليزية"
+        },
+        {
+          "name": "نظام الدعم",
+          "description": "الدعم العاطفي والإرشاد من العائلة المضيفة"
+        },
+        {
+          "name": "الأنشطة المحلية",
+          "description": "المشاركة في الفعاليات المجتمعية ورحلات العائلة"
+        }
+      ]
+    },
+    "important_notes": [
+      "البرنامج يتطلب التزاماً بعام دراسي كامل",
+      "تغطية التأمين الصحي إلزامية",
+      "التواصل المنتظم مع العائلة الطبيعية مطلوب",
+      "الأداء الأكاديمي يؤثر على استمرار البرنامج",
+      "يتم توفير دعم التكيف الثقافي",
+      "تغييرات العائلة المضيفة غير مسموحة أثناء البرنامج"
+    ]
+  }
+}

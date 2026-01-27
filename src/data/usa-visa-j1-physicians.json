@@ -1,0 +1,204 @@
+{
+  "en": {
+    "title": "Physician Program (J-1 Visa)",
+    "hero": {
+      "heading": "Advance Your Medical Career in America",
+      "subtitle": "Gain specialized medical training and experience at top US healthcare institutions"
+    },
+    "overview": {
+      "heading": "About the Physician Program",
+      "description": "The J-1 Physician Program allows international medical graduates to pursue graduate medical education and training in accredited US healthcare institutions. This program supports the exchange of medical knowledge and enhances global healthcare standards.",
+      "additional": "Participants receive hands-on clinical training, research opportunities, and exposure to advanced medical technologies while contributing to patient care in diverse healthcare settings."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Medical degree from accredited institution",
+        "Valid medical license in home country",
+        "English proficiency (TOEFL/IELTS)",
+        "ECFMG certification (for clinical programs)",
+        "Sponsorship from accredited US institution",
+        "Clean background check",
+        "Commitment to program duration"
+      ]
+    },
+    "program_types": {
+      "heading": "Types of Physician Programs",
+      "types": [
+        {
+          "name": "Clinical Observership",
+          "description": "Observational clinical training in various medical specialties"
+        },
+        {
+          "name": "Research Fellowship",
+          "description": "Medical research and academic training programs"
+        },
+        {
+          "name": "Graduate Medical Education",
+          "description": "Residency and fellowship programs in accredited institutions"
+        },
+        {
+          "name": "Medical Exchange",
+          "description": "Short-term exchange programs with US medical institutions"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Advanced clinical training and experience",
+        "Exposure to cutting-edge medical technology",
+        "Research opportunities and publications",
+        "Networking with US medical professionals",
+        "Potential pathway to US medical licensure",
+        "Cultural exchange in healthcare practices",
+        "Professional development and career advancement"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Identify sponsoring US medical institution",
+        "Obtain ECFMG certification if required",
+        "Apply for program position",
+        "Receive program invitation and DS-2019",
+        "Apply for J-1 visa at US embassy",
+        "Complete medical licensing requirements",
+        "Begin program with supervision"
+      ]
+    },
+    "sponsors": {
+      "heading": "Program Sponsors",
+      "description": "Accredited US medical institutions and healthcare organizations that sponsor J-1 physician programs.",
+      "organizations": [
+        "Teaching hospitals and medical centers",
+        "University medical schools",
+        "Research institutions",
+        "Specialty medical clinics"
+      ]
+    },
+    "important_notes": [
+      "Must have proper medical supervision at all times",
+      "Cannot engage in independent medical practice",
+      "Health insurance coverage is mandatory",
+      "Visa duration matches program length",
+      "May be subject to two-year home residency requirement"
+    ],
+    "success_stories": {
+      "heading": "Physician Success Stories",
+      "stories": [
+        {
+          "name": "Dr. Ahmed R.",
+          "country": "Egypt",
+          "story": "The J-1 physician program gave me invaluable clinical experience and research opportunities that significantly advanced my medical career."
+        },
+        {
+          "name": "Dr. Maria C.",
+          "country": "Colombia",
+          "story": "Working in a US hospital exposed me to advanced medical technologies and patient care standards that I now apply in my home country."
+        }
+      ]
+    }
+  },
+  "ar": {
+    "title": "برنامج الأطباء (تأشيرة J-1)",
+    "hero": {
+      "heading": "تقدم مسيرتك الطبية في أمريكا",
+      "subtitle": "احصل على تدريب طبي متخصص وخبرة في أفضل المؤسسات الصحية الأمريكية"
+    },
+    "overview": {
+      "heading": "حول برنامج الأطباء",
+      "description": "يسمح برنامج الأطباء J-1 لخريجي الطب الدوليين بمتابعة التعليم الطبي العالي والتدريب في المؤسسات الصحية المعتمدة في الولايات المتحدة. يدعم هذا البرنامج تبادل المعرفة الطبية ويعزز معايير الرعاية الصحية العالمية.",
+      "additional": "يتلقى المشاركون تدريباً سريرياً عملياً، فرص بحثية، وتعرضاً للتقنيات الطبية المتقدمة أثناء المساهمة في رعاية المرضى في إعدادات الرعاية الصحية المتنوعة."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "درجة طبية من مؤسسة معتمدة",
+        "ترخيص طبي ساري في البلد الأصلي",
+        "إتقان اللغة الإنجليزية (TOEFL/IELTS)",
+        "شهادة ECFMG (للبرامج السريرية)",
+        "رعاية من مؤسسة أمريكية معتمدة",
+        "فحص خلفية نظيف",
+        "الالتزام بمدة البرنامج"
+      ]
+    },
+    "program_types": {
+      "heading": "أنواع برامج الأطباء",
+      "types": [
+        {
+          "name": "الملاحظة السريرية",
+          "description": "التدريب السريري الملاحظ في مختلف التخصصات الطبية"
+        },
+        {
+          "name": "زمالة البحث",
+          "description": "برامج البحث الطبي والتدريب الأكاديمي"
+        },
+        {
+          "name": "التعليم الطبي العالي",
+          "description": "برامج الإقامة وزمالة في المؤسسات المعتمدة"
+        },
+        {
+          "name": "التبادل الطبي",
+          "description": "برامج تبادل قصيرة الأجل مع المؤسسات الطبية الأمريكية"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "تدريب سريري متقدم وخبرة",
+        "التعرض للتقنيات الطبية المتطورة",
+        "فرص البحث والمنشورات",
+        "التواصل مع المهنيين الطبيين الأمريكيين",
+        "مسار محتمل للترخيص الطبي الأمريكي",
+        "تبادل ثقافي في ممارسات الرعاية الصحية",
+        "التطوير المهني والتقدم الوظيفي"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "تحديد المؤسسة الطبية الأمريكية الراعية",
+        "الحصول على شهادة ECFMG إذا لزم الأمر",
+        "التقديم لوظيفة البرنامج",
+        "تلقي دعوة البرنامج و DS-2019",
+        "التقديم لتأشيرة J-1 في السفارة الأمريكية",
+        "إكمال متطلبات الترخيص الطبي",
+        "بدء البرنامج تحت الإشراف"
+      ]
+    },
+    "sponsors": {
+      "heading": "رعاة البرنامج",
+      "description": "المؤسسات الطبية والمنظمات الصحية الأمريكية المعتمدة التي ترعى برامج الأطباء J-1.",
+      "organizations": [
+        "المستشفيات التعليمية والمراكز الطبية",
+        "كليات الطب الجامعية",
+        "المؤسسات البحثية",
+        "عيادات الطب المتخصصة"
+      ]
+    },
+    "important_notes": [
+      "يجب الحصول على إشراف طبي مناسب في جميع الأوقات",
+      "لا يمكن الانخراط في الممارسة الطبية المستقلة",
+      "تغطية التأمين الصحي إلزامية",
+      "مدة التأشيرة تطابق طول البرنامج",
+      "قد يكون خاضعاً لمتطلب الإقامة المنزلية لمدة عامين"
+    ],
+    "success_stories": {
+      "heading": "قصص نجاح الأطباء",
+      "stories": [
+        {
+          "name": "د. أحمد ر.",
+          "country": "مصر",
+          "story": "أعطاني برنامج الأطباء J-1 خبرة سريرية لا تقدر بثمن وفرص بحثية عززت بشكل كبير مسيرتي الطبية."
+        },
+        {
+          "name": "د. ماريا ك.",
+          "country": "كولومبيا",
+          "story": "العمل في مستشفى أمريكي عرضني للتقنيات الطبية المتقدمة ومعايير رعاية المرضى التي أطبقها الآن في بلدي الأصلي."
+        }
+      ]
+    }
+  }
+}

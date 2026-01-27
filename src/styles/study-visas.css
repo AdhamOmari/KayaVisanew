@@ -17,7 +17,6 @@
   padding: 120px 0 80px;
   overflow: hidden;
   border-radius: 0 0 30px 30px;
-}
 
 .study-hero::before {
   content: '';

@@ -1,21 +1,87 @@
 {
   "en": {
-    "title": "US Student Visa (F-1/F-2)",
+    "title": "Student Visa for the USA (F-1 Visa)",
     "intro": "The F-1 visa is designed for international students who wish to pursue academic studies at accredited US institutions. The F-2 visa is for dependents of F-1 visa holders.",
     "overview": {
       "heading": "Overview",
       "description": "The F-1 visa allows international students to study full-time at US colleges, universities, high schools, language training programs, and other academic institutions. F-2 visas are issued to spouses and unmarried children under 21 years of age."
     },
     "why_choose": {
-      "heading": "Why Study in the USA?",
+      "heading": "Why Choose America for Study?",
+      "intro": "America stands as the world's leading destination for international education, offering unparalleled opportunities for academic excellence and personal growth.",
       "reasons": [
-        "Access to world-renowned universities and colleges",
-        "Wide range of academic programs and specializations",
-        "Opportunity for practical training (OPT/CPT)",
-        "Cutting-edge research facilities and resources",
-        "Multicultural environment and networking opportunities",
-        "Potential pathway to H1B work visa after graduation"
+        {
+          "title": "Global Academic Hub",
+          "description": "Home to the world's top universities like Harvard, MIT, and Stanford."
+        },
+        {
+          "title": "Vast Cultural Diversity",
+          "description": "Hosts over a million international students annually."
+        },
+        {
+          "title": "Innovation Powerhouse",
+          "description": "Strength in scientific research and innovation with massive funding and advanced research opportunities."
+        },
+        {
+          "title": "Vibrant Campus Life",
+          "description": "Bursting with activities, student associations, and cultural events."
+        }
       ]
+    },
+    "available_programs": {
+      "heading": "Available Programs",
+      "programs": [
+        "English as a Second Language Institutes (ESL)",
+        "Diploma, Bachelor's, Master's, and Doctoral degrees",
+        "Conditional Admission: University acceptance conditional upon completing a language program"
+      ]
+    },
+    "estimated_costs": {
+      "heading": "Estimated Costs",
+      "tuition_fees": {
+        "title": "Tuition Fees",
+        "details": [
+          "Starting from USD 10,000 per year at some community colleges",
+          "Up to USD 80,000 per year at prestigious private universities (e.g., Medicine, Engineering)",
+          "Average: USD 25,000–45,000 per year for most undergraduate programs"
+        ]
+      },
+      "living_expenses": {
+        "title": "Living Expenses",
+        "details": [
+          "Between USD 1,500–3,000 per month depending on the city",
+          "New York and Boston higher, smaller cities lower",
+          "Includes housing, food, transportation, and health insurance"
+        ]
+      }
+    },
+    "in_demand_majors": {
+      "heading": "Most In-Demand Majors",
+      "majors": [
+        "Information Technology and Computer Science",
+        "Business Administration and Finance",
+        "Medicine and Engineering",
+        "Marketing and Social Sciences"
+      ]
+    },
+    "student_life": {
+      "heading": "Student Life",
+      "major_cities": {
+        "title": "Major Student Cities",
+        "cities": [
+          "Boston (University City)",
+          "New York (Global Business Center)",
+          "California (Innovation and Technology)"
+        ]
+      },
+      "activities": {
+        "title": "Diverse Campus Activities",
+        "description": "Student associations, university sports, and cultural/artistic events"
+      },
+      "diversity": {
+        "title": "Cultural Diversity",
+        "description": "Over one million international students create a multinational environment"
+      }
     },
     "visa_types": {
       "heading": "F Visa Categories",
@@ -73,14 +139,115 @@
         "Proof of funding for entire course duration"
       ]
     },
-    "work_options": {
-      "heading": "Work Opportunities",
-      "options": [
-        "On-campus employment (up to 20 hours/week during term)",
-        "Curricular Practical Training (CPT) - internships related to major",
-        "Optional Practical Training (OPT) - 12 months after graduation",
-        "STEM OPT Extension - additional 24 months for STEM graduates"
+    "work_opportunities": {
+      "heading": "Work Opportunities During and After Study",
+      "during_study": {
+        "title": "During Study",
+        "options": [
+          {
+            "name": "On-Campus Employment",
+            "description": "Permitted up to 20 hours per week during the academic semester, and full-time during vacations"
+          },
+          {
+            "name": "CPT (Curricular Practical Training)",
+            "description": "A program that allows work or internships directly related to the academic major. Can be on or off-campus but requires university authorization"
+          }
+        ]
+      },
+      "after_graduation": {
+        "title": "After Graduation",
+        "options": [
+          {
+            "name": "OPT (Optional Practical Training)",
+            "description": "Temporary work authorization for 12 months after graduation"
+          },
+          {
+            "name": "STEM OPT Extension",
+            "description": "For STEM students, it can be extended up to 3 years"
+          },
+          {
+            "name": "Transition to Work Visa (H-1B)",
+            "description": "A common option for staying and working after OPT concludes"
+          }
+        ]
+      }
+    },
+    "application_process": {
+      "heading": "Essential Steps for US Student Visa Application (F-1)",
+      "steps": [
+        "Obtain university admission and Form I-20 from a certified educational institution",
+        "Pay the SEVIS fee ($350) and register your data in the system",
+        "Complete the electronic DS-160 form via the embassy website",
+        "Pay the Visa Fee ($185)",
+        "Schedule an interview appointment at the US Embassy or Consulate",
+        "Attend the interview with all required documents (passport, I-20, financial proof, photos, TOEFL/IELTS results)",
+        "Await the visa decision and receive your passport with the visa stamp"
+      ],
+      "detailed_explanation": {
+        "heading": "Detailed Explanation of Steps",
+        "steps": [
+          {
+            "step": "1. University Acceptance & Form I-20",
+            "description": "You must first apply to an accredited US university or institute. Upon acceptance, the institution will send you Form I-20, which proves your enrollment and is essential for the visa application."
+          },
+          {
+            "step": "2. Pay the SEVIS Fee",
+            "description": "SEVIS is a database for international students. You pay the fee ($350) online and receive a receipt that must be presented at the interview."
+          },
+          {
+            "step": "3. Complete the DS-160 Form",
+            "description": "An electronic form on the US Embassy website. After filling it out, print the confirmation page with the barcode."
+          },
+          {
+            "step": "4. Pay the Visa Fee ($185)",
+            "description": "Paid through a bank or online, according to the embassy's instructions in your country."
+          },
+          {
+            "step": "5. Schedule the Interview",
+            "description": "Done via the embassy or visa center website. It is advisable to book early due to potential high demand."
+          },
+          {
+            "step": "6. Attend the Interview",
+            "description": "The most critical stage, where the Consular Officer assesses your academic intent and financial capability. You must demonstrate that you intend to return to your home country after your studies and have sufficient funding."
+          },
+          {
+            "step": "7. Visa Collection",
+            "description": "If approved, your passport will be stamped with the F-1 visa. You can enter the US up to 30 days before your program start date."
+          }
+        ]
+      }
+    },
+    "golden_tips": {
+      "heading": "Golden Tips for Success",
+      "tips": [
+        "Prepare clear answers regarding why you chose the US and your major",
+        "Highlight your future plans after returning to your home country",
+        "Ensure your financial documents show a genuine ability to cover the costs",
+        "Be confident and calm during the interview"
       ]
+    },
+    "required_documents": {
+      "heading": "Required Documents for Submission",
+      "documents": [
+        "Valid passport",
+        "Acceptance letter from a certified university/institute (I-20)",
+        "Financial proof covering tuition and living expenses",
+        "Completed Visa Application Form (DS-160)",
+        "Payment receipts for the SEVIS fee ($350) and the Visa Fee ($185)",
+        "Passport-compliant personal photos",
+        "Proof of English proficiency (TOEFL/IELTS)",
+        "Appointment confirmation for the interview"
+      ]
+    },
+    "with_kaya": {
+      "heading": "With Kaya: Your Path to America is Easier",
+      "services": [
+        "We help you choose the right university based on your budget and major",
+        "Preparation of a complete, error-free visa file",
+        "Support in proving financial capability and drafting the Statement of Intent",
+        "Post-arrival follow-up: Registration, housing, and initial job opportunities"
+      ],
+      "conclusion": "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step-by-step until you reach your dream."
     },
     "important_notes": [
       "Must maintain full-time enrollment status",
@@ -91,22 +258,88 @@
     "cta": "Start Your US Study Journey Today!"
   },
   "ar": {
-    "title": "تأشيرة الطالب الأمريكية (F-1/F-2)",
+    "title": "تأشيرة الطالب للولايات المتحدة (F-1)",
     "intro": "تأشيرة F-1 مصممة للطلاب الدوليين الذين يرغبون في متابعة الدراسة الأكاديمية في المؤسسات الأمريكية المعتمدة. تأشيرة F-2 للمعالين من حاملي تأشيرة F-1.",
     "overview": {
       "heading": "نظرة عامة",
       "description": "تأشيرة F-1 تسمح للطلاب الدوليين بالدراسة بدوام كامل في الكليات والجامعات والمدارس الثانوية وبرامج تدريب اللغة والمؤسسات الأكاديمية الأخرى في الولايات المتحدة. تصدر تأشيرة F-2 للأزواج والأطفال غير المتزوجين تحت 21 عاماً."
     },
     "why_choose": {
-      "heading": "لماذا الدراسة في الولايات المتحدة؟",
+      "heading": "لماذا تختار أمريكا للدراسة؟",
+      "intro": "تمثل أمريكا الوجهة الأولى عالمياً للتعليم الدولي، حيث توفر فرصاً لا مثيل لها للتميز الأكاديمي والنمو الشخصي.",
       "reasons": [
-        "الوصول إلى جامعات وكليات مرموقة عالمياً",
-        "مجموعة واسعة من البرامج الأكاديمية والتخصصات",
-        "فرصة التدريب العملي (OPT/CPT)",
-        "مرافق بحثية ومصادر متطورة",
-        "بيئة متعددة الثقافات وفرص التواصل",
-        "مسار محتمل لتأشيرة العمل H1B بعد التخرج"
+        {
+          "title": "المركز الأكاديمي العالمي",
+          "description": "موطن أفضل الجامعات العالمية مثل هارفارد، MIT، وستانفورد."
+        },
+        {
+          "title": "التنوع الثقافي الواسع",
+          "description": "يستضيف أكثر من مليون طالب دولي سنوياً."
+        },
+        {
+          "title": "قوة الابتكار",
+          "description": "قوة في البحث العلمي والابتكار مع تمويل هائل وفرص بحث متقدمة."
+        },
+        {
+          "title": "الحياة الجامعية النابضة",
+          "description": "مليئة بالأنشطة وجمعيات الطلاب والفعاليات الثقافية."
+        }
       ]
+    },
+    "available_programs": {
+      "heading": "البرامج المتاحة",
+      "programs": [
+        "معاهد اللغة الإنجليزية كلغة ثانية (ESL)",
+        "الدبلوم ودرجات البكالوريوس والماجستير والدكتوراه",
+        "القبول المشروط: قبول جامعي مشروط بإكمال برنامج اللغة"
+      ]
+    },
+    "estimated_costs": {
+      "heading": "التكاليف المقدرة",
+      "tuition_fees": {
+        "title": "رسوم الدراسة",
+        "details": [
+          "تبدأ من 10,000 دولار سنوياً في بعض الكليات المجتمعية",
+          "تصل إلى 80,000 دولار سنوياً في الجامعات الخاصة المرموقة (مثل الطب والهندسة)",
+          "متوسط: 25,000-45,000 دولار سنوياً لمعظم برامج البكالوريوس"
+        ]
+      },
+      "living_expenses": {
+        "title": "مصاريف المعيشة",
+        "details": [
+          "بين 1,500-3,000 دولار شهرياً حسب المدينة",
+          "نيويورك وبوسطن أغلى، المدن الأصغر أرخص",
+          "تشمل السكن والطعام والمواصلات والتأمين الصحي"
+        ]
+      }
+    },
+    "in_demand_majors": {
+      "heading": "أكثر التخصصات طلباً",
+      "majors": [
+        "تكنولوجيا المعلومات وعلم الحاسوب",
+        "إدارة الأعمال والمالية",
+        "الطب والهندسة",
+        "التسويق والعلوم الاجتماعية"
+      ]
+    },
+    "student_life": {
+      "heading": "الحياة الطلابية",
+      "major_cities": {
+        "title": "المدن الطلابية الرئيسية",
+        "cities": [
+          "بوسطن (مدينة الجامعات)",
+          "نيويورك (مركز الأعمال العالمي)",
+          "كاليفورنيا (الابتكار والتكنولوجيا)"
+        ]
+      },
+      "activities": {
+        "title": "الأنشطة الجامعية المتنوعة",
+        "description": "جمعيات الطلاب والرياضة الجامعية والفعاليات الثقافية والفنية"
+      },
+      "diversity": {
+        "title": "التنوع الثقافي",
+        "description": "أكثر من مليون طالب دولي يخلقون بيئة متعددة الجنسيات"
+      }
     },
     "visa_types": {
       "heading": "فئات تأشيرة F",
@@ -164,14 +397,115 @@
         "إثبات التمويل لكامل مدة الدورة"
       ]
     },
-    "work_options": {
-      "heading": "فرص العمل",
-      "options": [
-        "العمل في الحرم الجامعي (حتى 20 ساعة/أسبوع خلال الفصل الدراسي)",
-        "التدريب العملي المنهجي (CPT) - تدريب يتعلق بالتخصص",
-        "التدريب العملي الاختياري (OPT) - 12 شهراً بعد التخرج",
-        "تمديد STEM OPT - 24 شهراً إضافية لخريجي STEM"
+    "work_opportunities": {
+      "heading": "فرص العمل أثناء وبعد الدراسة",
+      "during_study": {
+        "title": "أثناء الدراسة",
+        "options": [
+          {
+            "name": "العمل في الحرم الجامعي",
+            "description": "مسموح حتى 20 ساعة أسبوعياً خلال الفصل الدراسي، ودوام كامل خلال العطل"
+          },
+          {
+            "name": "CPT (التدريب العملي المنهجي)",
+            "description": "برنامج يسمح بالعمل أو التدريب المتعلق مباشرة بالتخصص الأكاديمي. يمكن أن يكون داخل أو خارج الحرم الجامعي لكنه يتطلب تصريحاً جامعياً"
+          }
+        ]
+      },
+      "after_graduation": {
+        "title": "بعد التخرج",
+        "options": [
+          {
+            "name": "OPT (التدريب العملي الاختياري)",
+            "description": "تصريح عمل مؤقت لمدة 12 شهراً بعد التخرج"
+          },
+          {
+            "name": "تمديد STEM OPT",
+            "description": "لطلاب STEM، يمكن تمديده حتى 3 سنوات"
+          },
+          {
+            "name": "الانتقال إلى تأشيرة عمل (H-1B)",
+            "description": "خيار شائع للبقاء والعمل بعد انتهاء OPT"
+          }
+        ]
+      }
+    },
+    "application_process": {
+      "heading": "الخطوات الأساسية لتقديم طلب تأشيرة الطالب الأمريكية (F-1)",
+      "steps": [
+        "الحصول على قبول جامعي ونموذج I-20 من مؤسسة تعليمية معتمدة",
+        "دفع رسوم SEVIS (350 دولار) وتسجيل بياناتك في النظام",
+        "إكمال نموذج DS-160 الإلكتروني عبر موقع السفارة",
+        "دفع رسوم التأشيرة (185 دولار)",
+        "جدولة موعد مقابلة في السفارة أو القنصلية الأمريكية",
+        "حضور المقابلة مع جميع المستندات المطلوبة (جواز السفر، I-20، إثبات مالي، صور، نتائج TOEFL/IELTS)",
+        "انتظار قرار التأشيرة واستلام جواز السفر مع ختم التأشيرة"
+      ],
+      "detailed_explanation": {
+        "heading": "شرح مفصل للخطوات",
+        "steps": [
+          {
+            "step": "1. القبول الجامعي ونموذج I-20",
+            "description": "يجب عليك أولاً التقديم والقبول في جامعة أمريكية معتمدة أو معهد. عند القبول، ترسلك المؤسسة نموذج I-20، الذي يثبت تسجيلك وهو أساسي لطلب التأشيرة."
+          },
+          {
+            "step": "2. دفع رسوم SEVIS",
+            "description": "SEVIS هو قاعدة بيانات للطلاب الدوليين. تدفع الرسوم (350 دولار) عبر الإنترنت وتحصل على إيصال يجب تقديمه في المقابلة."
+          },
+          {
+            "step": "3. إكمال نموذج DS-160",
+            "description": "نموذج إلكتروني على موقع السفارة الأمريكية. بعد تعبئته، اطبع صفحة التأكيد مع الرمز الشريطي."
+          },
+          {
+            "step": "4. دفع رسوم التأشيرة (185 دولار)",
+            "description": "تدفع عبر البنك أو عبر الإنترنت، وفقاً لتعليمات السفارة في بلدك."
+          },
+          {
+            "step": "5. جدولة المقابلة",
+            "description": "يتم عبر موقع السفارة أو مركز التأشيرات. يُنصح بالحجز مبكراً بسبب الطلب المحتمل العالي."
+          },
+          {
+            "step": "6. حضور المقابلة",
+            "description": "المرحلة الأكثر أهمية، حيث يقيم الضابط القنصلي نيتك الأكاديمية وقدرتك المالية. يجب أن تثبت أنك تنوي العودة إلى بلدك الأصلي بعد دراستك ولديك تمويل كافٍ."
+          },
+          {
+            "step": "7. استلام التأشيرة",
+            "description": "إذا تمت الموافقة، يتم ختم جواز سفرك بتأشيرة F-1. يمكنك دخول الولايات المتحدة حتى 30 يوماً قبل تاريخ بدء برنامجك."
+          }
+        ]
+      }
+    },
+    "golden_tips": {
+      "heading": "نصائح ذهبية للنجاح",
+      "tips": [
+        "تحضير إجابات واضحة بشأن سبب اختيارك للولايات المتحدة وتخصصك",
+        "تسليط الضوء على خططك المستقبلية بعد العودة إلى بلدك الأصلي",
+        "ضمان أن تظهر وثائقك المالية قدرة حقيقية على تغطية التكاليف",
+        "كن واثقاً وهادئاً خلال المقابلة"
       ]
+    },
+    "required_documents": {
+      "heading": "المستندات المطلوبة للتقديم",
+      "documents": [
+        "جواز سفر ساري المفعول",
+        "خطاب قبول من جامعة/معهد معتمد (I-20)",
+        "إثبات مالي يغطي الرسوم الدراسية ومصاريف المعيشة",
+        "نموذج طلب التأشيرة مكتمل (DS-160)",
+        "إيصالات دفع رسوم SEVIS (350 دولار) ورسوم التأشيرة (185 دولار)",
+        "صور شخصية متوافقة مع جواز السفر",
+        "إثبات إتقان اللغة الإنجليزية (TOEFL/IELTS)",
+        "تأكيد موعد المقابلة"
+      ]
+    },
+    "with_kaya": {
+      "heading": "مع كايا: طريقك إلى أمريكا أسهل",
+      "services": [
+        "نساعدك في اختيار الجامعة المناسبة بناءً على ميزانيتك وتخصصك",
+        "إعداد ملف تأشيرة كامل وخالٍ من الأخطاء",
+        "دعم في إثبات القدرة المالية وصياغة بيان النوايا",
+        "متابعة ما بعد الوصول: التسجيل والسكن وفرص العمل الأولية"
+      ],
+      "conclusion": "مع كايا، كل بلد فرصة جديدة لتجربة تعليمية وحياتية غنية، ونرافقك خطوة بخطوة حتى تحقق حلمك."
     },
     "important_notes": [
       "يجب الحفاظ على حالة التسجيل بدوام كامل",
