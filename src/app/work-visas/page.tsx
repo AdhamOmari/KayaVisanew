@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n';
-import { WorkVisaPageContent, AvailableVisa, WorkVisaType, WhyKayaReason } from '@/types/work-visa';
 import '@/styles/work-visas-modern.css';
 
 export default function WorkVisasPage() {
@@ -15,8 +14,8 @@ export default function WorkVisasPage() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const content: WorkVisaPageContent = require('@/data/work-visas-main.json');
-        setData(content[locale as keyof WorkVisaPageContent] || content.en);
+        const content: any = require('@/data/work-visas-main.json');
+        setData(content[locale as keyof any] || content.en);
       } catch (error) {
         console.error('Error loading work visa data:', error);
       } finally {
@@ -96,7 +95,7 @@ export default function WorkVisasPage() {
           </div>
 
           <div className="row g-4">
-            {data.visa_types.map((type: WorkVisaType, index: number) => (
+            {data.visa_types.map((type: any, index: number) => (
               <div key={index} className="col-lg-4 col-md-6">
                 <Link href={type.link} className="text-decoration-none">
                   <div className="work-visa-item-card">
@@ -123,7 +122,7 @@ export default function WorkVisasPage() {
           </div>
 
           <div className="work-visa-grid">
-            {data.available_visas.map((visa: AvailableVisa, index: number) => (
+            {data.available_visas.map((visa: any, index: number) => (
               <div key={index} className="work-visa-item-card">
                 <span className="work-card-country">{visa.country}</span>
                 <div className="d-flex align-items-center mb-4">
@@ -188,7 +187,7 @@ export default function WorkVisasPage() {
           </div>
 
           <div className="row g-4">
-            {data.why_kaya.reasons.map((reason: WhyKayaReason, index: number) => (
+            {data.why_kaya.reasons.map((reason: any, index: number) => (
               <div key={index} className="col-lg-3 col-md-6">
                 <div className="work-visa-item-card text-center align-items-center">
                   <div className="work-card-icon">
