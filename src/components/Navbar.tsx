@@ -561,6 +561,7 @@ export default function Navbar() {
           display: flex;
           align-items: center;
           gap: 4px;
+          white-space: nowrap;
         }
 
         .nav-link:hover, .nav-link.active {

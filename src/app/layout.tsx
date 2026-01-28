@@ -12,7 +12,7 @@ import Navbar from '@/components/Navbar'
 import GlobalLoading from '@/components/GlobalLoading'
 import { useState, useEffect } from 'react'
 import { initSlowScroll } from '../lib/slowScrollInit';
-import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
