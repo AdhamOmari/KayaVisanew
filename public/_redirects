@@ -1,0 +1,7 @@
+/* Netlify _redirects file for Next.js SPA fallback */
+/* Force all requests to index.html for client-side routing */
+/* Useful for Next.js static export or fallback */
+/* Uncomment the below if using static export */
+# /index.html 200
+
+/*	/index.html	200
