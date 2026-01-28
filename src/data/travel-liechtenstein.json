@@ -1,0 +1,66 @@
+{
+  "en": {
+    "title": "Liechtenstein Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the fairy-tale beauty of the smallest country in the world"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed Schengen visa application form"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date"
+    ],
+    "with_kaya": [
+      "Complete application form assistance"
+    ],
+    "attractions": [
+      {
+        "name": "Vaduz Castle",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d4/76/3b/caption.jpg?w=900&h=-1&s=1"
+      }
+    ],
+    "cta": "Start your Liechtenstein adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لليختنشتاين",
+    "hero": {
+      "subtitle": "اكتشف جمال الخرافة لأصغر دولة في العالم"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب تأشيرة الشنغن مكتمل"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب"
+    ],
+    "attractions": [
+      {
+        "name": "قلعة فادوز",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d4/76/3b/caption.jpg?w=900&h=-1&s=1"
+      }
+    ],
+    "cta": "ابدأ مغامرتك في ليختنشتاين اليوم"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "en": {
+    "title": "Iceland Schengen Visa",
+    "hero": {
+      "subtitle": "Experience the land of fire and ice"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Iceland to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Icelandic consulate or visa center early",
+      "Ensure all documents are translated to Icelandic or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Eyjafjallajökull Volcano",
+        "image": "https://schritte.wordpress.com/wp-content/uploads/2010/04/fimmvorduhals_second_fissure_2010_04_02.jpg"
+      },
+      {
+        "name": "Northern Lights – Icelandic Lapland",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRncK8G64hGHKk2HWQ5ynxRzArBJYRVcAdw&s"
+      },
+      {
+        "name": "Blue Lagoon Thermal Lake",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/74/c7/b4/the-pool-at-10-00.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "name": "Gullfoss Waterfall",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/GullfossOverview.jpg"
+      },
+      {
+        "name": "Thingvellir National Park",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Thingvellir.jpg"
+      },
+      {
+        "name": "Seljalandsfoss Waterfall",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSui2wvjOY9R7t4OxhhhIT1Xdsrn3iXne59CA&s"
+      }
+    ],
+    "cta": "Start your Icelandic adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لآيسلندا",
+    "hero": {
+      "subtitle": "اختبر أرض النار والجليد"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر آيسلندا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية الآيسلندية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى الآيسلندية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "بركان إيافيالايوكل",
+        "image": "https://schritte.wordpress.com/wp-content/uploads/2010/04/fimmvorduhals_second_fissure_2010_04_02.jpg"
+      },
+      {
+        "name": "الشفق القطبي – لابلاند الآيسلندية",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRncK8G64hGHKk2HWQ5ynxRzArBJYRVcAdw&s"
+      },
+      {
+        "name": "بحيرة بلو لاغون الحرارية",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/74/c7/b4/the-pool-at-10-00.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "name": "شلال جولفوس",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/GullfossOverview.jpg"
+      },
+      {
+        "name": "الحديقة الوطنية ثينغفيلير",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Thingvellir.jpg"
+      },
+      {
+        "name": "شلال سيلجالاندسفوس",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSui2wvjOY9R7t4OxhhhIT1Xdsrn3iXne59CA&s"
+      }
+    ],
+    "cta": "ابدأ مغامرتك الآيسلندية اليوم"
+  }
+}

@@ -1,22 +1,34 @@
-/* Work visa styles are now standalone; no import. */
-/* ===== TRAVEL VISAS PAGE - Unified with Work Visas ===== */
-
-.travel-visas-page {
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-  color: #1c3269;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  padding-bottom: 60px;
+/* Global Design Tokens inherited from globals.css */
+:root {
+  --travel-primary: #1e293b;
+  --travel-accent: #e2bc42;
+  --travel-surface: #ffffff;
+  --travel-bg: #f8fafc;
+  --travel-text-main: #334155;
+  --travel-text-muted: #64748b;
+  --travel-ring: rgba(226, 188, 66, 0.2);
 }
 
+.travel-visas-page {
+  background-color: var(--travel-bg);
+  color: var(--travel-text-main);
+  font-family: 'Inter', sans-serif;
+}
+
+/* =========================================
+   Hero Section - Ultra Modern
+   ========================================= */
 .modern-hero {
   position: relative;
-  min-height: 650px;
-  background: linear-gradient(135deg, #1c3269 0%, #2a5282 50%, #4a7fbe 100%);
-  color: white;
-  padding: 120px 0 80px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #fff;
+  padding: 120px 0 100px;
   overflow: hidden;
-  border-radius: 0 0 30px 30px;
+  border-radius: 0 0 80px 80px;
 }
 
 .modern-hero::before {
@@ -24,302 +36,302 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  width: 100%;
+  height: 100%;
+  background-image: url("/travel-hero-bg.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.13;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.modern-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, #0f172a 100%);
+  z-index: 2;
 }
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .hero-title {
-  font-size: 3.2rem;
+  font-size: clamp(2.8rem, 6vw, 5rem);
   font-weight: 800;
-  margin-bottom: 15px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.18);
+  margin-bottom: 25px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: #fff;
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
-  font-weight: 400;
-  opacity: 0.92;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: var(--travel-accent);
+  font-weight: 600;
   margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  max-width: 800px;
+  margin: 0 auto 45px;
+  line-height: 1.8;
 }
 
 .hero-actions {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   justify-content: center;
-  margin-top: 30px;
 }
 
-.btn-modern-primary,
-.btn-modern-secondary {
-  padding: 16px 40px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border-radius: 50px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  border: 2px solid;
-}
-
-.btn-modern-primary {
-  background: #ffd166;
-  color: #1c3269;
-  border-color: #ffd166;
-  box-shadow: 0 5px 20px rgba(255, 209, 102, 0.18);
-}
-
-.btn-modern-primary:hover {
-  background: white;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 209, 102, 0.28);
-}
-
-.btn-modern-secondary {
-  background: white;
-  color: #1c3269;
-  border-color: #1c3269;
-}
-
-.btn-modern-secondary:hover {
-  background: #1c3269;
-  color: white;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(28, 50, 105, 0.18);
-}
-
+/* =========================================
+   Dynamic Cards
+   ========================================= */
 .section-modern {
-  padding: 80px 0;
-  background: #f7faff;
-  border-radius: 24px;
-  margin-bottom: 40px;
+  padding: 120px 0;
 }
 
 .section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1c3269;
-  margin-bottom: 20px;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 80px;
   position: relative;
-  display: inline-block;
 }
 
 .section-title::after {
   content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
+  display: block;
+  width: 60px;
   height: 4px;
-  background: linear-gradient(90deg, #1c3269 0%, #4a7fbe 100%);
+  background: var(--travel-accent);
+  margin: 20px auto 0;
   border-radius: 2px;
 }
 
-.feature-card {
-  background: white;
-  border-radius: 20px;
-  padding: 40px 30px;
+/* Visa Cards */
+.visa-type-card {
+  background: #fff;
+  border-radius: 32px;
+  padding: 50px 40px;
   text-align: center;
-  transition: all 0.3s ease;
-  border: 2px solid #e9ecef;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+  height: 100%;
+}
+
+.visa-type-card:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+  border-color: var(--travel-accent);
+}
+
+.visa-type-icon {
+  width: 90px;
+  height: 90px;
+  background: #f1f5f9;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  font-size: 2.5rem;
+  color: #0f172a;
+  transition: all 0.5s;
+}
+
+.visa-type-card:hover .visa-type-icon {
+  background: var(--travel-accent);
+  color: #0f172a;
+  transform: rotate(10deg);
+}
+
+/* Country Grid */
+.country-visa-card {
+  background: #fff;
+  border-radius: 32px;
+  padding: 40px;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
   position: relative;
   overflow: hidden;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 8px 32px rgba(76, 110, 245, 0.08);
 }
 
-.feature-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 25px 50px rgba(28, 50, 105, 0.13);
-  border-color: #4a7fbe;
-}
-
-.feature-icon {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  margin: 0 auto 25px;
-  background: linear-gradient(135deg, #ffd166 0%, #4a7fbe 100%);
-  color: #1c3269;
-}
-
-.feature-card h3 {
-  color: #1c3269;
-  font-size: 1.3rem;
-  margin-bottom: 12px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.feature-card p {
-  color: #6c757d;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 18px;
-  text-align: center;
-  flex-grow: 1;
-}
-
-/* Travel Visas - Unified with Work Visas */
-
-
-/* If you need to target travel-specific selectors, add them below. Otherwise, all work visa styles will apply. */
-
-.visa-type-icon {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 1.5rem;
-  background: linear-gradient(135deg, var(--travel-primary), var(--travel-secondary));
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: white;
-}
-
-.country-visa-card {
-  background: white;
-  border-radius: 16px;
-  padding: 2rem;
-  transition: all 0.3s ease;
-  border-left: 4px solid var(--travel-primary);
-  height: 100%;
+.country-visa-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle at top right, rgba(226, 188, 66, 0.1), transparent 70%);
+  pointer-events: none;
 }
 
 .country-visa-card:hover {
-  box-shadow: 0 12px 40px rgba(0, 119, 190, 0.12);
-  transform: translateX(8px);
-  border-left-color: var(--travel-accent);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.08);
+  border-color: rgba(226, 188, 66, 0.4);
 }
 
 .country-flag-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
 }
 
 .country-code-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--travel-accent);
+  background: rgba(226, 188, 66, 0.1);
+  padding: 4px 12px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
   display: inline-block;
-  background: var(--travel-primary);
-  color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
 }
 
 .visa-list {
-  list-style: none;
   padding: 0;
-  margin: 1rem 0 0 0;
+  list-style: none;
+  margin: 20px 0;
 }
 
 .visa-list li {
-  padding: 0.5rem 0;
-  padding-left: 1.5rem;
+  padding: 8px 0;
   position: relative;
-  font-size: 0.9rem;
-  color: #555;
+  padding-left: 20px;
+  font-weight: 500;
+  color: #475569;
 }
 
 .visa-list li::before {
-  content: "✓";
+  content: '✓';
   position: absolute;
   left: 0;
   color: var(--travel-accent);
-  font-weight: bold;
 }
 
-/* Why Kaya Cards */
+/* Why Kaya */
 .why-kaya-card {
-  background: linear-gradient(135deg, rgba(0, 119, 190, 0.05), rgba(0, 168, 232, 0.05));
-  border-radius: 12px;
-  padding: 1.5rem;
-  border-left: 4px solid var(--travel-accent);
-  transition: all 0.3s ease;
+  background: #fff;
+  border-radius: 24px;
+  padding: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
 }
 
 .why-kaya-card:hover {
-  background: linear-gradient(135deg, rgba(0, 119, 190, 0.08), rgba(0, 168, 232, 0.08));
-  transform: translateY(-4px);
+  background: #0f172a;
 }
 
-/* Adventure Banner */
+.why-kaya-card:hover p {
+  color: #fff;
+}
+
+/* Buttons */
+.btn-modern-primary {
+  background: var(--travel-accent);
+  color: #0f172a;
+  padding: 20px 45px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  transition: all 0.3s;
+  box-shadow: 0 10px 30px rgba(226, 188, 66, 0.3);
+}
+
+.btn-modern-primary:hover {
+  transform: translateY(-5px);
+  background: #fff;
+  color: #0f172a;
+}
+
+.btn-modern-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  padding: 20px 45px;
+  border-radius: 100px;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+}
+
+.btn-modern-secondary:hover {
+  background: #fff;
+  color: #0f172a;
+}
+
+/* Banner */
 .adventure-banner {
-  background: linear-gradient(135deg, var(--travel-primary), var(--travel-secondary));
-  border-radius: 20px;
-  padding: 3rem;
-  color: white;
+  background: #0f172a;
+  border-radius: 60px;
+  padding: 100px 60px;
   text-align: center;
+  color: #fff;
   position: relative;
   overflow: hidden;
 }
 
 .adventure-banner::before {
-  content: "";
+  content: '';
   position: absolute;
-  top: -50%;
-  right: -10%;
-  width: 400px;
-  height: 400px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 80% 20%, rgba(226, 188, 66, 0.15), transparent 50%);
 }
 
-.adventure-banner::after {
-  content: "";
-  position: absolute;
-  bottom: -30%;
-  left: -5%;
-  width: 300px;
-  height: 300px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 50%;
-}
-
-.adventure-banner>* {
-  position: relative;
-  z-index: 1;
-}
-
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 768px) {
-
-  .visa-type-card,
-  .country-visa-card {
-    padding: 1.5rem;
+  .section-modern {
+    padding: 80px 0;
   }
 
-  .visa-type-icon {
-    width: 60px;
-    height: 60px;
-    font-size: 1.5rem;
+  .modern-hero {
+    padding-top: 150px;
+    border-radius: 0 0 50px 50px;
   }
 
-  .country-flag-icon {
-    font-size: 2.5rem;
+  .hero-actions {
+    flex-direction: column;
   }
+
+  .adventure-banner {
+    padding: 60px 20px;
+    border-radius: 40px;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] .visa-list li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+[dir="rtl"] .visa-list li::before {
+  left: auto;
+  right: 0;
 }

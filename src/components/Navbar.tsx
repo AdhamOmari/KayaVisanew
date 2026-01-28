@@ -1,13 +1,22 @@
 'use client';
 
 import { useI18n } from '@/lib/i18n';
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
   const { locale, dir } = useI18n();
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const content = {
     ar: {
@@ -57,10 +66,35 @@ export default function Navbar() {
       schengenVisas: {
         title: 'تأشيرات الشنغن',
         countries: [
-          'ألمانيا', 'فرنسا', 'إيطاليا', 'سويسرا', 'إسبانيا', 'البرتغال', 'هولندا', 'اليونان',
-          'النمسا', 'المجر', 'السويد', 'النرويج', 'آيسلندا', 'فنلندا', 'الدنمارك', 'لوكسمبورغ',
-          'بلجيكا', 'التشيك', 'كرواتيا', 'إستونيا', 'بولندا', 'سلوفينيا', 'ليتوانيا', 'ليختنشتاين',
-          'مالطا', 'لاتفيا', 'سلوفاكيا', 'بلغاريا', 'رومانيا'
+          { name: 'ألمانيا', slug: 'germany' },
+          { name: 'فرنسا', slug: 'france' },
+          { name: 'إيطاليا', slug: 'italy' },
+          { name: 'سويسرا', slug: 'switzerland' },
+          { name: 'إسبانيا', slug: 'spain' },
+          { name: 'البرتغال', slug: 'portugal' },
+          { name: 'هولندا', slug: 'netherlands' },
+          { name: 'اليونان', slug: 'greece' },
+          { name: 'النمسا', slug: 'austria' },
+          { name: 'المجر', slug: 'hungary' },
+          { name: 'السويد', slug: 'sweden' },
+          { name: 'النرويج', slug: 'norway' },
+          { name: 'آيسلندا', slug: 'iceland' },
+          { name: 'فنلندا', slug: 'finland' },
+          { name: 'الدنمارك', slug: 'denmark' },
+          { name: 'لوكسمبورغ', slug: 'luxembourg' },
+          { name: 'بلجيكا', slug: 'belgium' },
+          { name: 'التشيك', slug: 'czech' },
+          { name: 'كرواتيا', slug: 'croatia' },
+          { name: 'إستونيا', slug: 'estonia' },
+          { name: 'بولندا', slug: 'poland' },
+          { name: 'سلوفينيا', slug: 'slovenia' },
+          { name: 'ليتوانيا', slug: 'lithuania' },
+          { name: 'ليختنشتاين', slug: 'liechtenstein' },
+          { name: 'مالطا', slug: 'malta' },
+          { name: 'لاتفيا', slug: 'latvia' },
+          { name: 'سلوفاكيا', slug: 'slovakia' },
+          { name: 'بلغاريا', slug: 'bulgaria' },
+          { name: 'رومانيا', slug: 'romania' }
         ],
       },
       studyVisas: {
@@ -161,10 +195,35 @@ export default function Navbar() {
       schengenVisas: {
         title: 'Schengen Visas',
         countries: [
-          'Germany', 'France', 'Italy', 'Switzerland', 'Spain', 'Portugal', 'Netherlands', 'Greece',
-          'Austria', 'Hungary', 'Sweden', 'Norway', 'Iceland', 'Finland', 'Denmark', 'Luxembourg',
-          'Belgium', 'Czech Republic', 'Croatia', 'Estonia', 'Poland', 'Slovenia', 'Lithuania', 'Liechtenstein',
-          'Malta', 'Latvia', 'Slovakia', 'Bulgaria', 'Romania'
+          { name: 'Germany', slug: 'germany' },
+          { name: 'France', slug: 'france' },
+          { name: 'Italy', slug: 'italy' },
+          { name: 'Switzerland', slug: 'switzerland' },
+          { name: 'Spain', slug: 'spain' },
+          { name: 'Portugal', slug: 'portugal' },
+          { name: 'Netherlands', slug: 'netherlands' },
+          { name: 'Greece', slug: 'greece' },
+          { name: 'Austria', slug: 'austria' },
+          { name: 'Hungary', slug: 'hungary' },
+          { name: 'Sweden', slug: 'sweden' },
+          { name: 'Norway', slug: 'norway' },
+          { name: 'Iceland', slug: 'iceland' },
+          { name: 'Finland', slug: 'finland' },
+          { name: 'Denmark', slug: 'denmark' },
+          { name: 'Luxembourg', slug: 'luxembourg' },
+          { name: 'Belgium', slug: 'belgium' },
+          { name: 'Czech Republic', slug: 'czech' },
+          { name: 'Croatia', slug: 'croatia' },
+          { name: 'Estonia', slug: 'estonia' },
+          { name: 'Poland', slug: 'poland' },
+          { name: 'Slovenia', slug: 'slovenia' },
+          { name: 'Lithuania', slug: 'lithuania' },
+          { name: 'Liechtenstein', slug: 'liechtenstein' },
+          { name: 'Malta', slug: 'malta' },
+          { name: 'Latvia', slug: 'latvia' },
+          { name: 'Slovakia', slug: 'slovakia' },
+          { name: 'Bulgaria', slug: 'bulgaria' },
+          { name: 'Romania', slug: 'romania' }
         ],
       },
       studyVisas: {
@@ -232,11 +291,13 @@ export default function Navbar() {
     <nav dir={dir} style={{
       backgroundColor: '#1c3269',
       color: 'white',
-      position: 'sticky',
+      position: 'fixed',
+      width: '100%',
       top: 0,
       zIndex: 1000,
-      boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+      boxShadow: scrolled ? '0 4px 20px rgba(0,0,0,0.2)' : '0 2px 10px rgba(0,0,0,0.1)',
       borderTop: '3px solid #e2bc42',
+      transition: 'all 0.3s ease',
     }}>
       <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 20px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '70px' }}>
@@ -261,7 +322,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'citizenship' && (
-                <div className="mega-menu-content small-width">
+                <div className={`mega-menu-content small-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.secondCitizenship.title}</div>
                   {t.secondCitizenship.countries.map((country, idx) => (
                     <a key={idx} href={`/second-citizenship/${country.slug}`} className="mega-menu-item">
@@ -282,7 +343,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'usa' && (
-                <div className="mega-menu-content large-width">
+                <div className={`mega-menu-content large-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.usaVisas.title}</div>
                   {t.usaVisas.categories.map((category, idx) => (
                     <div key={idx} style={{ marginBottom: '20px' }}>
@@ -314,15 +375,19 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'schengen' && (
-                <div className="mega-menu-content xl-width">
+                <div className={`mega-menu-content xl-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.schengenVisas.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
-                    {t.schengenVisas.countries.map((country, idx) => (
-                      <a key={idx} href={`/schengen-visas/${country.toLowerCase()}`} className="mega-menu-sub-link" style={{ color: '#1a202c' }}>
-                        <i className="fas fa-globe-europe" style={{ marginRight: dir === 'rtl' ? '0' : '6px', marginLeft: dir === 'rtl' ? '6px' : '0', fontSize: '0.8rem' }}></i>
-                        {country}
-                      </a>
-                    ))}
+                    {t.schengenVisas.countries.map((country: any, idx: number) => {
+                      const countryName = typeof country === 'string' ? country : country.name;
+                      const countrySlug = typeof country === 'string' ? country.toLowerCase().replace(/\s+/g, '-') : country.slug;
+                      return (
+                        <a key={idx} href={`/schengen-visas/${countrySlug}`} className="mega-menu-sub-link" style={{ color: '#1a202c' }}>
+                          <i className="fas fa-globe-europe" style={{ marginRight: dir === 'rtl' ? '0' : '6px', marginLeft: dir === 'rtl' ? '6px' : '0', fontSize: '0.8rem' }}></i>
+                          {countryName}
+                        </a>
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -337,7 +402,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'study' && (
-                <div className="mega-menu-content small-width">
+                <div className={`mega-menu-content small-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.studyVisas.title}</div>
                   {t.studyVisas.countries.map((country, idx) => (
                     <a key={idx} href={`/study-visas/${country.slug}`} className="mega-menu-item">
@@ -358,7 +423,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'work' && (
-                <div className="mega-menu-content medium-width">
+                <div className={`mega-menu-content medium-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.workVisas.title}</div>
                   {t.workVisas.types.map((type, idx) => (
                     <a key={idx} href={`/work-visas/${type.slug}`} className="mega-menu-item">
@@ -379,7 +444,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'travel' && (
-                <div className="mega-menu-content medium-width">
+                <div className={`mega-menu-content medium-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.travelVisas.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '8px' }}>
                     {t.travelVisas.countries.map((country, idx) => (
@@ -402,7 +467,7 @@ export default function Navbar() {
                 <i className="fas fa-chevron-down" style={{ fontSize: '0.7rem' }}></i>
               </a>
               {openMenu === 'services' && (
-                <div className="mega-menu-content large-width">
+                <div className={`mega-menu-content large-width ${dir === 'rtl' ? 'rtl-align' : ''}`}>
                   <div className="mega-menu-label">{t.services.title}</div>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
                     {t.services.items.map((item, idx) => (
@@ -532,8 +597,22 @@ export default function Navbar() {
           border-radius: 12px;
           box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
           padding: 25px;
-          margin-top: 10px;
           z-index: 1001;
+        }
+
+        .mega-menu-content::before {
+          content: '';
+          position: absolute;
+          top: -15px;
+          left: 0;
+          width: 100%;
+          height: 15px;
+          background: transparent;
+        }
+
+        .mega-menu-content.rtl-align {
+          left: auto;
+          right: 0;
         }
 
         .small-width { min-width: 250px; }

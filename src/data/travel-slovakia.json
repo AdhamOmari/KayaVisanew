@@ -1,0 +1,66 @@
+{
+  "en": {
+    "title": "Slovakia Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the natural wonders and medieval castles of Slovakia"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed Schengen visa application form"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date"
+    ],
+    "with_kaya": [
+      "Complete application form assistance"
+    ],
+    "attractions": [
+      {
+        "name": "Bratislava Castle",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Bratislava_-_Burg_%28a%29.JPG"
+      }
+    ],
+    "cta": "Start your Slovakian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لسلوفاكيا",
+    "hero": {
+      "subtitle": "اكتشف العجائب الطبيعية والقلاع الوسيطية في سلوفاكيا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب تأشيرة الشنغن مكتمل"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب"
+    ],
+    "attractions": [
+      {
+        "name": "قلعة براتيسلافا",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Bratislava_-_Burg_%28a%29.JPG"
+      }
+    ],
+    "cta": "ابدأ مغامرتك في سلوفاكيا اليوم"
+  }
+}

@@ -17,6 +17,7 @@
   padding: 120px 0 80px;
   overflow: hidden;
   border-radius: 0 0 30px 30px;
+}
 
 .study-hero::before {
   content: '';
@@ -192,8 +193,15 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 /* SECTION STYLES */
@@ -865,32 +873,32 @@
   .hero-title-main {
     font-size: 2.8rem;
   }
-  
+
   .hero-title-sub {
     font-size: 1.2rem;
   }
-  
+
   .stat-item {
     padding: 20px 25px;
   }
-  
+
   .stat-number {
     font-size: 2.5rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .conditional-info {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .destinations-grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
-  
+
   .success-message {
     flex-direction: column;
     text-align: center;
@@ -903,59 +911,59 @@
     min-height: 550px;
     padding: 80px 0 60px;
   }
-  
+
   .hero-title-main {
     font-size: 2.2rem;
   }
-  
+
   .hero-stats {
     gap: 20px;
   }
-  
+
   .stat-item {
     padding: 15px 20px;
     flex: 1;
     min-width: 120px;
   }
-  
+
   .stat-number {
     font-size: 2rem;
   }
-  
+
   .hero-cta {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .btn-study-primary,
   .btn-study-secondary {
     width: 100%;
     max-width: 300px;
     justify-content: center;
   }
-  
+
   .mission-card,
   .conditional-content,
   .cta-card {
     padding: 30px 20px;
   }
-  
+
   .section-study {
     padding: 60px 0;
   }
-  
+
   .cta-buttons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .btn-cta-primary,
   .btn-cta-secondary {
     width: 100%;
     max-width: 300px;
     justify-content: center;
   }
-  
+
   .cta-features {
     flex-direction: column;
     gap: 20px;
@@ -966,36 +974,37 @@
   .hero-title-main {
     font-size: 1.8rem;
   }
-  
+
   .hero-stats {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .stat-item {
     width: 100%;
     max-width: 250px;
   }
-  
+
   .programs-grid,
   .destinations-grid,
   .why-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .conditional-tip {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .cta-title {
     font-size: 1.8rem;
   }
-  
+
   .cta-subtitle {
     font-size: 1rem;
   }
 }
+
 /* ===== UPDATED CSS FOR FLAG IMAGES ===== */
 
 /* Flag Images in Destination Cards */
@@ -1055,12 +1064,12 @@
     width: 60px;
     height: 40px;
   }
-  
+
   .destination-header {
     padding: 30px 20px;
     gap: 20px;
   }
-  
+
   .destination-title h3 {
     font-size: 1.8rem;
   }
@@ -1071,13 +1080,13 @@
     width: 50px;
     height: 35px;
   }
-  
+
   .destination-header {
     flex-direction: column;
     text-align: center;
     gap: 15px;
   }
-  
+
   .destination-title h3 {
     font-size: 1.6rem;
   }
@@ -1112,12 +1121,29 @@
 }
 
 /* Add specific flags for each country */
-.country-item:nth-child(1)::before { background-image: url('https://flagcdn.com/w40/us.png'); }
-.country-item:nth-child(2)::before { background-image: url('https://flagcdn.com/w40/ca.png'); }
-.country-item:nth-child(3)::before { background-image: url('https://flagcdn.com/w40/gb.png'); }
-.country-item:nth-child(4)::before { background-image: url('https://flagcdn.com/w40/au.png'); }
-.country-item:nth-child(5)::before { background-image: url('https://flagcdn.com/w40/de.png'); }
-.country-item:nth-child(6)::before { background-image: url('https://flagcdn.com/w40/es.png'); }
+.country-item:nth-child(1)::before {
+  background-image: url('https://flagcdn.com/w40/us.png');
+}
+
+.country-item:nth-child(2)::before {
+  background-image: url('https://flagcdn.com/w40/ca.png');
+}
+
+.country-item:nth-child(3)::before {
+  background-image: url('https://flagcdn.com/w40/gb.png');
+}
+
+.country-item:nth-child(4)::before {
+  background-image: url('https://flagcdn.com/w40/au.png');
+}
+
+.country-item:nth-child(5)::before {
+  background-image: url('https://flagcdn.com/w40/de.png');
+}
+
+.country-item:nth-child(6)::before {
+  background-image: url('https://flagcdn.com/w40/es.png');
+}
 
 [dir="rtl"] .country-item {
   padding-left: 25px;
@@ -1128,6 +1154,7 @@
   left: auto;
   right: 15px;
 }
+
 /* Germany Specific Styles */
 .de-hero {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.9) 100%),

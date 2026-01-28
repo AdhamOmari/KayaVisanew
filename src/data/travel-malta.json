@@ -1,0 +1,66 @@
+{
+  "en": {
+    "title": "Malta Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the Mediterranean paradise and ancient history of Malta"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed Schengen visa application form"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date"
+    ],
+    "with_kaya": [
+      "Complete application form assistance"
+    ],
+    "attractions": [
+      {
+        "name": "Valletta",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVnP7wG6gye7gVRWVu_KZQjvjUzURcgtiCA&s"
+      }
+    ],
+    "cta": "Start your Maltese adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لمالطا",
+    "hero": {
+      "subtitle": "اكتشف جنة البحر المتوسط والتاريخ القديم في مالطا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب تأشيرة الشنغن مكتمل"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب"
+    ],
+    "attractions": [
+      {
+        "name": "فاليتا",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVnP7wG6gye7gVRWVu_KZQjvjUzURcgtiCA&s"
+      }
+    ],
+    "cta": "ابدأ مغامرتك في مالطا اليوم"
+  }
+}

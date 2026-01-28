@@ -35,12 +35,13 @@ export default function StudyGermanyPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
+              <img src="https://flagcdn.com/w160/de.png" alt="Germany Flag" />
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#1</div>
@@ -61,7 +62,7 @@ export default function StudyGermanyPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-study-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -74,7 +75,7 @@ export default function StudyGermanyPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-building"></i>
@@ -99,7 +100,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "قوة التعليم والاقتصاد في قلب أوروبا" : "Education and economic power in the heart of Europe"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -108,7 +109,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "تعليم شبه مجاني" : "Almost Free Education"}</h4>
               <p>{isRTL ? "معظم الجامعات الحكومية بدون رسوم دراسية" : "Most public universities with no tuition fees"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-award"></i>
@@ -116,7 +117,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "جودة أكاديمية عالية" : "High Academic Quality"}</h4>
               <p>{isRTL ? "جامعات مصنّفة عالمياً في الهندسة والطب" : "World-ranked universities in engineering and medicine"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-briefcase"></i>
@@ -124,7 +125,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "فرص عمل واسعة" : "Wide Job Opportunities"}</h4>
               <p>{isRTL ? "120 يوم عمل كامل أو 240 نصف يوم سنوياً" : "120 full days or 240 half days work yearly"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-globe-europe-africa"></i>
@@ -147,7 +148,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "خيارات دراسية متنوعة باللغتين الألمانية والإنجليزية" : "Diverse study options in German and English"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -159,7 +160,7 @@ export default function StudyGermanyPage() {
                 <span>{isRTL ? "تحضيري" : "Preparatory"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -170,7 +171,7 @@ export default function StudyGermanyPage() {
                 <span>{isRTL ? "3 سنوات" : "3 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -181,7 +182,7 @@ export default function StudyGermanyPage() {
                 <span>{isRTL ? "متقدم" : "Advanced"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-search"></i>
@@ -193,7 +194,7 @@ export default function StudyGermanyPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -217,7 +218,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة" : "Tuition fees and living expenses details"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -254,7 +255,7 @@ export default function StudyGermanyPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -301,11 +302,11 @@ export default function StudyGermanyPage() {
                   <span className="total-label">{isRTL ? "المجموع الشهري:" : "Monthly Total:"}</span>
                   <span className="total-value">€850 - €1,200</span>
                 </div>
-                <div className="blocked-account-info" style={{marginTop: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '10px'}}>
-                  <h6 className="text-center" style={{color: '#1c3269', fontWeight: '600'}}>
+                <div className="blocked-account-info" style={{ marginTop: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '10px' }}>
+                  <h6 className="text-center" style={{ color: '#1c3269', fontWeight: '600' }}>
                     {isRTL ? "الحساب البنكي المغلق (Blocked Account)" : "Blocked Bank Account"}
                   </h6>
-                  <p className="text-center mb-0" style={{color: '#6c757d', fontSize: '0.9rem'}}>
+                  <p className="text-center mb-0" style={{ color: '#6c757d', fontSize: '0.9rem' }}>
                     {isRTL ? "مطلوب إيداع حوالي €11,208 لتغطية سنة كاملة" : "Required deposit of approximately €11,208 for one year"}
                   </p>
                 </div>
@@ -326,7 +327,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً في سوق العمل الألماني" : "Fastest growing study fields in German job market"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -335,7 +336,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "الهندسة" : "Engineering"}</h4>
               <p>{isRTL ? "ميكانيكية، كهربائية، سيارات، صناعية" : "Mechanical, Electrical, Automotive, Industrial"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-heart-pulse"></i>
@@ -343,7 +344,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "الطب وعلوم الحياة" : "Medicine & Life Sciences"}</h4>
               <p>{isRTL ? "طب بشري، صيدلة، تكنولوجيا حيوية" : "Human Medicine, Pharmacy, Biotechnology"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-cpu"></i>
@@ -351,7 +352,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "علوم الكمبيوتر" : "Computer Science"}</h4>
               <p>{isRTL ? "ذكاء اصطناعي، أمن معلومات، برمجة" : "AI, Cybersecurity, Programming"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-briefcase"></i>
@@ -359,7 +360,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "إدارة الأعمال والاقتصاد" : "Business & Economics"}</h4>
               <p>{isRTL ? "إدارة، تسويق، اقتصاد، مالية" : "Management, Marketing, Economics, Finance"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-lightbulb"></i>
@@ -367,7 +368,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "العلوم التطبيقية" : "Applied Sciences"}</h4>
               <p>{isRTL ? "كيمياء، فيزياء، رياضيات، إحصاء" : "Chemistry, Physics, Mathematics, Statistics"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-shield-check"></i>
@@ -390,10 +391,10 @@ export default function StudyGermanyPage() {
               {isRTL ? "تجربة تعليمية استثنائية في مدن تاريخية وحديثة" : "Exceptional educational experience in historic and modern cities"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1559834138-03ff5c5d0a8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559834138-03ff5c5d0a8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "برلين" : "Berlin"}</h4>
                 <p>{isRTL ? "عاصمة الثقافة والفنون والتاريخ" : "Capital of culture, arts, and history"}</p>
@@ -403,9 +404,9 @@ export default function StudyGermanyPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "ميونخ" : "Munich"}</h4>
                 <p>{isRTL ? "قلب الصناعة والتكنولوجيا والجامعات المرموقة" : "Heart of industry, technology, and prestigious universities"}</p>
@@ -415,9 +416,9 @@ export default function StudyGermanyPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1575917649705-5c0e6b46f6b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1575917649705-5c0e6b46f6b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "هايدلبرغ" : "Heidelberg"}</h4>
                 <p>{isRTL ? "مدينة الجامعات التاريخية والأجواء الأكاديمية" : "City of historic universities and academic atmosphere"}</p>
@@ -428,7 +429,7 @@ export default function StudyGermanyPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -437,7 +438,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "نوادي طلابية متنوعة" : "Diverse Student Clubs"}</h4>
               <p>{isRTL ? "أكثر من 400,000 طالب دولي من مختلف الجنسيات" : "Over 400,000 international students from various nationalities"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-calendar-event"></i>
@@ -445,7 +446,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "فعاليات ثقافية مستمرة" : "Continuous Cultural Events"}</h4>
               <p>{isRTL ? "مهرجانات موسيقية، معارض فنية، وعروض مسرحية" : "Music festivals, art exhibitions, and theater shows"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-trophy"></i>
@@ -453,7 +454,7 @@ export default function StudyGermanyPage() {
               <h4>{isRTL ? "أنشطة رياضية متنوعة" : "Diverse Sports Activities"}</h4>
               <p>{isRTL ? "كرة قدم، سباحة، جري، ركوب دراجات" : "Football, swimming, running, cycling"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-compass"></i>
@@ -476,7 +477,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "خيارات العمل القانونية وبرامج الهجرة بعد التخرج" : "Legal work options and post-graduation immigration programs"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -494,7 +495,7 @@ export default function StudyGermanyPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "بدون تصريح عمل إضافي" : "Without additional work permit"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "أنواع الوظائف" : "Job Types"}</h5>
                   <ul>
@@ -505,7 +506,7 @@ export default function StudyGermanyPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -522,7 +523,7 @@ export default function StudyGermanyPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "للخريجين من الجامعات الألمانية" : "For graduates from German universities"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "إقامة العمل الدائمة" : "Permanent Work Residence"}</h5>
                   <ul>
@@ -548,7 +549,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "دليل شامل للحصول على تأشيرة الدراسة الألمانية" : "Complete guide to obtaining German study visa"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -557,7 +558,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "البحث عبر DAAD والحصول على قبول جامعي" : "Research through DAAD and get university admission"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -565,7 +566,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "إيداع حوالي €11,208 لتغطية سنة المعيشة" : "Deposit approximately €11,208 for one year living"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -573,7 +574,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "تأمين صحي للطلاب يغطي كامل فترة الدراسة" : "Student health insurance covering entire study period"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -581,7 +582,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "حجز موعد في السفارة/القنصلية الألمانية" : "Book appointment at German embassy/consulate"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -589,7 +590,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "تجهيز ملف كامل وتقديمه في المقابلة" : "Prepare complete file and submit in interview"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -597,7 +598,7 @@ export default function StudyGermanyPage() {
                 <p>{isRTL ? "دفع €75 والذهاب للمقابلة الشخصية" : "Pay €75 and attend personal interview"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -620,7 +621,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "تجهيز الملف الكامل للحصول على تأشيرة الدراسة" : "Prepare complete file for study visa application"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -628,49 +629,49 @@ export default function StudyGermanyPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>{isRTL ? "خطاب القبول الجامعي" : "University Admission Letter"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "حساب بنكي مغلق" : "Blocked Bank Account"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-heart-pulse"></i>
               </div>
               <h5>{isRTL ? "التأمين الصحي" : "Health Insurance"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
               </div>
               <h5>{isRTL ? "شهادات أكاديمية" : "Academic Certificates"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-translate"></i>
               </div>
               <h5>{isRTL ? "شهادة اللغة" : "Language Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-check-square"></i>
@@ -692,7 +693,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب تأشيرة الدراسة" : "Practical tips to ensure study visa application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -701,7 +702,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "حساب بنكي مغلق مسبقاً" : "Pre-opened Blocked Account"}</h5>
               <p>{isRTL ? "افتح الحساب قبل التقديم بفترة كافية" : "Open account well before applying"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-translate"></i>
@@ -709,7 +710,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "ترجمة وتصديق جميع المستندات" : "Translate & Certify All Documents"}</h5>
               <p>{isRTL ? "ترجمة ألمانية/إنجليزية مع تصديق وزارة الخارجية" : "German/English translation with foreign ministry certification"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-calendar-check"></i>
@@ -717,7 +718,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "تقديم مبكر جداً" : "Very Early Submission"}</h5>
               <p>{isRTL ? "قدم الطلب قبل 6 أشهر من بدء الدراسة" : "Submit application 6 months before study start"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-file-earmark-medical"></i>
@@ -740,7 +741,7 @@ export default function StudyGermanyPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -749,7 +750,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "اختيار الجامعة والبرنامج" : "Choosing University & Program"}</h5>
               <p>{isRTL ? "بما يتناسب مع ميزانيتك وخططك المهنية" : "Matching your budget and career plans"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -757,7 +758,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "فتح الحساب البنكي المغلق" : "Opening Blocked Bank Account"}</h5>
               <p>{isRTL ? "مساعدتك في إجراءات الإيداع والتوثيق" : "Helping with deposit procedures and documentation"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -765,7 +766,7 @@ export default function StudyGermanyPage() {
               <h5>{isRTL ? "تجهيز التأمين الصحي" : "Preparing Health Insurance"}</h5>
               <p>{isRTL ? "تأمين صحي مقبول في ألمانيا بكامل التغطية" : "Accepted health insurance in Germany with full coverage"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -774,14 +775,14 @@ export default function StudyGermanyPage() {
               <p>{isRTL ? "التسجيل، الإقامة، الحساب البنكي، السكن" : "Registration, residence permit, bank account, housing"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -798,7 +799,7 @@ export default function StudyGermanyPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في ألمانيا" : "Start your academic journey with Germany study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -809,7 +810,7 @@ export default function StudyGermanyPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

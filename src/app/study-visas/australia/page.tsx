@@ -35,12 +35,13 @@ export default function StudyAustraliaPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
+              <img src="https://flagcdn.com/w160/au.png" alt="Australia Flag" />
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#3</div>
@@ -61,7 +62,7 @@ export default function StudyAustraliaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-study-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -74,7 +75,7 @@ export default function StudyAustraliaPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-sun"></i>
@@ -99,7 +100,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "وجهة التعليم العالمية بجودة حياة استثنائية" : "Global education destination with exceptional quality of life"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -108,7 +109,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "جامعات عالمية المستوى" : "World-Class Universities"}</h4>
               <p>{isRTL ? "7 جامعات أسترالية ضمن أفضل 100 جامعة عالمية" : "7 Australian universities ranked in top 100 globally"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-briefcase"></i>
@@ -116,7 +117,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "فرص عمل أثناء الدراسة" : "Work During Studies"}</h4>
               <p>{isRTL ? "48 ساعة عمل كل أسبوعين خلال الدراسة" : "48 work hours every two weeks during studies"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-globe"></i>
@@ -124,7 +125,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "تنوع ثقافي غني" : "Rich Cultural Diversity"}</h4>
               <p>{isRTL ? "أكثر من 700,000 طالب دولي سنوياً" : "Over 700,000 international students annually"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-house-heart"></i>
@@ -147,7 +148,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "خيارات دراسية متنوعة تناسب جميع المستويات" : "Diverse study options for all levels"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -159,7 +160,7 @@ export default function StudyAustraliaPage() {
                 <span>{isRTL ? "مرن" : "Flexible"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-award"></i>
@@ -170,7 +171,7 @@ export default function StudyAustraliaPage() {
                 <span>{isRTL ? "عملي" : "Practical"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -181,7 +182,7 @@ export default function StudyAustraliaPage() {
                 <span>{isRTL ? "3 سنوات" : "3 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -193,7 +194,7 @@ export default function StudyAustraliaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -217,7 +218,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة" : "Tuition fees and living expenses details"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -254,7 +255,7 @@ export default function StudyAustraliaPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -301,7 +302,7 @@ export default function StudyAustraliaPage() {
                   <span className="total-label">{isRTL ? "المجموع الشهري:" : "Monthly Total:"}</span>
                   <span className="total-value">A$1,300 - A$2,400</span>
                 </div>
-                <p className="cost-note" style={{marginTop: '15px'}}>
+                <p className="cost-note" style={{ marginTop: '15px' }}>
                   {isRTL ? "المبلغ المطلوب إثباته للتأشيرة: A$24,505 سنوياً (تكاليف المعيشة)" : "Proof of funds required for visa: A$24,505 annually (living expenses)"}
                 </p>
               </div>
@@ -321,7 +322,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً في سوق العمل الأسترالي" : "Fastest growing study fields in Australian job market"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -330,7 +331,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "تكنولوجيا المعلومات" : "Information Technology"}</h4>
               <p>{isRTL ? "الذكاء الاصطناعي، أمن المعلومات، علوم البيانات" : "AI, Cybersecurity, Data Science"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-heart-pulse"></i>
@@ -338,7 +339,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "التمريض والرعاية الصحية" : "Nursing & Healthcare"}</h4>
               <p>{isRTL ? "مهن طبية وتمريضية مطلوبة بشدة" : "Highly demanded medical and nursing professions"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-tools"></i>
@@ -346,7 +347,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "التجارة والبناء" : "Trade & Construction"}</h4>
               <p>{isRTL ? "كهرباء، سباكة، بناء (مهن في قائمة المهارات)" : "Electrical, Plumbing, Construction (skills list)"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-gear"></i>
@@ -354,7 +355,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "الهندسة" : "Engineering"}</h4>
               <p>{isRTL ? "مدنية، ميكانيكية، تعدين، طاقة متجددة" : "Civil, Mechanical, Mining, Renewable Energy"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-graph-up"></i>
@@ -362,7 +363,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "إدارة الأعمال" : "Business Administration"}</h4>
               <p>{isRTL ? "المالية، التسويق، ريادة الأعمال" : "Finance, Marketing, Entrepreneurship"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-droplet"></i>
@@ -385,10 +386,10 @@ export default function StudyAustraliaPage() {
               {isRTL ? "تجربة تعليمية استثنائية في مدن نابضة بالحياة" : "Exceptional educational experience in vibrant cities"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "سيدني" : "Sydney"}</h4>
                 <p>{isRTL ? "عاصمة الأعمال والشواطئ العالمية" : "Capital of business and global beaches"}</p>
@@ -398,9 +399,9 @@ export default function StudyAustraliaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "ملبورن" : "Melbourne"}</h4>
                 <p>{isRTL ? "عاصمة الثقافة والفنون والجامعات المرموقة" : "Capital of culture, arts, and prestigious universities"}</p>
@@ -410,9 +411,9 @@ export default function StudyAustraliaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1563911302283-d2bc129e7570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1563911302283-d2bc129e7570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "بريزبن" : "Brisbane"}</h4>
                 <p>{isRTL ? "طقس مشمس دافئ وتكاليف معيشة معقولة" : "Warm sunny weather and reasonable living costs"}</p>
@@ -423,7 +424,7 @@ export default function StudyAustraliaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -432,7 +433,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "مجتمعات طلابية متنوعة" : "Diverse Student Communities"}</h4>
               <p>{isRTL ? "طلاب من أكثر من 140 دولة حول العالم" : "Students from over 140 countries worldwide"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-calendar-event"></i>
@@ -440,7 +441,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "فعاليات شاطئية وطبيعية" : "Beach & Nature Events"}</h4>
               <p>{isRTL ? "رحلات إلى الحاجز المرجاني العظيم والحدائق" : "Trips to Great Barrier Reef and parks"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-trophy"></i>
@@ -448,7 +449,7 @@ export default function StudyAustraliaPage() {
               <h4>{isRTL ? "أنشطة رياضية متنوعة" : "Diverse Sports Activities"}</h4>
               <p>{isRTL ? "سباحة، ركوب أمواج، كريكيت، رجبي" : "Swimming, surfing, cricket, rugby"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-hands-helping"></i>
@@ -471,7 +472,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "خيارات العمل القانونية وبرامج الهجرة بعد التخرج" : "Legal work options and post-graduation immigration programs"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -489,7 +490,7 @@ export default function StudyAustraliaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "يمكن العمل في أي مجال" : "Can work in any field"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "أنواع الوظائف" : "Job Types"}</h5>
                   <ul>
@@ -500,7 +501,7 @@ export default function StudyAustraliaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -517,7 +518,7 @@ export default function StudyAustraliaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "أطول مدة للباحثين والدراسات العليا" : "Longer for researchers and postgraduates"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "مسارات الهجرة الدائمة" : "Permanent Migration Pathways"}</h5>
                   <ul>
@@ -543,7 +544,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "دليل شامل للحصول على تأشيرة الدراسة الأسترالية" : "Complete guide to obtaining Australian study visa"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -552,7 +553,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "الحصول على خطاب CoE من جامعة/معهد معتمد" : "Get CoE letter from accredited university/institute"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -560,7 +561,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "شراء تغطية تأمين صحي طوال فترة الدراسة" : "Purchase health insurance coverage for study duration"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -568,7 +569,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "كشف حساب يغطي الرسوم + A$24,505 سنوياً للمعيشة" : "Bank statement covering fees + A$24,505 yearly living"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -576,7 +577,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "إنشاء حساب وتعبئة استمارة Student Visa (Subclass 500)" : "Create account and fill Student Visa (Subclass 500)"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -584,7 +585,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "دفع رسوم التأشيرة A$710 تقريباً" : "Pay visa fee approximately A$710"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -592,7 +593,7 @@ export default function StudyAustraliaPage() {
                 <p>{isRTL ? "حجز موعد البصمات والفحص الطبي المعتمد" : "Schedule biometrics and approved medical exam"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -615,7 +616,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "تجهيز الملف الكامل للحصول على تأشيرة الدراسة" : "Prepare complete file for study visa application"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -623,49 +624,49 @@ export default function StudyAustraliaPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>CoE {isRTL ? "(خطاب القبول)" : "(Confirmation of Enrolment)"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "إثبات مالي" : "Financial Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-heart-pulse"></i>
               </div>
               <h5>OSHC {isRTL ? "(التأمين الصحي)" : "(Health Insurance)"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
               </div>
               <h5>{isRTL ? "الشهادات الأكاديمية" : "Academic Certificates"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-translate"></i>
               </div>
               <h5>{isRTL ? "شهادة اللغة الإنجليزية" : "English Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-check-square"></i>
@@ -687,7 +688,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب تأشيرة الدراسة" : "Practical tips to ensure study visa application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -696,7 +697,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "تغطية OSHC كاملة" : "Complete OSHC Coverage"}</h5>
               <p>{isRTL ? "اشترِ تأمين OSHC يغطي جميع مدة الدراسة" : "Purchase OSHC covering entire study duration"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-translate"></i>
@@ -704,7 +705,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "مستوى لغة واقعي" : "Realistic Language Level"}</h5>
               <p>{isRTL ? "IELTS 6.0 أو ما يعادله كحد أدنى للقبول" : "IELTS 6.0 or equivalent minimum for admission"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-bar-chart"></i>
@@ -712,7 +713,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "إثبات مالي صحيح" : "Correct Financial Proof"}</h5>
               <p>{isRTL ? "يجب أن تظهر الأموال لمدة 3 أشهر على الأقل" : "Funds should show for at least 3 months"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-person-check"></i>
@@ -735,7 +736,7 @@ export default function StudyAustraliaPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -744,7 +745,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "اختيار البرنامج المناسب" : "Choosing Suitable Program"}</h5>
               <p>{isRTL ? "بما يتناسب مع ميزانيتك وخططك المهنية" : "Matching your budget and career plans"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -752,7 +753,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "تجهيز ملف CoE والتأمين" : "Preparing CoE & Insurance"}</h5>
               <p>{isRTL ? "إعداد جميع المستندات الرسمية" : "Preparing all official documents"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -760,7 +761,7 @@ export default function StudyAustraliaPage() {
               <h5>{isRTL ? "دعم مالي متكامل" : "Comprehensive Financial Support"}</h5>
               <p>{isRTL ? "تحضير الإثباتات المالية وخطابات الكفالة" : "Preparing financial proofs and sponsorship letters"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -769,14 +770,14 @@ export default function StudyAustraliaPage() {
               <p>{isRTL ? "التسجيل، TFN، الحساب البنكي، السكن" : "Registration, TFN, bank account, housing"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -793,7 +794,7 @@ export default function StudyAustraliaPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في أستراليا" : "Start your academic journey with Australia study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -804,7 +805,7 @@ export default function StudyAustraliaPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

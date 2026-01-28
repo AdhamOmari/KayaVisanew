@@ -50,7 +50,7 @@ export default function RootLayout({
           {loading && <GlobalLoading />}
           <div style={{ visibility: loading ? 'hidden' : 'visible' }}>
             <Navbar />
-            <div style={{ flex: 1 }}>
+            <div style={{ flex: 1, paddingTop: '73px' }}>
               {children}
             </div>
             <Footer />

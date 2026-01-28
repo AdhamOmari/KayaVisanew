@@ -34,13 +34,13 @@ export default function StudyUsaPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
-         
+              <img src="https://flagcdn.com/w160/us.png" alt="USA Flag" />
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#1</div>
@@ -61,7 +61,7 @@ export default function StudyUsaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-usa-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -74,7 +74,7 @@ export default function StudyUsaPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-building"></i>
@@ -99,7 +99,7 @@ export default function StudyUsaPage() {
               {isRTL ? "موطن التعليم العالمي والابتكار" : "Home of global education and innovation"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -108,7 +108,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "أفضل الجامعات عالمياً" : "World's Best Universities"}</h4>
               <p>{isRTL ? "موطن لأفضل الجامعات عالمياً مثل Harvard، MIT، Stanford." : "Home to world's best universities like Harvard, MIT, Stanford."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-people"></i>
@@ -116,7 +116,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "تنوع ثقافي ضخم" : "Huge Cultural Diversity"}</h4>
               <p>{isRTL ? "يضم أكثر من مليون طالب دولي سنويًا من جميع أنحاء العالم." : "Hosts over 1 million international students annually from around the world."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-thermometer"></i>
@@ -124,7 +124,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "قوة في البحث العلمي" : "Research Powerhouse"}</h4>
               <p>{isRTL ? "تمويل ضخم وفرص بحثية متقدمة في جميع التخصصات." : "Massive funding and advanced research opportunities across all fields."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-star"></i>
@@ -147,7 +147,7 @@ export default function StudyUsaPage() {
               {isRTL ? "خيارات دراسية تناسب جميع المستويات" : "Study options for all levels"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -159,7 +159,7 @@ export default function StudyUsaPage() {
                 <span>{isRTL ? "مرن" : "Flexible"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-award"></i>
@@ -170,7 +170,7 @@ export default function StudyUsaPage() {
                 <span>{isRTL ? "1-2 سنوات" : "1-2 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -181,7 +181,7 @@ export default function StudyUsaPage() {
                 <span>{isRTL ? "4 سنوات" : "4 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -193,7 +193,7 @@ export default function StudyUsaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -217,7 +217,7 @@ export default function StudyUsaPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة" : "Tuition fees and living expenses details"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -249,7 +249,7 @@ export default function StudyUsaPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -313,7 +313,7 @@ export default function StudyUsaPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً وطلباً في سوق العمل" : "Fastest growing study fields with high job demand"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -322,7 +322,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "تكنولوجيا المعلومات" : "Information Technology"}</h4>
               <p>{isRTL ? "علوم الكمبيوتر، الذكاء الاصطناعي، أمن المعلومات" : "Computer Science, AI, Cybersecurity"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-graph-up-arrow"></i>
@@ -330,7 +330,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "إدارة الأعمال" : "Business Administration"}</h4>
               <p>{isRTL ? "التسويق، المالية، ريادة الأعمال" : "Marketing, Finance, Entrepreneurship"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-heart-pulse"></i>
@@ -338,7 +338,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "الطب والصحة" : "Medicine & Health"}</h4>
               <p>{isRTL ? "الطب، التمريض، الصحة العامة" : "Medicine, Nursing, Public Health"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-gear"></i>
@@ -346,7 +346,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "الهندسة" : "Engineering"}</h4>
               <p>{isRTL ? "ميكانيكية، كهربائية، مدنية، كمبيوتر" : "Mechanical, Electrical, Civil, Computer"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-megaphone"></i>
@@ -354,7 +354,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "التسويق" : "Marketing"}</h4>
               <p>{isRTL ? "التسويق الرقمي، تحليل البيانات، الإعلام" : "Digital Marketing, Data Analytics, Media"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-people"></i>
@@ -377,7 +377,7 @@ export default function StudyUsaPage() {
               {isRTL ? "تجربة جامعية غنية ومتنوعة" : "Rich and diverse university experience"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
               <div className="city-image boston"></div>
@@ -390,7 +390,7 @@ export default function StudyUsaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
               <div className="city-image newyork"></div>
               <div className="city-content">
@@ -402,7 +402,7 @@ export default function StudyUsaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
               <div className="city-image california"></div>
               <div className="city-content">
@@ -415,7 +415,7 @@ export default function StudyUsaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -424,7 +424,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "جمعيات طلابية" : "Student Clubs"}</h4>
               <p>{isRTL ? "أكثر من 500 جمعية طلابية متنوعة" : "Over 500 diverse student clubs"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-controller"></i>
@@ -432,7 +432,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "رياضات جامعية" : "University Sports"}</h4>
               <p>{isRTL ? "فرق رياضية ومباريات على مستوى عالٍ" : "High-level sports teams and competitions"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-music-note-beamed"></i>
@@ -440,7 +440,7 @@ export default function StudyUsaPage() {
               <h4>{isRTL ? "فعاليات ثقافية" : "Cultural Events"}</h4>
               <p>{isRTL ? "حفلات موسيقية، معارض فنية، وعروض مسرحية" : "Music concerts, art exhibitions, theater shows"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-globe-americas"></i>
@@ -463,7 +463,7 @@ export default function StudyUsaPage() {
               {isRTL ? "خيارات العمل القانونية للطلاب الدوليين" : "Legal work options for international students"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -481,7 +481,7 @@ export default function StudyUsaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "لا يحتاج تصريح عمل خاص" : "No special work permit needed"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>CPT {isRTL ? "(التدريب العملي المنهجي)" : "(Curricular Practical Training)"}</h5>
                   <ul>
@@ -492,7 +492,7 @@ export default function StudyUsaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -509,7 +509,7 @@ export default function StudyUsaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "يجب أن يكون العمل في مجال التخصص" : "Work must be in field of study"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>H-1B {isRTL ? "تأشيرة العمل" : "Work Visa"}</h5>
                   <ul>
@@ -535,7 +535,7 @@ export default function StudyUsaPage() {
               {isRTL ? "دليل شامل للحصول على تأشيرة الدراسة الأمريكية" : "Complete guide to obtaining US study visa"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -544,7 +544,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "الحصول على قبول من جامعة أمريكية معتمدة واستلام نموذج I-20" : "Get admission from accredited US university and receive Form I-20"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -552,7 +552,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "تسجيل بياناتك في نظام SEVIS وحفظ الإيصال للمقابلة" : "Register your data in SEVIS system and keep receipt for interview"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -560,7 +560,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "استمارة إلكترونية عبر موقع السفارة مع طباعة صفحة التأكيد" : "Online form through embassy website with confirmation page print"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -568,7 +568,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "الدفع عبر البنك أو الإنترنت حسب تعليمات السفارة" : "Payment via bank or online as per embassy instructions"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -576,7 +576,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "الحجز عبر موقع السفارة أو مركز التأشيرات" : "Booking through embassy website or visa center"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -584,7 +584,7 @@ export default function StudyUsaPage() {
                 <p>{isRTL ? "أهم مرحلة مع جميع المستندات المطلوبة" : "Most important stage with all required documents"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -607,7 +607,7 @@ export default function StudyUsaPage() {
               {isRTL ? "تجهيز الملف الكامل للتقديم" : "Prepare complete application file"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -615,49 +615,49 @@ export default function StudyUsaPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>{isRTL ? "نموذج I-20" : "Form I-20"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "إثبات مالي" : "Financial Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-earmark-text"></i>
               </div>
               <h5>{isRTL ? "استمارة DS-160" : "DS-160 Form"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-receipt"></i>
               </div>
               <h5>{isRTL ? "إيصال SEVIS" : "SEVIS Receipt"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-translate"></i>
               </div>
               <h5>{isRTL ? "شهادة لغة" : "Language Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
@@ -679,7 +679,7 @@ export default function StudyUsaPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب التأشيرة" : "Practical tips to ensure visa application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -688,7 +688,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "حضّر إجابات واضحة" : "Prepare Clear Answers"}</h5>
               <p>{isRTL ? "عن سبب اختيار أمريكا وتخصصك وخطتك المستقبلية" : "About why you chose USA, your major, and future plans"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-arrow-return-right"></i>
@@ -696,7 +696,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "أبرز خطط العودة" : "Highlight Return Plans"}</h5>
               <p>{isRTL ? "أظهر أنك ستعود لبلدك بعد الدراسة" : "Show that you'll return to your country after studies"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-bar-chart"></i>
@@ -704,7 +704,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "إثبات مالي قوي" : "Strong Financial Proof"}</h5>
               <p>{isRTL ? "تأكد أن أوراقك المالية تغطي التكاليف" : "Ensure your financial documents cover all costs"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-person-check"></i>
@@ -727,7 +727,7 @@ export default function StudyUsaPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -736,7 +736,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "اختيار الجامعة المناسبة" : "Choosing the Right University"}</h5>
               <p>{isRTL ? "حسب ميزانيتك وتخصصك وتفضيلاتك الشخصية" : "Based on your budget, major, and personal preferences"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -744,7 +744,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "تجهيز ملف تأشيرة كامل" : "Complete Visa File Preparation"}</h5>
               <p>{isRTL ? "بدون ثغرات مع متابعة كل التفاصيل" : "Without gaps with follow-up on every detail"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -752,7 +752,7 @@ export default function StudyUsaPage() {
               <h5>{isRTL ? "دعم في إثبات القدرة المالية" : "Financial Capacity Support"}</h5>
               <p>{isRTL ? "تحضير خطاب النية والإثباتات المالية" : "Preparing intent letter and financial proofs"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -761,14 +761,14 @@ export default function StudyUsaPage() {
               <p>{isRTL ? "التسجيل، السكن، وأول فرصة عمل" : "Registration, housing, and first job opportunity"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -785,7 +785,7 @@ export default function StudyUsaPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في أمريكا" : "Start your academic journey with USA study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -796,7 +796,7 @@ export default function StudyUsaPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

@@ -1,0 +1,66 @@
+{
+  "en": {
+    "title": "Romania Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the stunning landscapes and medieval castles of Romania"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed Schengen visa application form"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date"
+    ],
+    "with_kaya": [
+      "Complete application form assistance"
+    ],
+    "attractions": [
+      {
+        "name": "Bran Castle",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e1/8f/b2/knock-on-the-door-of.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "Start your Romanian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لرومانيا",
+    "hero": {
+      "subtitle": "اكتشف المناظر الطبيعية الرائعة والقلاع الوسيطية في رومانيا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب تأشيرة الشنغن مكتمل"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب"
+    ],
+    "attractions": [
+      {
+        "name": "قلعة بران",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e1/8f/b2/knock-on-the-door-of.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "ابدأ مغامرتك في رومانيا اليوم"
+  }
+}
