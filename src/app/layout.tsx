@@ -34,26 +34,27 @@ export default function RootLayout({
       // Import slowScrollTo dynamically to avoid SSR issues
       import('../lib/slowScroll').then(({ slowScrollTo }) => {
         const originalScrollTo = window.scrollTo.bind(window);
-        window.scrollTo = function scrollToOverride(...args) {
-          if (typeof args[0] === 'object' && args[0] !== null && 'top' in args[0]) {
+        window.scrollTo = function scrollToOverride(xOrOptions: number | ScrollToOptions, y?: number) {
+          if (typeof xOrOptions === 'object' && xOrOptions !== null && 'top' in xOrOptions) {
             // scrollTo({top, left, behavior})
-            slowScrollTo(args[0].top ?? 0, 3000);
-          } else if (typeof args[0] === 'number') {
+            slowScrollTo(xOrOptions.top ?? 0, 3000);
+          } else if (typeof xOrOptions === 'number') {
             // scrollTo(x, y)
-            slowScrollTo(args[1] ?? 0, 3000);
+            slowScrollTo(typeof y === 'number' ? y : 0, 3000);
           } else {
-            originalScrollTo(...args);
+            // fallback
+            originalScrollTo(xOrOptions as any, y as any);
           }
         };
         // Optionally override scrollBy as well
         const originalScrollBy = window.scrollBy.bind(window);
-        window.scrollBy = function scrollByOverride(...args) {
-          if (typeof args[0] === 'object' && args[0] !== null && 'top' in args[0]) {
-            slowScrollTo(window.scrollY + (args[0].top ?? 0), 3000);
-          } else if (typeof args[0] === 'number') {
-            slowScrollTo(window.scrollY + (args[1] ?? 0), 3000);
+        window.scrollBy = function scrollByOverride(xOrOptions: number | ScrollToOptions, y?: number) {
+          if (typeof xOrOptions === 'object' && xOrOptions !== null && 'top' in xOrOptions) {
+            slowScrollTo(window.scrollY + (xOrOptions.top ?? 0), 3000);
+          } else if (typeof xOrOptions === 'number') {
+            slowScrollTo(window.scrollY + (typeof y === 'number' ? y : 0), 3000);
           } else {
-            originalScrollBy(...args);
+            originalScrollBy(xOrOptions as any, y as any);
           }
         };
       });
