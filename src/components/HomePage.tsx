@@ -219,7 +219,7 @@ export default function HomePage() {
             <p className="section-label">{locale === 'ar' ? 'من نحن؟' : 'Who We Are?'}</p>
             <div className="section-underline"></div>
           </div>
-          
+
           <div className="about-container" style={{ gridTemplateColumns: locale === 'ar' ? '1fr 1fr' : '1fr 1fr' }}>
             <div className="about-content" style={{ order: locale === 'ar' ? 2 : 1 }}>
               <h2 className="about-title">
@@ -238,8 +238,8 @@ export default function HomePage() {
             </div>
             <div className="about-image" style={{ order: locale === 'ar' ? 1 : 2 }}>
               <div className="about-image-wrapper">
-                <img 
-                  src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop" 
+                <img
+                  src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop"
                   alt={locale === 'ar' ? 'عن كايا' : 'About Kaya'}
                   loading="lazy"
                 />
@@ -341,7 +341,7 @@ export default function HomePage() {
               </div>
               <div className="destination-overlay">
                 <p>
-                  {locale === 'ar' 
+                  {locale === 'ar'
                     ? 'اكتشف تنوّع الحياة بين ناطحات السحاب في نيويورك وسحر المدن الأمريكية الأخرى. رحلة مليئة بالفرص، الثقافة والتجارب التي لا تُنسى.'
                     : 'Discover the diversity of life between New York skyscrapers and the charm of other American cities. A journey full of opportunities, culture, and unforgettable experiences.'}
                 </p>
@@ -391,38 +391,62 @@ export default function HomePage() {
       <Programs />
 
       {/* Partners & Team Links */}
-      <section style={{ padding: '80px 20px', backgroundColor: 'white' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
-            <a href="/services/partners" style={{ padding: '50px 40px', background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', borderRadius: '16px', color: 'white', textDecoration: 'none', textAlign: 'center', transition: 'all 0.3s' }}
-              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-              <i className="fas fa-handshake" style={{ fontSize: '3rem', marginBottom: '20px', display: 'block' }}></i>
-              <h3 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '10px' }}>{locale === 'ar' ? 'شركاؤنا' : 'Our Partners'}</h3>
-              <p style={{ opacity: 0.95 }}>{locale === 'ar' ? 'تعرف على شركائنا حول العالم' : 'Meet our partners around the world'}</p>
+      <section className="partners-section">
+        <div className="partners-container">
+          <div className="partners-grid">
+            <a href="/services/partners" className="partner-card card-animate">
+              <div className="partner-icon">
+                <i className="fas fa-handshake"></i>
+              </div>
+              <h3 className="partner-title">{locale === 'ar' ? 'شركاؤنا' : 'Our Partners'}</h3>
+              <p className="partner-desc">{locale === 'ar' ? 'تعرف على شركائنا حول العالم' : 'Meet our partners around the world'}</p>
+              <div className="card-arrow">
+                <i className={`fas fa-arrow-${locale === 'ar' ? 'left' : 'right'}`}></i>
+              </div>
             </a>
-            <a href="/team" style={{ padding: '50px 40px', background: 'linear-gradient(135deg, #1a202c 0%, #667eea 100%)', borderRadius: '16px', color: 'white', textDecoration: 'none', textAlign: 'center', transition: 'all 0.3s' }}
-              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-              <i className="fas fa-users" style={{ fontSize: '3rem', marginBottom: '20px', display: 'block' }}></i>
-              <h3 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '10px' }}>{locale === 'ar' ? 'فريق كايا' : 'Kaya Team'}</h3>
-              <p style={{ opacity: 0.95 }}>{locale === 'ar' ? 'تعرف على فريقنا المحترف' : 'Meet our professional team'}</p>
+            <a href="/team" className="team-card card-animate">
+              <div className="partner-icon">
+                <i className="fas fa-users"></i>
+              </div>
+              <h3 className="partner-title">{locale === 'ar' ? 'فريق كايا' : 'Kaya Team'}</h3>
+              <p className="partner-desc">{locale === 'ar' ? 'تعرف على فريقنا المحترف' : 'Meet our professional team'}</p>
+              <div className="card-arrow">
+                <i className={`fas fa-arrow-${locale === 'ar' ? 'left' : 'right'}`}></i>
+              </div>
             </a>
           </div>
         </div>
       </section>
 
       {/* Testimonials */}
-      <section style={{ padding: '80px 20px', background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', color: 'white' }}>
-        <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.8rem', fontWeight: 'bold', marginBottom: '15px' }}>{t.testimonials.title}</h2>
-          <p style={{ fontSize: '1.1rem', marginBottom: '50px', opacity: 0.95 }}>{t.testimonials.subtitle}</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+      <section className="testimonials-section">
+        <div className="testimonials-container">
+          <div className="testimonials-header">
+            <h2 className="testimonials-title">{t.testimonials.title}</h2>
+            <p className="testimonials-subtitle">{t.testimonials.subtitle}</p>
+          </div>
+          <div className="testimonials-grid">
             {t.testimonials.items.map((testimonial, idx) => (
-              <div key={idx} style={{ padding: '30px', backgroundColor: 'rgba(255,255,255,0.15)', borderRadius: '12px', backdropFilter: 'blur(10px)' }}>
-                <i className="fas fa-quote-left" style={{ fontSize: '2rem', marginBottom: '15px', opacity: 0.7 }}></i>
-                <p style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '20px' }}>{testimonial.text}</p>
-                <div style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>{testimonial.name}</div>
+              <div key={idx} className="testimonial-card">
+                <div className="quote-icon">
+                  <i className="fas fa-quote-left"></i>
+                </div>
+                <p className="testimonial-text">{testimonial.text}</p>
+                <div className="testimonial-author">
+                  <div className="author-avatar">
+                    <span className="author-initial">{testimonial.name.charAt(0)}</span>
+                  </div>
+                  <div className="author-info">
+                    <span className="author-name">{testimonial.name}</span>
+                    <div className="stars">
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -430,13 +454,13 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: '80px 20px', backgroundColor: '#1a202c', color: 'white', textAlign: 'center' }}>
-        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <h2 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '30px' }}>{t.cta.title}</h2>
-          <a href="/contact" style={{ padding: '18px 50px', backgroundColor: '#667eea', color: 'white', borderRadius: '50px', fontSize: '1.2rem', fontWeight: 'bold', textDecoration: 'none', display: 'inline-block', transition: 'all 0.3s' }}
-            onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 10px 30px rgba(102,126,234,0.4)'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = 'none'; }}>
+      <section className="cta-section">
+        <div className="cta-overlay"></div>
+        <div className="cta-content">
+          <h2 className="cta-title">{t.cta.title}</h2>
+          <a href="/contact" className="cta-button">
             {t.cta.button}
+            <i className={`fas fa-arrow-${locale === 'ar' ? 'left' : 'right'}`}></i>
           </a>
         </div>
       </section>
