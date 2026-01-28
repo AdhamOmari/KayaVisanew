@@ -34,21 +34,23 @@ export default function RootLayout({
       // Import slowScrollTo dynamically to avoid SSR issues
       import('../lib/slowScroll').then(({ slowScrollTo }) => {
         const originalScrollTo = window.scrollTo.bind(window);
-        window.scrollTo = function scrollToOverride(xOrOptions: number | ScrollToOptions, y?: number) {
+        function scrollToOverride(options?: ScrollToOptions): void;
+        function scrollToOverride(x: number, y: number): void;
+        function scrollToOverride(xOrOptions?: number | ScrollToOptions, y?: number): void {
           if (typeof xOrOptions === 'object' && xOrOptions !== null && 'top' in xOrOptions) {
-            // scrollTo({top, left, behavior})
             slowScrollTo(xOrOptions.top ?? 0, 3000);
           } else if (typeof xOrOptions === 'number') {
-            // scrollTo(x, y)
             slowScrollTo(typeof y === 'number' ? y : 0, 3000);
           } else {
-            // fallback
             originalScrollTo(xOrOptions as any, y as any);
           }
-        };
-        // Optionally override scrollBy as well
+        }
+        window.scrollTo = scrollToOverride as typeof window.scrollTo;
+
         const originalScrollBy = window.scrollBy.bind(window);
-        window.scrollBy = function scrollByOverride(xOrOptions: number | ScrollToOptions, y?: number) {
+        function scrollByOverride(options?: ScrollToOptions): void;
+        function scrollByOverride(x: number, y: number): void;
+        function scrollByOverride(xOrOptions?: number | ScrollToOptions, y?: number): void {
           if (typeof xOrOptions === 'object' && xOrOptions !== null && 'top' in xOrOptions) {
             slowScrollTo(window.scrollY + (xOrOptions.top ?? 0), 3000);
           } else if (typeof xOrOptions === 'number') {
@@ -56,7 +58,8 @@ export default function RootLayout({
           } else {
             originalScrollBy(xOrOptions as any, y as any);
           }
-        };
+        }
+        window.scrollBy = scrollByOverride as typeof window.scrollBy;
       });
       initSlowScroll();
     }
