@@ -394,7 +394,7 @@ export default function HomePage() {
       <section style={{ padding: '80px 20px', backgroundColor: 'white' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
-            <a href="/partners" style={{ padding: '50px 40px', background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', borderRadius: '16px', color: 'white', textDecoration: 'none', textAlign: 'center', transition: 'all 0.3s' }}
+            <a href="/services/partners" style={{ padding: '50px 40px', background: 'linear-gradient(135deg, #667eea 0%, #48bb78 100%)', borderRadius: '16px', color: 'white', textDecoration: 'none', textAlign: 'center', transition: 'all 0.3s' }}
               onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
               onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
               <i className="fas fa-handshake" style={{ fontSize: '3rem', marginBottom: '20px', display: 'block' }}></i>

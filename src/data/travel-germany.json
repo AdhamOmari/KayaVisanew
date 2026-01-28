@@ -1,0 +1,156 @@
+{
+  "en": {
+    "title": "Germany Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the heart of Europe with rich history and modern innovation"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Germany to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the German consulate or visa center early",
+      "Ensure all documents are translated to German or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Brandenburg Gate",
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "Berlin Wall",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzWh9H5idh0EVme2PMwSN7XfgiE9vU648yFA&s"
+      },
+      {
+        "name": "Neuschwanstein Castle",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c2/7f/db/photo7jpg.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "Cologne Cathedral",
+        "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/1/18/debac38b769846ac8d8db51ba1714e15"
+      },
+      {
+        "name": "Oktoberfest",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/O%27zapft_is%21_M%C3%BCnchens_5_Jahreszeit_hat_begonnen_-_O%27zapft_is%21_Munich_5_season%2C_the_Oktoberfest_has_begun_%289855483374%29.jpg"
+      },
+      {
+        "name": "Black Forest",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV6h958G-i_XCQQI6OW0PbbecioCL6PXsoJg&s"
+      }
+    ],
+    "cta": "Start your German adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لألمانيا",
+    "hero": {
+      "subtitle": "اكتشف قلب أوروبا مع تاريخ غني والابتكار الحديث"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر ألمانيا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية الألمانية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى الألمانية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "بوابة براندنبورغ",
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "سور برلين",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzWh9H5idh0EVme2PMwSN7XfgiE9vU648yFA&s"
+      },
+      {
+        "name": "قلعة نويشفانشتاين",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c2/7f/db/photo7jpg.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "كاتدرائية كولونيا",
+        "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/1/18/debac38b769846ac8d8db51ba1714e15"
+      },
+      {
+        "name": "مهرجان أوكتوبر",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/O%27zapft_is%21_M%C3%BCnchens_5_Jahreszeit_hat_begonnen_-_O%27zapft_is%21_Munich_5_season%2C_the_Oktoberfest_has_begun_%289855483374%29.jpg"
+      },
+      {
+        "name": "الغابة السوداء",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV6h958G-i_XCQQI6OW0PbbecioCL6PXsoJg&s"
+      }
+    ],
+    "cta": "ابدأ مغامرتك الألمانية اليوم"
+  }
+}

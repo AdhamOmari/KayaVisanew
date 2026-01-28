@@ -31,7 +31,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       .then(res => res.json())
       .then(data => {
         setPost(data);
-        
+
         // Fetch related posts (same category)
         return fetch('/api/blog').then(res => res.json()).then(allPosts => ({
           post: data,
@@ -40,8 +40,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       })
       .then(({ post: fetchedPost, allPosts }) => {
         const related = allPosts
-          .filter((p: BlogPost) => 
-            p.slug !== params.slug && 
+          .filter((p: BlogPost) =>
+            p.slug !== params.slug &&
             p.category.en === fetchedPost.category.en
           )
           .slice(0, 3);
@@ -56,7 +56,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return locale === 'ar' 
+    return locale === 'ar'
       ? date.toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' })
       : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
@@ -64,7 +64,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (loading) {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ fontSize: '1.5rem', color: '#7C3AED' }}>
+        <div style={{ fontSize: '1.5rem', color: '#e2bc42' }}>
           {locale === 'ar' ? 'جاري التحميل...' : 'Loading...'}
         </div>
       </div>
@@ -105,17 +105,17 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       {/* Post Content */}
       <div className="container" style={{ position: 'relative' }}>
         <div className="post-content-wrapper">
-          <Image 
-            src={post.image} 
-            alt={post.title[locale]} 
+          <Image
+            src={post.image}
+            alt={post.title[locale]}
             width={900}
             height={500}
             className="post-featured-image"
             style={{ width: '100%', height: 'auto' }}
           />
-          
+
           <div className="post-content">
-            <div 
+            <div
               dangerouslySetInnerHTML={{ __html: post.content[locale] }}
             />
           </div>
@@ -143,9 +143,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   <Link href={`/blog/${relatedPost.slug}`} style={{ textDecoration: 'none' }}>
                     <div className="post-card">
                       <div className="card-image">
-                        <Image 
-                          src={relatedPost.image} 
-                          alt={relatedPost.title[locale]} 
+                        <Image
+                          src={relatedPost.image}
+                          alt={relatedPost.title[locale]}
                           width={400}
                           height={250}
                           style={{ width: '100%', height: '100%', objectFit: 'cover' }}

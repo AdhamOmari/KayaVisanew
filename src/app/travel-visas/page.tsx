@@ -13,44 +13,44 @@ export default function TravelVisasPage() {
   const isRTL = locale === 'ar'
 
   return (
-    <>
-
-      {/* MODERN HERO */}
+    <div className="travel-visas-page">
+      {/* ULTRA MODERN HERO */}
       <section className="modern-hero">
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
+            <span className="hero-subtitle">{data.hero.subtitle}</span>
             <h1 className="hero-title">{data.title}</h1>
-            <p className="hero-subtitle">{data.hero.subtitle}</p>
-            <p className="lead text-white-50 mb-4">{data.hero.description}</p>
-            
+            <p className="hero-description">{data.hero.description}</p>
+
             <div className="hero-actions">
               <a href="#destinations" className="btn btn-modern-primary">
-                {isRTL ? "استكشف الوجهات" : "Explore Destinations"} →
+                {isRTL ? "استكشف الوجهات" : "Explore Destinations"}
+                <i className={`fas fa-arrow-${isRTL ? 'left' : 'right'} ms-2`}></i>
               </a>
-              <a href="/contact" className="btn btn-modern-secondary">
-                {isRTL ? "استشارة مجانية" : "Free Consultation"}
-              </a>
+              <Link href="/contact" className="btn btn-modern-secondary">
+                {isRTL ? "احجز استشارة مجانية" : "Book Free Consultation"}
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* VISA TYPES */}
+      {/* VISA TYPES - PROFESSIONAL GRID */}
       <section className="section-modern">
-        <div className="container">
-          <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
+        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
+          <h2 className="section-title">
             {data.visa_types.heading}
           </h2>
-          
-          <div className="row g-4 mt-5">
+
+          <div className="row g-4 mt-2">
             {data.visa_types.types.map((type: any, i: number) => (
               <div className="col-md-4" key={i}>
                 <div className="visa-type-card">
                   <div className="visa-type-icon">
                     <i className={`fas fa-${type.icon}`}></i>
                   </div>
-                  <h4 className="mb-3">{type.name}</h4>
-                  <p className="text-muted mb-0" dir={isRTL ? "rtl" : "ltr"}>{type.description}</p>
+                  <h4 className="fw-bold mb-3">{type.name}</h4>
+                  <p className="text-muted mb-0">{type.description}</p>
                 </div>
               </div>
             ))}
@@ -58,36 +58,33 @@ export default function TravelVisasPage() {
         </div>
       </section>
 
-      {/* DESTINATIONS */}
-      <section id="destinations" className="section-modern soft-bg">
-        <div className="container">
-          <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
+      {/* DESTINATIONS - PREMIUM GRID */}
+      <section id="destinations" className="section-modern" style={{ backgroundColor: '#fff' }}>
+        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
+          <h2 className="section-title">
             {data.destinations.heading}
           </h2>
-          
-          <div className="row g-4 mt-5">
+
+          <div className="row g-4 mt-2">
             {data.destinations.countries.map((country: any, i: number) => (
-              <div className="col-lg-6" key={i}>
+              <div className="col-lg-4 col-md-6" key={i}>
                 <Link href={country.link} className="text-decoration-none">
                   <div className="country-visa-card">
-                    <div className="d-flex align-items-start" dir={isRTL ? "rtl" : "ltr"}>
-                      <div className="country-flag-icon me-3">
-                        <i className={`fas fa-${country.icon}`}></i>
-                      </div>
-                      <div className="flex-grow-1">
-                        <span className="country-code-badge">{country.code}</span>
-                        <h4 className="mb-3">{country.name}</h4>
-                        <ul className="visa-list">
-                          {country.visas.map((visa: string, j: number) => (
-                            <li key={j}>{visa}</li>
-                          ))}
-                        </ul>
-                        <div className="mt-3">
-                          <span className="text-travel-primary fw-bold">
-                            {isRTL ? "اعرف المزيد" : "Learn More"} →
-                          </span>
-                        </div>
-                      </div>
+                    <span className="country-code-badge">{country.code}</span>
+                    <div className="country-flag-icon">
+                      <i className={`fas fa-${country.icon}`}></i>
+                    </div>
+                    <h3 className="h4 fw-bold mb-3 text-dark">{country.name}</h3>
+                    <ul className="visa-list">
+                      {country.visas.map((visa: string, j: number) => (
+                        <li key={j}>{visa}</li>
+                      ))}
+                    </ul>
+                    <div className="mt-4 pt-3 border-top d-flex align-items-center justify-content-between">
+                      <span className="fw-bold text-dark">
+                        {isRTL ? "التفاصيل" : "View Details"}
+                      </span>
+                      <i className={`fas fa-chevron-${isRTL ? 'left' : 'right'} text-primary opacity-50`}></i>
                     </div>
                   </div>
                 </Link>
@@ -97,28 +94,25 @@ export default function TravelVisasPage() {
         </div>
       </section>
 
-      {/* WHY KAYA */}
+      {/* WHY KAYA - BENEFITS */}
       <section className="section-modern">
-        <div className="container">
-          <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
+        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
+          <h2 className="section-title">
             {data.why_kaya.heading}
           </h2>
-          
-          <div className="row g-4 mt-5">
+
+          <div className="row g-4 mt-2">
             {data.why_kaya.reasons.map((reason: string, i: number) => (
-              <div className="col-md-6" key={i}>
-                <div className="why-kaya-card" dir={isRTL ? "rtl" : "ltr"}>
-                  <div className="d-flex align-items-start">
-                    <div className="text-travel-accent fs-3 me-3">
-                      <i className={`fas fa-${
-                        i === 0 ? 'award' : 
-                        i === 1 ? 'user-check' : 
-                        i === 2 ? 'sync-alt' : 
-                        'headset'
+              <div className="col-lg-3 col-md-6" key={i}>
+                <div className="why-kaya-card h-100">
+                  <div className="fs-1 mb-4" style={{ color: '#e2bc42' }}>
+                    <i className={`fas fa-${i === 0 ? 'shield-alt' :
+                        i === 1 ? 'user-clock' :
+                          i === 2 ? 'sync' :
+                            'headset'
                       }`}></i>
-                    </div>
-                    <p className="mb-0">{reason}</p>
                   </div>
+                  <p className="mb-0 fw-medium" style={{ lineHeight: '1.6' }}>{reason}</p>
                 </div>
               </div>
             ))}
@@ -126,25 +120,24 @@ export default function TravelVisasPage() {
         </div>
       </section>
 
-      {/* CTA BANNER */}
+      {/* CTA BANNER - HIGH IMPACT */}
       <section className="section-modern">
         <div className="container">
           <div className="adventure-banner" dir={isRTL ? "rtl" : "ltr"}>
-            <h2 className="display-5 fw-bold mb-4">{data.cta}</h2>
-            <div className="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center">
-              <Link href="/contact" className="btn btn-modern-primary btn-lg px-5">
-                <i className="fas fa-paper-plane me-2"></i>
-                {isRTL ? "ابدأ رحلتك الآن" : "Start Your Journey"}
+            <h2 className="display-4 fw-bold mb-5" style={{ lineHeight: '1.2' }}>{data.cta}</h2>
+            <div className="d-flex flex-column flex-md-row gap-4 justify-content-center align-items-center">
+              <Link href="/contact" className="btn btn-modern-primary btn-lg px-5 py-3">
+                <i className="fas fa-paper-plane me-3"></i>
+                {isRTL ? "ابدأ طلب تأشيرتك الآن" : "Start Your Visa Request Now"}
               </Link>
-              <a href="tel:+1234567890" className="btn btn-modern-secondary btn-lg px-5">
-                <i className="fas fa-phone-alt me-2"></i>
-                {isRTL ? "تحدث معنا" : "Talk to Us"}
+              <a href="tel:+1234567890" className="btn btn-modern-secondary btn-lg px-5 py-3">
+                <i className="fas fa-phone-alt me-3"></i>
+                {isRTL ? "تحدث مع مستشار" : "Consult our Advisor"}
               </a>
             </div>
           </div>
         </div>
       </section>
-
-    </>
+    </div>
   )
 }

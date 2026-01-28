@@ -34,11 +34,14 @@ export default function StudyCanadaPage() {
       <section className="study-hero canada-hero">
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
+            <div className="hero-flag">
+              <img src="https://flagcdn.com/w160/ca.png" alt="Canada Flag" />
+            </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#3</div>
@@ -59,7 +62,7 @@ export default function StudyCanadaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-study-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -72,7 +75,7 @@ export default function StudyCanadaPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-tree"></i>
@@ -97,7 +100,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "موطن التعليم العالمي والتنوع الثقافي" : "Home of global education and cultural diversity"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -106,7 +109,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "جامعات مرموقة عالمياً" : "World's Prestigious Universities"}</h4>
               <p>{isRTL ? "جامعات مثل تورونتو، ماكغيل، UBC في قائمة أفضل 100 جامعة عالمياً." : "Universities like Toronto, McGill, UBC ranked among top 100 globally."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-currency-dollar"></i>
@@ -114,7 +117,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "تكاليف معقولة وجودة عالية" : "Affordable Costs, High Quality"}</h4>
               <p>{isRTL ? "تكاليف أقل من أمريكا وبريطانيا مع جودة تعليم عالمية." : "Lower costs than USA and UK with world-class education quality."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-translate"></i>
@@ -122,7 +125,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "بلد ثنائي اللغة" : "Bilingual Country"}</h4>
               <p>{isRTL ? "فرصة تعلم الإنجليزية والفرنسية، مما يمنحك ميزة إضافية." : "Opportunity to learn both English and French, giving you an extra advantage."}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-people"></i>
@@ -145,7 +148,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "خيارات دراسية متنوعة تناسب جميع المستويات" : "Diverse study options for all levels"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -157,7 +160,7 @@ export default function StudyCanadaPage() {
                 <span>{isRTL ? "مرن" : "Flexible"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-award"></i>
@@ -168,7 +171,7 @@ export default function StudyCanadaPage() {
                 <span>{isRTL ? "1-3 سنوات" : "1-3 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -179,7 +182,7 @@ export default function StudyCanadaPage() {
                 <span>{isRTL ? "4 سنوات" : "4 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -191,7 +194,7 @@ export default function StudyCanadaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -215,7 +218,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة" : "Tuition fees and living expenses details"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -247,7 +250,7 @@ export default function StudyCanadaPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -294,7 +297,7 @@ export default function StudyCanadaPage() {
                   <span className="total-label">{isRTL ? "المجموع الشهري:" : "Monthly Total:"}</span>
                   <span className="total-value">$930 - $2,450</span>
                 </div>
-                <p className="cost-note" style={{marginTop: '15px'}}>
+                <p className="cost-note" style={{ marginTop: '15px' }}>
                   {isRTL ? "المبلغ المطلوب إثباته للحصول على تصريح الدراسة: 10,000 دولار كندي سنوياً + رسوم السنة الأولى" : "Proof of funds required for study permit: $10,000 CAD annually + first year tuition"}
                 </p>
               </div>
@@ -314,7 +317,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً وطلباً في سوق العمل الكندي" : "Fastest growing study fields with high job demand in Canada"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -323,7 +326,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "تكنولوجيا المعلومات" : "Information Technology"}</h4>
               <p>{isRTL ? "علوم الكمبيوتر، الذكاء الاصطناعي، أمن المعلومات" : "Computer Science, AI, Cybersecurity"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-graph-up-arrow"></i>
@@ -331,7 +334,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "إدارة الأعمال" : "Business Administration"}</h4>
               <p>{isRTL ? "التسويق، المالية، ريادة الأعمال" : "Marketing, Finance, Entrepreneurship"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-heart-pulse"></i>
@@ -339,7 +342,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "الطب والصحة" : "Medicine & Health"}</h4>
               <p>{isRTL ? "التمريض، الصيدلة، الصحة العامة" : "Nursing, Pharmacy, Public Health"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-gear"></i>
@@ -347,7 +350,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "الهندسة" : "Engineering"}</h4>
               <p>{isRTL ? "ميكانيكية، كهربائية، مدنية، كمبيوتر" : "Mechanical, Electrical, Civil, Computer"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-snow"></i>
@@ -355,7 +358,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "علوم البيئة" : "Environmental Sciences"}</h4>
               <p>{isRTL ? "الطاقة المتجددة، الاستدامة، علوم البيئة" : "Renewable Energy, Sustainability, Environmental Science"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-translate"></i>
@@ -378,10 +381,10 @@ export default function StudyCanadaPage() {
               {isRTL ? "تجربة جامعية غنية ومتنوعة في أجمل مدن العالم" : "Rich and diverse university experience in world's most beautiful cities"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "تورونتو" : "Toronto"}</h4>
                 <p>{isRTL ? "العاصمة الاقتصادية وموطن جامعة تورونتو" : "Economic capital and home to University of Toronto"}</p>
@@ -391,9 +394,9 @@ export default function StudyCanadaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1559511260-66a654ae982a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559511260-66a654ae982a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "فانكوفر" : "Vancouver"}</h4>
                 <p>{isRTL ? "طبيعة خلابة وموطن جامعة UBC" : "Stunning nature and home to UBC"}</p>
@@ -403,9 +406,9 @@ export default function StudyCanadaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "مونتريال" : "Montreal"}</h4>
                 <p>{isRTL ? "مدينة ثنائية اللغة وموطن جامعة ماكغيل" : "Bilingual city and home to McGill University"}</p>
@@ -416,7 +419,7 @@ export default function StudyCanadaPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -425,7 +428,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "مجتمعات طلابية متنوعة" : "Diverse Student Communities"}</h4>
               <p>{isRTL ? "طلاب من أكثر من 200 دولة حول العالم" : "Students from over 200 countries worldwide"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-snow"></i>
@@ -433,7 +436,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "أنشطة شتوية" : "Winter Activities"}</h4>
               <p>{isRTL ? "التزلج، الهوكي، ومهرجانات الشتاء" : "Skiing, hockey, and winter festivals"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-music-note-beamed"></i>
@@ -441,7 +444,7 @@ export default function StudyCanadaPage() {
               <h4>{isRTL ? "مهرجانات وفعاليات" : "Festivals & Events"}</h4>
               <p>{isRTL ? "مهرجانات موسيقية، ثقافية، وفنية على مدار العام" : "Music, cultural, and art festivals year-round"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-hands-helping"></i>
@@ -464,7 +467,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "خيارات العمل القانونية وبرامج الهجرة بعد التخرج" : "Legal work options and post-graduation immigration programs"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -482,7 +485,7 @@ export default function StudyCanadaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "بدون تصريح عمل إضافي" : "No additional work permit needed"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "التدريب العملي" : "Co-op Programs"}</h5>
                   <ul>
@@ -493,7 +496,7 @@ export default function StudyCanadaPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -510,7 +513,7 @@ export default function StudyCanadaPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "خبرة تؤهل للإقامة الدائمة" : "Experience qualifies for permanent residence"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "برامج الهجرة" : "Immigration Programs"}</h5>
                   <ul>
@@ -536,7 +539,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "دليل شامل للحصول على تصريح الدراسة الكندي" : "Complete guide to obtaining Canadian study permit"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -545,7 +548,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "الحصول على خطاب قبول من مؤسسة تعليمية معتمدة (DLI)" : "Get acceptance letter from designated learning institution (DLI)"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -553,7 +556,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "تجهيز كشوفات بنكية تغطي السنة الأولى + 10,000 دولار سنوياً" : "Prepare bank statements covering first year + $10,000 annually"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -561,7 +564,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "إنشاء حساب وتعبئة استمارة طلب تصريح الدراسة" : "Create account and fill study permit application form"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -569,7 +572,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "دفع رسوم تصريح الدراسة والبصمات ($85 إضافية)" : "Pay study permit and biometrics fees ($85 additional)"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -577,7 +580,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "رفع جميع المستندات المطلوبة عبر النظام" : "Upload all required documents through the system"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -585,7 +588,7 @@ export default function StudyCanadaPage() {
                 <p>{isRTL ? "حجز موعد البصمات وإجراء الفحص الطبي إذا لزم" : "Schedule biometrics appointment and medical exam if required"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -608,7 +611,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "تجهيز الملف الكامل للحصول على تصريح الدراسة" : "Prepare complete file for study permit application"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -616,49 +619,49 @@ export default function StudyCanadaPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>{isRTL ? "خطاب القبول LOA" : "Letter of Acceptance (LOA)"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "إثبات مالي" : "Financial Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-translate"></i>
               </div>
               <h5>{isRTL ? "شهادة لغة" : "Language Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
               </div>
               <h5>{isRTL ? "الشهادات الأكاديمية" : "Academic Certificates"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-earmark-medical"></i>
               </div>
               <h5>{isRTL ? "الفحص الطبي" : "Medical Exam"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -680,7 +683,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب تصريح الدراسة" : "Practical tips to ensure study permit application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -689,7 +692,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "خطاب نية قوي" : "Strong Statement of Purpose"}</h5>
               <p>{isRTL ? "اشرح أسباب اختيار كندا وتخصصك وخططك المستقبلية" : "Explain why you chose Canada, your major, and future plans"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-arrow-return-right"></i>
@@ -697,7 +700,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "روابط قوية ببلدك" : "Strong Home Country Ties"}</h5>
               <p>{isRTL ? "أظهر أن لديك أسباباً قوية للعودة بعد الدراسة" : "Show you have strong reasons to return after studies"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-bar-chart"></i>
@@ -705,7 +708,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "إثبات مالي واضح" : "Clear Financial Proof"}</h5>
               <p>{isRTL ? "تأكد أن أوراقك المالية حديثة ومترجمة" : "Ensure your financial documents are recent and translated"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-person-check"></i>
@@ -728,7 +731,7 @@ export default function StudyCanadaPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -737,7 +740,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "اختيار الجامعة والمقاطعة" : "Choosing University & Province"}</h5>
               <p>{isRTL ? "حسب ميزانيتك وتخصصك وفرص الهجرة المستقبلية" : "Based on your budget, major, and future immigration opportunities"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -745,7 +748,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "تجهيز ملف التأشيرة الكامل" : "Complete Visa File Preparation"}</h5>
               <p>{isRTL ? "بدون ثغرات مع متابعة كل التفاصيل" : "Without gaps with follow-up on every detail"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -753,7 +756,7 @@ export default function StudyCanadaPage() {
               <h5>{isRTL ? "دعم في إثبات القدرة المالية" : "Financial Capacity Support"}</h5>
               <p>{isRTL ? "تحضير خطاب النية والإثباتات المالية" : "Preparing statement of purpose and financial proofs"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -762,14 +765,14 @@ export default function StudyCanadaPage() {
               <p>{isRTL ? "التسجيل، السكن، وأول فرصة عمل" : "Registration, housing, and first job opportunity"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -786,7 +789,7 @@ export default function StudyCanadaPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في كندا" : "Start your academic journey with Canada study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -797,7 +800,7 @@ export default function StudyCanadaPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

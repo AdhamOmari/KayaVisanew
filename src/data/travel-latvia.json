@@ -1,0 +1,156 @@
+{
+  "en": {
+    "title": "Latvia Schengen Visa",
+    "hero": {
+      "subtitle": "Explore the charming Baltic nation of Latvia"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Latvia to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Latvian consulate or visa center early",
+      "Ensure all documents are translated to Latvian or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Freedom Monument",
+        "image": "https://navicup.com//upload/map-files/images/3093/48565534802_be991639ea_o.jpg"
+      },
+      {
+        "name": "Old Town – Riga",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4f/77/57/caption.jpg?w=700&h=400&s=1"
+      },
+      {
+        "name": "Riga Central Market",
+        "image": "https://www.latvia.travel/sites/default/files/styles/mobile_promo/public/media_image/tourism_sight/riga-central-market-latvia-travel.jpg?itok=qLRPZqAf"
+      },
+      {
+        "name": "Riga Cathedral",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2cE6yDJ1AgRl5j2cSnHW6V_JFQQK9O97ugg&s"
+      },
+      {
+        "name": "Jurmala Latvia Beach",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/57/fa/52/20190921-192555-largejpg.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "name": "Gauja National Park",
+        "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=285,height=160/tour_img/c389d387d30faaf7.jpeg"
+      }
+    ],
+    "cta": "Start your Latvian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن للاتفيا",
+    "hero": {
+      "subtitle": "استكشف الأمة البلطيقية الساحرة لاتفيا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر لاتفيا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية اللاتفية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى اللاتفية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "نصب الحرية",
+        "image": "https://navicup.com//upload/map-files/images/3093/48565534802_be991639ea_o.jpg"
+      },
+      {
+        "name": "البلدة القديمة – ريغا",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4f/77/57/caption.jpg?w=700&h=400&s=1"
+      },
+      {
+        "name": "سوق ريغا المركزي",
+        "image": "https://www.latvia.travel/sites/default/files/styles/mobile_promo/public/media_image/tourism_sight/riga-central-market-latvia-travel.jpg?itok=qLRPZqAf"
+      },
+      {
+        "name": "كاتدرائية ريغا",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2cE6yDJ1AgRl5j2cSnHW6V_JFQQK9O97ugg&s"
+      },
+      {
+        "name": "شاطئ جورمالا لاتفيا",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/57/fa/52/20190921-192555-largejpg.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "name": "حديقة غوجا الوطنية",
+        "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=285,height=160/tour_img/c389d387d30faaf7.jpeg"
+      }
+    ],
+    "cta": "ابدأ مغامرتك اللاتفية اليوم"
+  }
+}

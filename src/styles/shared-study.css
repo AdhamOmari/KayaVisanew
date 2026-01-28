@@ -60,19 +60,19 @@
 }
 
 .reasons-grid {
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .programs-grid {
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .majors-grid {
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .activities-grid {
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .work-opportunities {
@@ -317,19 +317,19 @@
   .section-title {
     font-size: 2rem;
   }
-  
+
   .section-country {
     padding: 60px 0;
   }
-  
+
   .work-opportunities {
     grid-template-columns: 1fr;
   }
-  
+
   .cta-title {
     font-size: 2rem;
   }
-  
+
   .cta-card {
     padding: 40px 30px;
   }
@@ -339,33 +339,33 @@
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .steps-timeline::before {
     left: 25px;
   }
-  
+
   .step-item {
     padding-left: 70px;
   }
-  
+
   .step-number {
     width: 50px;
     height: 50px;
     font-size: 1.2rem;
   }
-  
+
   .cta-buttons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .btn-cta-primary,
   .btn-cta-secondary {
     width: 100%;
     max-width: 300px;
     justify-content: center;
   }
-  
+
   .cta-features {
     flex-direction: column;
     gap: 20px;
@@ -376,37 +376,35 @@
   .section-title {
     font-size: 1.6rem;
   }
-  
+
   .section-subtitle {
     font-size: 1rem;
   }
-  
+
   .step-item {
     padding-left: 60px;
   }
-  
+
   .step-number {
     width: 40px;
     height: 40px;
     font-size: 1rem;
   }
-  
+
   .step-content {
     padding: 20px;
   }
-  
+
   .cta-title {
     font-size: 1.6rem;
   }
-  
+
   .cta-subtitle {
     font-size: 1rem;
   }
 }
-/* Canada color overrides in shared-study.css */
-.study-country-page:not(.usa-page) .study-hero {
-}
 
+/* Canada color overrides in shared-study.css */
 .study-country-page:not(.usa-page) .stat-number {
   color: #e2bc42;
 }
@@ -442,6 +440,7 @@
 .study-country-page:not(.usa-page) .work-card.after-graduation .work-header {
   background: linear-gradient(90deg, #e2bc42 0%, #e2bc42 100%);
 }
+
 /* Australia Specific Styles */
 .au-hero {
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
@@ -451,24 +450,27 @@
 }
 
 
-.gr-hero{
+.gr-hero {
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
     url('https://i.ibb.co/MkkcY055/image.jpg');
   background-size: cover;
   background-position: center;
 }
-.au-hero{
+
+.au-hero {
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
     url('https://i.ibb.co/BpGyRpK/image.jpg');
   background-size: cover;
   background-position: center;
 }
-.uk-hero{
+
+.uk-hero {
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
     url('https://i.ibb.co/gbCySkLS/image.jpg');
   background-size: cover;
   background-position: center;
 }
+
 .au-hero .stat-number {
   color: #ffd166;
 }
@@ -544,6 +546,7 @@
 .au-majors .major-card .major-icon {
   background: linear-gradient(135deg, #1c3269 0%, #4a7fbe 100%);
 }
+
 /* Spain Specific Styles */
 .es-hero {
   background: linear-gradient(135deg, rgba(28, 50, 105, 0.88) 0%, rgba(42, 69, 128, 0.85) 50%, rgba(28, 50, 105, 0.9) 100%),
@@ -608,7 +611,7 @@
 }
 
 /* Spain CTA */
-  /* .es-cta {
+/* .es-cta {
     background: linear-gradient(135deg, #1c3269 0%, #1c3269 100%);
   }
 

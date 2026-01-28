@@ -1,0 +1,212 @@
+{
+  "en": {
+    "title": "Science & Technology Initiatives Program (J-1 Visa)",
+    "hero": {
+      "heading": "Innovation & Scientific Collaboration in America",
+      "subtitle": "Participate in cutting-edge science and technology programs and research initiatives"
+    },
+    "overview": {
+      "heading": "About the Science & Technology Initiatives Program",
+      "description": "The Science & Technology Initiatives program brings international scientists, researchers, and technologists to the United States to participate in collaborative research, innovation projects, and technology transfer activities. This program fosters global scientific cooperation and technological advancement.",
+      "additional": "Participants engage in advanced research, attend scientific conferences, collaborate on innovative projects, and contribute to the global scientific community while experiencing American research culture."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Background in science, technology, or engineering",
+        "Research experience or advanced degree",
+        "Invitation from US research institution or company",
+        "English proficiency for technical communication",
+        "Demonstrated scientific achievements",
+        "Commitment to research collaboration"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "3-24 months (depending on project scope)"
+        },
+        {
+          "title": "Activities",
+          "description": "Research, innovation, conferences, collaboration"
+        },
+        {
+          "title": "Focus Areas",
+          "description": "STEM fields and emerging technologies"
+        },
+        {
+          "title": "Collaboration",
+          "description": "International research partnerships"
+        }
+      ]
+    },
+    "research_areas": {
+      "heading": "Research Areas",
+      "categories": [
+        {
+          "name": "Artificial Intelligence & Machine Learning",
+          "description": "AI research, algorithms, machine learning applications"
+        },
+        {
+          "name": "Biotechnology & Life Sciences",
+          "description": "Biomedical research, genomics, pharmaceuticals"
+        },
+        {
+          "name": "Renewable Energy & Environment",
+          "description": "Clean energy, climate science, environmental technology"
+        },
+        {
+          "name": "Information Technology",
+          "description": "Cybersecurity, software development, data science"
+        },
+        {
+          "name": "Space & Aerospace",
+          "description": "Space exploration, aviation technology, satellite systems"
+        },
+        {
+          "name": "Advanced Manufacturing",
+          "description": "Industrial innovation, robotics, smart manufacturing"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Access to world-class research facilities",
+        "Collaboration with leading scientists",
+        "Exposure to cutting-edge technology",
+        "Professional networking in global scientific community",
+        "Publication opportunities in top journals",
+        "Technology transfer and commercialization",
+        "Innovation and entrepreneurship support",
+        "Cultural exchange in scientific environment"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Identify research collaboration opportunity",
+        "Secure invitation from US institution or company",
+        "Develop research proposal and objectives",
+        "Submit J-1 visa application with DS-2019",
+        "Pay SEVIS fee and attend visa interview",
+        "Begin science and technology collaboration"
+      ]
+    },
+    "important_notes": [
+      "Must involve scientific or technological collaboration",
+      "Focus on research and innovation activities",
+      "Intellectual property considerations",
+      "Health insurance coverage mandatory",
+      "Regular progress reporting required",
+      "Two-year home residency requirement may apply"
+    ]
+  },
+  "ar": {
+    "title": "برنامج مبادرات العلوم والتكنولوجيا (تأشيرة J-1)",
+    "hero": {
+      "heading": "الابتكار والتعاون العلمي في أمريكا",
+      "subtitle": "شارك في برامج علوم وتكنولوجيا متطورة ومبادرات بحثية"
+    },
+    "overview": {
+      "heading": "حول برنامج مبادرات العلوم والتكنولوجيا",
+      "description": "يجلب برنامج مبادرات العلوم والتكنولوجيا العلماء والباحثين والمتخصصين في التكنولوجيا من جميع أنحاء العالم إلى الولايات المتحدة للمشاركة في البحث التعاوني، مشاريع الابتكار، وأنشطة نقل التكنولوجيا. يعزز هذا البرنامج التعاون العلمي العالمي والتقدم التكنولوجي.",
+      "additional": "يشارك المشاركون في البحث المتقدم، حضور المؤتمرات العلمية، التعاون في مشاريع مبتكرة، والمساهمة في المجتمع العلمي العالمي مع تجربة ثقافة البحث الأمريكية."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "خلفية في العلوم، التكنولوجيا، أو الهندسة",
+        "خبرة بحثية أو درجة متقدمة",
+        "دعوة من مؤسسة بحث أمريكية أو شركة",
+        "إتقان اللغة الإنجليزية للتواصل التقني",
+        "إنجازات علمية مُثبتة",
+        "التزام بالتعاون البحثي"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "3-24 شهراً (حسب نطاق المشروع)"
+        },
+        {
+          "title": "الأنشطة",
+          "description": "بحث، ابتكار، مؤتمرات، تعاون"
+        },
+        {
+          "title": "مجالات التركيز",
+          "description": "مجالات العلوم والتكنولوجيا والهندسة والرياضيات"
+        },
+        {
+          "title": "التعاون",
+          "description": "شراكات بحث دولية"
+        }
+      ]
+    },
+    "research_areas": {
+      "heading": "مجالات البحث",
+      "categories": [
+        {
+          "name": "الذكاء الاصطناعي والتعلم الآلي",
+          "description": "البحث في الذكاء الاصطناعي، الخوارزميات، تطبيقات التعلم الآلي"
+        },
+        {
+          "name": "التقنية الحيوية والعلوم الحياتية",
+          "description": "البحث الطبي الحيوي، الجينوميات، الأدوية"
+        },
+        {
+          "name": "الطاقة المتجددة والبيئة",
+          "description": "الطاقة النظيفة، علوم المناخ، التكنولوجيا البيئية"
+        },
+        {
+          "name": "تكنولوجيا المعلومات",
+          "description": "الأمن السيبراني، تطوير البرمجيات، علم البيانات"
+        },
+        {
+          "name": "الفضاء والطيران",
+          "description": "استكشاف الفضاء، تكنولوجيا الطيران، أنظمة الأقمار الصناعية"
+        },
+        {
+          "name": "التصنيع المتقدم",
+          "description": "الابتكار الصناعي، الروبوتات، التصنيع الذكي"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "الوصول إلى مرافق البحث عالمية المستوى",
+        "التعاون مع علماء رائدين",
+        "التعرض للتكنولوجيا المتطورة",
+        "التواصل المهني في المجتمع العلمي العالمي",
+        "فرص النشر في المجلات العليا",
+        "نقل التكنولوجيا والتجارة",
+        "دعم الابتكار وريادة الأعمال",
+        "تبادل ثقافي في البيئة العلمية"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "تحديد فرصة تعاون بحثي",
+        "الحصول على دعوة من مؤسسة أمريكية أو شركة",
+        "تطوير اقتراح بحث وأهداف",
+        "تقديم طلب تأشيرة J-1 مع نموذج DS-2019",
+        "دفع رسوم SEVIS وحضور مقابلة التأشيرة",
+        "بدء التعاون العلمي والتكنولوجي"
+      ]
+    },
+    "important_notes": [
+      "يجب أن يتضمن تعاوناً علمياً أو تكنولوجياً",
+      "التركيز على أنشطة البحث والابتكار",
+      "اعتبارات الملكية الفكرية",
+      "تغطية التأمين الصحي إلزامية",
+      "تقارير التقدم المنتظمة مطلوبة",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين"
+    ]
+  }
+}

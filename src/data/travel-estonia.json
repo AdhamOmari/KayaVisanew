@@ -1,0 +1,66 @@
+{
+  "en": {
+    "title": "Estonia Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the digital innovation and medieval charm of Estonia"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "Valid passport",
+      "Completed Schengen visa application form"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date"
+    ],
+    "with_kaya": [
+      "Complete application form assistance"
+    ],
+    "attractions": [
+      {
+        "name": "Tallinn Old Town",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8c/ee/fa/20160608-172336-largejpg.jpg?w=900&h=-1&s=1"
+      }
+    ],
+    "cta": "Start your Estonian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لإستونيا",
+    "hero": {
+      "subtitle": "اكتشف الابتكار الرقمي والسحر الوسيطي في إستونيا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم",
+        "icon": "camera"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول",
+      "نموذج طلب تأشيرة الشنغن مكتمل"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب"
+    ],
+    "attractions": [
+      {
+        "name": "مدينة تالين القديمة",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8c/ee/fa/20160608-172336-largejpg.jpg?w=900&h=-1&s=1"
+      }
+    ],
+    "cta": "ابدأ مغامرتك في إستونيا اليوم"
+  }
+}

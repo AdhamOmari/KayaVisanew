@@ -35,12 +35,13 @@ export default function StudySpainPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
+              <img src="https://flagcdn.com/w160/es.png" alt="Spain Flag" />
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#2</div>
@@ -61,7 +62,7 @@ export default function StudySpainPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-study-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -74,7 +75,7 @@ export default function StudySpainPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-sun"></i>
@@ -99,7 +100,7 @@ export default function StudySpainPage() {
               {isRTL ? "تجربة حياة واستثمار في لغة وثقافة عالمية" : "Life experience and investment in a global language and culture"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -108,7 +109,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "لغة عالمية" : "Global Language"}</h4>
               <p>{isRTL ? "الإسبانية ثاني أكثر اللغات تحدثاً في العالم" : "Spanish is the second most spoken language worldwide"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-cash"></i>
@@ -116,7 +117,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "تكاليف معيشة متوازنة" : "Balanced Living Costs"}</h4>
               <p>{isRTL ? "أقل من دول أوروبا الغربية مع جودة حياة عالية" : "Lower than Western Europe with high quality of life"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-palette"></i>
@@ -124,7 +125,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "حياة طلابية غنية" : "Rich Student Life"}</h4>
               <p>{isRTL ? "مهرجانات، متاحف، فنون، وثقافة متنوعة" : "Festivals, museums, arts, and diverse culture"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-briefcase"></i>
@@ -147,7 +148,7 @@ export default function StudySpainPage() {
               {isRTL ? "خيارات دراسية متنوعة باللغتين الإسبانية والإنجليزية" : "Diverse study options in Spanish and English"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -159,7 +160,7 @@ export default function StudySpainPage() {
                 <span>DELE</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -170,7 +171,7 @@ export default function StudySpainPage() {
                 <span>{isRTL ? "4 سنوات" : "4 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -181,7 +182,7 @@ export default function StudySpainPage() {
                 <span>{isRTL ? "1-2 سنوات" : "1-2 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-briefcase"></i>
@@ -193,7 +194,7 @@ export default function StudySpainPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -217,7 +218,7 @@ export default function StudySpainPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة في إسبانيا" : "Tuition fees and living expenses details in Spain"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -254,7 +255,7 @@ export default function StudySpainPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -301,11 +302,11 @@ export default function StudySpainPage() {
                   <span className="total-label">{isRTL ? "المجموع الشهري:" : "Monthly Total:"}</span>
                   <span className="total-value">€600 - €1,100</span>
                 </div>
-                <div className="visa-fee-info" style={{marginTop: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '10px'}}>
-                  <h6 className="text-center" style={{color: '#1c3269', fontWeight: '600'}}>
+                <div className="visa-fee-info" style={{ marginTop: '20px', padding: '15px', background: '#f8f9fa', borderRadius: '10px' }}>
+                  <h6 className="text-center" style={{ color: '#1c3269', fontWeight: '600' }}>
                     {isRTL ? "رسوم التأشيرة القنصلية" : "Consular Visa Fee"}
                   </h6>
-                  <p className="text-center mb-0" style={{color: '#6c757d', fontSize: '0.9rem'}}>
+                  <p className="text-center mb-0" style={{ color: '#6c757d', fontSize: '0.9rem' }}>
                     {isRTL ? "تتراوح بين €60 - €80 حسب بلد التقديم" : "Ranges between €60 - €80 depending on application country"}
                   </p>
                 </div>
@@ -326,7 +327,7 @@ export default function StudySpainPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً في سوق العمل الإسباني" : "Fastest growing study fields in Spanish job market"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -335,7 +336,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "السياحة والضيافة" : "Tourism & Hospitality"}</h4>
               <p>{isRTL ? "إدارة الفنادق، السياحة الدولية، الطيران" : "Hotel management, international tourism, aviation"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-palette"></i>
@@ -343,7 +344,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "الفنون والتصميم" : "Arts & Design"}</h4>
               <p>{isRTL ? "فنون بصرية، تصميم جرافيك، أزياء" : "Visual arts, graphic design, fashion"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-briefcase"></i>
@@ -351,7 +352,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "إدارة الأعمال" : "Business Administration"}</h4>
               <p>{isRTL ? "ريادة أعمال، تسويق، إدارة عالمية" : "Entrepreneurship, marketing, global management"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-laptop"></i>
@@ -359,7 +360,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "التسويق الرقمي" : "Digital Marketing"}</h4>
               <p>{isRTL ? "إعلانات رقمية، وسائل التواصل الاجتماعي" : "Digital advertising, social media"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-globe"></i>
@@ -367,7 +368,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "العلاقات الدولية" : "International Relations"}</h4>
               <p>{isRTL ? "دبلوماسية، شؤون أوروبية، تعاون دولي" : "Diplomacy, European affairs, international cooperation"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-translate"></i>
@@ -390,10 +391,10 @@ export default function StudySpainPage() {
               {isRTL ? "تجربة تعليمية استثنائية في مدن فنون وثقافة" : "Exceptional educational experience in cities of arts and culture"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1543785735-0abcb6fdf497?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1543785735-0abcb6fdf497?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "مدريد" : "Madrid"}</h4>
                 <p>{isRTL ? "عاصمة الثقافة والأعمال والجامعات الكبرى" : "Capital of culture, business, and major universities"}</p>
@@ -403,9 +404,9 @@ export default function StudySpainPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "برشلونة" : "Barcelona"}</h4>
                 <p>{isRTL ? "عاصمة الإبداع، التصميم، وريادة الأعمال" : "Capital of creativity, design, and entrepreneurship"}</p>
@@ -415,9 +416,9 @@ export default function StudySpainPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1574698311155-f24ee302fcc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1574698311155-f24ee302fcc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "فالنسيا" : "Valencia"}</h4>
                 <p>{isRTL ? "جودة حياة عالية، تكاليف معقولة، وساحل خلاب" : "High quality of life, reasonable costs, stunning coast"}</p>
@@ -428,7 +429,7 @@ export default function StudySpainPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -437,7 +438,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "حياة ثقافية نابضة" : "Vibrant Cultural Life"}</h4>
               <p>{isRTL ? "مهرجانات، حفلات موسيقية، معارض فنية" : "Festivals, concerts, art exhibitions"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-calendar-event"></i>
@@ -445,7 +446,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "أنشطة شاطئية" : "Beach Activities"}</h4>
               <p>{isRTL ? "رياضات مائية، شواطئ، وأنشطة ساحلية" : "Water sports, beaches, coastal activities"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-trophy"></i>
@@ -453,7 +454,7 @@ export default function StudySpainPage() {
               <h4>{isRTL ? "أنشطة رياضية" : "Sports Activities"}</h4>
               <p>{isRTL ? "كرة قدم، سلة، رياضات متنوعة" : "Football, basketball, various sports"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-emoji-smile"></i>
@@ -476,7 +477,7 @@ export default function StudySpainPage() {
               {isRTL ? "خيارات العمل القانونية في إسبانيا" : "Legal work options in Spain"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -494,7 +495,7 @@ export default function StudySpainPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "مشروط بإنهاء السنة الأولى من الدراسة" : "Conditional on completing first year of study"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "أنواع الوظائف" : "Job Types"}</h5>
                   <ul>
@@ -505,7 +506,7 @@ export default function StudySpainPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -522,7 +523,7 @@ export default function StudySpainPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "للخريجين من الجامعات الإسبانية" : "For graduates from Spanish universities"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "خيارات البقاء الدائم" : "Permanent Stay Options"}</h5>
                   <ul>
@@ -548,7 +549,7 @@ export default function StudySpainPage() {
               {isRTL ? "دليل شامل للحصول على تأشيرة الدراسة الإسبانية" : "Complete guide to obtaining Spanish study visa"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -557,7 +558,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "قبول من جامعة أو معهد معتمد في إسبانيا" : "Admission from accredited university/institute in Spain"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -565,7 +566,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "كشف حساب يغطي المعيشة (€600-€700 شهرياً)" : "Bank statement covering living expenses (€600-€700 monthly)"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -573,7 +574,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "تأمين يغطي كامل فترة الإقامة في إسبانيا" : "Insurance covering entire stay period in Spain"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -581,7 +582,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "حجز موعد في القنصلية/السفارة الإسبانية" : "Book appointment at Spanish consulate/embassy"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -589,7 +590,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "تجهيز ملف كامل مع ترجمة وتصديق" : "Prepare complete file with translation and certification"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -597,7 +598,7 @@ export default function StudySpainPage() {
                 <p>{isRTL ? "دفع €60-€80 رسوم واجتياز المقابلة" : "Pay €60-€80 fees and pass the interview"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -620,7 +621,7 @@ export default function StudySpainPage() {
               {isRTL ? "تجهيز الملف الكامل للحصول على تأشيرة الدراسة" : "Prepare complete file for study visa application"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -628,49 +629,49 @@ export default function StudySpainPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>{isRTL ? "خطاب القبول" : "Admission Letter"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "إثبات مالي" : "Financial Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-heart-pulse"></i>
               </div>
               <h5>{isRTL ? "التأمين الصحي" : "Health Insurance"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
               </div>
               <h5>{isRTL ? "شهادات أكاديمية" : "Academic Certificates"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-medical"></i>
               </div>
               <h5>{isRTL ? "شهادة طبية" : "Medical Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-check-square"></i>
@@ -692,7 +693,7 @@ export default function StudySpainPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب تأشيرة الدراسة" : "Practical tips to ensure study visa application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -701,7 +702,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "ترجمة إسبانية معتمدة" : "Certified Spanish Translation"}</h5>
               <p>{isRTL ? "ترجمة جميع المستندات للإسبانية مع ختم مترجم معتمد" : "Translate all documents to Spanish with certified translator stamp"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-calendar-check"></i>
@@ -709,7 +710,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "تقديم مبكر" : "Early Submission"}</h5>
               <p>{isRTL ? "قدم الطلب قبل 4 أشهر على الأقل من بدء الدراسة" : "Submit application at least 4 months before study start"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-house-check"></i>
@@ -717,7 +718,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "إثبات سكن حقيقي" : "Real Housing Proof"}</h5>
               <p>{isRTL ? "عقد إيجار أو خطاب سكن موثق من المؤسسة التعليمية" : "Rental contract or housing letter certified by educational institution"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-shield-check"></i>
@@ -740,7 +741,7 @@ export default function StudySpainPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -749,7 +750,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "اختيار البرنامج المناسب" : "Choosing Suitable Program"}</h5>
               <p>{isRTL ? "بما يتناسب مع ميزانيتك وأهدافك اللغوية" : "Matching your budget and language goals"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -757,7 +758,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "تجهيز ملف التأشيرة" : "Preparing Visa File"}</h5>
               <p>{isRTL ? "ترجمة، تصديق، وتجهيز جميع المستندات" : "Translation, certification, and preparation of all documents"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -765,7 +766,7 @@ export default function StudySpainPage() {
               <h5>{isRTL ? "ترتيب السكن والوصول" : "Arranging Housing & Arrival"}</h5>
               <p>{isRTL ? "حجز سكن، استقبال في المطار، وتسجيل أولي" : "Housing booking, airport pickup, and initial registration"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -774,14 +775,14 @@ export default function StudySpainPage() {
               <p>{isRTL ? "بطاقة الإقامة (TIE)، فتح حساب، وتسجيل بلدي" : "Residence card (TIE), bank account, municipal registration"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -798,7 +799,7 @@ export default function StudySpainPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في إسبانيا" : "Start your academic journey with Spain study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -809,7 +810,7 @@ export default function StudySpainPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

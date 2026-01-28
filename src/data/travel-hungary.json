@@ -1,0 +1,148 @@
+{
+  "en": {
+    "title": "Hungary Schengen Visa",
+    "hero": {
+      "subtitle": "Explore Hungary, the heart of Central Europe"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Hungary to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments early at the Hungarian visa center",
+      "Ensure all documents are in English or Hungarian",
+      "Provide a clear travel itinerary inside Hungary",
+      "Show strong ties to your home country"
+    ],
+    "with_kaya": [
+      "Visa application form assistance",
+      "Document preparation and translation",
+      "Visa appointment booking",
+      "Travel insurance arrangement",
+      "Hotel booking assistance",
+      "Professional cover letter writing"
+    ],
+    "attractions": [
+      {
+        "name": "Innsbruck",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFYAmNqcb_9chz0SNtqVdwPWA68NX1FZZow&s"
+      },
+      {
+        "name": "Hallstatt Lake",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/2f/36/41/the-fairytale-lake-in.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "Vienna State Opera",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Staatsoper_Wien_DSC_5273w.jpg"
+      },
+      {
+        "name": "Schönbrunn Palace",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg"
+      },
+      {
+        "name": "Kunsthistorisches Museum",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/4c/b1/20/als-palast-der-schonen.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "Start your journey to Hungary today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن للمجر",
+    "hero": {
+      "subtitle": "اكتشف جمال المجر قلب أوروبا الوسطى"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة وزيارة المعالم والعائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر المجر إلى دولة أخرى",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (3 أشهر بعد مدة الإقامة)",
+      "نموذج طلب تأشيرة شنغن مكتمل",
+      "صورتان شخصيتان حديثتان",
+      "تأمين سفر بحد أدنى 30,000 يورو",
+      "حجز طيران",
+      "حجز فندقي أو إثبات إقامة",
+      "إثبات القدرة المالية",
+      "خطاب يوضح سبب الزيارة"
+    ],
+    "processing_time": "15–30 يوماً",
+    "validity": "حتى 90 يوماً خلال 180 يوماً",
+    "tips": [
+      "قدّم الطلب قبل موعد السفر بوقت كافٍ",
+      "احجز موعد الفيزا مبكراً",
+      "تأكد من أن المستندات باللغة الإنجليزية أو المجرية",
+      "قدّم برنامج رحلة واضح داخل المجر",
+      "أظهر نية العودة لبلدك"
+    ],
+    "with_kaya": [
+      "تعبئة نموذج الطلب",
+      "تجهيز وترجمة الأوراق",
+      "حجز موعد الفيزا",
+      "تأمين سفر",
+      "حجوزات فندقية",
+      "كتابة خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "إنسبروك",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFYAmNqcb_9chz0SNtqVdwPWA68NX1FZZow&s"
+      },
+      {
+        "name": "بحيرة هالشتات",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/2f/36/41/the-fairytale-lake-in.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "دار الأوبرا في فيينا",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Staatsoper_Wien_DSC_5273w.jpg"
+      },
+      {
+        "name": "قصر شونبرون",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg"
+      },
+      {
+        "name": "متحف كونسثيستوريش",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/4c/b1/20/als-palast-der-schonen.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "ابدأ رحلتك إلى المجر اليوم"
+  }
+}

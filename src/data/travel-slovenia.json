@@ -1,0 +1,156 @@
+{
+  "en": {
+    "title": "Slovenia Schengen Visa",
+    "hero": {
+      "subtitle": "Explore the hidden gem of Central Europe"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Slovenia to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Slovenian consulate or visa center early",
+      "Ensure all documents are translated to Slovenian or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Lake Bled",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvEluC1TQ4n1kTNswu9MFWkExvO33pX4_0Dw&s"
+      },
+      {
+        "name": "Lake Bohinj",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfcE30JR1ZrCi0_PuPsffUbLpA0rnY9BVm9w&s"
+      },
+      {
+        "name": "Piran – a coastal city",
+        "image": "https://cdn.getyourguide.com/img/tour/b9845a5ceb2676e6e7748486a5454b8900f6f263590b25a7b63c2dc1f180ff9a.jpeg/68.jpg"
+      },
+      {
+        "name": "Ljubljana Castle",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/82/85/d8/ljubljana-castle.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "Postojna Caves",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Burger_PostojnskaJama.jpg/330px-Burger_PostojnskaJama.jpg"
+      },
+      {
+        "name": "Soca River",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM9nmanW32iHDjwgefkbjY5jMdkyNKBxBVA&s"
+      }
+    ],
+    "cta": "Start your Slovenian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لسلوفينيا",
+    "hero": {
+      "subtitle": "استكشف الجوهرة المخفية في أوروبا الوسطى"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر سلوفينيا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية السلوفينية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى السلوفينية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "بحيرة بليد",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvEluC1TQ4n1kTNswu9MFWkExvO33pX4_0Dw&s"
+      },
+      {
+        "name": "بحيرة بوهينج",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfcE30JR1ZrCi0_PuPsffUbLpA0rnY9BVm9w&s"
+      },
+      {
+        "name": "بيران – مدينة ساحلية",
+        "image": "https://cdn.getyourguide.com/img/tour/b9845a5ceb2676e6e7748486a5454b8900f6f263590b25a7b63c2dc1f180ff9a.jpeg/68.jpg"
+      },
+      {
+        "name": "قلعة ليوبليانا",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/82/85/d8/ljubljana-castle.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "كهوف بوستوينا",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Burger_PostojnskaJama.jpg/330px-Burger_PostojnskaJama.jpg"
+      },
+      {
+        "name": "نهر سوكا",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM9nmanW32iHDjwgefkbjY5jMdkyNKBxBVA&s"
+      }
+    ],
+    "cta": "ابدأ مغامرتك السلوفينية اليوم"
+  }
+}

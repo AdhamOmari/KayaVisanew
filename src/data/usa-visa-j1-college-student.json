@@ -1,0 +1,342 @@
+{
+  "en": {
+    "title": "College & University Student Program (J-1 Visa)",
+    "hero": {
+      "heading": "Study at World-Renowned American Universities",
+      "subtitle": "Experience academic excellence and cultural exchange through university-level education in the United States"
+    },
+    "overview": {
+      "heading": "About the College & University Student Program",
+      "description": "The College & University Student program enables international students to pursue full-time academic studies at accredited US institutions. This program promotes educational exchange and allows students to experience American higher education while contributing to cultural diversity on campus.",
+      "additional": "Students can pursue various academic programs including undergraduate degrees, graduate studies, and specialized certificate programs while immersing themselves in American academic culture."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Accepted into accredited US educational institution",
+        "Proof of financial support for studies and living expenses",
+        "English proficiency (TOEFL/IELTS or equivalent)",
+        "Valid passport and clean criminal background",
+        "Health insurance coverage",
+        "Commitment to return to home country after studies"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "Varies by program (1-4 years for bachelor's, 1-3 years for master's)"
+        },
+        {
+          "title": "Academic Level",
+          "description": "Undergraduate, graduate, and doctoral programs"
+        },
+        {
+          "title": "Degree Types",
+          "description": "Associate, Bachelor's, Master's, PhD, certificates"
+        },
+        {
+          "title": "Credit Transfer",
+          "description": "Credits may transfer to home country institutions"
+        }
+      ]
+    },
+    "academic_programs": {
+      "heading": "Academic Programs Available",
+      "categories": [
+        {
+          "name": "Liberal Arts & Humanities",
+          "description": "Literature, history, philosophy, languages, social sciences"
+        },
+        {
+          "name": "STEM Fields",
+          "description": "Science, technology, engineering, mathematics"
+        },
+        {
+          "name": "Business & Economics",
+          "description": "Business administration, finance, economics, marketing"
+        },
+        {
+          "name": "Health Sciences",
+          "description": "Medicine, nursing, public health, pharmacy"
+        },
+        {
+          "name": "Arts & Design",
+          "description": "Fine arts, graphic design, architecture, performing arts"
+        },
+        {
+          "name": "Professional Programs",
+          "description": "Law, education, journalism, communications"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "World-class education from accredited institutions",
+        "Access to cutting-edge research facilities",
+        "Cultural exchange and global networking",
+        "Practical training and internship opportunities",
+        "English language immersion and improvement",
+        "Pathway to future US employment opportunities",
+        "Recognition of US degrees worldwide",
+        "Personal growth and independence development"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Research and apply to US universities",
+        "Obtain acceptance letter and Form I-20",
+        "Pay SEVIS fee ($350) and register",
+        "Complete DS-160 visa application form",
+        "Pay visa fee ($160) and schedule interview",
+        "Attend visa interview at US embassy/consulate",
+        "Begin studies upon arrival in the US"
+      ]
+    },
+    "university_types": {
+      "heading": "Types of US Institutions",
+      "description": "US higher education offers diverse institutional options catering to different academic and career goals.",
+      "types": [
+        {
+          "name": "Research Universities",
+          "description": "Large institutions with extensive research programs and graduate studies"
+        },
+        {
+          "name": "Liberal Arts Colleges",
+          "description": "Smaller institutions focusing on undergraduate education and broad learning"
+        },
+        {
+          "name": "Community Colleges",
+          "description": "Two-year institutions offering associate degrees and transfer programs"
+        },
+        {
+          "name": "Technical Institutes",
+          "description": "Specialized institutions focusing on career and technical education"
+        }
+      ]
+    },
+    "student_life": {
+      "heading": "Student Life in America",
+      "aspects": [
+        {
+          "name": "Campus Activities",
+          "description": "Sports, clubs, cultural events, and student organizations"
+        },
+        {
+          "name": "Diversity",
+          "description": "Interaction with students from around the world"
+        },
+        {
+          "name": "Support Services",
+          "description": "Academic advising, counseling, and career services"
+        },
+        {
+          "name": "Housing Options",
+          "description": "Dormitories, apartments, and off-campus living"
+        }
+      ]
+    },
+    "important_notes": [
+      "Must maintain full-time enrollment (12+ credits per semester)",
+      "Health insurance coverage mandatory throughout program",
+      "Regular attendance and academic progress required",
+      "Cannot work off-campus without authorization",
+      "Two-year home residency requirement may apply after completion",
+      "Program completion leads to degree conferral"
+    ],
+    "cost_breakdown": {
+      "heading": "Estimated Costs",
+      "items": [
+        {
+          "item": "Tuition",
+          "range": "$15,000 - $60,000 per year"
+        },
+        {
+          "item": "Living Expenses",
+          "range": "$12,000 - $18,000 per year"
+        },
+        {
+          "item": "Health Insurance",
+          "range": "$1,000 - $2,500 per year"
+        },
+        {
+          "item": "Books & Supplies",
+          "range": "$1,000 - $2,000 per year"
+        }
+      ]
+    }
+  },
+  "ar": {
+    "title": "برنامج طالب الكلية والجامعة (تأشيرة J-1)",
+    "hero": {
+      "heading": "ادرس في الجامعات الأمريكية المرموقة عالمياً",
+      "subtitle": "اختبر التميز الأكاديمي والتبادل الثقافي من خلال التعليم الجامعي في الولايات المتحدة"
+    },
+    "overview": {
+      "heading": "حول برنامج طالب الكلية والجامعة",
+      "description": "يُمكّن برنامج طالب الكلية والجامعة الطلاب الدوليين من متابعة الدراسات الأكاديمية بدوام كامل في المؤسسات التعليمية المعتمدة الأمريكية. يروج هذا البرنامج للتبادل التعليمي ويسمح للطلاب بتجربة التعليم العالي الأمريكي مع المساهمة في التنوع الثقافي على الحرم الجامعي.",
+      "additional": "يمكن للطلاب متابعة برامج أكاديمية متنوعة تشمل درجات البكالوريوس، الدراسات العليا، وبرامج الشهادات المتخصصة مع الغمر في الثقافة الأكاديمية الأمريكية."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "قبول في مؤسسة تعليمية أمريكية معتمدة",
+        "إثبات الدعم المالي للدراسات ومصاريف المعيشة",
+        "إتقان اللغة الإنجليزية (TOEFL/IELTS أو ما يعادله)",
+        "جواز سفر ساري المفعول وخلفية إجرامية نظيفة",
+        "تغطية التأمين الصحي",
+        "الالتزام بالعودة إلى الوطن بعد الدراسات"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "تختلف حسب البرنامج (1-4 سنوات لبكالوريوس، 1-3 سنوات للماجستير)"
+        },
+        {
+          "title": "المستوى الأكاديمي",
+          "description": "برامج البكالوريوس، الدراسات العليا، والدكتوراه"
+        },
+        {
+          "title": "أنواع الدرجات",
+          "description": "زميل، بكالوريوس، ماجستير، دكتوراه، شهادات"
+        },
+        {
+          "title": "تحويل الاعتمادات",
+          "description": "قد يتم تحويل الاعتمادات إلى مؤسسات الوطن"
+        }
+      ]
+    },
+    "academic_programs": {
+      "heading": "البرامج الأكاديمية المتاحة",
+      "categories": [
+        {
+          "name": "الفنون التحريرية والعلوم الإنسانية",
+          "description": "الأدب، التاريخ، الفلسفة، اللغات، العلوم الاجتماعية"
+        },
+        {
+          "name": "مجالات العلوم والتكنولوجيا والهندسة والرياضيات",
+          "description": "العلوم، التكنولوجيا، الهندسة، الرياضيات"
+        },
+        {
+          "name": "الأعمال والاقتصاد",
+          "description": "إدارة الأعمال، المالية، الاقتصاد، التسويق"
+        },
+        {
+          "name": "علوم الصحة",
+          "description": "الطب، التمريض، الصحة العامة، الصيدلة"
+        },
+        {
+          "name": "الفنون والتصميم",
+          "description": "الفنون الجميلة، التصميم الجرافيكي، الهندسة المعمارية، الفنون المسرحية"
+        },
+        {
+          "name": "البرامج المهنية",
+          "description": "القانون، التعليم، الصحافة، التواصل"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "تعليم عالمي المستوى من مؤسسات معتمدة",
+        "الوصول إلى مرافق البحث المتطورة",
+        "التبادل الثقافي والتواصل العالمي",
+        "فرص التدريب العملي وفرص التدريب",
+        "الغمر في اللغة الإنجليزية وتحسينها",
+        "طريق لفرص العمل الأمريكية المستقبلية",
+        "الاعتراف بالدرجات الأمريكية عالمياً",
+        "تطوير النمو الشخصي والاستقلالية"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "البحث والتقديم للجامعات الأمريكية",
+        "الحصول على خطاب القبول ونموذج I-20",
+        "دفع رسوم SEVIS ($350) والتسجيل",
+        "إكمال نموذج طلب التأشيرة DS-160",
+        "دفع رسوم التأشيرة ($160) وجدولة المقابلة",
+        "حضور مقابلة التأشيرة في السفارة/القنصلية الأمريكية",
+        "بدء الدراسات عند الوصول إلى الولايات المتحدة"
+      ]
+    },
+    "university_types": {
+      "heading": "أنواع المؤسسات التعليمية الأمريكية",
+      "description": "يقدم التعليم العالي الأمريكي خيارات مؤسسية متنوعة تلبي أهدافاً أكاديمية ومهنية مختلفة.",
+      "types": [
+        {
+          "name": "جامعات البحث",
+          "description": "مؤسسات كبيرة مع برامج بحث واسعة ودراسات عليا"
+        },
+        {
+          "name": "كليات الفنون التحريرية",
+          "description": "مؤسسات أصغر تركز على التعليم الجامعي والتعلم الواسع"
+        },
+        {
+          "name": "الكليات المجتمعية",
+          "description": "مؤسسات مدتها عامان تقدم درجات الزميل وبرامج النقل"
+        },
+        {
+          "name": "المعاهد التقنية",
+          "description": "مؤسسات متخصصة تركز على التعليم المهني والتقني"
+        }
+      ]
+    },
+    "student_life": {
+      "heading": "الحياة الطلابية في أمريكا",
+      "aspects": [
+        {
+          "name": "الأنشطة الجامعية",
+          "description": "الرياضة، الأندية، الفعاليات الثقافية، والمنظمات الطلابية"
+        },
+        {
+          "name": "التنوع",
+          "description": "التفاعل مع الطلاب من جميع أنحاء العالم"
+        },
+        {
+          "name": "خدمات الدعم",
+          "description": "الإرشاد الأكاديمي، الاستشارة، وخدمات التوظيف"
+        },
+        {
+          "name": "خيارات السكن",
+          "description": "السكن الجامعي، الشقق، والمعيشة خارج الحرم الجامعي"
+        }
+      ]
+    },
+    "important_notes": [
+      "يجب الحفاظ على التسجيل بدوام كامل (12+ اعتماداً لكل فصل دراسي)",
+      "تغطية التأمين الصحي إلزامية طوال البرنامج",
+      "الحضور المنتظم والتقدم الأكاديمي مطلوب",
+      "لا يمكن العمل خارج الحرم الجامعي بدون إذن",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين بعد الانتهاء",
+      "يؤدي إكمال البرنامج إلى منح الدرجة"
+    ],
+    "cost_breakdown": {
+      "heading": "التكاليف المقدرة",
+      "items": [
+        {
+          "item": "الرسوم الدراسية",
+          "range": "$15,000 - $60,000 سنوياً"
+        },
+        {
+          "item": "مصاريف المعيشة",
+          "range": "$12,000 - $18,000 سنوياً"
+        },
+        {
+          "item": "التأمين الصحي",
+          "range": "$1,000 - $2,500 سنوياً"
+        },
+        {
+          "item": "الكتب واللوازم",
+          "range": "$1,000 - $2,000 سنوياً"
+        }
+      ]
+    }
+  }
+}

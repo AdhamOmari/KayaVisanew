@@ -1,0 +1,276 @@
+{
+  "en": {
+    "title": "Internship Program (J-1 Visa)",
+    "hero": {
+      "heading": "Gain Real-World Experience Through International Internship",
+      "subtitle": "Launch your career with hands-on training and professional mentorship in the United States"
+    },
+    "overview": {
+      "heading": "About the Internship Program",
+      "description": "The Internship program provides recent graduates and current students with practical work experience in their field of study. Unlike professional trainees, interns are typically enrolled in academic programs and use the internship to apply classroom knowledge in real-world settings.",
+      "additional": "This program bridges the gap between academic learning and professional practice, helping participants build essential skills and network with industry leaders."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Currently enrolled in university or recently graduated (within 12 months)",
+        "Degree in relevant field to internship",
+        "Academic standing and recommendation from educational institution",
+        "English proficiency for work environment",
+        "Valid passport and clean criminal background",
+        "Demonstrated interest in field of study"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "3-12 months (academic year based)"
+        },
+        {
+          "title": "Work Type",
+          "description": "Part-time during school year, full-time during summer"
+        },
+        {
+          "title": "Supervision",
+          "description": "Professional mentorship and training"
+        },
+        {
+          "title": "Academic Credit",
+          "description": "May earn academic credit toward degree"
+        }
+      ]
+    },
+    "internship_categories": {
+      "heading": "Internship Categories",
+      "categories": [
+        {
+          "name": "Business & Finance",
+          "description": "Corporate internships, finance roles, marketing positions"
+        },
+        {
+          "name": "Technology",
+          "description": "Software development, data analysis, IT support"
+        },
+        {
+          "name": "Engineering",
+          "description": "Technical projects, research assistance, design work"
+        },
+        {
+          "name": "Healthcare",
+          "description": "Clinical internships, healthcare administration"
+        },
+        {
+          "name": "Media & Communications",
+          "description": "Journalism, public relations, digital media"
+        },
+        {
+          "name": "Non-Profit & NGO",
+          "description": "International development, social work, advocacy"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Real-world work experience in your field",
+        "Professional networking opportunities",
+        "Skill development and career exploration",
+        "Cultural exchange and adaptation",
+        "Potential for future employment opportunities",
+        "Academic credit toward degree completion",
+        "Professional reference and recommendations"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Secure academic sponsorship from university",
+        "Find internship placement through sponsor",
+        "Prepare training plan and objectives",
+        "Submit DS-2019 form to sponsor",
+        "Apply for J-1 visa at US embassy/consulate",
+        "Begin internship upon arrival in US"
+      ]
+    },
+    "sponsors": {
+      "heading": "Program Sponsors",
+      "description": "US universities and colleges that sponsor international student internships through their career services departments.",
+      "types": [
+        "US universities and colleges",
+        "Research institutions",
+        "Professional associations",
+        "Private sector companies (through university partnerships)",
+        "Government agencies",
+        "International organizations"
+      ]
+    },
+    "important_notes": [
+      "Must be sponsored by accredited US educational institution",
+      "Internship must relate to field of study",
+      "Cannot displace American workers",
+      "Health insurance coverage mandatory",
+      "Regular supervision and evaluation required",
+      "Two-year home residency requirement may apply"
+    ],
+    "career_paths": {
+      "heading": "Career Pathways After Internship",
+      "paths": [
+        {
+          "title": "Professional Employment",
+          "description": "Transition to H-1B work visa"
+        },
+        {
+          "title": "Further Education",
+          "description": "Pursue graduate studies in the US"
+        },
+        {
+          "title": "Entrepreneurship",
+          "description": "Start business ventures with international experience"
+        },
+        {
+          "title": "International Career",
+          "description": "Apply skills in global job market"
+        }
+      ]
+    }
+  },
+  "ar": {
+    "title": "برنامج المتدربين (تأشيرة J-1)",
+    "hero": {
+      "heading": "اكتسب خبرة عملية حقيقية من خلال التدريب الدولي",
+      "subtitle": "ابدأ مسيرتك المهنية بتدريب عملي وإرشاد مهني في الولايات المتحدة"
+    },
+    "overview": {
+      "heading": "حول برنامج المتدربين",
+      "description": "يوفر برنامج المتدربين للخريجين الجدد والطلاب الحاليين خبرة عملية في مجال دراستهم. على عكس المتدربين المهنيين، يُشارك المتدربون عادة في برامج أكاديمية ويستخدمون التدريب لتطبيق المعرفة النظرية في بيئات عمل حقيقية.",
+      "additional": "يُسد هذا البرنامج الفجوة بين التعلم الأكاديمي والممارسة المهنية، مما يساعد المشاركين على بناء المهارات الأساسية والتواصل مع قادة الصناعة."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "مسجل حالياً في جامعة أو خريج حديث (خلال 12 شهراً)",
+        "درجة في المجال ذي الصلة بالتدريب",
+        "الوضع الأكاديمي وتوصية من المؤسسة التعليمية",
+        "إتقان اللغة الإنجليزية لبيئة العمل",
+        "جواز سفر ساري المفعول وخلفية إجرامية نظيفة",
+        "اهتمام مُثبت بمجال الدراسة"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "3-12 شهراً (بناءً على السنة الأكاديمية)"
+        },
+        {
+          "title": "نوع العمل",
+          "description": "دوام جزئي خلال السنة الدراسية، دوام كامل خلال الصيف"
+        },
+        {
+          "title": "الإشراف",
+          "description": "إرشاد مهني وتدريب"
+        },
+        {
+          "title": "الاعتماد الأكاديمي",
+          "description": "قد يحصل على اعتماد أكاديمي للدرجة"
+        }
+      ]
+    },
+    "internship_categories": {
+      "heading": "فئات التدريب",
+      "categories": [
+        {
+          "name": "الأعمال والمالية",
+          "description": "تدريبات مؤسسية، أدوار مالية، مناصب تسويقية"
+        },
+        {
+          "name": "التكنولوجيا",
+          "description": "تطوير البرمجيات، تحليل البيانات، دعم تكنولوجيا المعلومات"
+        },
+        {
+          "name": "الهندسة",
+          "description": "مشاريع تقنية، مساعدة بحثية، عمل تصميمي"
+        },
+        {
+          "name": "الرعاية الصحية",
+          "description": "تدريبات سريرية، إدارة الرعاية الصحية"
+        },
+        {
+          "name": "الإعلام والتواصل",
+          "description": "الصحافة، العلاقات العامة، الإعلام الرقمي"
+        },
+        {
+          "name": "المنظمات غير الربحية",
+          "description": "التطوير الدولي، العمل الاجتماعي، المناصرة"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "خبرة عمل حقيقية في مجالك",
+        "فرص التواصل المهني",
+        "تطوير المهارات واستكشاف المهنة",
+        "التبادل الثقافي والتكيف",
+        "إمكانية فرص العمل المستقبلية",
+        "اعتماد أكاديمي لإكمال الدرجة",
+        "مرجع مهني وتوصيات"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "الحصول على رعاية أكاديمية من الجامعة",
+        "العثور على مكان تدريب من خلال الراعي",
+        "إعداد خطة التدريب والأهداف",
+        "تقديم نموذج DS-2019 إلى الراعي",
+        "التقديم لتأشيرة J-1 في السفارة/القنصلية الأمريكية",
+        "بدء التدريب عند الوصول إلى الولايات المتحدة"
+      ]
+    },
+    "sponsors": {
+      "heading": "رعاة البرنامج",
+      "description": "الجامعات والكليات الأمريكية التي ترعى تدريبات الطلاب الدوليين من خلال أقسام خدمات التوظيف لديها.",
+      "types": [
+        "الجامعات والكليات الأمريكية",
+        "المؤسسات البحثية",
+        "الجمعيات المهنية",
+        "شركات القطاع الخاص (من خلال شراكات جامعية)",
+        "الوكالات الحكومية",
+        "المنظمات الدولية"
+      ]
+    },
+    "important_notes": [
+      "يجب أن يكون الراعي مؤسسة تعليمية معتمدة أمريكية",
+      "يجب أن يتعلق التدريب بمجال الدراسة",
+      "لا يمكن استبدال العمال الأمريكيين",
+      "تغطية التأمين الصحي إلزامية",
+      "الإشراف والتقييم المنتظم مطلوبان",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين"
+    ],
+    "career_paths": {
+      "heading": "مسارات المهنة بعد التدريب",
+      "paths": [
+        {
+          "title": "العمل المهني",
+          "description": "الانتقال إلى تأشيرة عمل H-1B"
+        },
+        {
+          "title": "التعليم الإضافي",
+          "description": "متابعة الدراسات العليا في الولايات المتحدة"
+        },
+        {
+          "title": "ريادة الأعمال",
+          "description": "بدء مشاريع تجارية بخبرة دولية"
+        },
+        {
+          "title": "المهنة الدولية",
+          "description": "تطبيق المهارات في سوق العمل العالمي"
+        }
+      ]
+    }
+  }
+}

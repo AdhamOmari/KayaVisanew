@@ -1,0 +1,148 @@
+{
+  "en": {
+    "title": "Belgium Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the heart of Europe in Belgium"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Belgium to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Belgian consulate or visa center early",
+      "Ensure all documents are translated to French, Dutch, German, or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Grand Place – Brussels",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/37/83/7c/grand-place.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "Atomium – Brussels",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5u6d-7QYk-s__u7elJMr1eh_r2TNGGTNqw&s"
+      },
+      {
+        "name": "Bruges – City of Canals",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZqJSfc8HxQuYrz8QDcmJT0Tbp7iaU14OoQ&s"
+      },
+      {
+        "name": "Waterloo – the site of the famous battle",
+        "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/35/0c/cb.jpg?w=3840"
+      },
+      {
+        "name": "Ghent – St. Bavo's Cathedral",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ba/fb/a9/impressive-view.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "Start your Belgian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لبلجيكا",
+    "hero": {
+      "subtitle": "اكتشف قلب أوروبا في بلجيكا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر بلجيكا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية البلجيكية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى الفرنسية أو الهولندية أو الألمانية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "غراند بلاس – بروكسل",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/37/83/7c/grand-place.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "أتوميوم – بروكسل",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5u6d-7QYk-s__u7elJMr1eh_r2TNGGTNqw&s"
+      },
+      {
+        "name": "بروج – مدينة القنوات",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZqJSfc8HxQuYrz8QDcmJT0Tbp7iaU14OoQ&s"
+      },
+      {
+        "name": "واترلو – موقع المعركة الشهيرة",
+        "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/35/0c/cb.jpg?w=3840"
+      },
+      {
+        "name": "غنت – كاتدرائية سانت بافو",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ba/fb/a9/impressive-view.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "ابدأ مغامرتك البلجيكية اليوم"
+  }
+}

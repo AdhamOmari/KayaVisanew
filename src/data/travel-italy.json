@@ -1,0 +1,156 @@
+{
+  "en": {
+    "title": "Italy Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the art, history, and beauty of Italy"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Italy to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Italian consulate or visa center early",
+      "Ensure all documents are translated to Italian or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Colosseum",
+        "image": "https://static.srpcdigital.com/styles/1037xauto/public/2017/10/23/1508766075565962100.jpg.webp"
+      },
+      {
+        "name": "Leaning Tower of Pisa",
+        "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "Amalfi Coast",
+        "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "Venice",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Venice_Old_Town_Lagoon_Aerial_View.jpg"
+      },
+      {
+        "name": "Vatican Museums",
+        "image": "https://todotriplist.com/wp-content/uploads/2024/09/Vatican-Museums-2-750x430.jpg"
+      },
+      {
+        "name": "Florence Cathedral (Duomo)",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzNJnOzJx_vf5-jrsgEXhjWJ7uGV8N8aS1g&s"
+      }
+    ],
+    "cta": "Start your Italian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن لإيطاليا",
+    "hero": {
+      "subtitle": "اكتشف الفن والتاريخ والجمال في إيطاليا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر إيطاليا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية الإيطالية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى الإيطالية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "الكولوسيوم",
+        "image": "https://static.srpcdigital.com/styles/1037xauto/public/2017/10/23/1508766075565962100.jpg.webp"
+      },
+      {
+        "name": "برج بيزا المائل",
+        "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "ساحل أمالفي",
+        "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&h=600&fit=crop&auto=format"
+      },
+      {
+        "name": "البندقية",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Venice_Old_Town_Lagoon_Aerial_View.jpg"
+      },
+      {
+        "name": "متاحف الفاتيكان",
+        "image": "https://todotriplist.com/wp-content/uploads/2024/09/Vatican-Museums-2-750x430.jpg"
+      },
+      {
+        "name": "كاتدرائية فلورنسا (الدومو)",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzNJnOzJx_vf5-jrsgEXhjWJ7uGV8N8aS1g&s"
+      }
+    ],
+    "cta": "ابدأ مغامرتك الإيطالية اليوم"
+  }
+}

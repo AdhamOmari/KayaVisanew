@@ -34,12 +34,13 @@ export default function StudyUkPage() {
         <div className="container">
           <div className="hero-content" dir={isRTL ? "rtl" : "ltr"}>
             <div className="hero-flag">
+              <img src="https://flagcdn.com/w160/gb.png" alt="UK Flag" />
             </div>
             <h1 className="hero-title">
               <span className="hero-title-main">{data.title}</span>
               <span className="hero-title-sub">{data.hero.subtitle}</span>
             </h1>
-            
+
             <div className="hero-stats">
               <div className="stat-item">
                 <div className="stat-number">#2</div>
@@ -60,7 +61,7 @@ export default function StudyUkPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="hero-cta">
               <a href="#application" className="btn-study-primary">
                 <i className="bi bi-list-check me-2"></i>
@@ -73,7 +74,7 @@ export default function StudyUkPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="hero-decoration">
           <div className="decoration-item">
             <i className="bi bi-crown"></i>
@@ -98,7 +99,7 @@ export default function StudyUkPage() {
               {isRTL ? "موطن التعليم العريق والجامعات العالمية" : "Home of historic education and world-class universities"}
             </p>
           </div>
-          
+
           <div className="reasons-grid">
             <div className="reason-card">
               <div className="reason-icon">
@@ -107,7 +108,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "جامعات عريقة عالمياً" : "Historic Global Universities"}</h4>
               <p>{isRTL ? "جامعات أوكسفورد وكامبريدج ضمن أفضل 10 جامعات عالمية" : "Oxford and Cambridge ranked among top 10 universities globally"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-clock"></i>
@@ -115,7 +116,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "مدة الدراسة أقصر" : "Shorter Study Duration"}</h4>
               <p>{isRTL ? "البكالوريوس 3 سنوات والماجستير سنة واحدة فقط" : "Bachelor's in 3 years and Master's in just 1 year"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-briefcase"></i>
@@ -123,7 +124,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "فرص عمل بعد التخرج" : "Post-Study Work Opportunities"}</h4>
               <p>{isRTL ? "تأشيرة Graduate Route لمدة سنتين للبقاء والعمل" : "Graduate Route visa for 2 years to stay and work"}</p>
             </div>
-            
+
             <div className="reason-card">
               <div className="reason-icon">
                 <i className="bi bi-globe"></i>
@@ -146,7 +147,7 @@ export default function StudyUkPage() {
               {isRTL ? "خيارات دراسية متنوعة تناسب جميع المستويات" : "Diverse study options for all levels"}
             </p>
           </div>
-          
+
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">
@@ -158,7 +159,7 @@ export default function StudyUkPage() {
                 <span>{isRTL ? "مرن" : "Flexible"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-award"></i>
@@ -169,7 +170,7 @@ export default function StudyUkPage() {
                 <span>{isRTL ? "3 سنوات" : "3 Years"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-mortarboard"></i>
@@ -180,7 +181,7 @@ export default function StudyUkPage() {
                 <span>{isRTL ? "1 سنة" : "1 Year"}</span>
               </div>
             </div>
-            
+
             <div className="program-card">
               <div className="program-icon">
                 <i className="bi bi-person-arms-up"></i>
@@ -192,7 +193,7 @@ export default function StudyUkPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="conditional-admission" dir={isRTL ? "rtl" : "ltr"}>
             <div>
               <i className="bi bi-bridge"></i>
@@ -216,7 +217,7 @@ export default function StudyUkPage() {
               {isRTL ? "تفاصيل الرسوم الدراسية وتكاليف المعيشة" : "Tuition fees and living expenses details"}
             </p>
           </div>
-          
+
           <div className="costs-grid">
             <div className="cost-card">
               <div className="cost-header">
@@ -253,7 +254,7 @@ export default function StudyUkPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="cost-card">
               <div className="cost-header">
                 <div className="cost-icon">
@@ -300,7 +301,7 @@ export default function StudyUkPage() {
                   <span className="total-label">{isRTL ? "المجموع الشهري:" : "Monthly Total:"}</span>
                   <span className="total-value">£650 - £1,750</span>
                 </div>
-                <p className="cost-note" style={{marginTop: '15px'}}>
+                <p className="cost-note" style={{ marginTop: '15px' }}>
                   {isRTL ? "المبلغ المطلوب إثباته للتأشيرة: خارج لندن £1,023 شهرياً، داخل لندن £1,334 شهرياً" : "Proof of funds required for visa: Outside London £1,023 monthly, Inside London £1,334 monthly"}
                 </p>
               </div>
@@ -320,7 +321,7 @@ export default function StudyUkPage() {
               {isRTL ? "مجالات الدراسة الأكثر نمواً وطلباً في سوق العمل البريطاني" : "Fastest growing study fields with high job demand in the UK"}
             </p>
           </div>
-          
+
           <div className="majors-grid">
             <div className="major-card">
               <div className="major-icon">
@@ -329,7 +330,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "علوم الكمبيوتر" : "Computer Science"}</h4>
               <p>{isRTL ? "الذكاء الاصطناعي، تحليل البيانات، أمن المعلومات" : "AI, Data Analytics, Cybersecurity"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-briefcase"></i>
@@ -337,7 +338,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "إدارة الأعمال" : "Business Administration"}</h4>
               <p>{isRTL ? "المالية، التسويق، ريادة الأعمال" : "Finance, Marketing, Entrepreneurship"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-heart-pulse"></i>
@@ -345,7 +346,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "الطب والعلوم الصحية" : "Medicine & Health Sciences"}</h4>
               <p>{isRTL ? "الطب، التمريض، الصيدلة، العلاج الطبيعي" : "Medicine, Nursing, Pharmacy, Physiotherapy"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-gear"></i>
@@ -353,7 +354,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "الهندسة" : "Engineering"}</h4>
               <p>{isRTL ? "ميكانيكية، مدنية، كهربائية، كمبيوتر" : "Mechanical, Civil, Electrical, Computer"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-bank"></i>
@@ -361,7 +362,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "المالية والمحاسبة" : "Finance & Accounting"}</h4>
               <p>{isRTL ? "المحاسبة، التمويل، إدارة المخاطر" : "Accounting, Finance, Risk Management"}</p>
             </div>
-            
+
             <div className="major-card">
               <div className="major-icon">
                 <i className="bi bi-people"></i>
@@ -384,10 +385,10 @@ export default function StudyUkPage() {
               {isRTL ? "تجربة جامعية غنية في مدن تاريخية وعالمية" : "Rich university experience in historic and global cities"}
             </p>
           </div>
-          
+
           <div className="cities-grid">
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "لندن" : "London"}</h4>
                 <p>{isRTL ? "عاصمة الثقافة والأعمال وموطن جامعة لندن" : "Capital of culture and business, home to University of London"}</p>
@@ -397,9 +398,9 @@ export default function StudyUkPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "أكسفورد" : "Oxford"}</h4>
                 <p>{isRTL ? "مدينة الجامعات التاريخية والجو الأكاديمي المميز" : "City of historic universities and unique academic atmosphere"}</p>
@@ -409,9 +410,9 @@ export default function StudyUkPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="city-card">
-              <div className="city-image" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1592841200221-7ef5d8a43428?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)'}}></div>
+              <div className="city-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1592841200221-7ef5d8a43428?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)' }}></div>
               <div className="city-content">
                 <h4>{isRTL ? "مانشستر" : "Manchester"}</h4>
                 <p>{isRTL ? "مدينة الموسيقى والرياضة والجامعات المرموقة" : "City of music, sports, and prestigious universities"}</p>
@@ -422,7 +423,7 @@ export default function StudyUkPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="activities-grid">
             <div className="activity-card">
               <div className="activity-icon">
@@ -431,7 +432,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "مجتمعات طلابية متنوعة" : "Diverse Student Communities"}</h4>
               <p>{isRTL ? "طلاب من أكثر من 200 دولة حول العالم" : "Students from over 200 countries worldwide"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-calendar-event"></i>
@@ -439,7 +440,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "فعاليات ثقافية مستمرة" : "Continuous Cultural Events"}</h4>
               <p>{isRTL ? "مهرجانات موسيقية، معارض فنية، وعروض مسرحية" : "Music festivals, art exhibitions, and theater shows"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-trophy"></i>
@@ -447,7 +448,7 @@ export default function StudyUkPage() {
               <h4>{isRTL ? "أنشطة رياضية متنوعة" : "Diverse Sports Activities"}</h4>
               <p>{isRTL ? "من كرة القدم إلى التجديف في الأنهار" : "From football to river rowing"}</p>
             </div>
-            
+
             <div className="activity-card">
               <div className="activity-icon">
                 <i className="bi bi-hands-helping"></i>
@@ -470,7 +471,7 @@ export default function StudyUkPage() {
               {isRTL ? "خيارات العمل القانونية وبرامج الهجرة بعد التخرج" : "Legal work options and post-graduation immigration programs"}
             </p>
           </div>
-          
+
           <div className="work-opportunities">
             <div className="work-card during-studies">
               <div className="work-header">
@@ -488,7 +489,7 @@ export default function StudyUkPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "للطلاب الجامعيين وطلاب الدراسات العليا" : "For undergraduate and postgraduate students"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "أنواع الوظائف" : "Job Types"}</h5>
                   <ul>
@@ -499,7 +500,7 @@ export default function StudyUkPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="work-card after-graduation">
               <div className="work-header">
                 <div className="work-icon">
@@ -516,7 +517,7 @@ export default function StudyUkPage() {
                     <li><i className="bi bi-check-lg"></i> {isRTL ? "بدون قيود على نوع العمل" : "No restrictions on job type"}</li>
                   </ul>
                 </div>
-                
+
                 <div className="work-option">
                   <h5>{isRTL ? "مسارات الهجرة الأخرى" : "Other Immigration Routes"}</h5>
                   <ul>
@@ -542,7 +543,7 @@ export default function StudyUkPage() {
               {isRTL ? "دليل شامل للحصول على تأشيرة الدراسة البريطانية" : "Complete guide to obtaining UK study visa"}
             </p>
           </div>
-          
+
           <div className="steps-timeline">
             <div className="step-item">
               <div className="step-number">1</div>
@@ -551,7 +552,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "الحصول على رقم CAS من جامعة بريطانية معتمدة" : "Get CAS number from accredited UK university"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">2</div>
               <div className="step-content">
@@ -559,7 +560,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "كشف حساب بنكي لمدة 28 يوم يغطي السنة الأولى + المعيشة" : "28-day bank statement covering first year + living costs"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">3</div>
               <div className="step-content">
@@ -567,7 +568,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "إنشاء حساب وتعبئة استمارة طلب تأشيرة الدراسة" : "Create account and fill study visa application form"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">4</div>
               <div className="step-content">
@@ -575,7 +576,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "دفع رسوم التأشيرة £490 + IHS £470 سنوياً" : "Pay visa fee £490 + IHS £470 annually"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">5</div>
               <div className="step-content">
@@ -583,7 +584,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "رفع جميع المستندات المطلوبة عبر النظام" : "Upload all required documents through the system"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">6</div>
               <div className="step-content">
@@ -591,7 +592,7 @@ export default function StudyUkPage() {
                 <p>{isRTL ? "حجز موعد البصمات في مركز VFS" : "Schedule biometrics appointment at VFS center"}</p>
               </div>
             </div>
-            
+
             <div className="step-item">
               <div className="step-number">7</div>
               <div className="step-content">
@@ -614,7 +615,7 @@ export default function StudyUkPage() {
               {isRTL ? "تجهيز الملف الكامل للحصول على تأشيرة الدراسة" : "Prepare complete file for study visa application"}
             </p>
           </div>
-          
+
           <div className="documents-grid">
             <div className="document-card">
               <div className="doc-icon">
@@ -622,49 +623,49 @@ export default function StudyUkPage() {
               </div>
               <h5>{isRTL ? "جواز سفر ساري" : "Valid Passport"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-text"></i>
               </div>
               <h5>{isRTL ? "رقم CAS" : "CAS Number"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-cash-coin"></i>
               </div>
               <h5>{isRTL ? "إثبات مالي" : "Financial Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-translate"></i>
               </div>
               <h5>{isRTL ? "شهادة لغة" : "Language Certificate"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-camera"></i>
               </div>
               <h5>{isRTL ? "صور شخصية" : "Photographs"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-award"></i>
               </div>
               <h5>{isRTL ? "الشهادات الأكاديمية" : "Academic Certificates"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-file-earmark-medical"></i>
               </div>
               <h5>{isRTL ? "إثبات IHS" : "IHS Proof"}</h5>
             </div>
-            
+
             <div className="document-card">
               <div className="doc-icon">
                 <i className="bi bi-check-square"></i>
@@ -686,7 +687,7 @@ export default function StudyUkPage() {
               {isRTL ? "نصائح عملية لضمان نجاح طلب تأشيرة الدراسة" : "Practical tips to ensure study visa application success"}
             </p>
           </div>
-          
+
           <div className="tips-grid">
             <div className="tip-card">
               <div className="tip-icon">
@@ -695,7 +696,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "كشف حساب واضح" : "Clear Bank Statement"}</h5>
               <p>{isRTL ? "تأكد أن الأموال في الحساب لمدة 28 يوماً متواصلة قبل التقديم" : "Ensure funds in account for 28 consecutive days before applying"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-translate"></i>
@@ -703,7 +704,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "ترجمة جميع المستندات" : "Translate All Documents"}</h5>
               <p>{isRTL ? "ترجمة كل المستندات للإنجليزية مع ختم المترجم المعتمد" : "Translate all documents to English with certified translator stamp"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-bar-chart"></i>
@@ -711,7 +712,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "حساب تكاليف دقيق" : "Accurate Cost Calculation"}</h5>
               <p>{isRTL ? "حسب تكاليف السنة الأولى بالكامل مع زيادة 10% للطوارئ" : "Calculate full first year costs plus 10% for emergencies"}</p>
             </div>
-            
+
             <div className="tip-card">
               <div className="tip-icon">
                 <i className="bi bi-person-check"></i>
@@ -734,7 +735,7 @@ export default function StudyUkPage() {
               {isRTL ? "خدماتنا الشاملة لضمان نجاح رحلتك الدراسية" : "Our comprehensive services to ensure your study journey success"}
             </p>
           </div>
-          
+
           <div className="kaya-services">
             <div className="service-card">
               <div className="service-icon">
@@ -743,7 +744,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "اختيار الجامعة والمدينة" : "Choosing University & City"}</h5>
               <p>{isRTL ? "حسب ميزانيتك وتخصصك وفرص العمل المستقبلية" : "Based on your budget, major, and future job opportunities"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-file-earmark-text"></i>
@@ -751,7 +752,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "تجهيز ملف التأشيرة الكامل" : "Complete Visa File Preparation"}</h5>
               <p>{isRTL ? "بدون ثغرات مع متابعة كل التفاصيل" : "Without gaps with follow-up on every detail"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-hand-thumbs-up"></i>
@@ -759,7 +760,7 @@ export default function StudyUkPage() {
               <h5>{isRTL ? "دعم في إثبات القدرة المالية" : "Financial Capacity Support"}</h5>
               <p>{isRTL ? "تحضير الخطاب المالي وإثباتات الحساب البنكي" : "Preparing financial letter and bank account proofs"}</p>
             </div>
-            
+
             <div className="service-card">
               <div className="service-icon">
                 <i className="bi bi-airplane-engines"></i>
@@ -768,14 +769,14 @@ export default function StudyUkPage() {
               <p>{isRTL ? "التسجيل، السكن، BRP، وأول فرصة عمل" : "Registration, housing, BRP, and first job opportunity"}</p>
             </div>
           </div>
-          
+
           <div className="kaya-message" dir={isRTL ? "rtl" : "ltr"}>
             <div className="message-icon">
               <i className="bi bi-rocket-takeoff"></i>
             </div>
             <p className="message-text">
-              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." : 
-               "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
+              {isRTL ? "مع كايا كل دولة هي فرصة جديدة لتجربة تعليمية وحياتية غنية، ونحن نرافقك خطوة بخطوة حتى تصل إلى حلمك." :
+                "With Kaya, every country is a new opportunity for a rich educational and life experience, and we accompany you step by step until you reach your dream."}
             </p>
           </div>
         </div>
@@ -792,7 +793,7 @@ export default function StudyUkPage() {
               <p className="cta-subtitle">
                 {isRTL ? "ابدأ رحلتك الأكاديمية مع خبراء الدراسة في بريطانيا" : "Start your academic journey with UK study experts"}
               </p>
-              
+
               <div className="cta-buttons">
                 <a href="/contact" className="btn-cta-primary">
                   <i className="bi bi-calendar-check me-2"></i>
@@ -803,7 +804,7 @@ export default function StudyUkPage() {
                   {isRTL ? "وجهات أخرى" : "Other Destinations"}
                 </Link>
               </div>
-              
+
               <div className="cta-features">
                 <div className="feature-item">
                   <i className="bi bi-shield-check"></i>

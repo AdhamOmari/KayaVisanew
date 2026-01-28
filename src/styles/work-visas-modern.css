@@ -1,0 +1,345 @@
+/* Work Visas Modern Design System - Unified with Travel Visas colors */
+:root {
+    --w-primary: #1c3269;
+    /* Unified Navy */
+    --w-secondary: #e2bc42;
+    /* Unified Gold */
+    --w-accent: #e2bc42;
+    /* Unified Gold */
+    --w-bg: #f8fafc;
+    --w-surface: #ffffff;
+}
+
+.work-visas-page-wrapper {
+    background-color: var(--w-bg);
+    color: var(--w-primary);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+/* =========================================
+   Hero Section
+   ========================================= */
+.work-modern-hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 0 0 100px 100px;
+    overflow: hidden;
+}
+
+.work-modern-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(28, 50, 105, 0.85), rgba(15, 23, 42, 0.95));
+    z-index: 1;
+}
+
+.work-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    animation: w-fadeInUp 1s ease-out;
+}
+
+.work-hero-badge {
+    display: inline-block;
+    background: rgba(226, 188, 66, 0.1);
+    color: var(--w-secondary);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    border: 1px solid rgba(226, 188, 66, 0.2);
+}
+
+.work-hero-title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.work-hero-description {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    color: #cbd5e1;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   Stats Section
+   ========================================= */
+.work-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.work-stat-item {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.work-stat-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--w-accent);
+    display: block;
+}
+
+.work-stat-label {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* =========================================
+   Sections & Titles
+   ========================================= */
+.work-section {
+    padding: 100px 0;
+}
+
+.work-section-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.work-section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    color: var(--w-primary);
+    margin-bottom: 20px;
+}
+
+.work-section-title::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: var(--w-secondary);
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+/* =========================================
+   Visa Cards
+   ========================================= */
+.work-visa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.work-visa-item-card {
+    background: #fff;
+    border-radius: 35px;
+    padding: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-visa-item-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 30px 60px rgba(28, 50, 105, 0.12);
+    border-color: var(--w-secondary);
+}
+
+.work-card-country {
+    display: inline-block;
+    background: var(--w-bg);
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+}
+
+.work-card-icon {
+    width: 70px;
+    height: 70px;
+    background: #f1f5f9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--w-primary);
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.work-visa-item-card:hover .work-card-icon {
+    background: var(--w-secondary);
+    color: var(--w-primary);
+    transform: rotate(10deg);
+}
+
+.work-list {
+    padding: 0;
+    list-style: none;
+    margin: 30px 0;
+    flex-grow: 1;
+}
+
+.work-list li {
+    position: relative;
+    padding-inline-start: 30px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    color: #475569;
+}
+
+.work-list li::before {
+    content: '→';
+    position: absolute;
+    inset-inline-start: 0;
+    color: var(--w-secondary);
+    font-weight: 900;
+}
+
+/* =========================================
+   Checklist & services
+   ========================================= */
+.work-check-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.work-check-item {
+    background: #fff;
+    padding: 24px 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: 0.3s;
+}
+
+.work-check-item:hover {
+    border-color: var(--w-secondary);
+    background: #fdfae9;
+}
+
+.work-check-item i {
+    color: #48bb78;
+    /* keeping green check for consistency with travel checklists */
+    font-size: 1.4rem;
+}
+
+/* =========================================
+   Buttons
+   ========================================= */
+.w-btn-primary {
+    background: var(--w-secondary);
+    color: var(--w-primary);
+    padding: 18px 45px;
+    border-radius: 100px;
+    font-weight: 700;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: 0 10px 25px rgba(226, 188, 66, 0.3);
+}
+
+.w-btn-primary:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(226, 188, 66, 0.4);
+    background: #f1cf68;
+}
+
+.w-btn-outline {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 18px 45px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.w-btn-outline:hover {
+    background: #fff;
+    color: var(--w-primary);
+}
+
+/* =========================================
+   CTA Banner
+   ========================================= */
+.work-cta-banner {
+    background: #0f172a;
+    padding: 120px 30px;
+    border-radius: 100px 100px 0 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-cta-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 10% 20%, rgba(226, 188, 66, 0.1) 0%, transparent 40%);
+}
+
+@keyframes w-fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 991px) {
+    .work-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .work-modern-hero {
+        border-radius: 0 0 50px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .work-stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-visa-grid {
+        grid-template-columns: 1fr;
+    }
+}

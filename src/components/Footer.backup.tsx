@@ -46,7 +46,7 @@ export default function Footer() {
               <li className="mb-2"><Link href="/services#hotel">{t.services.hotelBooking}</Link></li>
               <li className="mb-2"><Link href="/services#motivation">{t.services.motivationLetter}</Link></li>
               <li className="mb-2"><Link href="/services#insurance">{t.services.travelInsurance}</Link></li>
-              <li className="mb-2"><Link href="/partners">{t.nav.partners}</Link></li>
+              <li className="mb-2"><Link href="/services/partners">{t.nav.partners}</Link></li>
               <li className="mb-2"><Link href="/team">{t.nav.team}</Link></li>
             </ul>
           </div>

@@ -1,0 +1,194 @@
+{
+  "en": {
+    "title": "Research Scholar Program (J-1 Visa)",
+    "hero": {
+      "heading": "Advanced Research & Academic Collaboration in America",
+      "subtitle": "Conduct cutting-edge research and collaborate with world-renowned scholars at top US institutions"
+    },
+    "overview": {
+      "heading": "About the Research Scholar Program",
+      "description": "The Research Scholar program enables postdoctoral researchers, visiting scholars, and advanced researchers to conduct research at US universities, research institutions, and laboratories. This program facilitates international academic collaboration and knowledge exchange.",
+      "additional": "Participants engage in advanced research projects, publish findings, and contribute to their field while experiencing American academic culture and methodologies."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Doctoral degree or equivalent in relevant field",
+        "Research proposal with clear objectives",
+        "Invitation from accredited US institution",
+        "English proficiency for academic communication",
+        "Demonstrated research experience and publications",
+        "Commitment to research project duration"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "3-12 months (extendable up to 24 months)"
+        },
+        {
+          "title": "Research Focus",
+          "description": "Advanced research in academic disciplines"
+        },
+        {
+          "title": "Collaboration",
+          "description": "Work with US scholars and institutions"
+        },
+        {
+          "title": "Publications",
+          "description": "Opportunity to publish research findings"
+        }
+      ]
+    },
+    "research_areas": {
+      "heading": "Research Areas",
+      "categories": [
+        {
+          "name": "Science & Technology",
+          "description": "STEM research, innovation, and technological advancement"
+        },
+        {
+          "name": "Social Sciences",
+          "description": "Sociology, psychology, economics, and political science"
+        },
+        {
+          "name": "Humanities",
+          "description": "Literature, history, philosophy, and cultural studies"
+        },
+        {
+          "name": "Medical Research",
+          "description": "Biomedical research, clinical studies, and healthcare"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Access to world-class research facilities and laboratories",
+        "Collaboration with leading scholars and researchers",
+        "Professional development and networking opportunities",
+        "Publication opportunities in prestigious journals",
+        "Exposure to American research methodologies",
+        "Potential for future academic partnerships",
+        "Enhanced career prospects and international recognition"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Develop research proposal with US host institution",
+        "Secure invitation letter from accredited institution",
+        "Prepare detailed research plan and objectives",
+        "Submit J-1 visa application with DS-2019 form",
+        "Pay SEVIS fee and attend visa interview",
+        "Begin research activities upon arrival"
+      ]
+    },
+    "important_notes": [
+      "Must have invitation from accredited US institution",
+      "Research must be in academic or research setting",
+      "Health insurance coverage mandatory",
+      "Regular progress reports may be required",
+      "Cannot change research focus without approval",
+      "Two-year home residency requirement may apply"
+    ]
+  },
+  "ar": {
+    "title": "برنامج عالم البحث (تأشيرة J-1)",
+    "hero": {
+      "heading": "البحث المتقدم والتعاون الأكاديمي في أمريكا",
+      "subtitle": "إجراء بحث متطور والتعاون مع علماء مرموقين عالمياً في أفضل المؤسسات الأمريكية"
+    },
+    "overview": {
+      "heading": "حول برنامج عالم البحث",
+      "description": "يُمكّن برنامج عالم البحث الباحثين بعد الدكتوراه، العلماء الزائرين، والباحثين المتقدمين من إجراء البحث في الجامعات الأمريكية، المؤسسات البحثية، والمختبرات. يسهل هذا البرنامج التعاون الأكاديمي الدولي وتبادل المعرفة.",
+      "additional": "يشارك المشاركون في مشاريع بحثية متقدمة، ينشرون النتائج، ويساهمون في مجالهم مع تجربة الثقافة الأكاديمية الأمريكية ومناهجها."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "درجة الدكتوراه أو ما يعادلها في المجال ذي الصلة",
+        "اقتراح بحث مع أهداف واضحة",
+        "دعوة من مؤسسة أمريكية معتمدة",
+        "إتقان اللغة الإنجليزية للتواصل الأكاديمي",
+        "خبرة بحثية مُثبتة ومنشورات",
+        "التزام بمدة مشروع البحث"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "3-12 شهراً (قابل للتمديد حتى 24 شهراً)"
+        },
+        {
+          "title": "تركيز البحث",
+          "description": "بحث متقدم في التخصصات الأكاديمية"
+        },
+        {
+          "title": "التعاون",
+          "description": "العمل مع العلماء والمؤسسات الأمريكية"
+        },
+        {
+          "title": "المنشورات",
+          "description": "فرصة لنشر نتائج البحث"
+        }
+      ]
+    },
+    "research_areas": {
+      "heading": "مجالات البحث",
+      "categories": [
+        {
+          "name": "العلوم والتكنولوجيا",
+          "description": "البحث العلمي، الابتكار، والتقدم التكنولوجي"
+        },
+        {
+          "name": "العلوم الاجتماعية",
+          "description": "علم الاجتماع، علم النفس، الاقتصاد، وعلم السياسة"
+        },
+        {
+          "name": "العلوم الإنسانية",
+          "description": "الأدب، التاريخ، الفلسفة، والدراسات الثقافية"
+        },
+        {
+          "name": "البحث الطبي",
+          "description": "البحث الطبي الحيوي، الدراسات السريرية، والرعاية الصحية"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "الوصول إلى مرافق البحث والمختبرات عالمية المستوى",
+        "التعاون مع العلماء والباحثين الرائدين",
+        "فرص التطوير المهني والتواصل",
+        "فرص النشر في المجلات المرموقة",
+        "التعرض لمناهج البحث الأمريكية",
+        "إمكانية الشراكات الأكاديمية المستقبلية",
+        "تعزيز الآفاق المهنية والاعتراف الدولي"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "تطوير اقتراح بحث مع المؤسسة المضيفة الأمريكية",
+        "الحصول على خطاب دعوة من مؤسسة معتمدة",
+        "إعداد خطة بحث مفصلة وأهداف",
+        "تقديم طلب تأشيرة J-1 مع نموذج DS-2019",
+        "دفع رسوم SEVIS وحضور مقابلة التأشيرة",
+        "بدء الأنشطة البحثية عند الوصول"
+      ]
+    },
+    "important_notes": [
+      "يجب الحصول على دعوة من مؤسسة أمريكية معتمدة",
+      "يجب أن يكون البحث في بيئة أكاديمية أو بحثية",
+      "تغطية التأمين الصحي إلزامية",
+      "قد تكون التقارير التقدمية المنتظمة مطلوبة",
+      "لا يمكن تغيير تركيز البحث بدون موافقة",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين"
+    ]
+  }
+}

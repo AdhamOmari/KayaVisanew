@@ -1,0 +1,148 @@
+{
+  "en": {
+    "title": "Austria Schengen Visa",
+    "hero": {
+      "subtitle": "Discover the imperial grandeur and alpine beauty of Austria"
+    },
+    "visa_types": [
+      {
+        "name": "Tourist Visa",
+        "description": "For tourism, sightseeing, and visiting family or friends",
+        "icon": "camera"
+      },
+      {
+        "name": "Business Visa",
+        "description": "For business meetings, conferences, and trade activities",
+        "icon": "briefcase"
+      },
+      {
+        "name": "Transit Visa",
+        "description": "For transiting through Austria to a third country",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "Valid passport (minimum 3 months validity beyond intended stay)",
+      "Completed Schengen visa application form",
+      "Two recent passport photographs",
+      "Travel insurance (minimum €30,000 coverage)",
+      "Flight reservation or itinerary",
+      "Hotel bookings or accommodation proof",
+      "Proof of sufficient financial means",
+      "Cover letter explaining the purpose of visit"
+    ],
+    "processing_time": "15-30 calendar days",
+    "validity": "Up to 90 days within 180 days period",
+    "tips": [
+      "Apply at least 15 days before your intended travel date",
+      "Book appointments at the Austrian consulate or visa center early",
+      "Ensure all documents are translated to German or English",
+      "Provide detailed travel itinerary with dates and locations",
+      "Show strong ties to your home country to prove you will return"
+    ],
+    "with_kaya": [
+      "Complete application form assistance",
+      "Document preparation and translation support",
+      "Appointment scheduling at visa center",
+      "Travel insurance arrangement",
+      "Accommodation booking assistance",
+      "Cover letter preparation"
+    ],
+    "attractions": [
+      {
+        "name": "Innsbruck",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFYAmNqcb_9chz0SNtqVdwPWA68NX1FZZow&s"
+      },
+      {
+        "name": "Hallstatt Lake",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/2f/36/41/the-fairytale-lake-in.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "Vienna State Opera",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Staatsoper_Wien_DSC_5273w.jpg"
+      },
+      {
+        "name": "Schönbrunn Palace",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg"
+      },
+      {
+        "name": "Kunsthistorisches Museum",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/4c/b1/20/als-palast-der-schonen.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "Start your Austrian adventure today"
+  },
+  "ar": {
+    "title": "تأشيرة الشنغن للنمسا",
+    "hero": {
+      "subtitle": "اكتشف العظمة الإمبراطورية والجمال الألبي للنمسا"
+    },
+    "visa_types": [
+      {
+        "name": "تأشيرة سياحية",
+        "description": "للسياحة ومشاهدة المعالم وزيارة العائلة أو الأصدقاء",
+        "icon": "camera"
+      },
+      {
+        "name": "تأشيرة عمل",
+        "description": "لاجتماعات العمل والمؤتمرات والأنشطة التجارية",
+        "icon": "briefcase"
+      },
+      {
+        "name": "تأشيرة عبور",
+        "description": "للعبور عبر النمسا إلى بلد ثالث",
+        "icon": "plane"
+      }
+    ],
+    "requirements": [
+      "جواز سفر ساري المفعول (صلاحية 3 أشهر على الأقل بعد الإقامة المخطط لها)",
+      "نموذج طلب تأشيرة الشنغن مكتمل",
+      "صورتان حديثتان لجواز السفر",
+      "تأمين سفر (تغطية لا تقل عن 30,000 يورو)",
+      "حجز طيران أو خط سير الرحلة",
+      "حجوزات فندقية أو إثبات الإقامة",
+      "إثبات القدرة المالية الكافية",
+      "خطاب تغطية يوضح الغرض من الزيارة"
+    ],
+    "processing_time": "15-30 يوماً تقويمياً",
+    "validity": "حتى 90 يوماً خلال فترة 180 يوماً",
+    "tips": [
+      "قدم الطلب قبل 15 يوماً على الأقل من تاريخ السفر المخطط",
+      "احجز المواعيد في القنصلية النمساوية أو مركز التأشيرات مبكراً",
+      "تأكد من ترجمة جميع المستندات إلى الألمانية أو الإنجليزية",
+      "قدم خط سير رحلة مفصلاً مع التواريخ والمواقع",
+      "أظهر روابط قوية ببلدك الأصلي لإثبات أنك ستعود"
+    ],
+    "with_kaya": [
+      "المساعدة الكاملة في نموذج الطلب",
+      "إعداد المستندات ودعم الترجمة",
+      "جدولة المواعيد في مركز التأشيرات",
+      "ترتيب تأمين السفر",
+      "المساعدة في حجز الإقامة",
+      "إعداد خطاب التغطية"
+    ],
+    "attractions": [
+      {
+        "name": "إنسبروك",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFYAmNqcb_9chz0SNtqVdwPWA68NX1FZZow&s"
+      },
+      {
+        "name": "بحيرة هالشتات",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/2f/36/41/the-fairytale-lake-in.jpg?w=900&h=500&s=1"
+      },
+      {
+        "name": "دار الأوبرا في فيينا",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Staatsoper_Wien_DSC_5273w.jpg"
+      },
+      {
+        "name": "قصر شونبرون",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg"
+      },
+      {
+        "name": "متحف كونسثيستوريش",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/4c/b1/20/als-palast-der-schonen.jpg?w=900&h=500&s=1"
+      }
+    ],
+    "cta": "ابدأ مغامرتك النمساوية اليوم"
+  }
+}

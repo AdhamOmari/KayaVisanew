@@ -1,0 +1,244 @@
+{
+  "en": {
+    "title": "Summer Work Travel Program (J-1 SWT)",
+    "hero": {
+      "heading": "Work and Travel in America this Summer",
+      "subtitle": "Experience American culture while working and traveling during your summer break"
+    },
+    "overview": {
+      "heading": "About the Summer Work Travel Program",
+      "description": "The Summer Work Travel (SWT) program allows international students to work and travel in the United States during their summer vacation. Participants work in seasonal jobs, explore American culture, and develop valuable work experience.",
+      "additional": "This program is designed for students who want to earn money while experiencing American culture, making new friends, and improving their English skills."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Currently enrolled as a degree-seeking student",
+        "Good academic standing",
+        "Between 18-30 years old (some sponsors accept up to 35)",
+        "Valid passport",
+        "English proficiency (TOEFL/IELTS may be required)",
+        "Financial ability to support yourself",
+        "No previous J-1 visa violations"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "Up to 4 months (typically June-August)"
+        },
+        {
+          "title": "Work Hours",
+          "description": "Up to 40 hours per week"
+        },
+        {
+          "title": "Job Types",
+          "description": "Hospitality, retail, theme parks, agriculture, and service industries"
+        },
+        {
+          "title": "Minimum Wage",
+          "description": "Follows federal and state minimum wage laws"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Earn money to help fund your education",
+        "Experience American workplace culture",
+        "Improve English language skills",
+        "Travel and explore different parts of the US",
+        "Make international friends",
+        "Develop professional skills",
+        "Potential tax refunds on earnings"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Find and apply to a sponsoring organization",
+        "Submit application and required documents",
+        "Complete online training modules",
+        "Receive DS-2019 form",
+        "Apply for J-1 visa at US embassy/consulate",
+        "Travel to the US and start your program"
+      ]
+    },
+    "sponsors": {
+      "heading": "Program Sponsors",
+      "description": "Work with approved sponsors who provide job placements, housing assistance, and program support.",
+      "types": [
+        "Educational institutions",
+        "Private sponsors",
+        "Exchange organizations",
+        "Professional associations"
+      ]
+    },
+    "important_notes": [
+      "Participants must return home after program completion",
+      "Cannot extend program duration",
+      "Must maintain health insurance coverage",
+      "Report any changes in employment or address",
+      "Follow all program rules and sponsor guidelines"
+    ],
+    "costs": {
+      "heading": "Program Costs",
+      "fees": [
+        {
+          "item": "SEVIS Fee",
+          "amount": "$35 (I-901 fee)"
+        },
+        {
+          "item": "Visa Application Fee",
+          "amount": "$160"
+        },
+        {
+          "item": "Program Fees",
+          "amount": "$200-500 (varies by sponsor)"
+        },
+        {
+          "item": "Health Insurance",
+          "amount": "$100-200 per month"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Participant Experiences",
+      "reviews": [
+        {
+          "name": "Maria S.",
+          "country": "Spain",
+          "review": "The SWT program was an incredible experience. I worked at a theme park, made amazing friends from around the world, and improved my English tremendously."
+        },
+        {
+          "name": "Ahmed K.",
+          "country": "Egypt",
+          "review": "Working and traveling in America helped me fund my university studies and gave me valuable work experience that helped with my career."
+        }
+      ]
+    }
+  },
+  "ar": {
+    "title": "برنامج العمل والسفر الصيفي (J-1 SWT)",
+    "hero": {
+      "heading": "اعمل وسافر في أمريكا هذا الصيف",
+      "subtitle": "اختبر الثقافة الأمريكية أثناء العمل والسفر خلال عطلتك الصيفية"
+    },
+    "overview": {
+      "heading": "حول برنامج العمل والسفر الصيفي",
+      "description": "يسمح برنامج العمل والسفر الصيفي (SWT) للطلاب الدوليين بالعمل والسفر في الولايات المتحدة خلال عطلتهم الصيفية. يعمل المشاركون في وظائف موسمية، يستكشفون الثقافة الأمريكية، ويكتسبون خبرة عمل قيمة.",
+      "additional": "تم تصميم هذا البرنامج للطلاب الذين يريدون كسب المال أثناء تجربة الثقافة الأمريكية، وصنع أصدقاء جدد، وتحسين مهاراتهم في اللغة الإنجليزية."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "مسجل حالياً كطالب يسعى للحصول على شهادة",
+        "وضع أكاديمي جيد",
+        "بين 18-30 عاماً (بعض الرعاة يقبلون حتى 35)",
+        "جواز سفر ساري المفعول",
+        "إتقان اللغة الإنجليزية (قد يتطلب TOEFL/IELTS)",
+        "القدرة المالية على إعالة النفس",
+        "لا توجد مخالفات سابقة لتأشيرة J-1"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "حتى 4 أشهر (عادة يونيو-أغسطس)"
+        },
+        {
+          "title": "ساعات العمل",
+          "description": "حتى 40 ساعة أسبوعياً"
+        },
+        {
+          "title": "أنواع الوظائف",
+          "description": "الضيافة، البيع بالتجزئة، المنتزهات الترفيهية، الزراعة، وقطاع الخدمات"
+        },
+        {
+          "title": "الحد الأدنى للأجور",
+          "description": "يتبع قوانين الحد الأدنى للأجور الفيدرالية والولائية"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "كسب المال للمساعدة في تمويل تعليمك",
+        "تجربة ثقافة مكان العمل الأمريكي",
+        "تحسين مهارات اللغة الإنجليزية",
+        "السفر واستكشاف أجزاء مختلفة من الولايات المتحدة",
+        "صنع أصدقاء دوليين",
+        "تطوير المهارات المهنية",
+        "إمكانية استرداد الضرائب على الأرباح"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "البحث والتقديم لمنظمة راعية",
+        "تقديم الطلب والوثائق المطلوبة",
+        "إكمال وحدات التدريب عبر الإنترنت",
+        "تلقي نموذج DS-2019",
+        "التقديم لتأشيرة J-1 في السفارة/القنصلية الأمريكية",
+        "السفر إلى الولايات المتحدة وبدء البرنامج"
+      ]
+    },
+    "sponsors": {
+      "heading": "رعاة البرنامج",
+      "description": "العمل مع رعاة معتمدين يقدمون فرص عمل، مساعدة في السكن، ودعم البرنامج.",
+      "types": [
+        "المؤسسات التعليمية",
+        "الرعاة الخاصون",
+        "منظمات التبادل",
+        "الجمعيات المهنية"
+      ]
+    },
+    "important_notes": [
+      "يجب على المشاركين العودة إلى الوطن بعد انتهاء البرنامج",
+      "لا يمكن تمديد مدة البرنامج",
+      "يجب الحفاظ على تغطية التأمين الصحي",
+      "الإبلاغ عن أي تغييرات في التوظيف أو العنوان",
+      "اتباع جميع قواعد البرنامج وإرشادات الراعي"
+    ],
+    "costs": {
+      "heading": "تكاليف البرنامج",
+      "fees": [
+        {
+          "item": "رسوم SEVIS",
+          "amount": "35 دولار (رسوم I-901)"
+        },
+        {
+          "item": "رسوم طلب التأشيرة",
+          "amount": "160 دولار"
+        },
+        {
+          "item": "رسوم البرنامج",
+          "amount": "200-500 دولار (تختلف حسب الراعي)"
+        },
+        {
+          "item": "التأمين الصحي",
+          "amount": "100-200 دولار شهرياً"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "تجارب المشاركين",
+      "reviews": [
+        {
+          "name": "ماريا س.",
+          "country": "إسبانيا",
+          "review": "كان برنامج SWT تجربة مذهلة. عملت في حديقة ترفيهية، صنع صداقات رائعة من جميع أنحاء العالم، وحسنت إنجليزيتي بشكل كبير."
+        },
+        {
+          "name": "أحمد ك.",
+          "country": "مصر",
+          "review": "العمل والسفر في أمريكا ساعدني في تمويل دراستي الجامعية وأعطاني خبرة عمل قيمة ساعدتني في مسيرتي المهنية."
+        }
+      ]
+    }
+  }
+}

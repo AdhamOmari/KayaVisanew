@@ -1,0 +1,152 @@
+{
+  "en": {
+    "title": "University Professor Program (J-1 Visa)",
+    "hero": {
+      "heading": "Academic Exchange & Teaching Excellence in America",
+      "subtitle": "Share your expertise and experience American higher education through university teaching and research"
+    },
+    "overview": {
+      "heading": "About the University Professor Program",
+      "description": "The University Professor program enables international academics to teach, conduct research, and collaborate with US universities. This program facilitates the exchange of academic expertise and promotes international understanding through higher education.",
+      "additional": "Participants teach courses, engage in research activities, and contribute to the academic community while experiencing American university life and methodologies."
+    },
+    "eligibility": {
+      "heading": "Eligibility Requirements",
+      "requirements": [
+        "Academic degree appropriate to teaching position",
+        "Teaching experience in higher education",
+        "Invitation from accredited US university",
+        "English proficiency for academic instruction",
+        "Research background and publications",
+        "Commitment to teaching and research activities"
+      ]
+    },
+    "program_details": {
+      "heading": "Program Details",
+      "details": [
+        {
+          "title": "Duration",
+          "description": "3-12 months (extendable up to 24 months)"
+        },
+        {
+          "title": "Teaching Load",
+          "description": "8-12 hours of teaching per week"
+        },
+        {
+          "title": "Research",
+          "description": "Research collaboration and publication"
+        },
+        {
+          "title": "Collaboration",
+          "description": "Work with US faculty and students"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "Program Benefits",
+      "benefits": [
+        "Teaching experience at prestigious US universities",
+        "Research collaboration opportunities",
+        "Professional development and networking",
+        "Exposure to American teaching methodologies",
+        "Cultural exchange with students and faculty",
+        "Potential for future academic partnerships",
+        "Enhanced international academic reputation"
+      ]
+    },
+    "application_process": {
+      "heading": "Application Process",
+      "steps": [
+        "Secure teaching position at US university",
+        "Obtain invitation letter from institution",
+        "Prepare teaching portfolio and research background",
+        "Submit J-1 visa application with DS-2019 form",
+        "Pay SEVIS fee and attend visa interview",
+        "Begin teaching and research activities"
+      ]
+    },
+    "important_notes": [
+      "Must have invitation from accredited US university",
+      "Teaching must be at university level",
+      "Health insurance coverage mandatory",
+      "Regular course evaluations and reports",
+      "Cannot change teaching assignment without approval",
+      "Two-year home residency requirement may apply"
+    ]
+  },
+  "ar": {
+    "title": "برنامج الأستاذ الجامعي (تأشيرة J-1)",
+    "hero": {
+      "heading": "التبادل الأكاديمي وتميز التدريس في أمريكا",
+      "subtitle": "شارك خبرتك واختبر التعليم العالي الأمريكي من خلال التدريس الجامعي والبحث"
+    },
+    "overview": {
+      "heading": "حول برنامج الأستاذ الجامعي",
+      "description": "يُمكّن برنامج الأستاذ الجامعي الأكاديميين الدوليين من التدريس، إجراء البحث، والتعاون مع الجامعات الأمريكية. يسهل هذا البرنامج تبادل الخبرة الأكاديمية ويعزز الفهم الدولي من خلال التعليم العالي.",
+      "additional": "يدرّس المشاركون المقررات، يشاركون في الأنشطة البحثية، ويساهمون في المجتمع الأكاديمي مع تجربة الحياة الجامعية الأمريكية ومناهجها."
+    },
+    "eligibility": {
+      "heading": "متطلبات الأهلية",
+      "requirements": [
+        "درجة أكاديمية مناسبة لوظيفة التدريس",
+        "خبرة في التدريس في التعليم العالي",
+        "دعوة من جامعة أمريكية معتمدة",
+        "إتقان اللغة الإنجليزية للتدريس الأكاديمي",
+        "خلفية بحثية ومنشورات",
+        "التزام بالأنشطة التدريسية والبحثية"
+      ]
+    },
+    "program_details": {
+      "heading": "تفاصيل البرنامج",
+      "details": [
+        {
+          "title": "المدة",
+          "description": "3-12 شهراً (قابل للتمديد حتى 24 شهراً)"
+        },
+        {
+          "title": "الحمل التدريسي",
+          "description": "8-12 ساعة تدريس أسبوعياً"
+        },
+        {
+          "title": "البحث",
+          "description": "التعاون البحثي والنشر"
+        },
+        {
+          "title": "التعاون",
+          "description": "العمل مع أعضاء هيئة التدريس والطلاب الأمريكيين"
+        }
+      ]
+    },
+    "benefits": {
+      "heading": "مزايا البرنامج",
+      "benefits": [
+        "خبرة تدريس في الجامعات الأمريكية المرموقة",
+        "فرص التعاون البحثي",
+        "التطوير المهني والتواصل",
+        "التعرض لمناهج التدريس الأمريكية",
+        "التبادل الثقافي مع الطلاب وأعضاء هيئة التدريس",
+        "إمكانية الشراكات الأكاديمية المستقبلية",
+        "تعزيز السمعة الأكاديمية الدولية"
+      ]
+    },
+    "application_process": {
+      "heading": "عملية التقديم",
+      "steps": [
+        "الحصول على وظيفة تدريس في جامعة أمريكية",
+        "الحصول على خطاب دعوة من المؤسسة",
+        "إعداد محفظة تدريس وخلفية بحثية",
+        "تقديم طلب تأشيرة J-1 مع نموذج DS-2019",
+        "دفع رسوم SEVIS وحضور مقابلة التأشيرة",
+        "بدء الأنشطة التدريسية والبحثية"
+      ]
+    },
+    "important_notes": [
+      "يجب الحصول على دعوة من جامعة أمريكية معتمدة",
+      "يجب أن يكون التدريس على مستوى الجامعة",
+      "تغطية التأمين الصحي إلزامية",
+      "تقييمات المقررات والتقارير المنتظمة",
+      "لا يمكن تغيير المهمة التدريسية بدون موافقة",
+      "قد ينطبق متطلب الإقامة المنزلية لمدة عامين"
+    ]
+  }
+}
