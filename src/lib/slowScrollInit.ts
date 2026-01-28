@@ -12,7 +12,7 @@ export function initSlowScroll() {
           e.preventDefault();
           const rect = el.getBoundingClientRect();
           const targetY = rect.top + window.scrollY - 80; // Subtract navbar height
-          slowScrollTo(targetY, 1000); // 1000ms is a natural smooth scroll duration
+          slowScrollTo(targetY, 2000); // 2000ms for slower smooth scroll
         }
       }
     }

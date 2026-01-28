@@ -1,5 +1,5 @@
 // Custom smooth scroll with slower speed
-export function slowScrollTo(targetY: number, duration = 1000) {
+export function slowScrollTo(targetY: number, duration = 2000) {
   const startY = window.scrollY || window.pageYOffset;
   const distance = targetY - startY;
   let startTime: number | null = null;

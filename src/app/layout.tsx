@@ -29,8 +29,34 @@ export default function RootLayout({
       setLoading(false);
     }, 1500); // Show loading for 1.5 seconds
 
-    // Initialize slow scroll for anchor links
+    // Override all scrollTo/scrollBy for slow scroll everywhere
     if (typeof window !== 'undefined') {
+      // Import slowScrollTo dynamically to avoid SSR issues
+      import('../lib/slowScroll').then(({ slowScrollTo }) => {
+        const originalScrollTo = window.scrollTo.bind(window);
+        window.scrollTo = function scrollToOverride(...args) {
+          if (typeof args[0] === 'object' && args[0] !== null && 'top' in args[0]) {
+            // scrollTo({top, left, behavior})
+            slowScrollTo(args[0].top ?? 0, 3000);
+          } else if (typeof args[0] === 'number') {
+            // scrollTo(x, y)
+            slowScrollTo(args[1] ?? 0, 3000);
+          } else {
+            originalScrollTo(...args);
+          }
+        };
+        // Optionally override scrollBy as well
+        const originalScrollBy = window.scrollBy.bind(window);
+        window.scrollBy = function scrollByOverride(...args) {
+          if (typeof args[0] === 'object' && args[0] !== null && 'top' in args[0]) {
+            slowScrollTo(window.scrollY + (args[0].top ?? 0), 3000);
+          } else if (typeof args[0] === 'number') {
+            slowScrollTo(window.scrollY + (args[1] ?? 0), 3000);
+          } else {
+            originalScrollBy(...args);
+          }
+        };
+      });
       initSlowScroll();
     }
 
