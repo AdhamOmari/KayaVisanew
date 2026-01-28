@@ -63,38 +63,6 @@ export default function J1J2VisaPage() {
       </section>
 
       {/* PROGRAM CATEGORIES */}
-<<<<<<< HEAD
-      <section id="categories" className="usa-section bg-light">
-        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
-          <div className="usa-section-head">
-            <h2 className="usa-section-heading">{data.program_categories.heading}</h2>
-          </div>
-
-          <div className="row g-4 mt-4">
-            {data.program_categories.categories.map((cat, i) => (
-              <div className="col-md-6 col-lg-4" key={i}>
-                <div className="usa-card-premium text-center">
-                  <div className="usa-card-icon-wrap mx-auto">
-                    <i className={`fas fa-${i === 0 ? 'suitcase-rolling' :
-                        i === 1 ? 'campground' :
-                          i === 2 ? 'user-tie' :
-                            i === 3 ? 'laptop-code' :
-                              i === 4 ? 'graduation-cap' :
-                                i === 5 ? 'flask' :
-                                  i === 6 ? 'chalkboard-teacher' :
-                                    i === 7 ? 'microscope' :
-                                      i === 8 ? 'user-md' :
-                                        i === 9 ? 'globe' :
-                                          i === 10 ? 'home' :
-                                            i === 11 ? 'landmark' :
-                                              i === 12 ? 'user-friends' :
-                                                'atom'
-                      }`}></i>
-                  </div>
-                  <h5 className="usa-card-title">{cat.name}</h5>
-                  <p className="usa-card-text small mb-0">{cat.description}</p>
-                </div>
-=======
       <section id="categories" className="section-modern">
         <div className="container">
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
@@ -113,7 +81,6 @@ export default function J1J2VisaPage() {
                     <p className="text-muted small">{cat.description}</p>
                   </div>
                 </Link>
->>>>>>> 0e7421f (Add visa pages data and services)
               </div>
             ))}
           </div>
@@ -123,21 +90,12 @@ export default function J1J2VisaPage() {
       {/* BENEFITS */}
       <section className="usa-section usa-section-dark">
         <div className="container">
-<<<<<<< HEAD
-          <div className="usa-section-head usa-section-head-light" dir={isRTL ? "rtl" : "ltr"}>
-            <h2 className="usa-section-heading">{data.why_choose.heading}</h2>
-          </div>
-
-          <div className="row g-4" dir={isRTL ? "rtl" : "ltr"}>
-            {data.why_choose.reasons.map((reason, i) => (
-=======
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
             {data.why_choose.heading}
           </h2>
           
           <div className="row g-4 mt-5">
             {data.why_choose.reasons.map((reason: string, i: number) => (
->>>>>>> 0e7421f (Add visa pages data and services)
               <div className="col-md-6 col-lg-4" key={i}>
                 <div className="p-4 rounded-4 h-100" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)' }}>
                   <div className="d-flex align-items-start gap-3 text-white">
@@ -155,21 +113,6 @@ export default function J1J2VisaPage() {
         </div>
       </section>
 
-<<<<<<< HEAD
-      {/* PROCESS SECTION */}
-      <section className="usa-section bg-light">
-        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
-          <div className="usa-section-head">
-            <h2 className="usa-section-heading">{data.how_to_apply.heading}</h2>
-          </div>
-
-          <div className="usa-process-grid">
-            {data.how_to_apply.steps.map((step, i) => (
-              <div className="usa-step-item" key={i}>
-                <span className="usa-step-number">{i + 1}</span>
-                <span className="usa-step-tag">Step {i + 1}</span>
-                <h4 className="h6 fw-bold mb-0">{step}</h4>
-=======
       {/* APPLICATION PROCESS */}
       <section className="section-modern">
         <div className="container">
@@ -194,7 +137,6 @@ export default function J1J2VisaPage() {
                      "Essential step for cultural exchange"}
                   </p>
                 </div>
->>>>>>> 0e7421f (Add visa pages data and services)
               </div>
             ))}
           </div>
@@ -202,19 +144,6 @@ export default function J1J2VisaPage() {
       </section>
 
       {/* J2 DEPENDENT VISA */}
-<<<<<<< HEAD
-      <section className="usa-section bg-white">
-        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
-          <div className="usa-section-head">
-            <h2 className="usa-section-heading">{data.j2_dependent_visa.heading}</h2>
-            <p className="usa-section-subheading text-center mx-auto mb-0" style={{ maxWidth: '800px' }}>
-              {data.j2_dependent_visa.description}
-            </p>
-          </div>
-
-          <div className="row g-4 mt-4">
-            {data.j2_dependent_visa.benefits.map((benefit, i) => (
-=======
       <section className="section-modern soft-bg">
         <div className="container">
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
@@ -226,7 +155,6 @@ export default function J1J2VisaPage() {
           
           <div className="row g-4 mt-5">
             {data.j2_dependent_visa.benefits.map((benefit: string, i: number) => (
->>>>>>> 0e7421f (Add visa pages data and services)
               <div className="col-md-6" key={i}>
                 <div className="usa-card-premium border-start border-4 border-primary p-4 shadow-sm">
                   <div className="d-flex align-items-center gap-4">
@@ -243,16 +171,6 @@ export default function J1J2VisaPage() {
       </section>
 
       {/* REQUIREMENTS */}
-<<<<<<< HEAD
-      <section id="requirements" className="usa-section bg-light">
-        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
-          <div className="usa-section-head">
-            <h2 className="usa-section-heading">{data.application_requirements.heading}</h2>
-          </div>
-
-          <div className="row g-3">
-            {data.application_requirements.requirements.map((r, i) => (
-=======
       <section id="requirements" className="section-modern">
         <div className="container">
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
@@ -261,7 +179,6 @@ export default function J1J2VisaPage() {
           
           <div className="row g-4 mt-5">
             {data.application_requirements.requirements.map((r: string, i: number) => (
->>>>>>> 0e7421f (Add visa pages data and services)
               <div className="col-md-6 col-lg-4" key={i}>
                 <div className="p-4 h-100 bg-white border border-slate-200 rounded-4 shadow-sm hover:shadow-md transition-all">
                   <div className="d-flex align-items-center gap-3 text-slate-800">
@@ -303,16 +220,6 @@ export default function J1J2VisaPage() {
       </section>
 
       {/* IMPORTANT NOTES */}
-<<<<<<< HEAD
-      <section className="usa-section bg-light">
-        <div className="container" dir={isRTL ? "rtl" : "ltr"}>
-          <div className="usa-section-head">
-            <h2 className="usa-section-heading">{isRTL ? "ملاحظات مهمة" : "Important Notes"}</h2>
-          </div>
-
-          <div className="row g-4 mt-4 justify-content-center">
-            {data.important_notes.map((note, i) => (
-=======
       <section className="section-modern">
         <div className="container">
           <h2 className="section-title" dir={isRTL ? "rtl" : "ltr"}>
@@ -321,7 +228,6 @@ export default function J1J2VisaPage() {
           
           <div className="row g-4 mt-5 justify-content-center">
             {data.important_notes.map((note: string, i: number) => (
->>>>>>> 0e7421f (Add visa pages data and services)
               <div className="col-md-6" key={i}>
                 <div className="p-5 rounded-5 bg-white border border-slate-200 h-100 shadow-sm transition-all hover:border-secondary">
                   <div className="d-flex align-items-start gap-4 text-slate-700">

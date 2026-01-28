@@ -1,43 +1,7 @@
 import Link from 'next/link';
-<<<<<<< HEAD
-import '@/styles/services.css';
-
-
-const hotelData = require('@/data/service-hotel-bookings.json');
-=======
->>>>>>> 0e7421f (Add visa pages data and services)
 
 export default function HotelBookingsPage() {
   return (
-<<<<<<< HEAD
-    <div dir={dir} className="hotel-page">
-
-      {/* Hero */}
-      <section className="hotel-hero">
-        <div className="hotel-container">
-          <h1>{data.hero.title}</h1>
-          <p className="hotel-hero-description">{data.hero.description}</p>
-        </div>
-      </section>
-
-      <div className="hotel-container">
-
-        {/* Advantages */}
-        <section className="hotel-section">
-          <h2 className="hotel-section-title">{data.advantages.title}</h2>
-          <div className="hotel-row">
-            {data.advantages.list.map((adv: any, index: number) => (
-              <div key={index} className="hotel-col-md-4 hotel-col-sm-6 hotel-mb-4">
-                <div className="hotel-feature-card">
-                  <div className="hotel-feature-icon">
-                    <i className={`fas ${adv.icon}`}></i>
-                  </div>
-                  <h3>{adv.title}</h3>
-                  <p>{adv.description}</p>
-                </div>
-              </div>
-            ))}
-=======
     <div>
       {/* Hero Section */}
       <section className="service-hero" style={{ background: 'linear-gradient(135deg, #7C3AED 0%, #8B5CF6 100%)', padding: '100px 0', color: 'white' }}>
@@ -71,47 +35,10 @@ export default function HotelBookingsPage() {
                 Our extensive network of hotels worldwide ensures you get the best rates and locations for your stay.
               </p>
             </div>
->>>>>>> 0e7421f (Add visa pages data and services)
           </div>
         </div>
       </section>
 
-<<<<<<< HEAD
-        {/* Services */}
-        <section className="hotel-section hotel-services-box">
-          <h2 className="hotel-section-title">{data.services.title}</h2>
-          <ul className="hotel-reasons-list">
-            {data.services.list.map((item: string, index: number) => (
-              <li key={index}>
-                <i className="fas fa-hotel hotel-reason-icon"></i>
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* Value */}
-        <section className="hotel-section">
-          <h2 className="hotel-section-title">{data.value.title}</h2>
-          <p className="hotel-text">{data.value.description}</p>
-        </section>
-
-        {/* Process */}
-        <section className="hotel-section">
-          <h2 className="hotel-section-title">{data.process.title}</h2>
-          <div className="hotel-row">
-            {data.process.steps.map((step: any, index: number) => (
-              <div key={index} className="hotel-col-md-4 hotel-col-sm-6 hotel-mb-4">
-                <div className="hotel-process-step">
-                  <div className="hotel-process-icon">
-                    <i className={`fas ${step.icon}`}></i>
-                  </div>
-                  <h3 className="hotel-process-title">{step.title}</h3>
-                  <p className="hotel-process-description">{step.description}</p>
-                </div>
-              </div>
-            ))}
-=======
       {/* Services Section */}
       <section className="py-5 bg-light">
         <div className="container">
@@ -141,23 +68,10 @@ export default function HotelBookingsPage() {
                 </li>
               </ul>
             </div>
->>>>>>> 0e7421f (Add visa pages data and services)
           </div>
         </div>
       </section>
 
-<<<<<<< HEAD
-        {/* CTA */}
-        <section className="hotel-cta-section">
-          <h2 className="hotel-cta-title">{data.cta.title}</h2>
-          <Link href="/contact" className="hotel-cta-button">
-            <i className="fas fa-phone hotel-cta-icon"></i>
-            {data.cta.button}
-          </Link>
-        </section>
-
-      </div>
-=======
       {/* CTA Section */}
       <section className="py-5 bg-primary text-white">
         <div className="container text-center">
@@ -169,7 +83,6 @@ export default function HotelBookingsPage() {
           </Link>
         </div>
       </section>
->>>>>>> 0e7421f (Add visa pages data and services)
     </div>
   );
 }
